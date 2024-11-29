@@ -5,9 +5,6 @@
 <ModulePrefs title="Retro Bowl" />
 
 <Content type="html"><![CDATA[
-
-
-
 <!doctype html>
 
 <html lang="en">
@@ -49,7 +46,6 @@
             scrolling="auto"></iframe>
 
 </html>
-
 
 
 ]]></Content>

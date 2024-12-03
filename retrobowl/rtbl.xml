@@ -77,14 +77,14 @@
 
     <body>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
-        <img src="https://274079163-174037128449362058.preview.editmysite.com/uploads/b/139890129-899796311729593176/files/html5game/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
+        <img src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/retrobowl/html5game/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
             <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="853" height="480">
                      <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
 
-        <script type="text/javascript" src="https://274079163-174037128449362058.preview.editmysite.com/uploads/b/139890129-899796311729593176/files/html5game/RetroBowl.js"></script>
+        <script type="text/javascript" src="https://github.com/brooklynruff/d/blob/main/retrobowl/html5game/splash.png/RetroBowl.js"></script>
 
 
 <script>(function() {

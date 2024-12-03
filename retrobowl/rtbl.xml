@@ -84,7 +84,7 @@
             </canvas>
         </div>
 
-        <script type="text/javascript" src="https://github.com/brooklynruff/d/blob/main/retrobowl/html5game/RetroBowl.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/retrobowl/html5game/RetroBowl.js"></script>
 
 
 <script>(function() {

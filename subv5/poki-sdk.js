@@ -100,15 +100,5 @@
     ].forEach(function (e) {
       window.PokiSDK[e] = o.oneArgument(e);
     });
-  var t,
-    i = ((t = window.pokiSDKVersion) || (t = e("ab") || "v2.234.2"), "poki-sdk-" + (n ? "kids" : "core") + "-" + t + ".js"),
-    i = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv4/" + i;
-    r = document.createElement("script");
-  r.setAttribute("src", i),
-    r.setAttribute("type", "text/javascript"),
-    r.setAttribute("crossOrigin", "anonymous"),
-    (r.onload = function () {
-      return o.dequeue();
-    }),
     document.head.appendChild(r);
 })();

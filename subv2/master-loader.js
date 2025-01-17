@@ -23,7 +23,7 @@ if (!window.config.unityWebglLoaderUrl) {
     }
 }
 
-window.config.unityWebglLoaderUrl = root + "/" + window.config.unityWebglLoaderUrl;
+window.config.unityWebglLoaderUrl = root + window.config.unityWebglLoaderUrl;
 console.log(window.config.unityWebglLoaderUrl)
 
 var sdkScript = document.createElement("script");

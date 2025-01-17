@@ -1,7 +1,7 @@
 "use strict";
 var scripts = document.getElementsByTagName("script"),
     scriptUrl = scripts[scripts.length - 1].src,
-    root = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/",
+    root = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/sub/",
     loaders = {
         unity: "unity.js",
         "unity-beta": "unity-beta.js",

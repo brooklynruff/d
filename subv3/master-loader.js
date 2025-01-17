@@ -1,7 +1,7 @@
 "use strict";
 var scripts = document.getElementsByTagName("script"),
     scriptUrl = scripts[scripts.length - 1].src,
-    root = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv2/",
+    root = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv3/",
     loaders = {
         unity: "unity.js",
         "unity-beta": "unity-beta.js",
@@ -27,7 +27,7 @@ window.config.unityWebglLoaderUrl = root + window.config.unityWebglLoaderUrl;
 console.log(window.config.unityWebglLoaderUrl)
 
 var sdkScript = document.createElement("script");
-sdkScript.src = root + "/poki-sdk.js", sdkScript.onload = function() {
+sdkScript.src = root + "poki-sdk.js", sdkScript.onload = function() {
     var i = document.createElement("script");
     i.src = root + loader, document.body.appendChild(i)
 }, document.body.appendChild(sdkScript);

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Subway Surfers</title>
-
+    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv7/4399.z.js"></script>
     <script>
       window.config = {

@@ -23,11 +23,8 @@ if (!window.config.unityWebglLoaderUrl) {
     }
 }
 
-if (!window.confirm.unityWebglLoaderUrl.contains(root)) {
-    window.config.unityWebglLoaderUrl = root + "/" + window.config.unityWebglLoaderUrl;
-    console.log(window.config.unityWebglLoaderUrl)
-
-}
+window.config.unityWebglLoaderUrl = root + "/" + window.config.unityWebglLoaderUrl;
+console.log(window.config.unityWebglLoaderUrl)
 
 var sdkScript = document.createElement("script");
 sdkScript.src = root + "/poki-sdk.js", sdkScript.onload = function() {

@@ -86,22 +86,22 @@
           return x.a.wrap(function(n) {
               for (;;) switch (n.prev = n.next) {
                   case 0:
-                      return m = document.getElementById("slideshow"), p = document.getElementById("slideshow-top"), g = document.getElementById("slideshow-nav"), w = document.getElementById("slideshow-images"), p.className = "active", n.prev = 5, n.next = 8, f("".concat(B, "screenshots/1-small.jpg").concat(I));
+                      return m = document.getElementById("slideshow"), p = document.getElementById("slideshow-top"), g = document.getElementById("slideshow-nav"), w = document.getElementById("slideshow-images"), p.className = "active", n.prev = 5, n.next = 8, f("".concat(B, "//cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/screenshots/1-small.jpg").concat(I));
                   case 8:
                       e = n.sent, n.next = 16;
                       break;
                   case 11:
-                      return n.prev = 11, n.t0 = n.catch(5), n.next = 15, f("".concat(B, "screenshots/1.jpg").concat(I));
+                      return n.prev = 11, n.t0 = n.catch(5), n.next = 15, f("".concat(B, "//cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/screenshots/1.jpg").concat(I));
                   case 15:
                       e = n.sent;
                   case 16:
                       for (t = h(), t.className = "".concat(L, " middle"), t.setAttribute("fullImageLoaded", !0), t.setAttribute("data-idx", 0), t.appendChild(e), w.appendChild(t), m.className = "active", v = e.width / e.height, y = document.createElement("style"), u(), document.body.appendChild(y), window.addEventListener("resize", u), o = 0; o <= S.a.numScreenshots - 1; o++) i = document.createElement("div"), i.className = "bullet".concat(0 === o ? " active" : ""), i.setAttribute("data-idx", o), g.appendChild(i);
-                      return n.next = 31, f("".concat(B, "screenshots/1.jpg").concat(I));
+                      return n.next = 31, f("".concat(B, "//cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/screenshots/1.jpg").concat(I));
                   case 31:
                       for (r = n.sent, t.querySelector("img").src = r.src, a = function(n) {
                               var e = h(),
                                   t = new Image;
-                              t.src = "".concat(B, "screenshots/").concat(n + 1, "-small.jpg").concat(I), e.appendChild(t), e.setAttribute("data-idx", n), 1 === n ? e.className = "".concat(L, " right") : n === S.a.numScreenshots - 1 ? e.className = "".concat(L, " left") : e.className = "".concat(L, " inactive"), w.appendChild(e)
+                              t.src = "".concat(B, "//cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/screenshots/").concat(n + 1, "-small.jpg").concat(I), e.appendChild(t), e.setAttribute("data-idx", n), 1 === n ? e.className = "".concat(L, " right") : n === S.a.numScreenshots - 1 ? e.className = "".concat(L, " left") : e.className = "".concat(L, " inactive"), w.appendChild(e)
                           }, c = 1; c <= S.a.numScreenshots - 1; c++) a(c);
                       s();
                   case 36:
@@ -128,7 +128,7 @@
                           n.next = 16;
                           break
                       }
-                      return i = Date.now(), n.next = 7, f("".concat(B, "screenshots/").concat(o + 1, ".jpg").concat(I));
+                      return i = Date.now(), n.next = 7, f("".concat(B, "//cdn.jsdelivr.net/gh/brooklynruff/d@main/ss/screenshots/").concat(o + 1, ".jpg").concat(I));
                   case 7:
                       r = n.sent, t.querySelector("img").src = r.src, t.setAttribute("fullImageLoaded", !0), clearTimeout(window.slideShowMoveTransitionID), clearTimeout(window.slideShowTimeoutID), a = Date.now() - i, a > e ? l() : window.slideShowTimeoutID = window.setTimeout(l, e - a), n.next = 19;
                       break;

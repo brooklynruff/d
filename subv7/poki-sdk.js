@@ -103,7 +103,7 @@
     var t,
       i = ((t = window.pokiSDKVersion) || (t = e("ab") || "v2.234.2"), "poki-sdk-" + (n ? "kids" : "core") + "-" + t + ".js"),
       r = document.createElement("script");
-    i = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv6" + i
+    i = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/subv7/" + i
     r.setAttribute("src", i),
       r.setAttribute("type", "text/javascript"),
       r.setAttribute("crossOrigin", "anonymous"),

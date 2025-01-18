@@ -1,4 +1,3 @@
-google.ima = 
 
 (() => {
   var e = {

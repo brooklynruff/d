@@ -24,7 +24,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/axolotlstudiosyt/henry-stickmin-legacy-collection@main/fleeing_the_complex.swf");
+player.load("https://github.com/axolotlstudiosyt/henry-stickmin-legacy-collection/blob/main/fleeing_the_complex.swf?raw=true");
 player.style.width = "100%";
 player.style.height = "100%";
 });

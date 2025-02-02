@@ -24,14 +24,13 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://raw.githubusercontent.com/axolotlstudiosyt/henry-stickmin-legacy-collection/main/fleeing_the_complex.swf");
+player.load("https://raw.githubusercontent.com/axolotlstudiosyt/henry-stickmin-legacy-collection/main/infiltratingtheairshipgame.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });
 </script>
 <div id="container">
 </div>
-<script src="https://cdn.jsdelivr.net/gh/st39/sdk@main/api.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
  <script type="text/javascript">
            window.SDK_OPTIONS = {
@@ -50,10 +49,6 @@ player.style.height = "100%";
                  }
               }
            };
-        (function (a, b, c) {
-           var d = a.getElementsByTagName(b)[0];
-           a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://cdn.jsdelivr.net/gh/st39/sdk@main/sdkjs.js", d.parentNode.insertBefore(a, d))
-        })(document, "script", "gamemonetize-sdk");
 
 		$(document).ready(function() {
 		 var strVar = '<div style="position:fixed;top:0;right:0;bottom:0;left:0;z-index:999;" id="necrocliker">';

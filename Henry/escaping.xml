@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Escaping the Prison"/>
+<Content type="html"><![CDATA[
+
+<title>Breaking the Bank</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MENBM6GSNY"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-MENBM6GSNY")</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "off",
+"polyfills": true,
+"letterbox": "on",
+"backgroundColor": null,
+"scale": "showAll",
+"allowFullscreen": true,
+"forceScale": true,
+"forceAlign": true,
+"splashScreen": true,
+"wmode": "Window",
+"unmuteOverlay": "hidden",
+"quality": "high" };
+window.addEventListener("load", (event) => {
+const ruffle = window.RufflePlayer.newest();
+const player = ruffle.createPlayer();
+const container = document.getElementById("container");
+container.appendChild(player);
+player.load("https://cdn.jsdelivr.net/gh/axolotlstudiosyt/henry-stickmin-legacy-collection@main/escapingtheprisongame.swf");
+player.style.width = "100%";
+player.style.height = "100%";
+});
+</script>
+<div id="container">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+ <script type="text/javascript">
+           window.SDK_OPTIONS = {
+              gameId: "r2tzpy9cgrn2u4xgzc9z0zbtvxm16mby",
+              onEvent: function (a) {
+                 switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                       // pause game logic / mute audio
+                       break;
+                    case "SDK_GAME_START":
+                       // advertisement done, resume game logic and unmute audio
+                       break;
+                    case "SDK_READY":
+                       // when sdk is ready
+                       break;
+                 }
+              }
+           };
+
+		$(document).ready(function() {
+		 var strVar = '<div style="position:fixed;top:0;right:0;bottom:0;left:0;z-index:999;" id="necrocliker">';
+		 $(document.body).append(strVar);
+		 $("#necrocliker").click(function () {
+		      if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+		            sdk.showBanner();
+		        }
+		            $('#necrocliker').hide();
+		   });
+		});
+		window.setInterval(function(){
+		        $('#necrocliker').show();
+		}, 745000);
+        </script>
+
+]]></Content>
+</Module>

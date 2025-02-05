@@ -87,7 +87,6 @@ and provide some links to download some popular HTML5-compatible browsers. -->
     <script src="https://138572051-127563055813759374.preview.editmysite.com/uploads/b/146211889-702809920766278456/files/jquery-2.1.1.min.js"></script>
     <script src="https://138572051-127563055813759374.preview.editmysite.com/uploads/b/146211889-702809920766278456/files/ga_init.js"></script>
     <script src="https://138572051-127563055813759374.preview.editmysite.com/uploads/b/146211889-702809920766278456/files/c2runtime.js"></script>
-	<script src="https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/addc4348-16c2-4645-9dff-f99b962e39ef%2Fscr.js"></script>
 
     <script>
         // Start the Construct 2 project running on window load.

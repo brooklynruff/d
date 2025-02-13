@@ -24,12 +24,12 @@
 
   <meta
     property="og:image"
-    content="https://puginarug.com/assets/share.png"
+    content="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/puginarug/assets/share.png"
   />
   <meta property="og:url" content="https://puginarug.com/" />
   <meta
     name="twitter:image"
-    content="https://puginarug.com/assets/share.png"
+    content="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/puginarug/assets/share.png"
   />
 
   <!-- Twitter -->

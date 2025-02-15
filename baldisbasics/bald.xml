@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Baldi's Basics in Education in Learning</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/baldisbasics/TemplateData/style.css">
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/baldisbasics/TemplateData/UnityProgress.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/baldisbasics/TemplateData/UnityLoader.js"></script>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/baldisbasics/TemplateData/style.css">
+    <script src="https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/baldisbasics/TemplateData/UnityProgress.js"></script>
+    <script src="https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/baldisbasics/Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/baldisbasics/Build/Baldi%27s%20Web-Based%20Basics%201.4.3%20Edition%201.0.0.json", {onProgress: UnityProgress});
     </script>

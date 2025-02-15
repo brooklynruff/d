@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-<ModulePrefs title="Minecraft - No Name Games"/>
-<Content type="html"><![CDATA[
-<html>
-<head>
-<title>Eaglercraft</title>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="author" content="lax1dude" />
-<meta property="og:title" content="Eaglercraft" />
-<meta property="og:locale" content="en-US" />
-<meta property="og:type" content="website" />
-<meta property="og:description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It supports both singleplayer and multiplayer with no extensions." />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/src/15/classes.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/src/15/eagswebrtc.js"></script>
-<script type="text/javascript">
+
 if(document.location.href.startsWith("file:")) {
 alert("You cannot 'open' this file in your browser, the code doesn't work. Upload this folder to your HTTP(s) server and access it via the internet to launch the stable-download game. This is not a bug, please read the documentation");
 }else {
@@ -47,16 +31,3 @@ if(typeof q === 'string' && q.startsWith("?")) {
 })();
 main();
 });}
-</script>
-</head>
-<body style="margin:0px;width:100vw;height:100vh;" id="game_frame">
-</body>
-	<script src='' async defer>
-    new Crate({
-        server: '1036339234166018138', // Mustache Studios
-        channel: '1065788108538396732' // #⛏-MustacheMan
-    })
-</script>
-</html>
-]]></Content>
-</Module>

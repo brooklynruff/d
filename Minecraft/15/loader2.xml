@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Minacraft"/>
+<ModulePrefs title="Meinacreft"/>
 <Content type="html"><![CDATA[
 
 <html>
@@ -69,17 +69,46 @@ button:hover span {
 
 <script>
 
+
 async function full() {
   let win = window;
 
-  win.document.documentElement.innerHTML = ""
-  win.document.body.innerHTML = "<h1>Downloading, this may take a second...</h1>";
+  window.document.documentElement.innerHTML = "";
 
-  let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/103.html";
+  let header = document.createElement('h1');
+  header.innerHTML = "Getting download info..."
 
-  let body = await (await fetch(url)).text()
-  win.document.body.innerHTML = ""
-  win.document.write(body);
+  win.document.body.appendChild(header)
+
+  let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/eagle5.html";
+
+  let response = await fetch(url)
+  let reader = response.body.getReader();
+
+  let total = parseInt(response.headers.get('content-length'), 10);
+  let values = [];
+  let loaded = 0
+
+  while (true) {
+    let {done, value} = await reader.read();
+    if (done) break;
+    values.push(value);
+    loaded += value.byteLength;
+
+    console.log(loaded/total)
+
+    if ((loaded / total) < 1) {       
+        header.innerHTML = `Downloading... ${Math.round((loaded/total) * 10)}%`
+    } else {
+        header.innerHTML = "Downloading... 100%!"
+    }
+  }
+
+  let data = await new Blob(values).text();
+  
+  header.remove();
+
+  win.document.write(data);
 }
 
 </script>

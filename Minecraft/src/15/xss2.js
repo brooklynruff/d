@@ -19,7 +19,7 @@ relays: [
 	{ addr: "wss://relay.shhnowisnottheti.me/", name: "ayunami relay #1", primary: relayId == 2 }
 ],
 mainMenu: { splashes: [
-"No Name Games On Top", "https://sites.google.com/view/nonamegamez", "This is a no name games classic", "No Name Games > All", "hi script kiddie!"
+"No Name Games On Top", "https://sites.google.com/view/nonamegamez", "This is a no name games classic", "No Name Games > All", "hi script kiddie!", "this is my 50th time trying to convert this file, lets hope it works"
 ], eaglerLogo: true }};
 (function(){
 var q = window.location.search;

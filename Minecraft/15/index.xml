@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="minacreft"/>
+<Content type="html"><![CDATA[
 <html>
   <head>
     <!-- Change this: <meta property="og:url" content="https://g.eags.us/eaglercraft/" /> -->
@@ -121,3 +124,5 @@
   </head>
   <body style="margin: 0px; width: 100vw; height: 100vh;" id="game_frame"></body>
 </html>
+]]></Content>
+</Module>

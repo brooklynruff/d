@@ -83,6 +83,8 @@ async function full() {
     body = lcStorage
   } else {
     body = await (await fetch(url)).text()
+
+    localStorage.setItem(url, body)
   }
   win.document.body.innerHTML = ""
   win.document.write(body);

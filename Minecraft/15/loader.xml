@@ -76,16 +76,8 @@ async function full() {
   win.document.body.innerHTML = "<h1>Downloading, this may take a second... (It may take longer if this is your first time)</h1>";
 
   let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/eagle5.html";
-  let lcStorage = localStorage.getItem(url);
-  let body;
-  
-  if (lcStorage) {
-    body = lcStorage
-  } else {
-    body = await (await fetch(url)).text()
 
-    localStorage.setItem(url, body)
-  }
+  let body = await (await fetch(url)).text()
   win.document.body.innerHTML = ""
   win.document.write(body);
 }

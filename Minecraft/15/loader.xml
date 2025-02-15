@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="BitLife"/>
+<ModulePrefs title="Meinacreft"/>
 <Content type="html"><![CDATA[
 
 <html>
@@ -73,7 +73,7 @@ async function full() {
   let win = window;
 
   win.document.documentElement.innerHTML = ""
-  win.document.body.innerHTML = "<h1>Downloading, this may take a second... (It may take longer if this is your first time)</h1>";
+  win.document.body.innerHTML = "<h1>Downloading, this may take a second...</h1>";
 
   let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/eagle5.html";
 

@@ -8,7 +8,6 @@
 
 <script type="text/javascript">
 window.addEventListener("load", function() {
-	setTimeout(function(){
 		document.getElementById("locally").remove();
 		const relayId = Math.floor(Math.random() * 3);
 		window.eaglercraftOpts = {
@@ -23,7 +22,7 @@ window.addEventListener("load", function() {
 	        { addr: "wss://relay.shhnowisnottheti.me/", name: "ayunami relay #1", primary: relayId == 2 } ]
 		};
 		main();
-	}, 6000);
+
 });
 </script>
 

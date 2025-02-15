@@ -76,6 +76,10 @@ async function full() {
   window.document.documentElement.innerHTML = "";
 
   let header = document.createElement('h1');
+  header.style.top = "50%"
+  header.style.left = "50%"
+  header.style.transform = "translate(-50%, -50%)"
+  header.style.position = "absolute"
   header.innerHTML = "Getting download info..."
 
   win.document.body.appendChild(header)

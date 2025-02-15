@@ -69,18 +69,21 @@ button:hover span {
 
 <script>
 
-
 async function full() {
   let win = window;
 
   window.document.documentElement.innerHTML = "";
 
   let header = document.createElement('h1');
+  header.style.top = "50%"
+  header.style.left = "50%"
+  header.style.transform = "translate(-50%, -50%)"
+  header.style.position = "absolute"
   header.innerHTML = "Getting download info..."
 
   win.document.body.appendChild(header)
 
-  let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
+  let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/103.html";
 
   let response = await fetch(url)
   let reader = response.body.getReader();
@@ -110,6 +113,7 @@ async function full() {
 
   win.document.write(data);
 }
+
 </script>
 
 <button onclick="full();">Launch</button>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Baldi"/>
+<Content type="html"><![CDATA[
+<html lang="en-us">
+  <head>
+<link rel="manifest" href="appmanifest.json" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/Build/SanFrancisco.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">yes</div>
+      </div>
+    </div>
+  </body>
+</html>
+]]></Content>
+</Module>

@@ -96,7 +96,7 @@ body {
 
     win.document.body.appendChild(header)
 
-    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
+    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/eagle5.html";
 
     let response = await fetch(url)
     let reader = response.body.getReader();

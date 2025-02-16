@@ -97,7 +97,7 @@ body {
 
     win.document.body.appendChild(header)
 
-    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
+    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/103.html";
 
     let response = await fetch(url)
     let reader = response.body.getReader();
@@ -107,18 +107,18 @@ body {
     let loaded = 0
 
     while (true) {
-    let {done, value} = await reader.read();
-    if (done) break;
-    values.push(value);
-    loaded += value.byteLength;
+        let {done, value} = await reader.read();
+        if (done) break;
+        values.push(value);
+        loaded += value.byteLength;
 
-    console.log(loaded/total)
+        console.log(loaded/total)
 
-    if ((loaded / total) < 1) {       
-        header.innerText = `No Name Gamez Bootstrapper\nDownloading... ${Math.round((loaded/total) * 10)}%`
-    } else {
-        header.innerText = "No Name Gamez Bootstrapper\nDownloading... 100%!"
-    }
+        if ((loaded / total) < 1) {       
+            header.innerText = `No Name Gamez Bootstrapper\nDownloading... ${Math.round((loaded/total) * 10)}%`
+        } else {
+            header.innerText = "No Name Gamez Bootstrapper\nDownloading... 100%!"
+        }
     }
 
     let data = await new Blob(values).text();

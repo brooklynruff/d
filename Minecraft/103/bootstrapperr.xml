@@ -96,7 +96,7 @@ async function full() {
 
     win.document.body.appendChild(header)
 
-    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
+    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/103.html";
 
     let response = await fetch(url)
     let reader = response.body.getReader();
@@ -127,10 +127,10 @@ async function full() {
     win.document.write(data);
 }
 
-<button onclick="full();">Launch</button>
 
 </script>
 
+<button onclick="full();">Launch</button>
 
 </html>
 ]]></Content>

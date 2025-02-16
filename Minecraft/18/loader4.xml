@@ -75,12 +75,21 @@ async function full() {
 
   window.document.documentElement.innerHTML = "";
 
+  window.document.head.innerHTML = `<link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">`
+
+  window.document.body.style.backgroundColor = "rgb(8,15,19)";
+
   let header = document.createElement('h1');
   header.style.top = "50%"
   header.style.left = "50%"
   header.style.transform = "translate(-50%, -50%)"
   header.style.position = "absolute"
-  header.innerHTML = "Getting download info..."
+  header.style.textAlign = "center";
+  header.style.fontFamily = "Roboto Mono"
+  header.style.color = "white"
+  header.innerText = "No Name Gamez Bootstrapper\nGetting download info..."
 
   win.document.body.appendChild(header)
 
@@ -102,9 +111,9 @@ async function full() {
     console.log(loaded/total)
 
     if ((loaded / total) < 1) {       
-        header.innerHTML = `Downloading... ${Math.round((loaded/total) * 10)}%`
+        header.innerText = `No Name Gamez Bootstrapper\nDownloading... ${Math.round((loaded/total) * 10)}%`
     } else {
-        header.innerHTML = "Downloading... 100%!"
+        header.innerText = "No Name Gamez Bootstrapper\nDownloading... 100%!"
     }
   }
 

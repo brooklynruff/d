@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Subway Surfers</title>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/surfersubs/4399.z.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs2/4399.z.js"></script>
     <script>
       window.config = {
         loader: "unity",
@@ -19,7 +19,7 @@
         title: "Subway Surfers: San Francisco",
 
         unityVersion: "2019.4.18f1",
-        unityWebglBuildUrl: "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/surfersubs/Build/SanFrancisco.json",
+        unityWebglBuildUrl: "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/surfersubs2/Build/SanFrancisco.json",
 
         fileSize: 35,
         cachedDecompressedFileSizes: {
@@ -35,7 +35,7 @@
   </head>
 
   <body>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/surfersubs/poki-sdk.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs/surfersubs2/poki-sdk.js"></script>
   </body>
 </html>
 ]]></Content>

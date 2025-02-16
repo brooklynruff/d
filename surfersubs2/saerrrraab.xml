@@ -30,24 +30,22 @@
           "SanFrancisco.wasm.code.unityweb": 7279617,
           "SanFrancisco.wasm.framework.unityweb": 90693,
         },
-
-        <script>
-            let sdk = document.createElement('script');
-            sdk.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs2/poki-sdk.js";
-            sdk.onload = function() {
-                let loader = document.createElement("script");
-                loader.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs2/UnityLoader.2019.2.js"
-                document.body.appendChild(loader);
-            }
-            document.body.appendChild(sdk);
-        </script>
       };
+    </script>
+
+    <script>
+        let sdk = document.createElement('script');
+        sdk.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs2/poki-sdk.js";
+        sdk.onload = function() {
+            let loader = document.createElement("script");
+            loader.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/surfersubs2/UnityLoader.2019.2.js"
+            document.body.appendChild(loader);
+        }
+        document.body.appendChild(sdk);
     </script>
   </head>
 
-  <body>
-
-  </body>
+  <body></body>
 </html>
 ]]></Content>
 </Module>

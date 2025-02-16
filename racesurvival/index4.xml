@@ -52,7 +52,7 @@ const buildUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/racesurvival/B
 const loaderUrl = buildUrl + "/yandexBrotli.loader.js";
 const config = {
     dataUrl: buildUrl + "/yandexBrotli.data.br",
-    frameworkUrl: buildUrl + "/yandexBrotli.framework.js.br",
+    frameworkUrl: buildUrl + "/yandexBrotli.framework.js2.br",
     codeUrl: buildUrl + "/yandexBrotli.wasm.br",
 streamingAssetsUrl: "StreamingAssets",
     companyName: "Brain massage",

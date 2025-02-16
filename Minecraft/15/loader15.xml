@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Minacraft"/>
+<ModulePrefs title="Meinacreft"/>
 <Content type="html"><![CDATA[
 
 <html>
@@ -73,40 +73,39 @@ body {
 
 <script>
 
+(async() => {
+    let win = window;
 
-async function full() {
-  let win = window;
+    window.document.documentElement.innerHTML = "";
 
-  window.document.documentElement.innerHTML = "";
-
-  window.document.head.innerHTML = `<link rel="preload" href="https://fonts.googleapis.com">
+    window.document.head.innerHTML = `<link rel="preload" href="https://fonts.googleapis.com">
     <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">`
 
-  window.document.body.style.backgroundColor = "rgb(8,15,19)";
+    window.document.body.style.backgroundColor = "rgb(8,15,19)";
 
-  let header = document.createElement('h1');
-  header.style.top = "50%"
-  header.style.left = "50%"
-  header.style.transform = "translate(-50%, -50%)"
-  header.style.position = "absolute"
-  header.style.textAlign = "center";
-  header.style.fontFamily = "Roboto Mono"
-  header.style.color = "white"
-  header.innerText = "No Name Gamez Bootstrapper\nGetting download info..."
+    let header = document.createElement('h1');
+    header.style.top = "50%"
+    header.style.left = "50%"
+    header.style.transform = "translate(-50%, -50%)"
+    header.style.position = "absolute"
+    header.style.textAlign = "center";
+    header.style.fontFamily = "Roboto Mono"
+    header.style.color = "white"
+    header.innerText = "No Name Gamez Bootstrapper\nGetting download info..."
 
-  win.document.body.appendChild(header)
+    win.document.body.appendChild(header)
 
-  let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
+    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/eagle18.html";
 
-  let response = await fetch(url)
-  let reader = response.body.getReader();
+    let response = await fetch(url)
+    let reader = response.body.getReader();
 
-  let total = parseInt(response.headers.get('content-length'), 10);
-  let values = [];
-  let loaded = 0
+    let total = parseInt(response.headers.get('content-length'), 10);
+    let values = [];
+    let loaded = 0
 
-  while (true) {
+    while (true) {
     let {done, value} = await reader.read();
     if (done) break;
     values.push(value);
@@ -119,17 +118,17 @@ async function full() {
     } else {
         header.innerText = "No Name Gamez Bootstrapper\nDownloading... 100%!"
     }
-  }
+    }
 
-  let data = await new Blob(values).text();
-  
-  header.remove();
+    let data = await new Blob(values).text();
+    
+    header.remove();
 
-  win.document.write(data);
-}
+    win.document.write(data);
+})();
+
+
 </script>
-
-<button onclick="full();">Launch</button>
 
 
 </html>

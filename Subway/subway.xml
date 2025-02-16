@@ -20,6 +20,7 @@
         title: "Subway Surfers: San Francisco",
 
         unityVersion: "2019.4.18f1",
+        unityWebglLoaderUrl: "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway/UnityLoader.2019.2.js",
         unityWebglBuildUrl: "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/Subway/Build/SanFrancisco.json",
 
         fileSize: 35,

@@ -8,7 +8,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Subway Surfers</title>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/poki-sdk-core-v2.234.2.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/4399.z.js"></script>
     <script>
       window.config = {
@@ -37,7 +36,9 @@
   </head>
 
   <body>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/master-loader3.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/master-loader4.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/poki-sdk-core-v2.234.2.js"></script>
+
   </body>
 </html>
 ]]></Content>

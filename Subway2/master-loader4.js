@@ -1,7 +1,7 @@
 "use strict";
 var scripts = document.getElementsByTagName("script"),
     scriptUrl = scripts[scripts.length - 1].src,
-    root = scriptUrl.split("master-loader2.js")[0],
+    root = scriptUrl.split("master-loader4.js")[0],
     loaders = {
         unity: "unity.js",
         "unity-beta": "unity-beta.js",
@@ -23,7 +23,7 @@ if (!window.config.unityWebglLoaderUrl) {
     }
 }
 var sdkScript = document.createElement("script");
-sdkScript.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/poki-sdk2.js", sdkScript.onload = function() {
+sdkScript.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway2/poki-sdk3.js", sdkScript.onload = function() {
     var i = document.createElement("script");
     i.src = root + loader, document.body.appendChild(i)
 }, document.body.appendChild(sdkScript);

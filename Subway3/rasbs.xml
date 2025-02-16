@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/UnityProgress.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/Subway3/Build/SanFrancisco.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/Subway3/Build/SanFrancisco.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>

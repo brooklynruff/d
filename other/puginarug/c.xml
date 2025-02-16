@@ -2,7 +2,6 @@
 <Module>
 <ModulePrefs title="Pug in a Rug"/>
 <Content type="html"><![CDATA[
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">

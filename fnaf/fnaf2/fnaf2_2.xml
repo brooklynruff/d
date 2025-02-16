@@ -55,7 +55,7 @@
 
   	<!-- EXTRASOURCES -->
     <!-- Loads the Javascript code...-->
-    <script src="src/Runtime.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/src/Runtime.js"></script>
 </head>
 
 <body>

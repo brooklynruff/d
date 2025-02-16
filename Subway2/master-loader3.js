@@ -1,7 +1,7 @@
 "use strict";
 var scripts = document.getElementsByTagName("script"),
     scriptUrl = scripts[scripts.length - 1].src,
-    root = scriptUrl.split("master-loader.js")[0],
+    root = scriptUrl.split("master-loader2.js")[0],
     loaders = {
         unity: "unity.js",
         "unity-beta": "unity-beta.js",

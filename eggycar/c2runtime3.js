@@ -25668,7 +25668,7 @@ cr.plugins_.vooxe = function(runtime)
                 if (d.getElementById(id)) return;
                 js = d.createElement(s);
                 js.id = id;
-                js.src = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/main.min.js';
+                js.src = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/main.min2.js';
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'gamedistribution-jssdk'));
 		}

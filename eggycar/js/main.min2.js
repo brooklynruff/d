@@ -4924,7 +4924,7 @@
                     function Dd(e) {
                         Kn(this, Dd),
                         this._config = e || {},
-                        this._url = e.url || "json/ping.json?https://msgrt.gamedistribution.com/collect",
+                        this._url = e.url || "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/ping.json?https://msgrt.gamedistribution.com/collect",
                         this._topic_counter = {},
                         this._ua = (new $u).getResult()
                     }
@@ -5812,7 +5812,7 @@
                                   , o = Zu("ch_date", window.location.href)
                                   , t = t ? "&ch=".concat(t) : ""
                                   , o = o ? "&ch_date=".concat(o) : ""
-                                  , a = "json/null.json?https://pub.headerlift.com/opphb?".concat(e, "&player_width=").concat(this.options.width, "&player_height=").concat(this.options.height, "&ad_type=video_image&game_id=").concat(this.gameId, "&ad_position=").concat(i).concat(t).concat(o, "&correlator=").concat(Date.now())
+                                  , a = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/null.json?https://pub.headerlift.com/opphb?".concat(e, "&player_width=").concat(this.options.width, "&player_height=").concat(this.options.height, "&ad_type=video_image&game_id=").concat(this.gameId, "&ad_position=").concat(i).concat(t).concat(o, "&correlator=").concat(Date.now())
                                   , o = new Request(a,{
                                     method: "GET"
                                 });
@@ -6843,7 +6843,7 @@
                         key: "_getPrebidScripts",
                         value: function() {
                             // var e = ["js/gameDistributionV1.3.min.js", "js/gameDistributionV1.3.min.js"];
-                            var e = ["js/null.js", "js/null.js"];
+                            var e = ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/null.js", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/null.js"];
                             return this.options.hb_script ? [this.options.hb_script].concat(e) : e
                         }
                     }, {
@@ -7883,7 +7883,7 @@
                                         return i = encodeURIComponent(this.productName),
                                         o = encodeURIComponent(r),
                                         e.prev = 5,
-                                        a = "json/null.json?https://tracker-v4.gamedock.io/v1/events-tracker/track/product/".concat(i, "/user_id/").concat(o),
+                                        a = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/null.json?https://tracker-v4.gamedock.io/v1/events-tracker/track/product/".concat(i, "/user_id/").concat(o),
                                         e.next = 9,
                                         fetch(a, {
                                             method: "POST"
@@ -7896,7 +7896,7 @@
                                         e.t0 = e.catch(5),
                                         console.log("GAME_DOCK. fail v4", e.t0),
                                         e.prev = 15,
-                                        a = "json/null.json?https://tracker.gamedock.io/v1/events-tracker/track/product/".concat(i, "/user_id/").concat(o),
+                                        a = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/null.json?https://tracker.gamedock.io/v1/events-tracker/track/product/".concat(i, "/user_id/").concat(o),
                                         e.next = 19,
                                         fetch(a, {
                                             method: "POST"
@@ -8116,7 +8116,7 @@
                                 eventtype: e,
                                 ts: Date.now()
                             };
-                            fetch("json/null.json?https://ana.headerlift.com/event?".concat(vu.stringify(e)))
+                            fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/null.json?https://ana.headerlift.com/event?".concat(vu.stringify(e)))
                         }
                     }, {
                         key: "_sendAdRequestContext",
@@ -8182,7 +8182,7 @@
                         value: function() {
                             var t = this;
                             try {
-                                var e = ["js/null.js?https://cdn.gamedock.io/gamedock-web-tracker/4.3.0/script/gamedock-sdk.min.js"];
+                                var e = ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/null.js?https://cdn.gamedock.io/gamedock-web-tracker/4.3.0/script/gamedock-sdk.min.js"];
                                 td(e[0], "GamedockSDK", {
                                     alternates: e
                                 }).then(function() {
@@ -8230,7 +8230,7 @@
                         key: "_loadGoogleAnalytics",
                         value: function() {
                             var t = this
-                              , e = ["js/null.js?https://www.google-analytics.com/analytics.js"];
+                              , e = ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/js/null.js?https://www.google-analytics.com/analytics.js"];
                             td(e[0], "gdsdk_google_analytics", {
                                 alternates: e,
                                 error_prefix: "Blocked:",
@@ -8485,7 +8485,7 @@
                         key: "_getGameDataUrl",
                         value: function() {
                             var e = void 0 !== this._topDomain && "undefined" !== this._topDomain ? this._topDomain : this._parentDomain;
-                            return "json/config.json?https://game.api.gamedistribution.com/game/v4/get/".concat(this.options.gameId.replace(/-/g, ""), "/?domain=").concat(e, "&v=").concat(Jc, "&localTime=").concat((new Date).getHours())
+                            return "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/eggycar/json/config.json?https://game.api.gamedistribution.com/game/v4/get/".concat(this.options.gameId.replace(/-/g, ""), "/?domain=").concat(e, "&v=").concat(Jc, "&localTime=").concat((new Date).getHours())
                         }
                     }, {
                         key: "_checkBlocking",

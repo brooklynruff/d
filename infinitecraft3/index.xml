@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="inf craft"/>
+<Content type="html"><![CDATA[
 <!doctype html>
 <head>
 	<title>Infinite Craft</title>
@@ -50,3 +54,5 @@ Tap two elements to craft
 </div></div></div></div></div><script defer src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/static/1710125415/infinite-craft/state.js"></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/ebf57ea.js" defer></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/fc927f7.js" defer></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/8108e77.js" defer></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/681985f.js" defer></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/68da012.js" defer></script><script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/infinitecraft3/_nuxt/436e85c.js" defer></script>
 </body>
 </html>
+]]></Content>
+</Module>

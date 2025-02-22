@@ -5,13 +5,13 @@
 <html>
 <head>
 <title>chihuahuaspin.com</title>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chihuahuaspin/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chihuahaspin/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 <br>
 <center>
   <div style="position: relative; width: 200px">
-    <img src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chihuahuaspin/spin.gif">
+    <img src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chihuahaspin/spin.gif">
     <div id="ethan" style="position: absolute; top: 12px; right: 2px; width: 80px; background-color: #aaa; color: #f00; padding: 5px; display: none">
       You are officially Ethan :-)
     </div>

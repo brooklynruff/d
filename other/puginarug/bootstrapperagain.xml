@@ -114,7 +114,7 @@ body {
     console.log(loaded/total)
 
     if ((loaded / total) < 1) {       
-        header.innerText = `No Name Gamez Bootstrapper\nDownloading... ${Math.round((loaded/total) * 10)}%`
+        header.innerText = `No Name Gamez Bootstrapper\nDownloading... ${Math.round((loaded/total) * 100)}%`
     } else {
         header.innerText = "No Name Gamez Bootstrapper\nDownloading... 100%!"
     }

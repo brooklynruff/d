@@ -83,7 +83,7 @@
         // Calls the runtime
         // First parameter : name of the canvas element
         // Second parameter : path to the cch file. Images and sounds must lay beside this file
-        new Runtime("MMFCanvas", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/resources/FiveNights2NOHACKS.cch");
+        new Runtime("MMFCanvas", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/fnaf/fnaf2/resources/FiveNights2NOHACKS.cch");
     }
     // RUNTIMESTARTEND
 </script>

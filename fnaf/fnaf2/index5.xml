@@ -46,7 +46,7 @@
 
   	<!-- EXTRASOURCES -->
     <!-- Loads the Javascript code...-->
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/src/Runtime3.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/src/Runtime4.js"></script>
 
   <script>
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Tom and Jerry Run" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="description" content="Tom and Jerry Run is  fun 3D endless runner game like subway surfers! Run with Jerry throught subway city and jump over obstacles to collect gold coins as in talking tom gold run!" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+ <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,width=device-width">
+ <style>
+  * {
+   border: 0;
+   margin: 0;
+   padding: 0;
+   outline: 0;
+  }
+
+  canvas {
+   /*transition: width 0.3s, height 0.3s;*/
+  }
+
+  #container-2d, #container-3d {
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   height: 100vh;
+   width: 100vw;
+  }
+
+  body {
+   background: #000;
+   height: 100vh;
+   width: 100vw;
+  }
+ </style>
+
+</head>
+<body>
+ <div id="container-3d"></div>
+ <div id="container-2d"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bessiegasbarro/TaJ@2ed95fdccdbc02f5907ff8459b22c31feca8fcc5/runtime_0b9791ffd3ccaea203a2.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bessiegasbarro/TaJ@2ed95fdccdbc02f5907ff8459b22c31feca8fcc5/vendor_09589c7a266860257623.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bessiegasbarro/TaJ@2ed95fdccdbc02f5907ff8459b22c31feca8fcc5/6app_8ea1f4b548c677551e06.js"></script>
+  </body>
+</html>
+
+]]></Content>
+</Module>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="bottleflip" />
+<Content type="html"><![CDATA[
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/donotprikel231/CMN-001@3cbed8f88973a8f37c01a27dd9b2c58c21ff59a3/TemplateData/style.css">
+<script src="https://cdn.jsdelivr.net/gh/donotprikel231/CMN-001@3cbed8f88973a8f37c01a27dd9b2c58c21ff59a3/TemplateData/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Heyayyu/BottleFlip3D@8e333396655a9fca388cf6b79bc28ff9fba5d707/Build/unityloader30.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/Heyayyu/BottleFlip3D@8e333396655a9fca388cf6b79bc28ff9fba5d707/js/unity-mod.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/Heyayyu/BottleFlip3D@8e333396655a9fca388cf6b79bc28ff9fba5d707/Build/bottleflip.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+        </div>
+
+]]></Content>
+</Module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Slope" />
+<Content type="html"><![CDATA[
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/culpixtg/lunar@6684121e438f8450dbc7190b987f3cc3997c51f4/gfiles/slope/TemplateData/style.css">
+<script src="https://cdn.jsdelivr.net/gh/culpixtg/lunar@6684121e438f8450dbc7190b987f3cc3997c51f4/gfiles/slope/TemplateData/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/culpixtg/lunar@6684121e438f8450dbc7190b987f3cc3997c51f4/gfiles/slope/TemplateData/unityloader41.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/culpixtg/lunar@6684121e438f8450dbc7190b987f3cc3997c51f4/gfiles/slope/Build/slope.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+        </div>
+
+]]></Content>
+</Module>

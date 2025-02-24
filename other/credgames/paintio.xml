@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Paint.io" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><title>Paint.IO</title>
+<meta name=viewport content="width=320,initial-scale=1,user-scalable=no"><meta name=HandheldFriendly content=True>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/css/style.css type="text/css">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/css/characters_128.css type="text/css">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/css/paths_128.css type="text/css">
+<link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/css/slick/slick.css>
+<link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/css/slick/slick-theme.css>
+<script>window.disableGamee=!0</script>
+</head>
+<body>
+  <div id=debug>
+    <button type=button id=pause>Pause</button> <button type=button id=resume>Resume</button> 
+    <button type=button id=erasePlayerArea>Erase player area</button> <button type=button id=zoomOut>Zoom out</button>
+    <button type=button id=zoomToPlayer>Zoom to player</button> <button type=button id=conquerHalfMap>Conquer half map</button> 
+    <button type=button id=killAllBots>Kill all bots</button> <button type=button id=killRandomBot>Kill random bot</button> 
+    <button type=button id=killPlayer>Kill player</button> <button type=button id=resetSaveState>Reset save state</button> 
+    <button type=button id=addScore>Add score</button></div><div id=multiplier class=hide></div>
+  <div id=content style=display:block;width:100%;text-align:center></div>
+  <div class="loading-wrapper modal" id=lobby-spinner style=display:none>
+    <img src=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/ui/spinner.gif width=64>
+    <div class=loading-status id=loading-status></div></div><div class=dark-bg id=dark-bg-basic style=display:none></div>
+  <div id=achievementContainer class=hide><div class=character><div class="sprite mouth" id=achievement-character></div></div>
+    <div class=center-text><div class=first-row>Achievement</div><div id=achievementTitle>Kill the king !</div>
+      <div class=third-row>New character unlocked</div></div><div class=cross-wrapper id=closeAchievement><div class=cross></div></div></div>
+  <div class="killCamBorder hide">
+    <div class=text id=kill-text></div></div>
+  <div class="ui-background-overlay hide"></div>
+  <div class="tap-to-play hide">Tap to play</div>
+  <div id=rewarded-video-container class=hide><div class=container><div class=header>Watch video for extra life</div><div class=watch-container><div class="watch showExtraLife"></div></div><div class=no-thanks>No, thanks!</div></div></div>
+  <div id=debugText></div><div class="tutorial-skip hide">Skip</div><div id=tutorialText class="tutorial-text hide"></div><div class=floodFill></div><div id=version class="version hide"></div>
+  <div class=score-table></div>
+  <div id=lobby-wrapper class=hide><div class="section dark"><div class="container ac">
+  <div class=logo><img src=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/assets/ui/logo.png width=320><br>
+    <div class="version hide mainmenuversion"></div></div><div class=high-score><div class=label>Your highscore</div><div class=number id=high-score>0</div></div>
+<div class=character-selection-label>Choose a character</div></div></div>
+  <div class="section light"><div class="container character-selection-container"><div class=character-container><div class="path hamburger"></div>
+    <br><div class="sprite hamburger"></div></div><div class=character-container><div class="path donut"></div><br><div class="sprite donut"></div></div>
+    <div class=character-container><div class="path unicat"></div><br><div class="sprite unicat active"></div></div><div class=character-container><div class="path orange"></div>
+    <br><div class="sprite orange"></div></div><div class=character-container><div class="path police"></div><br><div class="sprite police"></div></div></div></div>
+  <div class="section dark pt10"><div class="container play-purchase"><div id=play-button-wrapper><div class="play-button start-game"></div></div>
+    <div id=purchase-button-wrapper><div class=rewarded-video-button></div><div class="purchase-button purchase"></div><div class="purchase-label purchase"></div>
+      <div class=achievement-label></div></div><div class=battle-mode-label>Battle mode - locked</div></div></div><div class=tutorial>Tutorial</div></div>
+<script type=text/javascript src=https://cdn.jsdelivr.net/gh/bessiegasbarro/paint@8ab384ed95ddf6d6255abff82389b1707a658dbd/bundle.js></script>
+</body>
+</html>
+
+]]></Content>
+</Module>

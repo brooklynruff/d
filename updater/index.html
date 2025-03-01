@@ -74,7 +74,7 @@
             "Death Run 3D": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/deathrun3d.xml&container=ig",
             "Chick End": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chickend.xml&container=ig",
             "Poly Track": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml&container=ig",
-            "Snow Rider 3D": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/snowridar/bootstrapperr.xml&container=ig",
+            "Snow Rider 3D": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml&container=ig",
             "Basket Random": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://groups.google.com/group/classroomgoogl-net/attach/9abf3f4a31562/xxxxf.xml?part=0.1&view=1&container=ig",
             "Hello Kitty Adventure": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hellokittyadventure.xml&container=ig",
             "Papa's Burgeria": "https://classroom-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/burgeria.xml&container=ig",
@@ -165,6 +165,10 @@
             "BitLife": "40%"
         }
 
+        let needsUserGesture = [
+            "Snow Rider 3D"
+        ]
+
         let currentabstyle = document.getElementById("currenttabstyle");
         let tabstyle = document.getElementById("tabstyle");
         let search = document.getElementById("search");
@@ -173,7 +177,7 @@
             return tabstyles[select.options[select.selectedIndex].text]
         }
 
-        function inject(url, width) {
+        function inject(url, name, width) {
             let iframe = document.createElement('iframe')
             iframe.src = url;
             iframe.style.margin = "auto";
@@ -197,14 +201,32 @@
             icon.href = tab.icon;
             about_blank.document.head.appendChild(icon);
             about_blank.document.title = tab.title;
-
             about_blank.document.body.style.margin = "0";
             about_blank.document.body.style.overflow = "auto";
             about_blank.document.body.style.backgroundColor = "white";
+
+            if (needsUserGesture.includes(name)) {
+                let button = document.createElement("button");
+                button.innerHTML = "Click anywhere to play."
+                button.style.color = "rgb(255,255,255)"
+                button.style.border = "none";
+                button.style.fontSize = "50px"
+                button.style.backgroundColor = "rgb(27,27,27)";
+                button.style.width = "100%";
+                button.style.height = "100%";
+                
+                button.onclick = function() {
+                    button.remove();
+                    about_blank.document.body.appendChild(iframe);
+                }
+
+                about_blank.document.body.appendChild(button)
+
+                return;
+            }
+
+
             about_blank.document.body.appendChild(iframe);
-
-            alert("Injection successful! :D")
-
         }
 
 
@@ -276,9 +298,9 @@
                 btn.textContent = name;
                 btn.onclick = (()=>{
                     if (specialWidths[name]) {
-                        return inject(urls[name], specialWidths[name]);
+                        return inject(urls[name], name, specialWidths[name]);
                     }
-                    inject(urls[name]);
+                    inject(urls[name], name);
                 });
                 btn.style.margin = 10;
                 document.getElementById('buttons').appendChild(btn);

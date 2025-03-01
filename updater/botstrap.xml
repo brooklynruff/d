@@ -22,6 +22,7 @@ button {
   justify-content: center;
   line-height: 1em;
   width: 100%;
+  height: 100%;
   padding: 3px;
   text-decoration: none;
   user-select: none;
@@ -127,10 +128,9 @@ async function full() {
     win.document.write(data);
 }
 
+full()
+
 </script>
-
-<button onclick="full()" height="100%">Click anywhere to continue.</button>
-
 </html>
 ]]></Content>
 </Module>

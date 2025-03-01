@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="external"/>
+<ModulePrefs title="Minacraft"/>
 <Content type="html"><![CDATA[
 
 <html>
@@ -96,7 +96,7 @@ async function full() {
 
     win.document.body.appendChild(header)
 
-    let url = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/index.html";
+    let url = "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/snowridar/index.html";
 
     let response = await fetch(url)
     let reader = response.body.getReader();
@@ -127,10 +127,10 @@ async function full() {
     win.document.write(data);
 }
 
-full()
 
 </script>
 
+<button onclick="full();">Launch</button>
 
 </html>
 ]]></Content>

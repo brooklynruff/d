@@ -127,10 +127,9 @@ async function full() {
     win.document.write(data);
 }
 
-full()
-
 </script>
 
+<button onclick="full()" height="100%">Click anywhere to continue.</button>
 
 </html>
 ]]></Content>

@@ -400,10 +400,9 @@
 
         async function inject(url, name, width) {
             let about_blank = window.open();
-            let html = await getHtmlFromXml(url);
 
             let iframe = document.createElement('iframe')
-            iframe.src = `data:text/html;base64,${btoa(html)}`;
+            iframe.src = `https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=${url}`;
             iframe.style.margin = "auto";
             iframe.style.height = "100%";
             iframe.style.width = width && width || "100%";
@@ -413,7 +412,7 @@
             iframe.marginWidth = "0";
             iframe.width = "100%"
             iframe.height = "100%"
-            iframe.scrolling = "auto";
+            iframe.style.overflow = "none"
             iframe.frameBorder = "0";
             iframe.style.display = "block";
 

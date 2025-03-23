@@ -238,7 +238,8 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Update V0.0.5: Fixed the "404 Not Found" error. <b>In order to fix this your data has been wiped.</b> I'm sorry, there is no other option.</h3>
+    <h3 class="centered">Update V0.0.5.1: Fixed some games not working (like Minecraft and any other games that lock your cursor). I am also sorry that I'm forcing you to open three billion tabs (lol).</h3>
+    <h3 class="centered">Also, I have a project currently in the works! Stay tuned for that.</h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
         <select name="tabstyle" id="currenttabstyle"></select>
@@ -310,7 +311,7 @@
             "Roblox Obby": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby2.xml",
             "Basketball Stars 2019": "https://groups.google.com/group/classroomgoogl-net/attach/9ac96c1f2fa6b/xg.xml?part=0.1&view=1",
             "Basket Stars": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
-            "Getting Over It (Scratch Edition)": "https://scratch.mit.edu/projects/389464290/embed",
+            "Getting Over It (Scratch Edition)": "NOTXML;https://scratch.mit.edu/projects/389464290/embed",
             "Gun Mayhem": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem.xml",
             "Gun Mayhem 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem2.xml",
             "1 On 1 Basketball": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1on1/bask.xml",
@@ -365,12 +366,9 @@
         }
 
         let specialWidths = {
-            "BitLife": "40%"
+            "BitLife": "45%"
         }
 
-        let needsUserGesture = [
-            "Snow Rider 3D"
-        ]
 
         let currentabstyle = document.getElementById("currenttabstyle");
         let tabstyle = document.getElementById("tabstyle");
@@ -402,7 +400,11 @@
             let about_blank = window.open();
 
             let iframe = document.createElement('iframe')
-            iframe.src = `https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=${url}`;
+            if (!url.startsWith("NOTXML;")) {
+                iframe.src = `https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=${url}`;
+            } else {
+                iframe.src = url.substring(("NOTXML;").length)[1]
+            }
             iframe.style.margin = "auto";
             iframe.style.height = "100%";
             iframe.style.width = width && width || "100%";
@@ -412,7 +414,6 @@
             iframe.marginWidth = "0";
             iframe.width = "100%"
             iframe.height = "100%"
-            iframe.style.overflow = "none"
             iframe.frameBorder = "0";
             iframe.style.display = "block";
 
@@ -425,27 +426,6 @@
             about_blank.document.body.style.margin = "0";
             about_blank.document.body.style.overflow = "auto";
             about_blank.document.body.style.backgroundColor = "white";
-
-            if (needsUserGesture.includes(name)) {
-                let button = document.createElement("button");
-                button.innerHTML = "Click anywhere to play."
-                button.style.color = "rgb(255,255,255)"
-                button.style.border = "none";
-                button.style.fontSize = "50px"
-                button.style.backgroundColor = "rgb(27,27,27)";
-                button.style.width = "100%";
-                button.style.height = "100%";
-                
-                button.onclick = function() {
-                    button.remove();
-                    about_blank.document.body.appendChild(iframe);
-                }
-
-                about_blank.document.body.appendChild(button)
-                about_blank.document.close();
-
-                return;
-            }
 
 
             about_blank.document.body.appendChild(iframe);

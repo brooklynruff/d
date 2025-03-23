@@ -40,8 +40,8 @@
         html {
             height: 100%;
             margin: auto;
-            overflow-y: auto;
             overflow-x: hidden;
+            overflow-y: auto;
         }
     </style>
 
@@ -107,6 +107,7 @@
               star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
               star[c].style.visibility="visible";
               starv[c]=50;
+              star[c].style.overflowY = "hidden";
               break;
             }
           }
@@ -141,10 +142,14 @@
             tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
             star[i].style.visibility="hidden";
             tiny[i].style.visibility="visible"
+            star[i].style.overflowY = "hidden";
+            tiny[i].style.overflowY = "hidden";
           }
         }
     
         function update_tiny(i) {
+          tiny[i].style.overflowY = "hidden";
+
           if (--tinyv[i]==25) {
             tiny[i].style.width="1px";
             tiny[i].style.height="1px";
@@ -227,7 +232,8 @@
           div.style.position="absolute";
           div.style.height=height+"px";
           div.style.width=width+"px";
-          div.style.overflow="hidden";
+          div.style.overflowY="hidden";
+
           return (div);
         }
     
@@ -245,7 +251,7 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Update V0.0.5.1: Fixed some games not working (like Minecraft and any other games that lock your cursor). I am also sorry that I'm forcing you to open three billion tabs (lol). Fixed scrolling aswell.</h3>
+    <h3 class="centered">Update V0.0.5.1: Fixed pretty much every game that didn't work. I am also sorry that I'm forcing you to open three billion tabs (lol). Fixed scrolling aswell.</h3>
     <h3 class="centered">Also, I have a project currently in the works! Stay tuned for that.</h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
@@ -410,7 +416,7 @@
             if (!url.startsWith("NOTXML;")) {
                 iframe.src = `https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=${url}`;
             } else {
-                iframe.src = url.substring(("NOTXML;").length)[1]
+                iframe.src = url.substring(("NOTXML;").length)
             }
             iframe.style.margin = "auto";
             iframe.style.height = "100%";

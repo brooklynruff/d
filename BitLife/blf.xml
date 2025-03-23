@@ -9,7 +9,7 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/Build/BitLife.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
     <div class="webgl-content">
-        <div id="gameContainer" style="width: 60vw; height: 100vh"></div>
+        <div id="gameContainer" style="width: 45vw; height: 100vh"></div>
         </div>
 ]]></Content>
 </Module>

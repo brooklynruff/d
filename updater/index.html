@@ -37,12 +37,18 @@
             display: table;
         }
 
+        #game {
+            display: block,
+            height
+        }
+
         html {
             height: 100%;
             margin: auto;
             overflow-x: hidden;
             overflow-y: auto;
         }
+
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/style.css">
@@ -82,7 +88,6 @@
         <a href="mailto:nonamegamescontact@proton.me">My email</a>
     </center>
     <div class="centered" id="buttons"></div>
-
     <script>
         let version = "V0.0.5.1"
         let urls = {
@@ -202,24 +207,6 @@
 
         function getTabStyle(select) {
             return tabstyles[select.options[select.selectedIndex].text]
-        }
-
-        async function getHtmlFromXml(xmllink) {
-            try {
-                let text = await (await(fetch(xmllink))).text();
-                let parser = new DOMParser();
-                let xml = parser.parseFromString(text, "text/xml");
-
-                for (let i = 0; i < xml.all.length; i++) {
-                    if (xml.all[i].tagName == "Content") {
-                        return xml.all[i].textContent
-                    }
-                }
-
-                return "<body><h1>there was an error</h1></body>"
-            } catch {
-                return "<body><h1>there was an error</h1></body>"
-            }
         }
 
         async function inject(url, name, width) {

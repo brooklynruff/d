@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Granny"/>
+<Content type="html"><![CDATA[
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/TemplateData/style.css">
+<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/TemplateData/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/TemplateData/unityloader54.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/Granny/Build/granny.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+        </div>
+]]></Content>
+</Module>

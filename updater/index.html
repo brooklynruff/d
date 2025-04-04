@@ -62,7 +62,7 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Update V0.0.5.2: Added Granny (thanks for the suggestion MycL)</h3>
+    <h3 class="centered">Update V0.0.5.3 04/03/2025: <a href="javascript:openchangelog()">Changelog</a></h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
         <select name="tabstyle" id="currenttabstyle"></select>
@@ -243,6 +243,27 @@
 
             about_blank.document.body.appendChild(iframe);
             about_blank.document.close();
+        }
+
+        async function openchangelog() {
+            let text = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/changelog.txt", {cache: "no-store"})).text();
+            let a = window.open();
+            let iframe = document.createElement('iframe')
+            iframe.src = URL.createObjectURL(new Blob([text], {type:"text/plain"}));
+            
+            iframe.style.margin = "auto";
+            iframe.style.height = "100%";
+            iframe.style.width = width && width || "100%";
+            iframe.style.overflowX = "hidden";
+            iframe.style.overflowY = "auto";
+            iframe.marginHeight = "0";
+            iframe.marginWidth = "0";
+            iframe.width = "100%"
+            iframe.height = "100%"
+            iframe.frameBorder = "0";
+            iframe.style.display = "block";
+
+            a.body.appendChild(iframe);
         }
 
 

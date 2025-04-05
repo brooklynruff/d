@@ -2,10 +2,6 @@
 <Module>
 <ModulePrefs title="bad icecream"/>
 <Content type="html"><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-<ModulePrefs title="Bad Ice Cream/>
-<Content type="html"><![CDATA[
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
 window.RufflePlayer = window.RufflePlayer || {};

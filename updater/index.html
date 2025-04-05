@@ -62,7 +62,7 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Update V0.0.5.3 04/03/2025: <a href="javascript:openchangelog()">Changelog</a></h3>
+    <h3 class="centered">Last update: 04/04/2025. <a href="javascript:openchangelog()">View changelog</a></h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
         <select name="tabstyle" id="currenttabstyle"></select>
@@ -88,7 +88,6 @@
     </center>
     <div class="centered" id="buttons"></div>
     <script>
-        let version = "V0.0.5.3"
         let urls = {
             // credit me if ur gonna paste :P
 
@@ -171,6 +170,7 @@
             "Run 1": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run1.xml",
             "Run 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run2.xml",
             "Granny": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/granny3.xml",
+            "Bad Ice Cream": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/badicecream/badicecream.xml",
         }
 
         let tabstyles = {
@@ -347,20 +347,6 @@
                 document.getElementById('buttons').appendChild(btn);
             }
         }
-
-        setTimeout(async () => {
-            if (createSnow) {
-                createSnow();
-            }
-            
-            let text = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/version", {cache: "no-store"})).text();
-
-            if (text != version) {
-                if (confirm("A new update is available! Would you like to go to the document to get the update?")) {
-                    window.location.href = "https://docs.google.com/document/d/1j3NtJksUK_f6L2_s9ggI4iazWjuFWDmjtV088CUzLrg/edit?tab=t.0"
-                }
-            }
-        }, 500)
 
         reload();
         reloadTabStyle();

@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+04/14/2025:
+[+] Fixed Red vs. Blue
+
 04/13/2025:
 [+] Fixed You vs. 100 Skibidi (greatest game of all time)
 [+] Fixed Counter Strike

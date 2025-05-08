@@ -33,15 +33,6 @@
             font-family: "Roboto Mono", serif;
         }
 
-        #buttons {
-            display: table;
-        }
-
-        #game {
-            display: block,
-            height
-        }
-
         html {
             height: 100%;
             margin: auto;
@@ -68,7 +59,7 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Last update: 04/16/2025. <a href="javascript:openchangelog()">View changelog</a></h3>
+    <h3 class="centered">Last update: 05/07/2025. <a href="javascript:openchangelog()">View changelog</a></h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
         <select name="tabstyle" id="currenttabstyle"></select>
@@ -94,90 +85,7 @@
     </center>
     <div class="centered" id="buttons"></div>
     <script>
-        let urls = {
-            // credit me if ur gonna paste :P
-
-            "Retro Bowl": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/rtbl.xml",
-            "Tomb of the Mask": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tombofthemask.xml",
-            "Basketball Legends 2020": "https://groups.google.com/group/classroomgoogl-net/attach/9ac4a02502694/24242.xml?part=0.1&view=1",
-            "Counter Strike": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/counterstrike/game.xml",
-            "Death Run 3D": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/deathrun3d.xml",
-            "Chick End": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chickend.xml",
-            "Poly Track": "https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml",
-            "Snow Rider 3D": "https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml",
-            "Basket Random": "https://groups.google.com/group/classroomgoogl-net/attach/9abf3f4a31562/xxxxf.xml?part=0.1&view=1",
-            "Hello Kitty Adventure": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hellokittyadventure.xml",
-            "Papa's Burgeria": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/burgeria.xml",
-            "BitLife": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
-            "Slope": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope.xml",
-            "Block Blast": "https://groups.google.com/group/classroomgoogl-net/attach/9b57f0b5b002c/gl.xml?part=0.1&view=1",
-            "The Impossible Game": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblegame.xml",
-            "The Impossible Quiz": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz.xml",
-            "Cookie Clicker": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker.xml",
-            "Cookie Clicker 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker2.xml",
-            "Paper.io 2": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/76da468cd6a2c/pappy1.xml?part=0.1&view=1&authuser=6",
-            "Roblox Obby": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby3.xml",
-            "Rooftop Snipers": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rooftopsnipers.xml",
-            "House of Hazards": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/houseofhazards.xml",
-            "Drift Boss": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/driftboss.xml",
-            "Snowball.io": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/a7d744cf2c75f/sw.xml?part=0.1&view=1&authuser=6",
-            "Red vs. Blue": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/redvsblue/game.xml",
-            "2048": "https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml",
-            "Five Nights at Freddy's": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf/fnaf.xml",
-            "Five Nights at Freddy's 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/bootstrapperr.xml",
-            "Five Nights at Freddy's 3": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf3/bootstrapperrr.xml",
-            "Five Nights at Freddy's 4": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf4/index.xml",
-            "Minecraft 1.0.3": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
-            "Minecraft 1.5.2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/bootstrapperrrr.xml",
-            "Minecraft 1.8.8": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/bootstrapperrrr.xml",
-            "Baldi's Basics in Education and Learning": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Baldi/baldi.xml",
-            "Idle Dice": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/idledice.xml",
-            "Greedy Mimic": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/greedymimic4/index.xml",
-            "2 Player Chess": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2plrchess.xml",
-            "Roblox Obby": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby3.xml",
-            "Basketball Stars 2019": "https://groups.google.com/group/classroomgoogl-net/attach/9ac96c1f2fa6b/xg.xml?part=0.1&view=1",
-            "Basket Stars": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
-            "Getting Over It (Scratch Edition)": "NOTXML;https://scratch.mit.edu/projects/389464290/embed",
-            "Gun Mayhem": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem.xml",
-            "Gun Mayhem 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem2.xml",
-            "1 On 1 Basketball": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1on1/bask.xml",
-            "Block Blast": "https://groups.google.com/group/classroomgoogl-net/attach/9b57f0b5b002c/gl.xml?part=0.1&view=1",
-            "Slope 2 Players": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope2p.xml",
-            "You vs. 100 Skibidi": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/youvs100skibidi/game.xml",
-            "Tetris": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tetris.xml",
-            "Duck Life": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife.xml",
-            "Duck Life 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/dl2/dl2_2.xml",
-            "Duck Life 3": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife3.xml",
-            "Duck Life 4": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife4.xml",
-            "Duck Life 5": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife5.xml",
-            "Time Shooter 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/timeshooter2.xml",
-            "Time Shooter 3: SWAT": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/59d41d61a91b0/ts64.xml?part=0.1&view=1&authuser=6",
-            "Bad Time Simulator": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/badtimesimulator.xml",
-            "Bloxorz": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloxorz.xml",
-            "Tiny Cars": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/tinycars/tinycars4.xml",
-            "Tiny Fishing": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tinyfishing.xml",
-            "Fly or Die": "https://groups.google.com/group/classroomgoogl-net/attach/99d7373213a96/zbt.xml?part=0.1&view=1",
-            "Moto X3M": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3m.xml",
-            "Fall Guys": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallguys.xml",
-            "Angry Birds": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/angrybirds.xml",
-            "Magic Tiles": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/mt2.xml",
-            "House of Hazards": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/houseofhazards.xml",
-            "Skibidi Toilet": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skibiditoilet.xml",
-            "Ragdoll.io": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ragdollio.xml",
-            "Henry The Stickmin: Breaking the Bank": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/breaking.xml",
-            "Henry The Stickmin: Crossing the Pit": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/crossingthepit.xml",
-            "Henry The Stickmin: Escaping the Prison": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/escaping.xml",
-            "Henry The Stickmin: Infiltrating the Complex": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/fleeing4.xml",
-            "Henry The Stickmin: Infiltrating the Airship": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/infiltrating5.xml",
-            "Henry The Stickmin: Stealing the Diamond": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
-            "Sniper V2": "https://groups.google.com/group/classroomgoogl-net/attach/99da45f258ab6/z777.xml?part=0.1&view=1",
-            "(Testing Only, Master password required) V1": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/v1/v1.xml",
-            "Run 1": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run1.xml",
-            "Run 2": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run2.xml",
-            "Granny": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/granny3.xml",
-            "Bad Ice Cream": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream4.xml",
-            "(AI HOMEWORK SOLVER) Edubrain.ai": "NOTXML;https://edubrain.ai/" 
-        }
+        let urls = {};
 
         let tabstyles = {
             "Default": {
@@ -329,10 +237,23 @@
             filereader.readAsDataURL(icon.files[0]);
         }
 
-        let keys = Object.keys(urls).sort();
+        
 
-        function reload(filter) {
-            document.getElementById('buttons').innerHTML = "";
+        async function reload(filter) {
+            let buttons = document.getElementById('buttons');
+            let text = document.createElement("h1");
+            text.style.textAlign = "center";
+            text.style.height = "100%";
+            text.style.width = "100%";
+            text.innerText = "Loading..."
+            buttons.style.display = "";
+            buttons.appendChild(text);
+
+            urls = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/games.json")).text()
+
+            let keys = Object.keys(urls).sort();
+
+            buttons.innerHTML = "";
 
             for (let i = 0; i < keys.length; i++) {
                 let name = keys[i];
@@ -350,8 +271,10 @@
                     inject(urls[name], name);
                 });
                 btn.style.margin = 10;
-                document.getElementById('buttons').appendChild(btn);
+                buttons.appendChild(btn);
             }
+
+            buttons.style.display = "table";
         }
 
         reload();

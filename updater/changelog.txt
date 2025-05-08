@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+05/07/2025:
+[+] Re-added every game from the OG No Name Games.
+
 04/16/2025:
 [+] Swapped Bad Ice Cream from Ruffle to waflash, making it less laggy.
 

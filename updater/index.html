@@ -59,7 +59,7 @@
 <body>
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Last update: 05/07/2025. <a href="javascript:openchangelog()">View changelog</a></h3>
+    <h3 class="centered">Last update: 05/08/2025. <a href="javascript:openchangelog()">View changelog</a></h3>
     <center>
         <label for="currentabstyle">Launcher Tab Style</label>
         <select name="tabstyle" id="currenttabstyle"></select>
@@ -85,7 +85,7 @@
     </center>
     <div class="centered" id="buttons"></div>
     <script>
-        let urls = {};
+        let urls;
 
         let tabstyles = {
             "Default": {
@@ -237,19 +237,20 @@
             filereader.readAsDataURL(icon.files[0]);
         }
 
-        
-
         async function reload(filter) {
             let buttons = document.getElementById('buttons');
-            let text = document.createElement("h1");
-            text.style.textAlign = "center";
-            text.style.height = "100%";
-            text.style.width = "100%";
-            text.innerText = "Loading..."
-            buttons.style.display = "";
-            buttons.appendChild(text);
 
-            urls = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/games.json")).json()
+            if (!urls) {
+                let text = document.createElement("h1");
+                text.style.textAlign = "center";
+                text.style.height = "100%";
+                text.style.width = "100%";
+                text.innerText = "Loading..."
+                buttons.style.display = "";
+                buttons.appendChild(text);
+
+                urls = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/games.json")).json()
+            }
 
             let keys = Object.keys(urls).sort();
 

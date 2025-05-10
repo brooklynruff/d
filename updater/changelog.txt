@@ -20,6 +20,12 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+05/09/2025:
+[+] Fixed Retro Bowl not launching, the original webserver got deleted so I
+had to manually remake it.
+[!] Drift Boss and Skibidi Toilet (the best game to touch the Earth) *may?*
+face the same thing, I have them backed up just in case.
+
 05/08/2025:
 [+] Fixed the games not showing up. I pushed the last update and just
 assumed it worked, sorry!

@@ -15,7 +15,6 @@
         <meta charset="utf-8"/>
 
         <!-- Set the title bar of the page -->
-        <title>Retro Bowl U</title>
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-MENBM6GSNY"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-MENBM6GSNY")</script>
         <style>

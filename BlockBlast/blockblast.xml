@@ -3,7 +3,7 @@
 <ModulePrefs title="blockblast"/>
 <Content type="html"><![CDATA[
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast/TemplateData/style.css">
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast/TemplateData/UnityProgress.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast/TemplateData/UnityProgress2.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast/Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast/Build/BlockBlast.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});

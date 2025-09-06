@@ -253,7 +253,7 @@
                 buttons.style.display = "";
                 buttons.appendChild(text);
 
-                urls = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/games.json")).json()
+                urls = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/games.json", { cache: 'no-store' })).json()
             }
 
             let keys = Object.keys(urls).sort();

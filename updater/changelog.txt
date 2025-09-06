@@ -20,6 +20,12 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/05/2025:
+[!] Hi everyone! I know it's been a while but I'm back! I'll try my best to
+update this as frequently as before.
+[+] Added Drive Mad (Thanks for the suggestion)
+[+] Fixed Block Blast (Thanks for the bug report Joe)
+
 05/09/2025:
 [+] Fixed Retro Bowl not launching, the original webserver got deleted so I
 had to manually remake it.

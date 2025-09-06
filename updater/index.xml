@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="block blast"/>
+<Content type="html"><![CDATA[
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -282,3 +286,5 @@
         reloadTabStyle();
     </script>
 </body>
+]]></Content>
+</Module>

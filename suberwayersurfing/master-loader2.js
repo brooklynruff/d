@@ -12,7 +12,7 @@ if (!window.config.unityWebglLoaderUrl) {
     var versionSplit = window.config.unityVersion ? window.config.unityVersion.split(".") : [],
         year = versionSplit[0],
         minor = versionSplit[1];
-    window.config.unityWebglLoaderUrl = "/UnityLoader.2019.2.js"
+    window.config.unityWebglLoaderUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/UnityLoader.2019.2.js"
 }
 var sdkScript = document.createElement("script");
 {

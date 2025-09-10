@@ -25,6 +25,9 @@ tion.
 [+] Added categories (will do more with this later)
 [+] Removed tab styles (these weren't used and have been broken forever)
 [+] Added Subway Surfers (This took forever to get done. I finally did it)
+[+] Fixed most flash games that used waflash before. They've all been
+converted to Ruffle and should launch fine. (Submit a bug report if a game
+doesn't load still)
 [!] *MAYBE* there will be more Poki, CrazyGames, and maybe CoolMathGames
 exclusives very soon. Poki SDK has been mostly cracked, but I'll look into
 cracking the others.

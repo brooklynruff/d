@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Duck Life 3"/>
+<ModulePrefs title="Duck Life"/>
 <Content type="html"><![CDATA[
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/style.css">
-<script src="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/UnityProgress.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl3/Build/UnityLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl3/Build/UnityLoader2.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl3/Build/DuckLife.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
-    </script>
+        function UnityProgress(unityInstance, progress) {
+            if (!unityInstance.Module)
+                return;
+            if (!unityInstance.logo) {
+                unityInstance.logo = document.createElement("div");
+                unityInstance.logo.className = "wixlogo";
+                unityInstance.container.appendChild(unityInstance.logo);
+            }
+            if (!unityInstance.progress) {
+                unityInstance.progress = document.createElement("div");
+                unityInstance.progress.className = "progress";
+                unityInstance.progress.empty = document.createElement("div");
+                unityInstance.progress.empty.className = "empty";
+                unityInstance.progress.appendChild(unityInstance.progress.empty);
+                unityInstance.progress.full = document.createElement("div");
+                unityInstance.progress.full.className = "full";
+                unityInstance.progress.appendChild(unityInstance.progress.full);
+                unityInstance.container.appendChild(unityInstance.progress);
+            }
+            unityInstance.progress.full.style.width = (100 * progress) + "%";
+            unityInstance.progress.empty.style.width = (100 * (1 - progress)) + "%";
+            if (progress == 1)
+                unityInstance.logo.style.display = unityInstance.progress.style.display = "none";
+        }
+
+        var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl3/Build/DuckLife3_2.json", {
+            onProgress: UnityProgress
+        });
+        </script>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
         </div>

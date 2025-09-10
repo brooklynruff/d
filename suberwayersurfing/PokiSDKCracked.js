@@ -1,4 +1,4 @@
-window.PokiSDK = new class {
+const defaults = new class {
     init = function() {
         return new Promise((r)=>{
             r();
@@ -30,8 +30,15 @@ window.PokiSDK = new class {
     }
 };
 
-["setDebug", "gameplayStart", "gameplayStop", "gameLoadingProgress", "happyTime", "setPlayerAge", "togglePlayerAdvertisingConsent", "toggleNonPersonalized", "setConsentString", "logError", "sendHighscore", "setDebugTouchOverlayController", "roundStart", "roundEnd"].forEach((i)=>{
-    window.PokiSDK[i] = function(){};
+
+window.PokiSDK = new Proxy({}, {
+    get(target, key, reciever) {
+        if (defaults[key]) {
+            return defaults[key];
+        }
+
+        return ()=>{}
+    }
 })
 
 window.pokiReady = true;

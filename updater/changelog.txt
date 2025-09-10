@@ -21,13 +21,12 @@ their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
 09/09/2025:
+[+] Big update to the UI.
+[+] Removed tab styles (these weren't used and have been broken forever)
 [+] Added Subway Surfers (This took forever to get done. I finally did it)
 [!] *MAYBE* there will be more Poki, CrazyGames, and maybe CoolMathGames
 exclusives very soon. Poki SDK has been mostly cracked, but I'll look into
 cracking the others.
-[!] To developers at Poki and other sites who make the SDKs I'm cracking,
-No Name Games is ran in Russia and will not respond to DMCA or copyright
-threats. :)
 
 09/05/2025:
 [!] Hi everyone! I know it's been a while but I'm back! I'll try my best to

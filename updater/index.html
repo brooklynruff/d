@@ -41,19 +41,37 @@
             overflow-y: auto;
         }
 
-        #announcement {
-            background-color: #111;
-            color: #f0f0f0;
-            padding: 10px 20px;
-            text-align: center;
-            top: 0;
-            width: 100%;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            justify-content: space-between;
+        #buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 0px;
+            padding: 20px;
         }
 
-        #announcement p {
-            margin: 0;
+        .card {
+            background: #1e1e1e;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-title {
+            padding: 12px;
+            font-size: 1rem;
+            text-align: center;
         }
 
     </style>
@@ -76,20 +94,6 @@
     <div id="snow" data-count="200"></div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
     <h3 class="centered">Last update: September 9th, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
-    <center>
-        <label for="currentabstyle">Launcher Tab Style</label>
-        <select name="tabstyle" id="currenttabstyle"></select>
-
-        <label for="launchedtabstyle">Game Tab Style:</label>
-        <select name="tabstyle" id="tabstyle"></select>
-    </center>
-    <center>
-        <label for="title">Title: </label>
-        <input type="text" id="title" name="title"></input>
-        <label for="icon">Icon: </label>
-        <input type="file" id="iconinput" name="icon"></input>
-        <button onclick="add()">Add Tab Style</button>
-    </center>
     <center>
         <label for="search">Search: </label>
         <input type="text" id="search" name="search"></input>
@@ -258,6 +262,7 @@
 
             if (!urls) {
                 let text = document.createElement("h1");
+
                 text.style.textAlign = "center";
                 text.style.height = "100%";
                 text.style.width = "100%";
@@ -279,19 +284,28 @@
                     if(!name.toLowerCase().includes(filter.toLowerCase())) continue;
                 }
                 
-                let btn = document.createElement('button');
-                btn.textContent = name;
+                let btn = document.createElement('div');
+                let title = document.createElement('div');
+                let img = document.createElement('img');
+
+                img.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/images/" + urls[name].img;
+                btn.className = "card";
+                title.className = "card-title";
+
+                btn.appendChild(img);
+                btn.appendChild(title);
+
+                title.innerText = name;
+
                 btn.onclick = (()=>{
                     if (specialWidths[name]) {
-                        return inject(urls[name], name, specialWidths[name]);
+                        return inject(urls[name].url, name, specialWidths[name]);
                     }
                     inject(urls[name], name);
                 });
-                btn.style.margin = 10;
+                
                 buttons.appendChild(btn);
             }
-
-            buttons.style.display = "table";
         }
 
         reload();

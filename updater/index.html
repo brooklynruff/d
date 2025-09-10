@@ -107,41 +107,12 @@
     <script>
         let urls;
 
-        let tabstyles = {
-            "Default": {
-                "title": "about:blank",
-                "icon": ""
-            },
-            "Google Classroom": {
-                "title": "Home",
-                "icon": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/images/googleclassroom.ico"
-            },
-            "Clever": {
-                "title": "Clever | Portal",
-                "icon": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/images/clevericon.ico"
-            },
-            "Google": {
-                "title": "Google",
-                "icon": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/images/google.ico"
-            },
-            "Chess": {
-                "title": "Chess.com - Play Chess Online - Free Games",
-                "icon": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/images/chess.ico"
-            }
-        }
-
         let specialWidths = {
             "BitLife": "45%"
         }
 
 
-        let currentabstyle = document.getElementById("currenttabstyle");
-        let tabstyle = document.getElementById("tabstyle");
         let search = document.getElementById("search");
-
-        function getTabStyle(select) {
-            return tabstyles[select.options[select.selectedIndex].text]
-        }
 
         async function inject(url, name, width) {
             let about_blank = window.open();
@@ -164,12 +135,11 @@
             iframe.frameBorder = "0";
             iframe.style.display = "block";
 
-            let tab = getTabStyle(tabstyle);
             let icon = document.createElement('link');
             icon.rel = "icon";
-            icon.href = tab.icon;
+            icon.href = "";
             about_blank.document.head.appendChild(icon);
-            about_blank.document.title = tab.title;
+            about_blank.document.title = "about:blank";
             about_blank.document.body.style.margin = "0";
             about_blank.document.body.style.overflow = "auto";
             about_blank.document.body.style.backgroundColor = "white";

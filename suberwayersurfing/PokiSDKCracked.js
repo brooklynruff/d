@@ -1,13 +1,13 @@
 const defaults = new class {
     init = function() {
         return new Promise((r)=>{
-            r();
+            r(true);
         });
     };
 
     rewardedBreak = function() {
-        return new Promise((r)=>{
-            r();
+        return new Promise((r)=>{ 
+            r(true);
         });
     }
     gameLoadingStart = function() {}
@@ -16,12 +16,7 @@ const defaults = new class {
     gameplayStop = function() {}
     commercialBreak = function() {
         return new Promise((r)=>{
-            r();
-        }); 
-    }
-    rewardedBreak = function() {
-        return new Promise((r)=>{
-            r();
+            r(true);
         }); 
     }
 

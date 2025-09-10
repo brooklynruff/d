@@ -20,10 +20,22 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/10/2025:
+[!] Sorry for all the broken games. A lot of the games broke during the time
+I was gone. I have fixed most of them though.
+[+] Fixed Duck Life 1-4
+[+] Fixed Ace Gangster Taxi
+[+] Fixed Bad Ice Cream
+[+] Fixed Pac Man
+[+] Fixed Bad Time Simulator
+[+] Fixed Bloons Tower Defense 1 & 3
+[+] Fixed Bob the Robber 2
+[+] Fixed
+
 09/09/2025:
 [+] Big update to the UI.
 [+] Added categories (will do more with this later)
-[+] Removed tab styles (these weren't used and have been broken forever)
+[-] Removed tab styles (these weren't used and have been broken forever)
 [+] Added Subway Surfers (This took forever to get done. I finally did it)
 [+] Fixed most flash games that used waflash before. They've all been
 converted to Ruffle and should launch fine. (Submit a bug report if a game

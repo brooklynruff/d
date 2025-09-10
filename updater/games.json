@@ -197,7 +197,7 @@
         "img": "ducklife3.jpg"
     },
     "Duck Life 4": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife4.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl4/ducklife4_2.xml",
         "img": "ducklife4.jpg"
     },
     "Duck Life 5": {
@@ -297,7 +297,7 @@
         "img": "granny.jpg"
     },
     "Bad Ice Cream": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream4.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream5.xml",
         "img": "badicecream.jpg"
     },
     "(AI HOMEWORK SOLVER) Edubrain.ai": {
@@ -313,7 +313,7 @@
         "img": "acegangster.jpg"
     },
     "Ace Gangster Taxi": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangstertaxi.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangstertaxi_2.xml",
         "img": "acegangstertaxi.jpg"
     },
     "Acid Bunny": {
@@ -425,7 +425,7 @@
         "img": "bobtherobber5.jpg"
     },
     "Bottle Flip": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bottleflip.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/game.xml",
         "img": "bottleflip.jpg"
     },
     "Bubble Shooter": {
@@ -569,7 +569,7 @@
         "img": "oregontrail.jpg"
     },
     "Pacman": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacman.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacman_2.xml",
         "img": "pacman.png"
     },
     "Pacman Advanced": {

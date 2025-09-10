@@ -78,7 +78,7 @@
  <!-- Pages load faster with scripts at the bottom -->
  
  <!-- Construct 2 exported games require jQuery. -->
-  <script src="https://cdn.jsdelivr.net/gh/CFiltered/Matt@50f9c1bd0d376b40cb8545519b147a4030598724/other/sansfight/jquery-3.4.1.min.js"></script> 
+  <script src="https://webapps1.chicago.gov/cdn/jQuery-3.4.1/jquery-3.4.1.min.js"></script> 
 
 
  

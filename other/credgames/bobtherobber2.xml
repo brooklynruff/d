@@ -26,7 +26,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/sk1bx/g3ksb7dfv@ddaedac7c0610b6ded9693e546cd88a3a3ae7667/Bob%20The%20Robber%202/bob-the-robber-2.waf");
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/bobtherobber2.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

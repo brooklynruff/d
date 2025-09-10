@@ -185,15 +185,15 @@
         "img": "tetris.jpg"
     },
     "Duck Life": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl/ducklife.xml",
         "img": "ducklife.jpg"
     },
     "Duck Life 2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/dl2/dl2_2.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl2/dl2_2.xml",
         "img": "ducklife2.jpg"
     },
     "Duck Life 3": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife3.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl3/ducklife3.xml",
         "img": "ducklife3.jpg"
     },
     "Duck Life 4": {

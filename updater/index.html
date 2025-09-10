@@ -174,58 +174,9 @@
             a.document.body.appendChild(iframe);
         }
 
-
-        function reloadTabStyle() {
-            tabstyle.innerHTML = "";
-            currentabstyle.innerHTML = "";
-
-            let tabstylekeys = Object.keys(tabstyles);
-
-            for (let i = 0; i < tabstylekeys.length; i++) {
-                let option = document.createElement("option");
-                option.innerHTML = tabstylekeys[i];
-
-                let option2 = document.createElement("option");
-                option2.innerHTML = tabstylekeys[i];
-
-                tabstyle.appendChild(option);
-                currentabstyle.appendChild(option2);
-            }
-        }
-
-        currentabstyle.onchange = function(option) {
-            let options = getTabStyle(currentabstyle);
-
-            if (options.title == "about:blank") {
-                document.getElementById('icon').href = document.createElement("canvas").toDataURL("image/x-icon");           
-            } else {
-                document.getElementById('icon').href = options.icon;
-            }
-
-            document.title = options.title;
-        }
-
         search.addEventListener('input', function(event) {
             reload(event.target.value);
         });
-
-        function add() {
-            let title = document.getElementById("title");
-            let icon = document.getElementById("iconinput");
-
-            tabstyles[title.value] = {
-                "title": title.value
-            }
-
-            let filereader = new FileReader();
-
-            filereader.onload = (event) => {
-                tabstyles[title.value].icon = event.target.result;
-                reloadTabStyle();
-            }
-
-            filereader.readAsDataURL(icon.files[0]);
-        }
 
         async function reload(filter) {
             let buttons = document.getElementById('buttons');
@@ -279,6 +230,5 @@
         }
 
         reload();
-        reloadTabStyle();
     </script>
 </body>

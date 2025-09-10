@@ -22,6 +22,7 @@ tion.
 ==================================CHANGELOG=================================
 09/09/2025:
 [+] Big update to the UI.
+[+] Added categories (will do more with this later)
 [+] Removed tab styles (these weren't used and have been broken forever)
 [+] Added Subway Surfers (This took forever to get done. I finally did it)
 [!] *MAYBE* there will be more Poki, CrazyGames, and maybe CoolMathGames

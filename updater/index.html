@@ -80,6 +80,7 @@
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0,0,0,0.5);
             transition: transform 0.2s ease;
+            cursor: pointer;
         }
 
         .card:hover {
@@ -124,10 +125,12 @@
         <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>
         <a href="mailto:nonamegamescontact@proton.me">My email (nonamegamescontact@proton.me)</a>
     </center>
+    <br>
     <center>
         <label for="search">Search: </label>
         <input type="text" id="search" name="search"></input>
     </center>
+    </br>
     <div class="categories" id="categories">
         <button class="ctg">All</button>
         <button class="ctg">Top Rated</button>
@@ -237,7 +240,7 @@
 
                 if (typeof filter == "string") {
                     if(!name.toLowerCase().includes(filter.toLowerCase())) continue;
-                } else {
+                } else if(typeof filter == "object") {
                     if (!filter.includes(name)) continue;
                 }
                 
@@ -265,14 +268,22 @@
             }
         }
 
+        reload();
+
         categories.childNodes.forEach(child => {
             if (child.innerHTML == "All") {
-                reload();
-            } else {
-                reload(urls.categories[child.innerHTML])
+                child.onclick = function() {
+                    if (urls) {
+                        reload(urls.categories[child.innerHTML])
+                    }
+                }
+            } else  {
+                child.onclick = function() {
+                    if (urls) {
+                        reload(urls.categories[child.innerHTML])
+                    }
+                }
             }
         })
-
-        reload();
     </script>
 </body>

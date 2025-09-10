@@ -11,7 +11,6 @@
                 return;
             if (!unityInstance.logo) {
                 unityInstance.logo = document.createElement("div");
-                unityInstance.logo.className = "wixlogo";
                 unityInstance.container.appendChild(unityInstance.logo);
             }
             if (!unityInstance.progress) {

@@ -30,7 +30,7 @@
                 unityInstance.logo.style.display = unityInstance.progress.style.display = "none";
         }
 
-        var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ducklife/dl4/Build/DuckLife4.json", {
+        var gameInstance = UnityLoader.instantiate("gameContainer", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/ducklife/dl4/Build/DuckLife4.json", {
             onProgress: UnityProgress
         });
         </script>

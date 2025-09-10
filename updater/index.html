@@ -222,7 +222,7 @@
                     if (specialWidths[name]) {
                         return inject(urls[name].url, name, specialWidths[name]);
                     }
-                    inject(urls[name], name);
+                    inject(urls[name].url, name);
                 });
                 
                 buttons.appendChild(btn);

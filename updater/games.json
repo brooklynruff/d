@@ -1,882 +1,1001 @@
 {
-  "2048": {
-    "url": "https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml",
-    "img": "2048.png"
-  },
-  "Retro Bowl": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/RetroBowl/rtbl.xml",
-    "img": "retrobowl.jpg"
-  },
-  "Tomb of the Mask": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tombofthemask.xml",
-    "img": "tombofthemask.png"
-  },
-  "Basketball Legends 2020": {
-    "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac4a02502694/24242.xml?part=0.1&view=1",
-    "img": "basketballlegends.jpg"
-  },
-  "Counter Strike": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/counterstrike/game.xml",
-    "img": "counterstrike.jpg"
-  },
-  "Death Run 3D": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/deathrun3d.xml",
-    "img": "deathrun.jpg"
-  },
-  "Chick End": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chickend.xml",
-    "img": "chickend.jpg"
-  },
-  "Poly Track": {
-    "url": "https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml",
-    "img": "polytrack.jpg"
-  },
-  "Snow Rider 3D": {
-    "url": "https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml",
-    "img": "snowrider3d.jpg"
-  },
-  "Basket Random": {
-    "url": "https://groups.google.com/group/classroomgoogl-net/attach/9abf3f4a31562/xxxxf.xml?part=0.1&view=1",
-    "img": "basketrando.jpg"
-  },
-  "Hello Kitty Adventure": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hellokittyadventure.xml",
-    "img": "hellokitty.jpg"
-  },
-  "Papa's Burgeria": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/burgeria.xml",
-    "img": "papasburgeria.jpg"
-  },
-  "BitLife": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
-    "img": "bitlife.jpg"
-  },
-  "Slope": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope.xml",
-    "img": "slope.png"
-  },
-  "Block Blast": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast2/blockblast.xml",
-    "img": "blockblast.jpg"
-  },
-  "The Impossible Game": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblegame.xml",
-    "img": "tig.jpg"
-  },
-  "The Impossible Quiz": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz.xml",
-    "img": "tiq.jpg"
-  },
-  "Cookie Clicker": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker.xml",
-    "img": "cookieclicker.webp"
-  },
-  "Cookie Clicker 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker2.xml",
-    "img": "cookieclicker.webp"
-  },
-  "Paper.io 2": {
-    "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/76da468cd6a2c/pappy1.xml?part=0.1&view=1&authuser=6",
-    "img": "paperio2.jpg"
-  },
-  "Roblox Obby": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby3.xml",
-    "img": "robloxobby.jpg"
-  },
-  "Rooftop Snipers": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rooftopsnipers.xml",
-    "img": "rooftop.jpg"
-  },
-  "House of Hazards": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/houseofhazards.xml",
-    "img": "hoh.jpg"
-  },
-  "Drift Boss": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/driftboss.xml",
-    "img": "driftboss.jpg"
-  },
-  "Snowball.io": {
-    "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/a7d744cf2c75f/sw.xml?part=0.1&view=1&authuser=6",
-    "img": "snowball.jpg"
-  },
-  "Red vs. Blue": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/redvsblue/game.xml",
-    "img": "redvsblue.jpg"
-  },
-  "Five Nights at Freddy's": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf/fnaf.xml",
-    "img": "fnaf.jpg"
-  },
-  "Five Nights at Freddy's 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/bootstrapperr.xml",
-    "img": "fnaf2.jpg"
-  },
-  "Five Nights at Freddy's 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf3/bootstrapperrr.xml",
-    "img": "fnaf3.jpg"
-  },
-  "Five Nights at Freddy's 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf4/index.xml",
-    "img": "fnaf4.jpg"
-  },
-  "Minecraft 1.0.3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
-    "img": "mc.jpg"
-  },
-  "Minecraft 1.5.2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/bootstrapperrrr.xml",
-    "img": "mc.jpg"
-  },
-  "Minecraft 1.8.8": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/bootstrapperrrr.xml",
-    "img": "mc.jpg"
-  },
-  "Baldi's Basics in Education and Learning": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Baldi/baldi.xml",
-    "img": "baldi.jpg"
-  },
-  "Idle Dice": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/idledice.xml",
-    "img": "idledice.jpg"
-  },
-  "Greedy Mimic": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/greedymimic4/index.xml",
-    "img": "greedymimic.jpg"
-  },
-  "2 Player Chess": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2plrchess.xml",
-    "img": "chess.png"
-  },
-  "Basketball Stars 2019": {
-    "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac96c1f2fa6b/xg.xml?part=0.1&view=1",
-    "img": "basketballstars.jpg"
-  },
-  "Basket Stars": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
-    "img": "basketballs.jpg"
-  },
-  "Getting Over It (Scratch Edition)": {
-    "url": "NOTXML;https://scratch.mit.edu/projects/389464290/embed",
-    "img": "gettingoverit.jpg"
-  },
-  "Gun Mayhem": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem.xml",
-    "img": "gunmayhem.jpg"
-  },
-  "Gun Mayhem 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem2.xml",
-    "img": "gunmayhem2.jpg"
-  },
-  "1 On 1 Basketball": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1on1/bask.xml",
-    "img": "1on1basketball.jpg"
-  },
-  "Slope 2 Players": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope2p.xml",
-    "img": "slope2p.jpg"
-  },
-  "You vs. 100 Skibidi": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/youvs100skibidi/game.xml",
-    "img": "youvs100skibidi.jpg"
-  },
-  "Tetris": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tetris.xml",
-    "img": "tetris.jpg"
-  },
-  "Duck Life": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife.xml",
-    "img": "ducklife.jpg"
-  },
-  "Duck Life 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/dl2/dl2_2.xml",
-    "img": "ducklife2.jpg"
-  },
-  "Duck Life 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife3.xml",
-    "img": "ducklife3.jpg"
-  },
-  "Duck Life 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife4.xml",
-    "img": "ducklife4.jpg"
-  },
-  "Duck Life 5": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife5.xml",
-    "img": "ducklife5.jpg"
-  },
-  "Time Shooter 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/timeshooter2.xml",
-    "img": "timeshooter2.jpg"
-  },
-  "Time Shooter 3: SWAT": {
-    "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/59d41d61a91b0/ts64.xml?part=0.1&view=1&authuser=6",
-    "img": "timeshooter3.jpg"
-  },
-  "Bad Time Simulator": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/badtimesimulator.xml",
-    "img": "badtimesimulator.jpg"
-  },
-  "Bloxorz": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloxorz.xml",
-    "img": "bloxorz.jpg"
-  },
-  "Tiny Cars": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/tinycars/tinycars4.xml",
-    "img": "tinycars.jpg"
-  },
-  "Tiny Fishing": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tinyfishing.xml",
-    "img": "tinyfishing.jpg"
-  },
-  "Fly or Die": {
-    "url": "https://groups.google.com/group/classroomgoogl-net/attach/99d7373213a96/zbt.xml?part=0.1&view=1",
-    "img": "flyordie.jpg"
-  },
-  "Moto X3M": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3m.xml",
-    "img": "motox3m.jpg"
-  },
-  "Fall Guys": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallguys.xml",
-    "img": "fallguys.jpg"
-  },
-  "Angry Birds": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/angrybirds.xml",
-    "img": "angrybirds.png"
-  },
-  "Magic Tiles": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/mt2.xml",
-    "img": "magictiles.jpg"
-  },
-  "Skibidi Toilet": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skibiditoilet.xml",
-    "img": "skibiditoilet.jpg"
-  },
-  "Ragdoll.io": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ragdollio.xml",
-    "img": "ragdollio.jpg"
-  },
-  "Henry The Stickmin: Breaking the Bank": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/breaking.xml",
-    "img": "breakingthebank.jpg"
-  },
-  "Henry The Stickmin: Crossing the Pit": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/crossingthepit.xml",
-    "img": "crossingthepit.jpg"
-  },
-  "Henry The Stickmin: Escaping the Prison": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/escaping.xml",
-    "img": "escapingtheprison.jpg"
-  },
-  "Henry The Stickmin: Fleeing the Complex": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/fleeing4.xml",
-    "img": "fleeingthecomplex.jpg"
-  },
-  "Henry The Stickmin: Infiltrating the Airship": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/infiltrating5.xml",
-    "img": "infiltratingtheairship.jpg"
-  },
-  "Henry The Stickmin: Stealing the Diamond": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
-    "img": "stealingthediamond.jpg"
-  },
-  "Sniper V2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
-    "img": "sniperv2.jpg"
-  },
-  "Run 1": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run1.xml",
-    "img": "run.jpg"
-  },
-  "Run 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run2.xml",
-    "img": "run.jpg"
-  },
-  "Granny": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/granny3.xml",
-    "img": "granny.jpg"
-  },
-  "Bad Ice Cream": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream4.xml",
-    "img": "badicecream.jpg"
-  },
-  "(AI HOMEWORK SOLVER) Edubrain.ai": {
-    "url": "NOTXML;https://edubrain.ai/",
-    "img": "edubrain.png"
-  },
-  "2048 Multiplayer": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2048mult.xml",
-    "img": "2048mult.jpg"
-  },
-  "Ace Gangster": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangster.xml",
-    "img": "acegangster.jpg"
-  },
-  "Ace Gangster Taxi": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangstertaxi.xml",
-    "img": "acegangstertaxi.jpg"
-  },
-  "Acid Bunny": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acidbunny.xml",
-    "img": "acidbunny.jpg"
-  },
-  "Acid Bunny 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acidbunny2.xml",
-    "img": "acidbunny2.jpg"
-  },
-  "Adam and Eve": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve.xml",
-    "img": "adamandeve.jpg"
-  },
-  "Adam and Eve 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve2.xml",
-    "img": "adamandeve2.jpg"
-  },
-  "Adam and Eve 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve3.xml",
-    "img": "adamandeve3.jpg"
-  },
-  "Adventure Capitalist": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/advcap.xml",
-    "img": "adcap.jpg"
-  },
-  "Ambulance Rush": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ambulancerush.xml",
-    "img": "ambulancerush.jpg"
-  },
-  "Animal Raceway": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/animalraceway.xml",
-    "img": "animalraceway.jpg"
-  },
-  "Awesome Pirates": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesomepirates.xml",
-    "img": "awesomepirates.jpg"
-  },
-  "Awesome Tanks": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesometanks.xml",
-    "img": "awesometanks.jpg"
-  },
-  "Awesome Tanks 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesometanks2.xml",
-    "img": "awesometanks2.jpg"
-  },
-  "Bad Piggies": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/badpiggies.xml",
-    "img": "badpiggies.jpg"
-  },
-  "Ball Blast": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ballblast.xml",
-    "img": "ballblast.jpg"
-  },
-  "Baseball League": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballleague.xml",
-    "img": "baseballleague.jpg"
-  },
-  "Baseball Smash": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballsmash.xml",
-    "img": "baseballsmash.jpg"
-  },
-  "Baseball Stadium": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballstadium.xml",
-    "img": "baseballstadium.jpg"
-  },
-  "Basketball Fury": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballfury.xml",
-    "img": "basketballfury.jpg"
-  },
-  "Basketballs": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
-    "img": "basketballs.jpg"
-  },
-  "Bloons Tower Defense": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense.xml",
-    "img": "btd.jpg"
-  },
-  "Bloons Tower Defense 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense2.xml",
-    "img": "btd2.jpg"
-  },
-  "Bloons Tower Defense 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense3.xml",
-    "img": "btd3.jpg"
-  },
-  "Bloons Tower Defense 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense4.xml",
-    "img": "btd4.jpg"
-  },
-  "Bloons Tower Defense 4 Expansion": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense4expansion.xml",
-    "img": "btd4e.jpg"
-  },
-  "Bob the Builder": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobthebuilder.xml",
-    "img": "bobthebuilder.png"
-  },
-  "Bob the Robber": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber.xml",
-    "img": "bobtherobber.jpg"
-  },
-  "Bob the Robber 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber2.xml",
-    "img": "bobtherobber2.jpg"
-  },
-  "Bob the Robber 5": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber5.xml",
-    "img": "bobtherobber5.jpg"
-  },
-  "Bottle Flip": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bottleflip.xml",
-    "img": "bottleflip.jpg"
-  },
-  "Bubble Shooter": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bubbleshooter.xml",
-    "img": "bubbleshooter.jpg"
-  },
-  "Bubble Shooter Pirate": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bubbleshooterpirate.xml",
-    "img": "bubbleshooterpirate.jpg"
-  },
-  "Climbing Over It": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/climbingoverit.xml",
-    "img": "climbingoverit.jpg"
-  },
-  "Cooking Fever Pizza Maker": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookingfeverpizzamaker.xml",
-    "img": "cookingfever.jpg"
-  },
-  "Cooking Mama": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookingmama.xml",
-    "img": "cookingmama.jpg"
-  },
-  "Cross That Road": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/crossthatroad.xml",
-    "img": "crossyroad.jpg"
-  },
-  "Electric Box 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/electricbox2.xml",
-    "img": "electricbox.jpg"
-  },
-  "Fancy Pants": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fancypants.xml",
-    "img": "fancypants.jpg"
-  },
-  "Fancy Pants 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fancypants2.xml",
-    "img": "fancypants2.png"
-  },
-  "Fireboy and Watergirl": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fireboyandwatergirl.xml",
-    "img": "fireboyandwatergirl.jpg"
-  },
-  "Floodrunner": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/floodrunner.xml",
-    "img": "floodrunner.jpg"
-  },
-  "Floodrunner 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/floodrunner2.xml",
-    "img": "floodrunner2.jpg"
-  },
-  "Future Buddy": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/futurebuddy.xml",
-    "img": "futurebuddy.jpg"
-  },
-  "Gangsters": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gangsters.xml",
-    "img": "gangsters.jpg"
-  },
-  "Geometrical Dash": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometricaldash.xml",
-    "img": "geometricaldash.jpg"
-  },
-  "Geometry Dash Nemesis": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometrydashnemesis.xml",
-    "img": "geometrydashnemesis.jpg"
-  },
-  "Geometry Jump": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometryjump.xml",
-    "img": "geometryjump.jpg"
-  },
-  "Guitar Hero 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/guitarhero2.xml",
-    "img": "guitarhero2.jpg"
-  },
-  "Guitar Hero 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/guitarhero3.xml",
-    "img": "guitarhero3.jpg"
-  },
-  "Hangman": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hangman.xml",
-    "img": "hangman.jpg"
-  },
-  "Helix Jump 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/helixjump.xml",
-    "img": "helixjump.jpg"
-  },
-  "Hole.io": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/holeio.xml",
-    "img": "holeio.jpg"
-  },
-  "Idle Farmer": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/idlefarmer.xml",
-    "img": "idlefarmer.jpg"
-  },
-  "Impeached": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/impeached.xml",
-    "img": "impeached.jpg"
-  },
-  "Jack Frost": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jackfrost.xml",
-    "img": "jackfrost.jpg"
-  },
-  "Jaywalking": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jaywalking.xml",
-    "img": "jaywalking.png"
-  },
-  "Learn to Fly": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly.xml",
-    "img": "learntofly.jpg"
-  },
-  "Learn to Fly 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly2.xml",
-    "img": "learntofly2.jpg"
-  },
-  "Learn to Fly 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly3.xml",
-    "img": "learntofly3.jpg"
-  },
-  "Learn to Fly Idle": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntoflyidle.xml",
-    "img": "learntoflyidle.jpg"
-  },
-  "Mario Flash Kart": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/marioflashkart.xml",
-    "img": "marioflash.jpg"
-  },
-  "Mortal Kombat Karnage": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mortalkombat.xml",
-    "img": "mortalkombat.jpg"
-  },
-  "Moto X3M Winter": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3mwinter.xml",
-    "img": "motox3mwinter.jpg"
-  },
-  "My Little Pony": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mylittlepony.xml",
-    "img": "mylittlepony.jpg"
-  },
-  "Oregon Trail": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/oregontrail.xml",
-    "img": "oregontrail.jpg"
-  },
-  "Pacman": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacman.xml",
-    "img": "pacman.png"
-  },
-  "Pacman Advanced": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacmanadvanced.xml",
-    "img": "pacmanadvanced.png"
-  },
-  "Paint.io": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/paintio.xml",
-    "img": "paintio.jpg"
-  },
-  "Papa Louie": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/papalouie.xml",
-    "img": "papalouie.jpg"
-  },
-  "Papa Louie 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/papalouie2.xml",
-    "img": "papalouie2.jpg"
-  },
-  "Parking Fury": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury.xml",
-    "img": "parkingfury.jpg"
-  },
-  "Parking Fury 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury2.xml",
-    "img": "parkingfury2.jpg"
-  },
-  "Parking Fury 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury3.xml",
-    "img": "parkingfury3.jpg"
-  },
-  "Penguins.io": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/penguinsio.xml",
-    "img": "penguinsio.jpg"
-  },
-  "Plants vs. Zombies": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/plantsvszombies.xml",
-    "img": "plantsvszombies.jpg"
-  },
-  "Portal": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal.xml",
-    "img": "portal.jpg"
-  },
-  "Portal 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal2.xml",
-    "img": "portal2.jpg"
-  },
-  "Return to Riddle School": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/returntoriddleschool.xml",
-    "img": "returntors.jpg"
-  },
-  "Riddle School": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool.xml",
-    "img": "riddleschool.jpg"
-  },
-  "Riddle School 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool2.xml",
-    "img": "riddleschool2.jpg"
-  },
-  "Riddle School 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool3.xml",
-    "img": "riddleschool3.jpg"
-  },
-  "Riddle School 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool4.xml",
-    "img": "riddleschool4.jpg"
-  },
-  "Riddle School 5": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool5.xml",
-    "img": "riddleschool5.jpg"
-  },
-  "Riddle Transfer": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddletransfer.xml",
-    "img": "riddletransfer.jpg"
-  },
-  "Riddle Transfer 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddletransfer2.xml",
-    "img": "riddletransfer2.jpg"
-  },
-  "Rocket League": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rocketleague.xml",
-    "img": "rocketleague.jpg"
-  },
-  "Run 'n' Gun": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/runngun.xml",
-    "img": "runngun.jpg"
-  },
-  "Sara's Cooking Class": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sarascookingclass.xml",
-    "img": "sarascooking.jpg"
-  },
-  "SAS: Zombie Assault": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/saszombieassault.xml",
-    "img": "saszombie.jpg"
-  },
-  "SAS: Zombie Assault 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/saszombieassault2.xml",
-    "img": "saszombie2.jpg"
-  },
-  "Short Life 1": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/shortlife1.xml",
-    "img": "shortlife.jpg"
-  },
-  "Short Life 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/shortlife2.xml",
-    "img": "shortlife2.jpg"
-  },
-  "Silly Sausage": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sillysausage.xml",
-    "img": "sillysausage.jpg"
-  },
-  "Skywire": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skywire.xml",
-    "img": "skywire.jpg"
-  },
-  "Skywire 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skywire2.xml",
-    "img": "skywire2.jpg"
-  },
-  "Slenderman": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slenderman.xml",
-    "img": "slender.jpg"
-  },
-  "Slope Ball": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slopeball.xml",
-    "img": "slopeball.jpg"
-  },
-  "Slope Tunnel": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slopetunnel.xml",
-    "img": "slopetunnel.jpg"
-  },
-  "Snailbob": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob.xml",
-    "img": "snailbob.jpg"
-  },
-  "Snailbob 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob2.xml",
-    "img": "snailbob2.jpg"
-  },
-  "Snailbob 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob3.xml",
-    "img": "snailbob3.jpg"
-  },
-  "Snailbob 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob4.xml",
-    "img": "snailbob4.jpg"
-  },
-  "Snailbob 5": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob5.xml",
-    "img": "snailbob5.jpg"
-  },
-  "Soccer Random": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/soccerrandom.xml",
-    "img": "snailbob5.jpg"
-  },
-  "Sonic the Hedgehog": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sonicthehedgehog.xml",
-    "img": "sonic.jpg"
-  },
-  "Spiders": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/spiders.xml",
-    "img": "spiders.jpg"
-  },
-  "Storm Ops 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops4.xml",
-    "img": "stormops.jpg"
-  },
-  "Strike Force Heroes": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforceheros.xml",
-    "img": "strikeforceheros.jpg"
-  },
-  "Strike Force Kitty": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty.xml",
-    "img": "strikeforcekitty.jpg"
-  },
-  "Strike Force Kitty 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty2.xml",
-    "img": "strikeforcekitty2.jpg"
-  },
-  "Strike Force Kitty 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty3.xml",
-    "img": "strikeforcekitty3.jpg"
-  },
-  "Strike Force Kitty 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty4.xml",
-    "img": "strikeforcekitty4.jpg"
-  },
-  "Super Mario 63": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supermario63.xml",
-    "img": "sm63.jpg"
-  },
-  "Super Mario World": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supermarioworld.xml",
-    "img": "supermarioworld.jpg"
-  },
-  "Super Smash Flash": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supersmashflash.xml",
-    "img": "supersmashflash.jpg"
-  },
-  "Super Smash Flash 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supersmashflash2.xml",
-    "img": "supersmashflash2.jpg"
-  },
-  "Talking Angela": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/talkingangela.xml",
-    "img": "talkingangela.jpg"
-  },
-  "Talking Tom": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/talkingtom.xml",
-    "img": "talkingtom.jpg"
-  },
-  "The Impossible Quiz 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz2.xml",
-    "img": "theimpossiblequiz2.png"
-  },
-  "The Impossible Quiz Book": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequizbook.xml",
-    "img": "theimpossiblequizbook.jpg"
-  },
-  "The World's Hardest Game 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theworldshardestgame3.xml",
-    "img": "theworldshardestgame3.jpg"
-  },
-  "The World's Hardest Game 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theworldshardestgame4.xml",
-    "img": "theworldshardestgame4.jpg"
-  },
-  "Tom and Jerry Run": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tomandjerryrun.xml",
-    "img": "tomandjerryrun.jpg"
-  },
-  "Two Ball 3D": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twoball3d.xml",
-    "img": "twoball3d.jpg"
-  },
-  "Two Tubes 3D": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotubes3d.xml",
-    "img": "twotubes3d.jpg"
-  },
-  "Two Tunnel 3D": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotunnel3d.xml",
-    "img": "twotunnel3d.jpg"
-  },
-  "Uno": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/uno.xml",
-    "img": "uno.png"
-  },
-  "Vex": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex.xml",
-    "img": "vex.jpg"
-  },
-  "Vex 4": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex4.xml",
-    "img": "vex4.jpg"
-  },
-  "Vex 5": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex5.xml",
-    "img": "vex5.jpg"
-  },
-  "Victor's Nightmares": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/victorsnightmares.xml",
-    "img": "victorsnightmares.jpg"
-  },
-  "Volley Random": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/volleyrandom.xml",
-    "img": "volleyrandom.jpg"
-  },
-  "Whack Your Boss": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whackyourboss.xml",
-    "img": "whackyourboss.jpg"
-  },
-  "Why Did the Chicken Cross the Road?": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whydidthechickencrosstheroad.xml",
-    "img": "wdtcctr.jpg"
-  },
-  "You are Lucky": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/youarelucky.xml",
-    "img": "youarelucky.jpg"
-  },
-  "Zassin": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zassin.xml",
-    "img": "zassin.jpg"
-  },
-  "Zombie Fight Club": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiefightclub.xml",
-    "img": "zombiefightclub.jpg"
-  },
-  "Zombie Horde": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde.xml",
-    "img": "zombiehorde.jpg"
-  },
-  "Zombie Horde 2": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde2.xml",
-    "img": "zombiehorde2.jpg"
-  },
-  "Zombie Horde 3": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde3.xml",
-    "img": "zombiehorde3.jpg"
-  },
-  "Zombocalypse": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombocalypse.xml",
-    "img": "zombocalypse.jpg"
-  },
-  "Drive Mad": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/DriveMad2/final.xml",
-    "img": "drivemad.jpg"
-  },
-  "Subway Surfers": {
-    "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/surfer.xml",
-    "img": "subwaysurfers.jpg"
+  "games": {
+    "2048": {
+        "url": "https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml",
+        "img": "2048.png"
+    },
+    "Retro Bowl": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/RetroBowl/rtbl.xml",
+        "img": "retrobowl.jpg"
+    },
+    "Tomb of the Mask": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tombofthemask.xml",
+        "img": "tombofthemask.png"
+    },
+    "Basketball Legends 2020": {
+        "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac4a02502694/24242.xml?part=0.1&view=1",
+        "img": "basketballlegends.jpg"
+    },
+    "Counter Strike": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/counterstrike/game.xml",
+        "img": "counterstrike.jpg"
+    },
+    "Death Run 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/deathrun3d.xml",
+        "img": "deathrun.jpg"
+    },
+    "Chick End": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chickend.xml",
+        "img": "chickend.jpg"
+    },
+    "Poly Track": {
+        "url": "https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml",
+        "img": "polytrack.jpg"
+    },
+    "Snow Rider 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml",
+        "img": "snowrider3d.jpg"
+    },
+    "Basket Random": {
+        "url": "https://groups.google.com/group/classroomgoogl-net/attach/9abf3f4a31562/xxxxf.xml?part=0.1&view=1",
+        "img": "basketrando.jpg"
+    },
+    "Hello Kitty Adventure": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hellokittyadventure.xml",
+        "img": "hellokitty.jpg"
+    },
+    "Papa's Burgeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/burgeria.xml",
+        "img": "papasburgeria.jpg"
+    },
+    "BitLife": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
+        "img": "bitlife.jpg"
+    },
+    "Slope": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope.xml",
+        "img": "slope.png"
+    },
+    "Block Blast": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/BlockBlast2/blockblast.xml",
+        "img": "blockblast.jpg"
+    },
+    "The Impossible Game": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblegame.xml",
+        "img": "tig.jpg"
+    },
+    "The Impossible Quiz": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz.xml",
+        "img": "tiq.jpg"
+    },
+    "Cookie Clicker": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker.xml",
+        "img": "cookieclicker.webp"
+    },
+    "Cookie Clicker 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker2.xml",
+        "img": "cookieclicker.webp"
+    },
+    "Paper.io 2": {
+        "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/76da468cd6a2c/pappy1.xml?part=0.1&view=1&authuser=6",
+        "img": "paperio2.jpg"
+    },
+    "Roblox Obby": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby3.xml",
+        "img": "robloxobby.jpg"
+    },
+    "Rooftop Snipers": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rooftopsnipers.xml",
+        "img": "rooftop.jpg"
+    },
+    "House of Hazards": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/houseofhazards.xml",
+        "img": "hoh.jpg"
+    },
+    "Drift Boss": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/driftboss.xml",
+        "img": "driftboss.jpg"
+    },
+    "Snowball.io": {
+        "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/a7d744cf2c75f/sw.xml?part=0.1&view=1&authuser=6",
+        "img": "snowball.jpg"
+    },
+    "Red vs. Blue": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/redvsblue/game.xml",
+        "img": "redvsblue.jpg"
+    },
+    "Five Nights at Freddy's": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf/fnaf.xml",
+        "img": "fnaf.jpg"
+    },
+    "Five Nights at Freddy's 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf2/bootstrapperr.xml",
+        "img": "fnaf2.jpg"
+    },
+    "Five Nights at Freddy's 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf3/bootstrapperrr.xml",
+        "img": "fnaf3.jpg"
+    },
+    "Five Nights at Freddy's 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf4/index.xml",
+        "img": "fnaf4.jpg"
+    },
+    "Minecraft 1.0.3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
+        "img": "mc.jpg"
+    },
+    "Minecraft 1.5.2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/15/bootstrapperrrr.xml",
+        "img": "mc.jpg"
+    },
+    "Minecraft 1.8.8": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/bootstrapperrrr.xml",
+        "img": "mc.jpg"
+    },
+    "Baldi's Basics in Education and Learning": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Baldi/baldi.xml",
+        "img": "baldi.jpg"
+    },
+    "Idle Dice": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/idledice.xml",
+        "img": "idledice.jpg"
+    },
+    "Greedy Mimic": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/greedymimic4/index.xml",
+        "img": "greedymimic.jpg"
+    },
+    "2 Player Chess": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2plrchess.xml",
+        "img": "chess.png"
+    },
+    "Basketball Stars 2019": {
+        "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac96c1f2fa6b/xg.xml?part=0.1&view=1",
+        "img": "basketballstars.jpg"
+    },
+    "Basket Stars": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
+        "img": "basketballs.jpg"
+    },
+    "Getting Over It (Scratch Edition)": {
+        "url": "NOTXML;https://scratch.mit.edu/projects/389464290/embed",
+        "img": "gettingoverit.jpg"
+    },
+    "Gun Mayhem": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem.xml",
+        "img": "gunmayhem.jpg"
+    },
+    "Gun Mayhem 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gunmayhem2.xml",
+        "img": "gunmayhem2.jpg"
+    },
+    "1 On 1 Basketball": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1on1/bask.xml",
+        "img": "1on1basketball.jpg"
+    },
+    "Slope 2 Players": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slope2p.xml",
+        "img": "slope2p.jpg"
+    },
+    "You vs. 100 Skibidi": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/youvs100skibidi/game.xml",
+        "img": "youvs100skibidi.jpg"
+    },
+    "Tetris": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tetris.xml",
+        "img": "tetris.jpg"
+    },
+    "Duck Life": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife.xml",
+        "img": "ducklife.jpg"
+    },
+    "Duck Life 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/dl2/dl2_2.xml",
+        "img": "ducklife2.jpg"
+    },
+    "Duck Life 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife3.xml",
+        "img": "ducklife3.jpg"
+    },
+    "Duck Life 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife4.xml",
+        "img": "ducklife4.jpg"
+    },
+    "Duck Life 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ducklife5.xml",
+        "img": "ducklife5.jpg"
+    },
+    "Time Shooter 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/timeshooter2.xml",
+        "img": "timeshooter2.jpg"
+    },
+    "Time Shooter 3: SWAT": {
+        "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/59d41d61a91b0/ts64.xml?part=0.1&view=1&authuser=6",
+        "img": "timeshooter3.jpg"
+    },
+    "Bad Time Simulator": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/badtimesimulator.xml",
+        "img": "badtimesimulator.jpg"
+    },
+    "Bloxorz": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloxorz.xml",
+        "img": "bloxorz.jpg"
+    },
+    "Tiny Cars": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/tinycars/tinycars4.xml",
+        "img": "tinycars.jpg"
+    },
+    "Tiny Fishing": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tinyfishing.xml",
+        "img": "tinyfishing.jpg"
+    },
+    "Fly or Die": {
+        "url": "https://groups.google.com/group/classroomgoogl-net/attach/99d7373213a96/zbt.xml?part=0.1&view=1",
+        "img": "flyordie.jpg"
+    },
+    "Moto X3M": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3m.xml",
+        "img": "motox3m.jpg"
+    },
+    "Fall Guys": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallguys.xml",
+        "img": "fallguys.jpg"
+    },
+    "Angry Birds": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/angrybirds.xml",
+        "img": "angrybirds.png"
+    },
+    "Magic Tiles": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/mt2.xml",
+        "img": "magictiles.jpg"
+    },
+    "Skibidi Toilet": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skibiditoilet.xml",
+        "img": "skibiditoilet.jpg"
+    },
+    "Ragdoll.io": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ragdollio.xml",
+        "img": "ragdollio.jpg"
+    },
+    "Henry The Stickmin: Breaking the Bank": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/breaking.xml",
+        "img": "breakingthebank.jpg"
+    },
+    "Henry The Stickmin: Crossing the Pit": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/crossingthepit.xml",
+        "img": "crossingthepit.jpg"
+    },
+    "Henry The Stickmin: Escaping the Prison": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/escaping.xml",
+        "img": "escapingtheprison.jpg"
+    },
+    "Henry The Stickmin: Fleeing the Complex": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/fleeing4.xml",
+        "img": "fleeingthecomplex.jpg"
+    },
+    "Henry The Stickmin: Infiltrating the Airship": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/infiltrating5.xml",
+        "img": "infiltratingtheairship.jpg"
+    },
+    "Henry The Stickmin: Stealing the Diamond": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
+        "img": "stealingthediamond.jpg"
+    },
+    "Sniper V2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
+        "img": "sniperv2.jpg"
+    },
+    "Run 1": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run1.xml",
+        "img": "run.jpg"
+    },
+    "Run 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/run2.xml",
+        "img": "run.jpg"
+    },
+    "Granny": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/granny3.xml",
+        "img": "granny.jpg"
+    },
+    "Bad Ice Cream": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream4.xml",
+        "img": "badicecream.jpg"
+    },
+    "(AI HOMEWORK SOLVER) Edubrain.ai": {
+        "url": "NOTXML;https://edubrain.ai/",
+        "img": "edubrain.png"
+    },
+    "2048 Multiplayer": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2048mult.xml",
+        "img": "2048mult.jpg"
+    },
+    "Ace Gangster": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangster.xml",
+        "img": "acegangster.jpg"
+    },
+    "Ace Gangster Taxi": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acegangstertaxi.xml",
+        "img": "acegangstertaxi.jpg"
+    },
+    "Acid Bunny": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acidbunny.xml",
+        "img": "acidbunny.jpg"
+    },
+    "Acid Bunny 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/acidbunny2.xml",
+        "img": "acidbunny2.jpg"
+    },
+    "Adam and Eve": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve.xml",
+        "img": "adamandeve.jpg"
+    },
+    "Adam and Eve 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve2.xml",
+        "img": "adamandeve2.jpg"
+    },
+    "Adam and Eve 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/adamandeve3.xml",
+        "img": "adamandeve3.jpg"
+    },
+    "Adventure Capitalist": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/advcap.xml",
+        "img": "adcap.jpg"
+    },
+    "Ambulance Rush": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ambulancerush.xml",
+        "img": "ambulancerush.jpg"
+    },
+    "Animal Raceway": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/animalraceway.xml",
+        "img": "animalraceway.jpg"
+    },
+    "Awesome Pirates": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesomepirates.xml",
+        "img": "awesomepirates.jpg"
+    },
+    "Awesome Tanks": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesometanks.xml",
+        "img": "awesometanks.jpg"
+    },
+    "Awesome Tanks 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/awesometanks2.xml",
+        "img": "awesometanks2.jpg"
+    },
+    "Bad Piggies": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/badpiggies.xml",
+        "img": "badpiggies.jpg"
+    },
+    "Ball Blast": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/ballblast.xml",
+        "img": "ballblast.jpg"
+    },
+    "Baseball League": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballleague.xml",
+        "img": "baseballleague.jpg"
+    },
+    "Baseball Smash": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballsmash.xml",
+        "img": "baseballsmash.jpg"
+    },
+    "Baseball Stadium": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/baseballstadium.xml",
+        "img": "baseballstadium.jpg"
+    },
+    "Basketball Fury": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballfury.xml",
+        "img": "basketballfury.jpg"
+    },
+    "Basketballs": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",
+        "img": "basketballs.jpg"
+    },
+    "Bloons Tower Defense": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense.xml",
+        "img": "btd.jpg"
+    },
+    "Bloons Tower Defense 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense2.xml",
+        "img": "btd2.jpg"
+    },
+    "Bloons Tower Defense 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense3.xml",
+        "img": "btd3.jpg"
+    },
+    "Bloons Tower Defense 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense4.xml",
+        "img": "btd4.jpg"
+    },
+    "Bloons Tower Defense 4 Expansion": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense4expansion.xml",
+        "img": "btd4e.jpg"
+    },
+    "Bob the Builder": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobthebuilder.xml",
+        "img": "bobthebuilder.png"
+    },
+    "Bob the Robber": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber.xml",
+        "img": "bobtherobber.jpg"
+    },
+    "Bob the Robber 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber2.xml",
+        "img": "bobtherobber2.jpg"
+    },
+    "Bob the Robber 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobtherobber5.xml",
+        "img": "bobtherobber5.jpg"
+    },
+    "Bottle Flip": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bottleflip.xml",
+        "img": "bottleflip.jpg"
+    },
+    "Bubble Shooter": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bubbleshooter.xml",
+        "img": "bubbleshooter.jpg"
+    },
+    "Bubble Shooter Pirate": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bubbleshooterpirate.xml",
+        "img": "bubbleshooterpirate.jpg"
+    },
+    "Climbing Over It": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/climbingoverit.xml",
+        "img": "climbingoverit.jpg"
+    },
+    "Cooking Fever Pizza Maker": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookingfeverpizzamaker.xml",
+        "img": "cookingfever.jpg"
+    },
+    "Cooking Mama": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookingmama.xml",
+        "img": "cookingmama.jpg"
+    },
+    "Cross That Road": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/crossthatroad.xml",
+        "img": "crossyroad.jpg"
+    },
+    "Electric Box 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/electricbox2.xml",
+        "img": "electricbox.jpg"
+    },
+    "Fancy Pants": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fancypants.xml",
+        "img": "fancypants.jpg"
+    },
+    "Fancy Pants 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fancypants2.xml",
+        "img": "fancypants2.png"
+    },
+    "Fireboy and Watergirl": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fireboyandwatergirl.xml",
+        "img": "fireboyandwatergirl.jpg"
+    },
+    "Floodrunner": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/floodrunner.xml",
+        "img": "floodrunner.jpg"
+    },
+    "Floodrunner 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/floodrunner2.xml",
+        "img": "floodrunner2.jpg"
+    },
+    "Future Buddy": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/futurebuddy.xml",
+        "img": "futurebuddy.jpg"
+    },
+    "Gangsters": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/gangsters.xml",
+        "img": "gangsters.jpg"
+    },
+    "Geometrical Dash": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometricaldash.xml",
+        "img": "geometricaldash.jpg"
+    },
+    "Geometry Dash Nemesis": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometrydashnemesis.xml",
+        "img": "geometrydashnemesis.jpg"
+    },
+    "Geometry Jump": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/geometryjump.xml",
+        "img": "geometryjump.jpg"
+    },
+    "Guitar Hero 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/guitarhero2.xml",
+        "img": "guitarhero2.jpg"
+    },
+    "Guitar Hero 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/guitarhero3.xml",
+        "img": "guitarhero3.jpg"
+    },
+    "Hangman": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hangman.xml",
+        "img": "hangman.jpg"
+    },
+    "Helix Jump 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/helixjump.xml",
+        "img": "helixjump.jpg"
+    },
+    "Hole.io": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/holeio.xml",
+        "img": "holeio.jpg"
+    },
+    "Idle Farmer": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/idlefarmer.xml",
+        "img": "idlefarmer.jpg"
+    },
+    "Impeached": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/impeached.xml",
+        "img": "impeached.jpg"
+    },
+    "Jack Frost": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jackfrost.xml",
+        "img": "jackfrost.jpg"
+    },
+    "Jaywalking": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jaywalking.xml",
+        "img": "jaywalking.png"
+    },
+    "Learn to Fly": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly.xml",
+        "img": "learntofly.jpg"
+    },
+    "Learn to Fly 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly2.xml",
+        "img": "learntofly2.jpg"
+    },
+    "Learn to Fly 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntofly3.xml",
+        "img": "learntofly3.jpg"
+    },
+    "Learn to Fly Idle": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/learntoflyidle.xml",
+        "img": "learntoflyidle.jpg"
+    },
+    "Mario Flash Kart": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/marioflashkart.xml",
+        "img": "marioflash.jpg"
+    },
+    "Mortal Kombat Karnage": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mortalkombat.xml",
+        "img": "mortalkombat.jpg"
+    },
+    "Moto X3M Winter": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3mwinter.xml",
+        "img": "motox3mwinter.jpg"
+    },
+    "My Little Pony": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mylittlepony.xml",
+        "img": "mylittlepony.jpg"
+    },
+    "Oregon Trail": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/oregontrail.xml",
+        "img": "oregontrail.jpg"
+    },
+    "Pacman": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacman.xml",
+        "img": "pacman.png"
+    },
+    "Pacman Advanced": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/pacmanadvanced.xml",
+        "img": "pacmanadvanced.png"
+    },
+    "Paint.io": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/paintio.xml",
+        "img": "paintio.jpg"
+    },
+    "Papa Louie": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/papalouie.xml",
+        "img": "papalouie.jpg"
+    },
+    "Papa Louie 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/papalouie2.xml",
+        "img": "papalouie2.jpg"
+    },
+    "Parking Fury": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury.xml",
+        "img": "parkingfury.jpg"
+    },
+    "Parking Fury 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury2.xml",
+        "img": "parkingfury2.jpg"
+    },
+    "Parking Fury 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury3.xml",
+        "img": "parkingfury3.jpg"
+    },
+    "Penguins.io": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/penguinsio.xml",
+        "img": "penguinsio.jpg"
+    },
+    "Plants vs. Zombies": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/plantsvszombies.xml",
+        "img": "plantsvszombies.jpg"
+    },
+    "Portal": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal.xml",
+        "img": "portal.jpg"
+    },
+    "Portal 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal2.xml",
+        "img": "portal2.jpg"
+    },
+    "Return to Riddle School": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/returntoriddleschool.xml",
+        "img": "returntors.jpg"
+    },
+    "Riddle School": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool.xml",
+        "img": "riddleschool.jpg"
+    },
+    "Riddle School 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool2.xml",
+        "img": "riddleschool2.jpg"
+    },
+    "Riddle School 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool3.xml",
+        "img": "riddleschool3.jpg"
+    },
+    "Riddle School 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool4.xml",
+        "img": "riddleschool4.jpg"
+    },
+    "Riddle School 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddleschool5.xml",
+        "img": "riddleschool5.jpg"
+    },
+    "Riddle Transfer": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddletransfer.xml",
+        "img": "riddletransfer.jpg"
+    },
+    "Riddle Transfer 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/riddletransfer2.xml",
+        "img": "riddletransfer2.jpg"
+    },
+    "Rocket League": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rocketleague.xml",
+        "img": "rocketleague.jpg"
+    },
+    "Run 'n' Gun": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/runngun.xml",
+        "img": "runngun.jpg"
+    },
+    "Sara's Cooking Class": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sarascookingclass.xml",
+        "img": "sarascooking.jpg"
+    },
+    "SAS: Zombie Assault": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/saszombieassault.xml",
+        "img": "saszombie.jpg"
+    },
+    "SAS: Zombie Assault 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/saszombieassault2.xml",
+        "img": "saszombie2.jpg"
+    },
+    "Short Life 1": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/shortlife1.xml",
+        "img": "shortlife.jpg"
+    },
+    "Short Life 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/shortlife2.xml",
+        "img": "shortlife2.jpg"
+    },
+    "Silly Sausage": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sillysausage.xml",
+        "img": "sillysausage.jpg"
+    },
+    "Skywire": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skywire.xml",
+        "img": "skywire.jpg"
+    },
+    "Skywire 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/skywire2.xml",
+        "img": "skywire2.jpg"
+    },
+    "Slenderman": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slenderman.xml",
+        "img": "slender.jpg"
+    },
+    "Slope Ball": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slopeball.xml",
+        "img": "slopeball.jpg"
+    },
+    "Slope Tunnel": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/slopetunnel.xml",
+        "img": "slopetunnel.jpg"
+    },
+    "Snailbob": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob.xml",
+        "img": "snailbob.jpg"
+    },
+    "Snailbob 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob2.xml",
+        "img": "snailbob2.jpg"
+    },
+    "Snailbob 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob3.xml",
+        "img": "snailbob3.jpg"
+    },
+    "Snailbob 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob4.xml",
+        "img": "snailbob4.jpg"
+    },
+    "Snailbob 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/snailbob5.xml",
+        "img": "snailbob5.jpg"
+    },
+    "Soccer Random": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/soccerrandom.xml",
+        "img": "snailbob5.jpg"
+    },
+    "Sonic the Hedgehog": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sonicthehedgehog.xml",
+        "img": "sonic.jpg"
+    },
+    "Spiders": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/spiders.xml",
+        "img": "spiders.jpg"
+    },
+    "Storm Ops 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops4.xml",
+        "img": "stormops.jpg"
+    },
+    "Strike Force Heroes": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforceheros.xml",
+        "img": "strikeforceheros.jpg"
+    },
+    "Strike Force Kitty": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty.xml",
+        "img": "strikeforcekitty.jpg"
+    },
+    "Strike Force Kitty 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty2.xml",
+        "img": "strikeforcekitty2.jpg"
+    },
+    "Strike Force Kitty 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty3.xml",
+        "img": "strikeforcekitty3.jpg"
+    },
+    "Strike Force Kitty 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/strikeforcekitty4.xml",
+        "img": "strikeforcekitty4.jpg"
+    },
+    "Super Mario 63": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supermario63.xml",
+        "img": "sm63.jpg"
+    },
+    "Super Mario World": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supermarioworld.xml",
+        "img": "supermarioworld.jpg"
+    },
+    "Super Smash Flash": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supersmashflash.xml",
+        "img": "supersmashflash.jpg"
+    },
+    "Super Smash Flash 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/supersmashflash2.xml",
+        "img": "supersmashflash2.jpg"
+    },
+    "Talking Angela": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/talkingangela.xml",
+        "img": "talkingangela.jpg"
+    },
+    "Talking Tom": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/talkingtom.xml",
+        "img": "talkingtom.jpg"
+    },
+    "The Impossible Quiz 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz2.xml",
+        "img": "theimpossiblequiz2.png"
+    },
+    "The Impossible Quiz Book": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequizbook.xml",
+        "img": "theimpossiblequizbook.jpg"
+    },
+    "The World's Hardest Game 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theworldshardestgame3.xml",
+        "img": "theworldshardestgame3.jpg"
+    },
+    "The World's Hardest Game 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theworldshardestgame4.xml",
+        "img": "theworldshardestgame4.jpg"
+    },
+    "Tom and Jerry Run": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tomandjerryrun.xml",
+        "img": "tomandjerryrun.jpg"
+    },
+    "Two Ball 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twoball3d.xml",
+        "img": "twoball3d.jpg"
+    },
+    "Two Tubes 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotubes3d.xml",
+        "img": "twotubes3d.jpg"
+    },
+    "Two Tunnel 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotunnel3d.xml",
+        "img": "twotunnel3d.jpg"
+    },
+    "Uno": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/uno.xml",
+        "img": "uno.png"
+    },
+    "Vex": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex.xml",
+        "img": "vex.jpg"
+    },
+    "Vex 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex4.xml",
+        "img": "vex4.jpg"
+    },
+    "Vex 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex5.xml",
+        "img": "vex5.jpg"
+    },
+    "Victor's Nightmares": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/victorsnightmares.xml",
+        "img": "victorsnightmares.jpg"
+    },
+    "Volley Random": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/volleyrandom.xml",
+        "img": "volleyrandom.jpg"
+    },
+    "Whack Your Boss": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whackyourboss.xml",
+        "img": "whackyourboss.jpg"
+    },
+    "Why Did the Chicken Cross the Road?": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whydidthechickencrosstheroad.xml",
+        "img": "wdtcctr.jpg"
+    },
+    "You are Lucky": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/youarelucky.xml",
+        "img": "youarelucky.jpg"
+    },
+    "Zassin": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zassin.xml",
+        "img": "zassin.jpg"
+    },
+    "Zombie Fight Club": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiefightclub.xml",
+        "img": "zombiefightclub.jpg"
+    },
+    "Zombie Horde": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde.xml",
+        "img": "zombiehorde.jpg"
+    },
+    "Zombie Horde 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde2.xml",
+        "img": "zombiehorde2.jpg"
+    },
+    "Zombie Horde 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombiehorde3.xml",
+        "img": "zombiehorde3.jpg"
+    },
+    "Zombocalypse": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombocalypse.xml",
+        "img": "zombocalypse.jpg"
+    },
+    "Drive Mad": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/DriveMad2/final.xml",
+        "img": "drivemad.jpg"
+    },
+    "Subway Surfers": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/surfer.xml",
+        "img": "subwaysurfers.jpg"
+    }
+  },
+  "categories": {
+    "Top Rated": [
+        "Baldi's Basics in Education and Learning",
+        "Basket Random",
+        "BitLife",
+        "Block Blast",
+        "Cookie Clicker",
+        "Death Run 3D",
+        "Cross That Road",
+        "Drift Boss",
+        "Getting Over It (Scratch Edition)",
+        "Greedy Mimic",
+        "Helix Jump 2",
+        "Idle Dice",
+        "Minecraft 1.0.3",
+        "Minecraft 1.5.2",
+        "Minecraft 1.8.8",
+        "Moto X3M",
+        "Paper.io 2",
+        "Poly Track",
+        "Retro Bowl",
+        "Slope",
+        "Snow Rider 3D",
+        "Subway Surfers",
+        "Time Shooter 2",
+        "Time Shooter 3: SWAT",
+        "Tiny Cars",
+        "Tiny Fishing",
+        "Tomb of the Mask"
+    ],
+    "Horror": [
+        "Baldi's Basics in Education and Learning",
+        "Cooking Mama",
+        "Five Nights at Freddy's",
+        "Five Nights at Freddy's 2",
+        "Five Nights at Freddy's 3",
+        "Five Nights at Freddy's 4",
+        "Granny"
+    ],
+    "Shooting": [
+        "Counter Strike",
+        "Gun Mayhem",
+        "Gun Mayhem 2",
+        "Red vs. Blue",
+        "Rooftop Snipers",
+        "SAS: Zombie Assault",
+        "SAS: Zombie Assault 2",
+        "Sniper V2",
+        "Storm Ops 4",
+        "Strike Force Heroes",
+        "Time Shooter 2",
+        "Time Shooter 3: SWAT",
+        "You vs. 100 Skibidi",
+        "Zombie Horde",
+        "Zombie Horde 2",
+        "Zombie Horde 3"
+    ],
+    "Classic": [
+        "Angry Birds",
+        "Basket Random",
+        "Basketball Legends 2020",
+        "Bloxorz",
+        "Cookie Clicker",
+        "Duck Life",
+        "Duck Life 2",
+        "Duck Life 3",
+        "Duck Life 4",
+        "Duck Life 5",
+        "Fireboy and Watergirl",
+        "Five Nights at Freddy's",
+        "Henry the Stickmin: Stealing the Diamond",
+        "Learn to Fly",
+        "Minecraft 1.5.2",
+        "Moto X3M",
+        "Oregon Trail",
+        "Pacman",
+        "Paper.io 2",
+        "Papa's Burgeria",
+        "Retro Bowl",
+        "Slope",
+        "Tetris",
+        "Uno"
+    ],
+    "Sports": [
+        "1 on 1 Basketball",
+        "Baseball League",
+        "Baseball Smash",
+        "Baseball Stadium",
+        "Basket Random",
+        "Basket Stars",
+        "Basketball Fury",
+        "Basketball Legends 2020",
+        "Basketball Stars 2019",
+        "Basketballs",
+        "Retro Bowl",
+        "Volley Random"
+    ],
+    "Driving": [
+        "Ace Gangster",
+        "Ace Gangster Taxi",
+        "Ambulance Rush",
+        "Awesome Tanks",
+        "Awesome Tanks 2",
+        "Drift Boss",
+        "Drive Mad",
+        "Mario Flash Kart",
+        "Moto X3M",
+        "Moto X3M Winter",
+        "Parking Fury",
+        "Parking Fury 2",
+        "Parking Fury 3",
+        "Poly Track",
+        "Rocket League",
+        "Snow Rider 3D",
+        "Tiny Cars"
+    ]
   }
 }

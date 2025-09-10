@@ -41,6 +41,31 @@
             overflow-y: auto;
         }
 
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 25px;
+            justify-content: center;
+        }
+
+        .ctg {
+            background: #222;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            font-size: 0.95rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .ctg:hover {
+            background: #444;
+            transform: translateY(-2px);
+        }
+
+
         #buttons {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -95,14 +120,23 @@
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
     <h3 class="centered">Last update: September 9th, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
     <center>
-        <label for="search">Search: </label>
-        <input type="text" id="search" name="search"></input>
-    </center>
-    <center>
         <button onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Go to bug report form</button>
         <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>
         <a href="mailto:nonamegamescontact@proton.me">My email (nonamegamescontact@proton.me)</a>
     </center>
+    <center>
+        <label for="search">Search: </label>
+        <input type="text" id="search" name="search"></input>
+    </center>
+    <div class="categories" id="categories">
+        <button class="ctg">All</button>
+        <button class="ctg">Top Rated</button>
+        <button class="ctg">Horror</button>
+        <button class="ctg">Shooting</button>
+        <button class="ctg">Classic</button>
+        <button class="ctg">Sports</button>
+        <button class="ctg">Driving</button>
+    </div>
     <div class="centered" id="buttons"></div>
     <script>
         let urls;
@@ -111,8 +145,8 @@
             "BitLife": "45%"
         }
 
-
         let search = document.getElementById("search");
+        let categories = document.getElementById("categories");
 
         async function inject(url, name, width) {
             let about_blank = window.open();
@@ -194,22 +228,24 @@
                 urls = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/games.json", { cache: 'no-store' })).json()
             }
 
-            let keys = Object.keys(urls).sort();
+            let keys = Object.keys(urls.games).sort();
 
             buttons.innerHTML = "";
 
             for (let i = 0; i < keys.length; i++) {
                 let name = keys[i];
 
-                if (filter) {
+                if (typeof filter == "string") {
                     if(!name.toLowerCase().includes(filter.toLowerCase())) continue;
+                } else {
+                    if (!filter.includes(name)) continue;
                 }
                 
                 let btn = document.createElement('div');
                 let title = document.createElement('div');
                 let img = document.createElement('img');
 
-                img.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/images/" + urls[name].img;
+                img.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/images/" + urls.games[name].img;
                 btn.className = "card";
                 title.className = "card-title";
 
@@ -220,14 +256,22 @@
 
                 btn.onclick = (()=>{
                     if (specialWidths[name]) {
-                        return inject(urls[name].url, name, specialWidths[name]);
+                        return inject(urls.games[name].url, name, specialWidths[name]);
                     }
-                    inject(urls[name].url, name);
+                    inject(urls.games[name].url, name);
                 });
                 
                 buttons.appendChild(btn);
             }
         }
+
+        categories.childNodes.forEach(child => {
+            if (child.innerHTML == "All") {
+                reload();
+            } else {
+                reload(urls.categories[child.innerHTML])
+            }
+        })
 
         reload();
     </script>

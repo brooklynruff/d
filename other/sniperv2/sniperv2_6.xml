@@ -124,7 +124,7 @@
         var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
         var isIOSChrome = winNav.userAgent.match("CriOS");
         var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
-        
+
         var buildUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/sniperv2/Build";
         var loaderUrl = buildUrl + "/Sniper_Gun_Shooting.loader.js";
         var config = {
@@ -132,8 +132,7 @@
         frameworkUrl: buildUrl + "/Sniper_Gun_Shooting.framework.js",
         codeUrl: buildUrl + "/Sniper_Gun_Shooting.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        productVersion: "1.0",
-        showBanner: unityShowBanner,
+        productVersion: "1.0"
         };
 
         var container = document.querySelector("#gameContainer");

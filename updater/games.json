@@ -776,14 +776,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twoball3d.xml",
         "img": "twoball3d.jpg"
     },
-    "Two Tubes 3D": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotubes3d.xml",
-        "img": "twotubes3d.jpg"
-    },
-    "Two Tunnel 3D": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/twotunnel3d.xml",
-        "img": "twotunnel3d.jpg"
-    },
     "Uno": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/uno.xml",
         "img": "uno.png"

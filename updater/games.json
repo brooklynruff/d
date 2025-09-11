@@ -24,10 +24,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/deathrun3d.xml",
         "img": "deathrun.jpg"
     },
-    "Chick End": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/chickend.xml",
-        "img": "chickend.jpg"
-    },
     "Poly Track": {
         "url": "https://cdn.jsdelivr.net/gh/wergboy/NLP@3cd7c854d047f364125194f75adeaa75aecf7985/pt/pt.xml",
         "img": "polytrack.jpg"
@@ -69,7 +65,7 @@
         "img": "tiq.jpg"
     },
     "Cookie Clicker": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/index.xml",
         "img": "cookieclicker.webp"
     },
     "Cookie Clicker 2": {
@@ -425,7 +421,7 @@
         "img": "bobtherobber5.jpg"
     },
     "Bottle Flip": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/game.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/game4.xml",
         "img": "bottleflip.jpg"
     },
     "Bubble Shooter": {

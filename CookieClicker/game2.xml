@@ -7,13 +7,13 @@
 <head>
 <title>Cookie Clicker</title>
 <link rel="shortcut icon" href="img/favicon.ico" />
-<link href="http://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://github.com/brooklynruff/d/tree/main/CookieClicker/style.css?v=1.5028" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/gh/bcat1023/webprx@8b966f57aeceb9616de5f15455d811ab76df9c8f/gfiles/cookies/old/style.css" rel="stylesheet" type="text/css">
 
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/base64.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/ajax.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/dungeons.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bcat1023/webprx@8b966f57aeceb9616de5f15455d811ab76df9c8f/gfiles/cookies/old/base64.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bcat1023/webprx@8b966f57aeceb9616de5f15455d811ab76df9c8f/gfiles/cookies/old/ajax.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bcat1023/webprx@8b966f57aeceb9616de5f15455d811ab76df9c8f/gfiles/cookies/old/dungeons.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bcat1023/webprx@8b966f57aeceb9616de5f15455d811ab76df9c8f/gfiles/cookies/old/main.js"></script>
 
 
 <script type="text/javascript">

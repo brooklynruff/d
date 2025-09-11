@@ -23,7 +23,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/Bored-Entertainment/themesacomplex@34cdabf38057531877474cfdcdd03f05e40a9453/games/RiddleSchool/RiddleSchool1/Riddle_School.swf");
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/riddleschool.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p/style.css">
   </head>
  <style> 
   body {
@@ -24,12 +24,12 @@
       </div>
 
     <script>
-      var buildUrl = "https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2";
-      var loaderUrl = "https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2/WebGL2Players%20v1.1.loader.js";
+      var buildUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p/";
+      var loaderUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p//WebGL2Players%20v1.1.loader.js";
       var config = {
-        dataUrl:"https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2/WebGL2Players v1.1.data.unityweb",
-        frameworkUrl:"https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2/WebGL2Players v1.1.framework.js.unityweb",
-        codeUrl:"https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/slope2/WebGL2Players v1.1.wasm.unityweb",
+        dataUrl:"https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p/WebGL2Players v1.1.data.unityweb",
+        frameworkUrl:"https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p/WebGL2Players v1.1.framework.js.unityweb",
+        codeUrl:"https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slope2p/WebGL2Players v1.1.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Slope 2 Player",

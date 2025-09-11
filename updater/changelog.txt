@@ -34,6 +34,7 @@ I was gone. I have fixed most of them though.
 [-] Removed Chick End (Couldn't find a backup sorry)
 [-] Removed Cookie Clicker
 [+] Fixed Fly or Die
+[+] Fixed a bunch of other games, not gonna list them all
 
 09/09/2025:
 [+] Big update to the UI.

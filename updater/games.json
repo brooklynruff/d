@@ -72,10 +72,6 @@
         "url": "https://groups.google.com/u/6/group/54r7m5resdndren65dx/attach/76da468cd6a2c/pappy1.xml?part=0.1&view=1&authuser=6",
         "img": "paperio2.jpg"
     },
-    "Roblox Obby": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/obby3.xml",
-        "img": "robloxobby.jpg"
-    },
     "Rooftop Snipers": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/rooftopsnipers.xml",
         "img": "rooftop.jpg"
@@ -221,7 +217,7 @@
         "img": "tinyfishing.jpg"
     },
     "Fly or Die": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/flyordie/flyordie.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/flyordie/flyordie2.xml",
         "img": "flyordie.jpg"
     },
     "Moto X3M": {
@@ -273,7 +269,7 @@
         "img": "stealingthediamond.jpg"
     },
     "Sniper V2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Henry/stealingthediamond.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/sniperv2/sniperv2.xml",
         "img": "sniperv2.jpg"
     },
     "Run 1": {
@@ -580,18 +576,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/papalouie2.xml",
         "img": "papalouie2.jpg"
     },
-    "Parking Fury": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury.xml",
-        "img": "parkingfury.jpg"
-    },
-    "Parking Fury 2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury2.xml",
-        "img": "parkingfury2.jpg"
-    },
-    "Parking Fury 3": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/parkingfury3.xml",
-        "img": "parkingfury3.jpg"
-    },
     "Penguins.io": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/penguinsio.xml",
         "img": "penguinsio.jpg"
@@ -603,10 +587,6 @@
     "Portal": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal.xml",
         "img": "portal.jpg"
-    },
-    "Portal 2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/portal2.xml",
-        "img": "portal2.jpg"
     },
     "Return to Riddle School": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/returntoriddleschool.xml",
@@ -981,9 +961,6 @@
         "Mario Flash Kart",
         "Moto X3M",
         "Moto X3M Winter",
-        "Parking Fury",
-        "Parking Fury 2",
-        "Parking Fury 3",
         "Poly Track",
         "Rocket League",
         "Snow Rider 3D",

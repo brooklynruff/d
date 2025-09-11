@@ -23,7 +23,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/cupofdirtfordinner/flashGames@c0bbe7e30acdc0b51e41acf0417f7e5811203ee2/Snail_Bob_5.swf");
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/snailbob5.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

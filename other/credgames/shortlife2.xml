@@ -4,7 +4,7 @@
 <Content type="html"><![CDATA[
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/style.css">
 <script src="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/UnityProgress.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/billybobisverycool/-m@67485d31f27df608a4407d8cf3b42fd08c65e2e4/short-life-2/UnityLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gertdoro/IoC-framework@c576767b02bbd79a8386dbf1cb5281c424de9791/ProjectSettings/Short/short.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/sk1bx/vue-tables-2@583c9ec78046cd8504c43279a77106eb890fe8c8/compiled/state/1build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>

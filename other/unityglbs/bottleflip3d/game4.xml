@@ -4,7 +4,7 @@
 <Content type="html"><![CDATA[
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/style.css">
 <script src="https://cdn.jsdelivr.net/gh/greggman/webgl-helpers@06e3d45373af0f3ce8f58b472b61835d9678d23a/examples/unity/TemplateData/UnityProgress.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/Build/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/Build/loader2.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/bottleflip3d/Build/BottleFlip3D.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>

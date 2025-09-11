@@ -1,0 +1,300 @@
+{
+  "terrain": [
+    {
+      "x": 0,
+      "y": 700
+    },
+    {
+      "x": 25000,
+      "y": 700
+    }
+  ],
+  "sections": [
+    {
+      "id": 0,
+      "x": 1697
+    },
+    {
+      "id": 1,
+      "x": 2648
+    },
+    {
+      "id": 2,
+      "x": 4260
+    },
+    {
+      "id": 3,
+      "x": 5792
+    }
+  ],
+  "structures": [
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 0,
+      "x": 604.375,
+      "y": 764,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 0,
+      "x": 1207.8125,
+      "y": 745,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 7,
+      "x": 896.25,
+      "y": 446,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 2,
+      "x": 2054,
+      "y": 711,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 3,
+      "x": 2318,
+      "y": 701,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "structType": 3,
+      "x": 4818,
+      "y": 272,
+      "radian": 0,
+      "onTerrain": false
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "structType": 5,
+      "x": 4442,
+      "y": 248,
+      "radian": 0,
+      "onTerrain": false
+    }
+  ],
+  "kinetics": [
+    {
+      "type": 1,
+      "sectionID": 0,
+      "kineticType": 2,
+      "x": 1015,
+      "y": 94,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4814,
+      "y": 523,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4698,
+      "y": 572,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4660,
+      "y": 369,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4655,
+      "y": 221,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4671,
+      "y": 385,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4607,
+      "y": 398,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 4,
+      "x": 4729,
+      "y": 350,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 8,
+      "x": 4872,
+      "y": 321,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 8,
+      "x": 4852,
+      "y": 260,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 8,
+      "x": 4828,
+      "y": 490,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "kineticType": 8,
+      "x": 4896,
+      "y": 361,
+      "radian": 0
+    }
+  ],
+  "enemies": [
+    {
+      "type": 1,
+      "sectionID": 0,
+      "enemyType": 3,
+      "x": 1296.09375,
+      "y": 370,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "enemyType": 2,
+      "x": 841.25,
+      "y": 147,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "enemyType": 3,
+      "x": 517,
+      "y": 376,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "enemyType": 3,
+      "x": 639,
+      "y": 323,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4684,
+      "y": 427,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4482,
+      "y": 447,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4672,
+      "y": 298,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4827,
+      "y": 583,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4819,
+      "y": 625,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4608,
+      "y": 522,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4742,
+      "y": 427,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4851,
+      "y": 457,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 2,
+      "enemyType": 3,
+      "x": 4890,
+      "y": 287,
+      "radian": 0
+    }
+  ],
+  "frills": []
+}

@@ -1,0 +1,73 @@
+{
+  "terrain": [
+    {
+      "x": 0,
+      "y": 700
+    },
+    {
+      "x": 800,
+      "y": 700
+    },
+    {
+      "x": 1150,
+      "y": 680
+    },
+    {
+      "x": 1600,
+      "y": 720
+    },
+    {
+      "x": 1750,
+      "y": 640
+    },
+    {
+      "x": 25000,
+      "y": 700
+    }
+  ],
+  "sections": [
+    {
+      "id": 0,
+      "x": 1120
+    }
+  ],
+  "structures": [
+    {
+      "type": 1,
+      "sectionID": 0,
+      "structType": 1,
+      "x": 706,
+      "y": 747,
+      "radian": 0,
+      "onTerrain": false
+    }
+  ],
+  "kinetics": [
+    {
+      "type": 1,
+      "sectionID": 0,
+      "kineticType": 1,
+      "x": 711,
+      "y": 215,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "kineticType": 1,
+      "x": 710,
+      "y": 289,
+      "radian": 0
+    },
+    {
+      "type": 1,
+      "sectionID": 0,
+      "kineticType": 1,
+      "x": 710,
+      "y": 362,
+      "radian": 0
+    }
+  ],
+  "enemies": [],
+  "frills": []
+}

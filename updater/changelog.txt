@@ -32,7 +32,8 @@ I was gone. I have fixed most of them though.
 [+] Fixed Bob the Robber 2
 [+] Fixed Bottle Flip
 [-] Removed Chick End (Couldn't find a backup sorry)
-[+]
+[-] Removed Cookie Clicker
+[+] Fixed Fly or Die
 
 09/09/2025:
 [+] Big update to the UI.

@@ -1,0 +1,201 @@
+{"frames": [
+
+{
+	"filename": "zombie2-animation_0.png",
+	"frame": {"x":2,"y":2,"w":60,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":1,"w":60,"h":63},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_1.png",
+	"frame": {"x":2,"y":132,"w":58,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":58,"h":64},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_2.png",
+	"frame": {"x":50,"y":398,"w":52,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":1,"w":52,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_3.png",
+	"frame": {"x":2,"y":397,"w":46,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":1,"w":46,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_4.png",
+	"frame": {"x":2,"y":464,"w":43,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":1,"w":43,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_5.png",
+	"frame": {"x":47,"y":465,"w":42,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":1,"w":42,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_6.png",
+	"frame": {"x":2,"y":531,"w":42,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":1,"w":42,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_7.png",
+	"frame": {"x":46,"y":532,"w":46,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":1,"w":46,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_8.png",
+	"frame": {"x":2,"y":599,"w":48,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":1,"w":48,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_9.png",
+	"frame": {"x":52,"y":599,"w":52,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":1,"w":52,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_10.png",
+	"frame": {"x":66,"y":264,"w":54,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":1,"w":54,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_11.png",
+	"frame": {"x":65,"y":67,"w":53,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":1,"w":53,"h":64},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_12.png",
+	"frame": {"x":2,"y":330,"w":50,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":1,"w":50,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_13.png",
+	"frame": {"x":62,"y":133,"w":49,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":1,"w":49,"h":64},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_14.png",
+	"frame": {"x":54,"y":331,"w":52,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":1,"w":52,"h":65},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_15.png",
+	"frame": {"x":2,"y":198,"w":54,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":2,"w":54,"h":64},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_16.png",
+	"frame": {"x":64,"y":2,"w":56,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":56,"h":63},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_17.png",
+	"frame": {"x":2,"y":67,"w":61,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":61,"h":63},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_18.png",
+	"frame": {"x":2,"y":264,"w":62,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":62,"h":64},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_19.png",
+	"frame": {"x":58,"y":199,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":1,"w":62,"h":63},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie2-animation_20.png",
+	"frame": {"x":2,"y":2,"w":60,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":1,"w":60,"h":63},
+	"sourceSize": {"w":71,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "zombie2.png",
+	"format": "RGBA8888",
+	"size": {"w":122,"h":666},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f261db00f3d40f51fc7c8c69c48aa79d:4d4af846023489c706cf6e58755566a1:b3a3d9c47c34d01c8b0fee012fe84a54$"
+}
+}

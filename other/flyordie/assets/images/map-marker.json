@@ -1,0 +1,22 @@
+{
+"frames": [
+	{
+		"filename": "ProgressionMarker0001.png",
+		"frame": {"x":0, "y":0, "w":114, "h":117},
+		"spriteSourceSize": {"x":1,"y":0,"w":120,"h":122},
+		"sourceSize": {"w":120,"h":122}
+	},
+	{
+		"filename": "ProgressionMarker0002.png",
+		"frame": {"x":115, "y":0, "w":114, "h":117},
+		"spriteSourceSize": {"x":1,"y":0,"w":120,"h":122},
+		"sourceSize": {"w":120,"h":122}
+	}
+
+],
+"meta": {
+	"image": "map-marker.png",
+	"size": {"w": 230, "h": 118},
+	"scale": "1"
+}
+}

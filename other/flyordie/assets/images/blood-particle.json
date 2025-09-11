@@ -1,0 +1,34 @@
+{
+"frames": [
+	{
+		"filename": "blood_particles0001.png",
+		"frame": {"x":0, "y":0, "w":10, "h":11},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":11},
+		"sourceSize": {"w":10,"h":11}
+	},
+	{
+		"filename": "blood_particles0002.png",
+		"frame": {"x":11, "y":0, "w":8, "h":9},
+		"spriteSourceSize": {"x":0,"y":0,"w":8,"h":9},
+		"sourceSize": {"w":8,"h":9}
+	},
+	{
+		"filename": "blood_particles0003.png",
+		"frame": {"x":0, "y":12, "w":7, "h":7},
+		"spriteSourceSize": {"x":0,"y":0,"w":7,"h":7},
+		"sourceSize": {"w":7,"h":7}
+	},
+	{
+		"filename": "blood_particles0004.png",
+		"frame": {"x":8, "y":12, "w":6, "h":5},
+		"spriteSourceSize": {"x":0,"y":0,"w":6,"h":5},
+		"sourceSize": {"w":6,"h":5}
+	}
+
+],
+"meta": {
+	"image": "blood-particl.png",
+	"size": {"w": 20, "h": 20},
+	"scale": "1"
+}
+}

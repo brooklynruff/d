@@ -1,0 +1,157 @@
+{"frames": [
+
+{
+	"filename": "zombie1-animation_0.png",
+	"frame": {"x":39,"y":2,"w":34,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":34,"h":55},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_1.png",
+	"frame": {"x":523,"y":2,"w":35,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":35,"h":53},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_2.png",
+	"frame": {"x":447,"y":2,"w":36,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":36,"h":53},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_3.png",
+	"frame": {"x":75,"y":2,"w":36,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":36,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_4.png",
+	"frame": {"x":187,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_5.png",
+	"frame": {"x":224,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_6.png",
+	"frame": {"x":2,"y":2,"w":35,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":35,"h":55},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_7.png",
+	"frame": {"x":261,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_8.png",
+	"frame": {"x":298,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_9.png",
+	"frame": {"x":485,"y":2,"w":36,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":36,"h":53},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_10.png",
+	"frame": {"x":371,"y":2,"w":36,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":36,"h":53},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_11.png",
+	"frame": {"x":409,"y":2,"w":36,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":36,"h":53},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_12.png",
+	"frame": {"x":113,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_13.png",
+	"frame": {"x":150,"y":2,"w":35,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":35,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_14.png",
+	"frame": {"x":335,"y":2,"w":34,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":34,"h":54},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "zombie1-animation_15.png",
+	"frame": {"x":39,"y":2,"w":34,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":34,"h":55},
+	"sourceSize": {"w":39,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+}
+],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "zombie1.png",
+	"format": "RGBA8888",
+	"size": {"w":560,"h":59},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a5255936b7cb40734eb5685bf07683f5:79ac73a03b3d8310529d1f15f5c76abd:e6cd16ab5a2401a9debf2f20b8f18774$"
+}
+}

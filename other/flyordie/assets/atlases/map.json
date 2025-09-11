@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "level-map",
+	"frame": {"x":1,"y":1,"w":1049,"h":750},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1049,"h":750},
+	"sourceSize": {"w":1049,"h":750}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "map.png",
+	"format": "RGBA8888",
+	"size": {"w":1051,"h":752},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:059903444d78abd2dcfb97def11c3c41:3ed87974284f08fdda74844c9697a6e1:68463c66230aaeb26021edb8ea8cd9b6$"
+}
+}

@@ -1,0 +1,188 @@
+{"frames": [
+
+{
+	"filename": "a10_icon",
+	"frame": {"x":1470,"y":118,"w":150,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":47},
+	"sourceSize": {"w":150,"h":47}
+},
+{
+	"filename": "aerodynamics0001",
+	"frame": {"x":1470,"y":167,"w":120,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":25,"w":120,"h":37},
+	"sourceSize": {"w":163,"h":74}
+},
+{
+	"filename": "aerodynamics0002",
+	"frame": {"x":1585,"y":206,"w":134,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":16,"w":134,"h":48},
+	"sourceSize": {"w":163,"h":74}
+},
+{
+	"filename": "aerodynamics0003",
+	"frame": {"x":1470,"y":1,"w":152,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":152,"h":57},
+	"sourceSize": {"w":163,"h":74}
+},
+{
+	"filename": "aerodynamics0004",
+	"frame": {"x":1283,"y":209,"w":160,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":72},
+	"sourceSize": {"w":163,"h":74}
+},
+{
+	"filename": "booster0001",
+	"frame": {"x":1678,"y":256,"w":79,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":6,"w":79,"h":42},
+	"sourceSize": {"w":119,"h":81}
+},
+{
+	"filename": "booster0002",
+	"frame": {"x":1592,"y":303,"w":99,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":6,"w":99,"h":42},
+	"sourceSize": {"w":119,"h":81}
+},
+{
+	"filename": "booster0003",
+	"frame": {"x":1622,"y":137,"w":107,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":107,"h":58},
+	"sourceSize": {"w":119,"h":81}
+},
+{
+	"filename": "booster0004",
+	"frame": {"x":1624,"y":54,"w":117,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":117,"h":81},
+	"sourceSize": {"w":119,"h":81}
+},
+{
+	"filename": "buy_upgrade_back",
+	"frame": {"x":1282,"y":747,"w":546,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":546,"h":318},
+	"sourceSize": {"w":557,"h":327}
+},
+{
+	"filename": "empty",
+	"frame": {"x":1470,"y":206,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1}
+},
+{
+	"filename": "f18_icon",
+	"frame": {"x":1470,"y":60,"w":150,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":56},
+	"sourceSize": {"w":150,"h":56}
+},
+{
+	"filename": "fuel_tank0001",
+	"frame": {"x":1592,"y":256,"w":84,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":0,"w":84,"h":45},
+	"sourceSize": {"w":138,"h":63}
+},
+{
+	"filename": "fuel_tank0002",
+	"frame": {"x":1283,"y":283,"w":90,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":0,"w":90,"h":56},
+	"sourceSize": {"w":138,"h":63}
+},
+{
+	"filename": "fuel_tank0003",
+	"frame": {"x":1624,"y":1,"w":132,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":132,"h":51},
+	"sourceSize": {"w":138,"h":63}
+},
+{
+	"filename": "fuel_tank0004",
+	"frame": {"x":1445,"y":209,"w":138,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":138,"h":60},
+	"sourceSize": {"w":138,"h":63}
+},
+{
+	"filename": "garage_bg",
+	"frame": {"x":1,"y":1,"w":1280,"h":744},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":744},
+	"sourceSize": {"w":1280,"h":744}
+},
+{
+	"filename": "p51_icon",
+	"frame": {"x":1445,"y":271,"w":145,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":54},
+	"sourceSize": {"w":145,"h":54}
+},
+{
+	"filename": "upgrade-back-panel",
+	"frame": {"x":1283,"y":1,"w":185,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":206},
+	"sourceSize": {"w":185,"h":206}
+},
+{
+	"filename": "upgrade_node0001",
+	"frame": {"x":1375,"y":283,"w":26,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":28},
+	"sourceSize": {"w":26,"h":30}
+},
+{
+	"filename": "upgrade_node0002",
+	"frame": {"x":1592,"y":167,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":30},
+	"sourceSize": {"w":26,"h":30}
+},
+{
+	"filename": "upgrades_panel",
+	"frame": {"x":1,"y":747,"w":1279,"h":614},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1279,"h":614},
+	"sourceSize": {"w":1279,"h":614}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "garage.png",
+	"format": "RGBA8888",
+	"size": {"w":1829,"h":1362},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:671a247097abfdbc3b971f0b6568200f:10773113e8d9a55442371814c9ffaea2:b4e8c0bde6bae08c7548f6b1af5550f3$"
+}
+}

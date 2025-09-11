@@ -64,10 +64,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/theimpossiblequiz.xml",
         "img": "tiq.jpg"
     },
-    "Cookie Clicker": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/CookieClicker/index.xml",
-        "img": "cookieclicker.webp"
-    },
     "Cookie Clicker 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookieclicker2.xml",
         "img": "cookieclicker.webp"
@@ -225,7 +221,7 @@
         "img": "tinyfishing.jpg"
     },
     "Fly or Die": {
-        "url": "https://groups.google.com/group/classroomgoogl-net/attach/99d7373213a96/zbt.xml?part=0.1&view=1",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/flyordie/flyordie.xml",
         "img": "flyordie.jpg"
     },
     "Moto X3M": {

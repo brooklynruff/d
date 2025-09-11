@@ -1,0 +1,2828 @@
+{
+	"endX": 28802,
+	"terrain": [
+		{
+			"x": 0,
+			"y": 700
+		},
+		{
+			"x": 600,
+			"y": 680
+		},
+		{
+			"x": 950,
+			"y": 620
+		},
+		{
+			"x": 1150,
+			"y": 700
+		},
+		{
+			"x": 1500,
+			"y": 700
+		},
+		{
+			"x": 1850,
+			"y": 700
+		},
+		{
+			"x": 2650,
+			"y": 660
+		},
+		{
+			"x": 2900,
+			"y": 400
+		},
+		{
+			"x": 3450,
+			"y": 360
+		},
+		{
+			"x": 3550,
+			"y": 380
+		},
+		{
+			"x": 4000,
+			"y": 380
+		},
+		{
+			"x": 4600,
+			"y": 560
+		},
+		{
+			"x": 5100,
+			"y": 760
+		},
+		{
+			"x": 5550,
+			"y": 520
+		},
+		{
+			"x": 5650,
+			"y": 560
+		},
+		{
+			"x": 6100,
+			"y": 660
+		},
+		{
+			"x": 8150,
+			"y": 660
+		},
+		{
+			"x": 8650,
+			"y": 740
+		},
+		{
+			"x": 8700,
+			"y": 740
+		},
+		{
+			"x": 9350,
+			"y": 700
+		},
+		{
+			"x": 9950,
+			"y": 420
+		},
+		{
+			"x": 10500,
+			"y": 480
+		},
+		{
+			"x": 11000,
+			"y": 620
+		},
+		{
+			"x": 11850,
+			"y": 600
+		},
+		{
+			"x": 12550,
+			"y": 600
+		},
+		{
+			"x": 13250,
+			"y": 600
+		},
+		{
+			"x": 13450,
+			"y": 380
+		},
+		{
+			"x": 13800,
+			"y": 340
+		},
+		{
+			"x": 13950,
+			"y": 380
+		},
+		{
+			"x": 14300,
+			"y": 700
+		},
+		{
+			"x": 15450,
+			"y": 700
+		},
+		{
+			"x": 16250,
+			"y": 700
+		},
+		{
+			"x": 16700,
+			"y": 580
+		},
+		{
+			"x": 17100,
+			"y": 580
+		},
+		{
+			"x": 17650,
+			"y": 580
+		},
+		{
+			"x": 17950,
+			"y": 580
+		},
+		{
+			"x": 18500,
+			"y": 480
+		},
+		{
+			"x": 19500,
+			"y": 480
+		},
+		{
+			"x": 19800,
+			"y": 540
+		},
+		{
+			"x": 20150,
+			"y": 260
+		},
+		{
+			"x": 20250,
+			"y": 280
+		},
+		{
+			"x": 20600,
+			"y": 280
+		},
+		{
+			"x": 20900,
+			"y": 600
+		},
+		{
+			"x": 21400,
+			"y": 580
+		},
+		{
+			"x": 21950,
+			"y": 640
+		},
+		{
+			"x": 22350,
+			"y": 640
+		},
+		{
+			"x": 22700,
+			"y": 680
+		},
+		{
+			"x": 23100,
+			"y": 660
+		},
+		{
+			"x": 23450,
+			"y": 700
+		},
+		{
+			"x": 23700,
+			"y": 600
+		},
+		{
+			"x": 24150,
+			"y": 620
+		},
+		{
+			"x": 24750,
+			"y": 620
+		},
+		{
+			"x": 25150,
+			"y": 600
+		},
+		{
+			"x": 25700,
+			"y": 620
+		},
+		{
+			"x": 26200,
+			"y": 600
+		},
+		{
+			"x": 26900,
+			"y": 600
+		},
+		{
+			"x": 26950,
+			"y": 600
+		},
+		{
+			"x": 27650,
+			"y": 600
+		},
+		{
+			"x": 28000,
+			"y": 600
+		},
+		{
+			"x": 28500,
+			"y": 600
+		},
+		{
+			"x": 29050,
+			"y": 600
+		},
+		{
+			"x": 29350,
+			"y": 600
+		},
+		{
+			"x": 30000,
+			"y": 700
+		}
+	],
+	"sections": [
+		{
+			"id": 0,
+			"x": 784
+		},
+		{
+			"id": 1,
+			"x": 1788
+		},
+		{
+			"id": 2,
+			"x": 2586
+		},
+		{
+			"id": 3,
+			"x": 3896
+		},
+		{
+			"id": 4,
+			"x": 5158
+		},
+		{
+			"id": 5,
+			"x": 6281
+		},
+		{
+			"id": 6,
+			"x": 8059
+		},
+		{
+			"id": 7,
+			"x": 9148
+		},
+		{
+			"id": 8,
+			"x": 9946
+		},
+		{
+			"id": 9,
+			"x": 11724
+		},
+		{
+			"id": 10,
+			"x": 12980
+		},
+		{
+			"id": 11,
+			"x": 14554
+		},
+		{
+			"id": 12,
+			"x": 15721
+		},
+		{
+			"id": 13,
+			"x": 17858
+		},
+		{
+			"id": 14,
+			"x": 19444
+		},
+		{
+			"id": 15,
+			"x": 20263
+		},
+		{
+			"id": 16,
+			"x": 20812
+		},
+		{
+			"id": 17,
+			"x": 21393
+		},
+		{
+			"id": 18,
+			"x": 22558
+		},
+		{
+			"id": 19,
+			"x": 23373
+		},
+		{
+			"id": 20,
+			"x": 24129
+		},
+		{
+			"id": 21,
+			"x": 25148
+		},
+		{
+			"id": 22,
+			"x": 25681
+		},
+		{
+			"id": 23,
+			"x": 25996
+		},
+		{
+			"id": 24,
+			"x": 27165
+		},
+		{
+			"id": 25,
+			"x": 28204
+		}
+	],
+	"structures": [
+		{
+			"type": 1,
+			"sectionID": 0,
+			"structType": 6,
+			"x": 597,
+			"y": 847,
+			"radian": -0.20943951023931953,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"structType": 8,
+			"x": 371,
+			"y": 629,
+			"radian": -0.41887902047863906,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"structType": 0,
+			"x": 1453,
+			"y": 480,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"structType": 10,
+			"x": 1441,
+			"y": 525,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"structType": 3,
+			"x": 2131,
+			"y": 829,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"structType": 4,
+			"x": 2370,
+			"y": 821,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"structType": 7,
+			"x": 2312,
+			"y": 265,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"structType": 10,
+			"x": 3198,
+			"y": 241,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"structType": 10,
+			"x": 3583,
+			"y": 241,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"structType": 0,
+			"x": 4257,
+			"y": 669,
+			"radian": 0.15707963267948966,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"structType": 4,
+			"x": 4612,
+			"y": 707,
+			"radian": 0.10471975511965977,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 4,
+			"structType": 4,
+			"x": 5747,
+			"y": 683,
+			"radian": 0.20943951023931953,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"structType": 10,
+			"x": 6921,
+			"y": 292,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"structType": 10,
+			"x": 7353,
+			"y": 292,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"structType": 10,
+			"x": 7714,
+			"y": 292,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"structType": 4,
+			"x": 8868,
+			"y": 767,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"structType": 0,
+			"x": 8313,
+			"y": 747,
+			"radian": 0.10471975511965977,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"structType": 7,
+			"x": 8853,
+			"y": 207,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 7,
+			"structType": 2,
+			"x": 9740,
+			"y": 609,
+			"radian": -0.36651914291880916,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"structType": 1,
+			"x": 10241,
+			"y": 545,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"structType": 9,
+			"x": 11299,
+			"y": 443,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"structType": 9,
+			"x": 11296,
+			"y": 238,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"structType": 8,
+			"x": 12178,
+			"y": 437,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"structType": 8,
+			"x": 12563,
+			"y": 437,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"structType": 10,
+			"x": 12183,
+			"y": 257,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"structType": 10,
+			"x": 12558,
+			"y": 257,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"structType": 2,
+			"x": 13626,
+			"y": 414,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"structType": 4,
+			"x": 14051,
+			"y": 731,
+			"radian": 0.41887902047863906,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"structType": 7,
+			"x": 14914,
+			"y": 708,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"structType": 4,
+			"x": 14911,
+			"y": 505,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"structType": 7,
+			"x": 15403,
+			"y": 709,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"structType": 0,
+			"x": 15298,
+			"y": 509,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"structType": 2,
+			"x": 16481,
+			"y": 680,
+			"radian": -0.10471975511965977,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"structType": 10,
+			"x": 17098,
+			"y": 395,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"structType": 10,
+			"x": 17479,
+			"y": 395,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"structType": 2,
+			"x": 17149,
+			"y": 347,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 7,
+			"x": 18239,
+			"y": 545,
+			"radian": -0.15707963267948966,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 2,
+			"x": 18172,
+			"y": 349,
+			"radian": -0.15707963267948966,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 8,
+			"x": 18663,
+			"y": 316,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 8,
+			"x": 19088,
+			"y": 316,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 10,
+			"x": 18722,
+			"y": 121,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"structType": 9,
+			"x": 19031,
+			"y": 121,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 16,
+			"structType": 2,
+			"x": 21123,
+			"y": 643,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"structType": 11,
+			"x": 22053,
+			"y": 280,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"structType": 11,
+			"x": 22258,
+			"y": 280,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"structType": 3,
+			"x": 22886,
+			"y": 749,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"structType": 5,
+			"x": 23246,
+			"y": 727,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"structType": 2,
+			"x": 23874,
+			"y": 639,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"structType": 10,
+			"x": 24394,
+			"y": 248,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"structType": 10,
+			"x": 24786,
+			"y": 248,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"structType": 8,
+			"x": 24516,
+			"y": 442,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"structType": 8,
+			"x": 24785,
+			"y": 442,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 22,
+			"structType": 5,
+			"x": 25838,
+			"y": 800,
+			"radian": 0.05235987755982988,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"structType": 8,
+			"x": 26557,
+			"y": 287,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"structType": 0,
+			"x": 26224,
+			"y": 798,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"structType": 0,
+			"x": 26855,
+			"y": 804,
+			"radian": 0.10471975511965977,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"structType": 10,
+			"x": 26552,
+			"y": 92,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"structType": 3,
+			"x": 10652,
+			"y": 584,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"structType": 6,
+			"x": 19989,
+			"y": 517,
+			"radian": 0.15707963267948966,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 21,
+			"structType": 2,
+			"x": 25405,
+			"y": 656,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"structType": 4,
+			"x": 27592,
+			"y": 690,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"structType": 2,
+			"x": 27510,
+			"y": 369,
+			"radian": 0,
+			"onTerrain": false
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"structType": 0,
+			"x": 27973,
+			"y": 695,
+			"radian": 0,
+			"onTerrain": false
+		}
+	],
+	"kinetics": [
+		{
+			"type": 1,
+			"sectionID": 5,
+			"kineticType": 1,
+			"x": 7415,
+			"y": 618,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 7,
+			"kineticType": 8,
+			"x": 9643,
+			"y": 44,
+			"radian": -0.3141592653589793
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"kineticType": 8,
+			"x": 26360,
+			"y": 9,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"kineticType": 1,
+			"x": 1607,
+			"y": 660,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"kineticType": 12,
+			"x": 1399,
+			"y": 658,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"kineticType": 7,
+			"x": 1327,
+			"y": 663,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"kineticType": 1,
+			"x": 2492,
+			"y": 463,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"kineticType": 1,
+			"x": 2501,
+			"y": 208,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"kineticType": 1,
+			"x": 2501,
+			"y": 130,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"kineticType": 1,
+			"x": 3733,
+			"y": 158,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"kineticType": 1,
+			"x": 3735,
+			"y": 88,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"kineticType": 0,
+			"x": 3739,
+			"y": 25,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"kineticType": 13,
+			"x": 9048,
+			"y": 182,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"kineticType": 12,
+			"x": 8849,
+			"y": 413,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"kineticType": 8,
+			"x": 9022,
+			"y": 407,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"kineticType": 8,
+			"x": 9026,
+			"y": 337,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"kineticType": 11,
+			"x": 9029,
+			"y": 274,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"kineticType": 1,
+			"x": 10658,
+			"y": 157,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"kineticType": 1,
+			"x": 12400,
+			"y": 563,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"kineticType": 11,
+			"x": 12397,
+			"y": 497,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"kineticType": 12,
+			"x": 12315,
+			"y": 563,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"kineticType": 2,
+			"x": 15131,
+			"y": 673,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"kineticType": 12,
+			"x": 15034,
+			"y": 656,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"kineticType": 1,
+			"x": 15194,
+			"y": 656,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"kineticType": 1,
+			"x": 17280,
+			"y": 542,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"kineticType": 1,
+			"x": 18786,
+			"y": 442,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"kineticType": 1,
+			"x": 18789,
+			"y": 371,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"kineticType": 12,
+			"x": 18669,
+			"y": 436,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 15,
+			"kineticType": 1,
+			"x": 20549,
+			"y": 246,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 15,
+			"kineticType": 4,
+			"x": 20545,
+			"y": 122,
+			"radian": 1.5707963267948966
+		},
+		{
+			"type": 1,
+			"sectionID": 15,
+			"kineticType": 1,
+			"x": 20550,
+			"y": 174,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 16,
+			"kineticType": 8,
+			"x": 21011,
+			"y": 87,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 16,
+			"kineticType": 7,
+			"x": 21018,
+			"y": 26,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"kineticType": 11,
+			"x": 22220,
+			"y": 200,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"kineticType": 1,
+			"x": 23954,
+			"y": 495,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"kineticType": 1,
+			"x": 23955,
+			"y": 420,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"kineticType": 12,
+			"x": 23818,
+			"y": 495,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"kineticType": 1,
+			"x": 24796,
+			"y": 393,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"kineticType": 1,
+			"x": 24795,
+			"y": 322,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"kineticType": 12,
+			"x": 24666,
+			"y": 393,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"kineticType": 12,
+			"x": 26190,
+			"y": 432,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"kineticType": 1,
+			"x": 26300,
+			"y": 434,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"kineticType": 0,
+			"x": 26299,
+			"y": 378,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"kineticType": 1,
+			"x": 28075,
+			"y": 326,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"kineticType": 4,
+			"x": 20072,
+			"y": 222,
+			"radian": 1.832595714594046
+		}
+	],
+	"fixeds": [
+		{
+			"type": 1,
+			"sectionID": 0,
+			"fixedType": 1,
+			"x": 1570,
+			"y": 86,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"fixedType": 2,
+			"x": 2870,
+			"y": 319,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"fixedType": 0,
+			"x": 4440,
+			"y": 296,
+			"radian": 0.15707963267948966
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"fixedType": 2,
+			"x": 6593,
+			"y": 457,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"fixedType": 1,
+			"x": 8469,
+			"y": 366,
+			"radian": 0.15707963267948966
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"fixedType": 2,
+			"x": 8137,
+			"y": 125,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 7,
+			"fixedType": 1,
+			"x": 9776,
+			"y": 405,
+			"radian": -0.36651914291880916
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"fixedType": 3,
+			"x": 11156,
+			"y": 516,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"fixedType": 3,
+			"x": 12705,
+			"y": 335,
+			"radian": -0.41887902047863906
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"fixedType": 1,
+			"x": 12012,
+			"y": 363,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"fixedType": 1,
+			"x": 15606,
+			"y": 626,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"fixedType": 1,
+			"x": 15410,
+			"y": 114,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"fixedType": 3,
+			"x": 16851,
+			"y": 478,
+			"radian": 0.20943951023931953
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"fixedType": 0,
+			"x": 17260,
+			"y": 168,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"fixedType": 2,
+			"x": 16964,
+			"y": 491,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"fixedType": 1,
+			"x": 18419,
+			"y": 428,
+			"radian": -0.20943951023931953
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"fixedType": 2,
+			"x": 18379,
+			"y": 176,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 16,
+			"fixedType": 0,
+			"x": 21225,
+			"y": 464,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"fixedType": 2,
+			"x": 24245,
+			"y": 517,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 21,
+			"fixedType": 0,
+			"x": 25520,
+			"y": 475,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"fixedType": 2,
+			"x": 26129,
+			"y": 147,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"fixedType": 1,
+			"x": 26976,
+			"y": 420,
+			"radian": 0.10471975511965977
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"fixedType": 0,
+			"x": 27624,
+			"y": 189,
+			"radian": 0
+		}
+	],
+	"enemies": [
+		{
+			"type": 1,
+			"sectionID": 1,
+			"enemyType": 2,
+			"x": 1971,
+			"y": 57,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 3,
+			"x": 1388,
+			"y": 119,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 4,
+			"x": 3114,
+			"y": 158,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 2,
+			"x": 3458,
+			"y": 123,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 2,
+			"x": 6943,
+			"y": 146,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 2,
+			"x": 7724,
+			"y": 154,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 4,
+			"x": 6834,
+			"y": 621,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 7,
+			"enemyType": 0,
+			"x": 9222,
+			"y": 131,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 3,
+			"x": 1262,
+			"y": 454,
+			"radian": -0.3141592653589793
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 0,
+			"x": 920,
+			"y": 202,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 3,
+			"x": 1478,
+			"y": 123,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 4,
+			"x": 1515,
+			"y": 656,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"enemyType": 5,
+			"x": 1606,
+			"y": 576,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"enemyType": 4,
+			"x": 2238,
+			"y": 202,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"enemyType": 0,
+			"x": 1880,
+			"y": 347,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"enemyType": 4,
+			"x": 2490,
+			"y": 381,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 3,
+			"x": 3333,
+			"y": 340,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 4,
+			"x": 3537,
+			"y": 331,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 3,
+			"x": 3733,
+			"y": 339,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"enemyType": 4,
+			"x": 3131,
+			"y": 332,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"enemyType": 3,
+			"x": 4256,
+			"y": 308,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"enemyType": 2,
+			"x": 4447,
+			"y": 94,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 3,
+			"enemyType": 4,
+			"x": 4744,
+			"y": 358,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 4,
+			"enemyType": 0,
+			"x": 5364,
+			"y": 173,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 4,
+			"enemyType": 1,
+			"x": 5878,
+			"y": 178,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 0,
+			"x": 6447,
+			"y": 402,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 2,
+			"x": 7190,
+			"y": 434,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 2,
+			"x": 7745,
+			"y": 423,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 4,
+			"x": 7797,
+			"y": 619,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 3,
+			"x": 7416,
+			"y": 561,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"enemyType": 2,
+			"x": 7313,
+			"y": 142,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"enemyType": 3,
+			"x": 8288,
+			"y": 383,
+			"radian": 0.10471975511965977
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"enemyType": 4,
+			"x": 8309,
+			"y": 191,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"enemyType": 4,
+			"x": 8860,
+			"y": 150,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"enemyType": 3,
+			"x": 8667,
+			"y": 164,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"enemyType": 3,
+			"x": 8907,
+			"y": 421,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 7,
+			"enemyType": 3,
+			"x": 9626,
+			"y": 508,
+			"radian": -0.41887902047863906
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"enemyType": 3,
+			"x": 10181,
+			"y": 276,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"enemyType": 4,
+			"x": 11299,
+			"y": 356,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"enemyType": 4,
+			"x": 10652,
+			"y": 85,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"enemyType": 0,
+			"x": 10317,
+			"y": 130,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"enemyType": 2,
+			"x": 11301,
+			"y": 104,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 3,
+			"x": 12200,
+			"y": 384,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 3,
+			"x": 12206,
+			"y": 564,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 4,
+			"x": 12643,
+			"y": 551,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 3,
+			"x": 12424,
+			"y": 395,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 3,
+			"x": 12182,
+			"y": 177,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"enemyType": 2,
+			"x": 12527,
+			"y": 111,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"enemyType": 5,
+			"x": 13605,
+			"y": 254,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"enemyType": 0,
+			"x": 14157,
+			"y": 240,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"enemyType": 0,
+			"x": 13176,
+			"y": 289,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"enemyType": 3,
+			"x": 14822,
+			"y": 660,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"enemyType": 3,
+			"x": 15445,
+			"y": 660,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"enemyType": 4,
+			"x": 14921,
+			"y": 151,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 11,
+			"enemyType": 3,
+			"x": 15225,
+			"y": 150,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 1,
+			"x": 16006,
+			"y": 434,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 2,
+			"x": 16056,
+			"y": 134,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 4,
+			"x": 16479,
+			"y": 119,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 3,
+			"x": 16451,
+			"y": 541,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 3,
+			"x": 17085,
+			"y": 213,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 3,
+			"x": 17281,
+			"y": 479,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 3,
+			"x": 17476,
+			"y": 547,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 4,
+			"x": 17579,
+			"y": 535,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 3,
+			"x": 17392,
+			"y": 537,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 0,
+			"x": 17447,
+			"y": 170,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"enemyType": 0,
+			"x": 17626,
+			"y": 175,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 3,
+			"x": 18050,
+			"y": 236,
+			"radian": 0.05235987755982988
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 3,
+			"x": 18112,
+			"y": 523,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 4,
+			"x": 18252,
+			"y": 487,
+			"radian": -0.20943951023931953
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 3,
+			"x": 19016,
+			"y": 449,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 4,
+			"x": 19212,
+			"y": 447,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 3,
+			"x": 18689,
+			"y": 272,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 4,
+			"x": 19008,
+			"y": 261,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"enemyType": 3,
+			"x": 18873,
+			"y": 270,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"enemyType": 0,
+			"x": 19576,
+			"y": 235,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"enemyType": 3,
+			"x": 19971,
+			"y": 155,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"enemyType": 3,
+			"x": 20120,
+			"y": 201,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 15,
+			"enemyType": 3,
+			"x": 20444,
+			"y": 84,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 15,
+			"enemyType": 3,
+			"x": 20658,
+			"y": 83,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 16,
+			"enemyType": 4,
+			"x": 21065,
+			"y": 494,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"enemyType": 0,
+			"x": 21639,
+			"y": 355,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"enemyType": 2,
+			"x": 22263,
+			"y": 391,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"enemyType": 4,
+			"x": 22056,
+			"y": 602,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"enemyType": 3,
+			"x": 22068,
+			"y": 203,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"enemyType": 4,
+			"x": 22218,
+			"y": 133,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"enemyType": 3,
+			"x": 22882,
+			"y": 334,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"enemyType": 4,
+			"x": 23246,
+			"y": 329,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"enemyType": 2,
+			"x": 23078,
+			"y": 194,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"enemyType": 0,
+			"x": 23550,
+			"y": 378,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"enemyType": 4,
+			"x": 23879,
+			"y": 62,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 3,
+			"x": 24450,
+			"y": 391,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 4,
+			"x": 24496,
+			"y": 567,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 3,
+			"x": 24704,
+			"y": 586,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 3,
+			"x": 24883,
+			"y": 581,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 2,
+			"x": 24375,
+			"y": 110,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 3,
+			"x": 24611,
+			"y": 174,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"enemyType": 2,
+			"x": 24871,
+			"y": 105,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 21,
+			"enemyType": 4,
+			"x": 25335,
+			"y": 509,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 21,
+			"enemyType": 3,
+			"x": 25482,
+			"y": 108,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 22,
+			"enemyType": 3,
+			"x": 25857,
+			"y": 409,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 22,
+			"enemyType": 0,
+			"x": 25873,
+			"y": 190,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"enemyType": 3,
+			"x": 26308,
+			"y": 249,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"enemyType": 4,
+			"x": 26593,
+			"y": 223,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"enemyType": 5,
+			"x": 26864,
+			"y": 237,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"enemyType": 3,
+			"x": 27001,
+			"y": 263,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"enemyType": 3,
+			"x": 27406,
+			"y": 229,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"enemyType": 2,
+			"x": 27994,
+			"y": 94,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 24,
+			"enemyType": 4,
+			"x": 27877,
+			"y": 319,
+			"radian": 0
+		}
+	],
+	"frills": [
+		{
+			"type": 1,
+			"sectionID": 0,
+			"frillType": 60,
+			"x": 1441,
+			"y": 609,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"frillType": 76,
+			"x": 1218,
+			"y": 501,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"frillType": 77,
+			"x": 1670,
+			"y": 500,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"frillType": 50,
+			"x": 2151,
+			"y": 394,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 1,
+			"frillType": 50,
+			"x": 2467,
+			"y": 397,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"frillType": 63,
+			"x": 3191,
+			"y": 327,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"frillType": 60,
+			"x": 3592,
+			"y": 327,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 65,
+			"x": 6914,
+			"y": 568,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 65,
+			"x": 7318,
+			"y": 568,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 65,
+			"x": 7723,
+			"y": 568,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 62,
+			"x": 6914,
+			"y": 384,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 62,
+			"x": 7318,
+			"y": 383,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 62,
+			"x": 7723,
+			"y": 383,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 76,
+			"x": 6697,
+			"y": 268,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 5,
+			"frillType": 77,
+			"x": 7942,
+			"y": 268,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"frillType": 50,
+			"x": 8731,
+			"y": 338,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 6,
+			"frillType": 50,
+			"x": 8996,
+			"y": 346,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"frillType": 58,
+			"x": 11297,
+			"y": 531,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"frillType": 56,
+			"x": 11296,
+			"y": 319,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 64,
+			"x": 12168,
+			"y": 520,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 66,
+			"x": 12573,
+			"y": 520,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 60,
+			"x": 12168,
+			"y": 334,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 61,
+			"x": 12572,
+			"y": 334,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 76,
+			"x": 11956,
+			"y": 232,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 9,
+			"frillType": 77,
+			"x": 12786,
+			"y": 233,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"frillType": 66,
+			"x": 17087,
+			"y": 484,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"frillType": 66,
+			"x": 17492,
+			"y": 484,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"frillType": 63,
+			"x": 18714,
+			"y": 212,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"frillType": 55,
+			"x": 19037,
+			"y": 212,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"frillType": 76,
+			"x": 18498,
+			"y": 97,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 13,
+			"frillType": 77,
+			"x": 19174,
+			"y": 97,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"frillType": 64,
+			"x": 22156,
+			"y": 548,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"frillType": 64,
+			"x": 22156,
+			"y": 362,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"frillType": 77,
+			"x": 22369,
+			"y": 256,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"frillType": 76,
+			"x": 21941,
+			"y": 256,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 64,
+			"x": 24392,
+			"y": 528,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 64,
+			"x": 24795,
+			"y": 528,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 61,
+			"x": 24392,
+			"y": 340,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 61,
+			"x": 24795,
+			"y": 340,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 76,
+			"x": 24168,
+			"y": 224,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 20,
+			"frillType": 77,
+			"x": 25013,
+			"y": 224,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"frillType": 63,
+			"x": 26557,
+			"y": 184,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"frillType": 76,
+			"x": 26327,
+			"y": 68,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"frillType": 77,
+			"x": 26780,
+			"y": 68,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 17,
+			"frillType": 46,
+			"x": 21600,
+			"y": 557.0541715915473,
+			"radian": 0.10866121584058783
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"frillType": 46,
+			"x": 26578,
+			"y": 555.5,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 23,
+			"frillType": 38,
+			"x": 26418,
+			"y": 579,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"frillType": 46,
+			"x": 23479,
+			"y": 680,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 19,
+			"frillType": 49,
+			"x": 23637,
+			"y": 575,
+			"radian": -0.3805063771123649
+		},
+		{
+			"type": 1,
+			"sectionID": 18,
+			"frillType": 32,
+			"x": 23018,
+			"y": 595.0138038389723,
+			"radian": -0.049958395721942765
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"frillType": 26,
+			"x": 19857,
+			"y": 480.953439101391,
+			"radian": -0.6747409422235527
+		},
+		{
+			"type": 1,
+			"sectionID": 14,
+			"frillType": 34,
+			"x": 19980,
+			"y": 351.17813033797006,
+			"radian": -0.6747409422235527
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"frillType": 43,
+			"x": 15944,
+			"y": 661.5,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 12,
+			"frillType": 49,
+			"x": 16067,
+			"y": 662.5,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 10,
+			"frillType": 48,
+			"x": 13089,
+			"y": 568,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 8,
+			"frillType": 47,
+			"x": 11700,
+			"y": 571,
+			"radian": -0.02352507098521691
+		},
+		{
+			"type": 1,
+			"sectionID": 4,
+			"frillType": 46,
+			"x": 6206,
+			"y": 615.5,
+			"radian": 0
+		},
+		{
+			"type": 1,
+			"sectionID": 4,
+			"frillType": 47,
+			"x": 5228,
+			"y": 652.0666666666667,
+			"radian": -0.4899573262537283
+		},
+		{
+			"type": 1,
+			"sectionID": 0,
+			"frillType": 48,
+			"x": 845,
+			"y": 605.5332006316531,
+			"radian": -0.16977827396833844
+		},
+		{
+			"type": 1,
+			"sectionID": 2,
+			"frillType": 47,
+			"x": 2792,
+			"y": 461.82287136875993,
+			"radian": -0.805003494254653
+		}
+	]
+}

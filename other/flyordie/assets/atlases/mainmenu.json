@@ -1,0 +1,204 @@
+{"frames": [
+
+{
+	"filename": "btn_options",
+	"frame": {"x":1373,"y":1664,"w":295,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":82},
+	"sourceSize": {"w":298,"h":85}
+},
+{
+	"filename": "btn_start",
+	"frame": {"x":1670,"y":1664,"w":295,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":82},
+	"sourceSize": {"w":298,"h":85}
+},
+{
+	"filename": "buttons/accel_button",
+	"frame": {"x":1210,"y":723,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
+	"sourceSize": {"w":50,"h":50}
+},
+{
+	"filename": "buttons/btn_buy",
+	"frame": {"x":1065,"y":1492,"w":123,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":75},
+	"sourceSize": {"w":125,"h":77}
+},
+{
+	"filename": "buttons/btn_close_small",
+	"frame": {"x":1799,"y":1748,"w":73,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":75},
+	"sourceSize": {"w":75,"h":77}
+},
+{
+	"filename": "buttons/btn_garage",
+	"frame": {"x":1255,"y":1778,"w":245,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":245,"h":103},
+	"sourceSize": {"w":248,"h":105}
+},
+{
+	"filename": "buttons/btn_go",
+	"frame": {"x":1065,"y":1646,"w":201,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":201,"h":130},
+	"sourceSize": {"w":201,"h":130}
+},
+{
+	"filename": "buttons/btn_quittomenu",
+	"frame": {"x":1601,"y":1832,"w":295,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":81},
+	"sourceSize": {"w":298,"h":84}
+},
+{
+	"filename": "buttons/btn_resetdata",
+	"frame": {"x":1502,"y":1748,"w":295,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":82},
+	"sourceSize": {"w":298,"h":85}
+},
+{
+	"filename": "buttons/btn_restart_small",
+	"frame": {"x":1268,"y":1636,"w":103,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":115},
+	"sourceSize": {"w":103,"h":117}
+},
+{
+	"filename": "buttons/btn_skip",
+	"frame": {"x":1065,"y":1569,"w":123,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":75},
+	"sourceSize": {"w":125,"h":77}
+},
+{
+	"filename": "buttons/map_button",
+	"frame": {"x":1065,"y":1778,"w":188,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":115},
+	"sourceSize": {"w":190,"h":117}
+},
+{
+	"filename": "buttons/up_button",
+	"frame": {"x":1190,"y":1584,"w":200,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":50},
+	"sourceSize": {"w":200,"h":50}
+},
+{
+	"filename": "level-map",
+	"frame": {"x":1210,"y":1359,"w":720,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":15,"w":720,"h":223},
+	"sourceSize": {"w":723,"h":242}
+},
+{
+	"filename": "main_menu_background",
+	"frame": {"x":1,"y":1,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720}
+},
+{
+	"filename": "main_menu_logo",
+	"frame": {"x":517,"y":1492,"w":546,"h":416},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":546,"h":416},
+	"sourceSize": {"w":546,"h":416}
+},
+{
+	"filename": "menu_stuff_zombie",
+	"frame": {"x":1,"y":1492,"w":514,"h":425},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":2,"w":514,"h":425},
+	"sourceSize": {"w":553,"h":428}
+},
+{
+	"filename": "screen-gradient",
+	"frame": {"x":1,"y":723,"w":1207,"h":767},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1207,"h":767},
+	"sourceSize": {"w":1207,"h":767}
+},
+{
+	"filename": "windows/back_panel",
+	"frame": {"x":1283,"y":1,"w":683,"h":677},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":683,"h":677},
+	"sourceSize": {"w":705,"h":698}
+},
+{
+	"filename": "windows/day_complete_back",
+	"frame": {"x":1283,"y":680,"w":683,"h":677},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":683,"h":677},
+	"sourceSize": {"w":709,"h":702}
+},
+{
+	"filename": "windows/options_setting_bg",
+	"frame": {"x":1255,"y":1883,"w":344,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":344,"h":63},
+	"sourceSize": {"w":344,"h":63}
+},
+{
+	"filename": "windows/progress_bar",
+	"frame": {"x":1065,"y":1895,"w":100,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":40},
+	"sourceSize": {"w":100,"h":40}
+},
+{
+	"filename": "windows/progress_bar_best",
+	"frame": {"x":1932,"y":1359,"w":20,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":83},
+	"sourceSize": {"w":25,"h":85}
+},
+{
+	"filename": "windows/progress_bar_top",
+	"frame": {"x":1392,"y":1584,"w":547,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":547,"h":78},
+	"sourceSize": {"w":550,"h":80}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mainmenu.png",
+	"format": "RGBA8888",
+	"size": {"w":1967,"h":1947},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:02f57a83979694b58c7053408361546b:504dd341bcb7507ca00df984a3d66d31:b617c164d12601b3a5a8ea2f0985d1e9$"
+}
+}

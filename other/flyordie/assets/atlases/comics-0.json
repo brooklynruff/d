@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "intro2_back",
+	"frame": {"x":1,"y":1283,"w":487,"h":720},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":487,"h":720},
+	"sourceSize": {"w":531,"h":720}
+},
+{
+	"filename": "intro2_text2",
+	"frame": {"x":1445,"y":723,"w":391,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":391,"h":132},
+	"sourceSize": {"w":404,"h":142}
+},
+{
+	"filename": "intro3_back",
+	"frame": {"x":490,"y":1283,"w":432,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":432,"h":720},
+	"sourceSize": {"w":432,"h":720}
+},
+{
+	"filename": "outro2_button0001",
+	"frame": {"x":924,"y":1711,"w":186,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":61},
+	"sourceSize": {"w":186,"h":61}
+},
+{
+	"filename": "outro2_button0002",
+	"frame": {"x":723,"y":1239,"w":186,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":19,"w":186,"h":42},
+	"sourceSize": {"w":186,"h":61}
+},
+{
+	"filename": "outro3_back",
+	"frame": {"x":723,"y":857,"w":431,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":380},
+	"sourceSize": {"w":431,"h":380}
+},
+{
+	"filename": "outro4_back",
+	"frame": {"x":1445,"y":1,"w":420,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":720},
+	"sourceSize": {"w":420,"h":720}
+},
+{
+	"filename": "port/comic_portrait_1",
+	"frame": {"x":1156,"y":857,"w":720,"h":425},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":425},
+	"sourceSize": {"w":720,"h":426}
+},
+{
+	"filename": "port/comic_portrait_2",
+	"frame": {"x":924,"y":1284,"w":720,"h":425},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":425},
+	"sourceSize": {"w":720,"h":425}
+},
+{
+	"filename": "port/comic_portrait_3",
+	"frame": {"x":723,"y":1,"w":720,"h":426},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":426},
+	"sourceSize": {"w":720,"h":426}
+},
+{
+	"filename": "port/end_portrait_3",
+	"frame": {"x":723,"y":429,"w":720,"h":426},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":426},
+	"sourceSize": {"w":720,"h":426}
+},
+{
+	"filename": "port/end_portrait_4",
+	"frame": {"x":1,"y":1,"w":720,"h":1280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1280},
+	"sourceSize": {"w":720,"h":1280}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "comics-0.png",
+	"format": "RGBA8888",
+	"size": {"w":1877,"h":2004},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1e8260513e418e682e62b66962f30a5f:1e07e781fa2ca6964436c16dd92c21ec:304ce2b48d6c17b5638a8dec867feeb3$"
+}
+}

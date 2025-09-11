@@ -23,7 +23,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/vjspranav/FlashGames@c4afbfe9dd12f23ef93e19d7f3d298105448f349/games/Cooking%20Mama%20Kills%20Animals.swf");
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/cooking-mama.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

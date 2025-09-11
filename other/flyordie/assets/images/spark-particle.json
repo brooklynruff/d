@@ -1,0 +1,34 @@
+{
+"frames": [
+	{
+		"filename": "spark_particles0001.png",
+		"frame": {"x":0, "y":0, "w":14, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":14,"h":14},
+		"sourceSize": {"w":14,"h":14}
+	},
+	{
+		"filename": "spark_particles0002.png",
+		"frame": {"x":0, "y":15, "w":12, "h":12},
+		"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
+		"sourceSize": {"w":12,"h":12}
+	},
+	{
+		"filename": "spark_particles0003.png",
+		"frame": {"x":13, "y":15, "w":10, "h":11},
+		"spriteSourceSize": {"x":0,"y":0,"w":10,"h":11},
+		"sourceSize": {"w":10,"h":11}
+	},
+	{
+		"filename": "spark_particles0004.png",
+		"frame": {"x":15, "y":0, "w":9, "h":9},
+		"spriteSourceSize": {"x":0,"y":0,"w":9,"h":9},
+		"sourceSize": {"w":9,"h":9}
+	}
+
+],
+"meta": {
+	"image": "spark-particle.png",
+	"size": {"w": 32, "h": 32},
+	"scale": "1"
+}
+}

@@ -1,0 +1,291 @@
+{"frames": [
+
+{
+	"filename": "balloon-animation_0.png",
+	"frame": {"x":85,"y":934,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_1.png",
+	"frame": {"x":168,"y":934,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_2.png",
+	"frame": {"x":85,"y":1088,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_3.png",
+	"frame": {"x":85,"y":1396,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_4.png",
+	"frame": {"x":168,"y":1396,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_5.png",
+	"frame": {"x":168,"y":624,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_6.png",
+	"frame": {"x":2,"y":779,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_7.png",
+	"frame": {"x":85,"y":779,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_8.png",
+	"frame": {"x":168,"y":779,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_9.png",
+	"frame": {"x":2,"y":934,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_10.png",
+	"frame": {"x":2,"y":314,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_11.png",
+	"frame": {"x":85,"y":314,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_12.png",
+	"frame": {"x":2,"y":2,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_13.png",
+	"frame": {"x":85,"y":2,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_14.png",
+	"frame": {"x":168,"y":2,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_15.png",
+	"frame": {"x":2,"y":158,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_16.png",
+	"frame": {"x":85,"y":158,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_17.png",
+	"frame": {"x":168,"y":158,"w":81,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":154},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_18.png",
+	"frame": {"x":168,"y":314,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_19.png",
+	"frame": {"x":2,"y":469,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_20.png",
+	"frame": {"x":85,"y":469,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_21.png",
+	"frame": {"x":168,"y":469,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_22.png",
+	"frame": {"x":2,"y":1089,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_23.png",
+	"frame": {"x":168,"y":1088,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_24.png",
+	"frame": {"x":2,"y":624,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_25.png",
+	"frame": {"x":85,"y":624,"w":81,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":153},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_26.png",
+	"frame": {"x":85,"y":1242,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_27.png",
+	"frame": {"x":2,"y":1243,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_28.png",
+	"frame": {"x":168,"y":1242,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_29.png",
+	"frame": {"x":2,"y":1397,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "balloon-animation_30.png",
+	"frame": {"x":85,"y":934,"w":81,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":81,"h":152},
+	"sourceSize": {"w":86,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "balloon.png",
+	"format": "RGBA8888",
+	"size": {"w":251,"h":1551},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b5f5f3fc5b890261aa7989a201e4b5a1:8c1999754f7112015a911c464130e7e6:fad37c6bedacab89c5318c314b7d1c71$"
+}
+}

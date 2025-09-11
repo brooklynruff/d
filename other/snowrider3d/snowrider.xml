@@ -6,7 +6,7 @@
 <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/snowrider3d//TemplateData/UnityProgress.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/Build/BitLife.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/snowrider3d/Build/BitLife.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100vw; height: 100vh"></div>

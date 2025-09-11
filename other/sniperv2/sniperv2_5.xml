@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>google.com</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/v-classroom-googl/sni1@main/TemplateData/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/sniperv2/TemplateData/css/style.css">
 </head>
 <body>
   
@@ -16,7 +16,7 @@
         <div id="gameContainer" class="unity-desktop webgl-content">
             <canvas id="gameCanvas"></canvas>
             <div id="loadingBlock">
-                <img class="logo" src="https://cdn.jsdelivr.net/gh/v-classroom-googl/sni1@main/TemplateData/img/Logo.png"></img>
+                <img class="logo" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/sniperv2/TemplateData/img/Logo.png"></img>
                 <span class="subtitle"><br>
                 </span>
             
@@ -42,7 +42,7 @@
             </div>
         
             <div id="errorBrowserBlock" style="display:none;">
-                <img class="logo" src="https://cdn.jsdelivr.net/gh/v-classroom-googl/sni1@main/TemplateData/img/Logo.png"></img>
+                <img class="logo" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/sniperv2/TemplateData/img/Logo.png"></img>
                 <span class="subtitle">  <br>
                 </span>
                 

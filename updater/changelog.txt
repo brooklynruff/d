@@ -22,6 +22,7 @@ tion.
 ==================================CHANGELOG=================================
 09/13/2025:
 [+] Added Ragdoll Archers (Thanks for the suggestion Kaden!)
+[+] Fixed the Soccer Random image being Snailbob 5.
 
 09/12/2025:
 [+] Added Funny Shooter 2 (Thanks for the suggestion!)

@@ -1,11 +1,11 @@
 "use strict";
 var scripts = document.getElementsByTagName("script")
   , scriptUrl = scripts[scripts.length - 1].src
-  , root = scriptUrl.split("master-loader4.js")[0]
+  , root = scriptUrl.split("master-loader5.js")[0]
   , loaders = {
     unity: "unity.js",
     "unity-beta": "unity-beta.js",
-    "unity-2020": "unity-2020_3.js"
+    "unity-2020": "unity-2020_4.js"
 };
 if (0 <= window.location.href.indexOf("pokiForceLocalLoader") && (loaders.unity = "/unity.js",
 loaders["unity-beta"] = "/unity-beta/dist/unity-beta.js",

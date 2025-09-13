@@ -868,9 +868,17 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/dm64.xml",
         "img": "dm64.jpg"
     },
+    "Super Smash Bros. [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/smb.xml",
+        "img": "smb.jpg"
+    },
     "Street Fighter II Turbo [SNES EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/sf2t.xml",
         "img": "sf2t.jpg"
+    },
+    "Mega Man X [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/mmx.xml",
+        "img": "mmx.jpg"
     }
   },
   "categories": {
@@ -993,7 +1001,9 @@
         "Super Mario 64 [N64 EMULATED]",
         "Mario Kart 64 [N64 EMULATED]",
         "Doom 64 [N64 EMULATED]",
-        "Street Fighter II Turbo [SNES EMULATED]"
+        "Street Fighter II Turbo [SNES EMULATED]",
+        "Super Smash Bros. [N64 EMULATED]",
+        "Mega Man X [SNES EMULATED]"
     ]
   }
 }

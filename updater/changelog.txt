@@ -28,7 +28,11 @@ tion.
 [+] Added Super Mario 64 [N64]
 [+] Added Mario Kart 64 [N64]
 [+] Added Doom 64 [N64]
+[+] Added Super Smash Bros [N64]
+[+] Added Pokemon Stadium [N64]
 [+] Added Street Fighter II Turbo [SNES]
+[!] Please suggest any emulated games you'd like to see next on the suggestions
+form! Suggestions are greatly appreciated :)
 
 09/12/2025:
 [+] Added Funny Shooter 2 (Thanks for the suggestion!)

@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="subway"/>
+<Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +17,7 @@
 		minRatio: 9 / 16,
 
 		title: 'Funny Shooter 2',
-		thumbnail: '894abba63a6b23fed823f404831f444f.jpeg',
+		thumbnail: 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/894abba63a6b23fed823f404831f444f.jpeg',
 		numScreenshots:  4 ,
 
 		unityVersion: '2020.3.37f1',
@@ -36,3 +40,5 @@
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/master-loader.js"></script>
   </body>
 </html>
+]]></Content>
+</Module>

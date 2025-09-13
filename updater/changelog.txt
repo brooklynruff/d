@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/12/2025:
+[+] Added Funny Shooter 2 (Thanks for the suggestion!)
+
 09/10/2025:
 [!] Sorry for all the broken games. A lot of the games broke during the time
 I was gone. I have fixed most of them though.

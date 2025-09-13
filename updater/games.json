@@ -843,6 +843,10 @@
     "Subway Surfers": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/surfer.xml",
         "img": "subwaysurfers.jpg"
+    },
+    "Funny Shooter 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/funnysho2_2.xml",
+        "img": "funnyshooter2.webp"
     }
   },
   "categories": {
@@ -873,7 +877,8 @@
         "Time Shooter 3: SWAT",
         "Tiny Cars",
         "Tiny Fishing",
-        "Tomb of the Mask"
+        "Tomb of the Mask",
+        "Funny Shooter 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -900,7 +905,8 @@
         "You vs. 100 Skibidi",
         "Zombie Horde",
         "Zombie Horde 2",
-        "Zombie Horde 3"
+        "Zombie Horde 3",
+        "Funny Shooter 2"
     ],
     "Classic": [
         "Angry Birds",

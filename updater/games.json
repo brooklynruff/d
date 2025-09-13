@@ -855,6 +855,22 @@
     "There is No Game": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/thereisnogame/nogame3.xml",
         "img": "thereisnogame.png"
+    },
+    "Super Mario 64 [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/sm64.xml",
+        "img": "sm64.png"
+    },
+    "Mario Kart 64 [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/mk64.xml",
+        "img": "mk64.jpg"
+    },
+    "Doom 64 [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/dm64.xml",
+        "img": "dm64.jpg"
+    },
+    "Street Fighter II Turbo [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/sf2t.xml",
+        "img": "sf2t.jpg"
     }
   },
   "categories": {
@@ -972,6 +988,12 @@
         "Rocket League",
         "Snow Rider 3D",
         "Tiny Cars"
+    ],
+    "Emulated": [
+        "Super Mario 64 [N64 EMULATED]",
+        "Mario Kart 64 [N64 EMULATED]",
+        "Doom 64 [N64 EMULATED]",
+        "Street Fighter II Turbo [SNES EMULATED]"
     ]
   }
 }

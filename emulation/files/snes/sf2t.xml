@@ -12,7 +12,7 @@
         
         EJS_core = 'snes';
         
-        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/snes/sft2.smc';
+        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/snes/sf2t.smc';
         
         EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
 

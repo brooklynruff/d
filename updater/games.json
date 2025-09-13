@@ -847,6 +847,10 @@
     "Funny Shooter 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/funnysho2_2.xml",
         "img": "funnyshooter2.webp"
+    },
+    "Ragdoll Archers": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ragdollarchers/ragdoll.xml",
+        "img": "ragdollarchers.jpeg"
     }
   },
   "categories": {
@@ -906,7 +910,8 @@
         "Zombie Horde",
         "Zombie Horde 2",
         "Zombie Horde 3",
-        "Funny Shooter 2"
+        "Funny Shooter 2",
+        "Ragdoll Archers"
     ],
     "Classic": [
         "Angry Birds",

@@ -724,10 +724,10 @@
     }
     function c() {
         var n = document.createElement("script");
-        n.src = "".concat("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/Build", "/").concat(w.a.metadata.loader_filename),
-        w.a.dataUrl = "".concat("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/Build", "/").concat(w.a.metadata.data_filename),
-        w.a.frameworkUrl = "".concat("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/Build", "/").concat(w.a.metadata.framework_filename),
-        w.a.codeUrl = "".concat("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/Build", "/").concat(w.a.metadata.code_filename),
+        n.src = "".concat("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter2/Build", "/").concat(w.a.metadata.loader_filename),
+        w.a.dataUrl = "".concat("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter2/Build", "/").concat(w.a.metadata.data_filename),
+        w.a.frameworkUrl = "".concat("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter2/Build", "/").concat(w.a.metadata.framework_filename),
+        w.a.codeUrl = "".concat("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter2/Build", "/").concat(w.a.metadata.code_filename),
         w.a.streamingAssetsUrl = "StreamingAssets",
         n.addEventListener("load", function() {
             var n = document.querySelector("#game");

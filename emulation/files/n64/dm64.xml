@@ -15,6 +15,9 @@
         EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/n64/dm64.z64';
         
         EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
+
+        EJS_alignStartButton = "center";
+        EJS_backgroundImage = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bg.png"
     </script>
     <script src='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/loader.js'></script>
 <body>

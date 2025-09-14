@@ -11,7 +11,6 @@
         EJS_player = '#game';
         
         EJS_core = 'nds';
-        EJS_threads = true;
         
         EJS_gameUrl = 'https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/emulation/roms/nds/acww.nds';
         

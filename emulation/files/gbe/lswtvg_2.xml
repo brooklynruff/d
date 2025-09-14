@@ -12,7 +12,7 @@
         
         EJS_core = 'gba';
         
-        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/n64/lswtvg.gba';
+        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/gba/lswtvg.gba';
         
         EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
 

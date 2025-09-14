@@ -885,7 +885,7 @@
         "img": "animalcrossing.jpg"
     },
     "Lego Star Wars: The Video Game [NDS EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/lswtvg.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/lswtvg_2.xml",
         "img": "legostarwars.jpeg"
     }
   },
@@ -1013,7 +1013,7 @@
         "Super Smash Bros. [N64 EMULATED]",
         "Mega Man X [SNES EMULATED]",
         "Welcome to Animal Crossing: Wild World [NDS EMULATED]",
-        "Lego Star Wars: The Video Game [GBA EMULATED]"
+        "Lego Star Wars: The Video Game [NDS EMULATED]"
     ]
   }
 }

@@ -12,7 +12,7 @@
         
         EJS_core = 'nds';
         
-        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/nds/acww.smc';
+        EJS_gameUrl = 'https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/emulation/roms/nds/acww.smc';
         
         EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
 

@@ -879,6 +879,10 @@
     "Mega Man X [SNES EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/mmx.xml",
         "img": "mmx.jpg"
+    },
+    "Animal Crossing [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/acww_3.xml",
+        "img": "mmx.jpg"
     }
   },
   "categories": {
@@ -1003,7 +1007,8 @@
         "Doom 64 [N64 EMULATED]",
         "Street Fighter II Turbo [SNES EMULATED]",
         "Super Smash Bros. [N64 EMULATED]",
-        "Mega Man X [SNES EMULATED]"
+        "Mega Man X [SNES EMULATED]",
+        "Animal Crossing [NDS EMULATED]"
     ]
   }
 }

@@ -882,12 +882,12 @@
     },
     "Welcome to Animal Crossing: Wild World [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/acww_3.xml",
-        "img": "animalcrossing.jpg"
+        "img": "mmx.jpg"
     },
     "Lego Star Wars: The Video Game [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/lswtvg.xml",
-        "img": "legostarwars.jpeg"
-    },
+        "img": "lswtvg.jpg"
+    }
   },
   "categories": {
     "Top Rated": [

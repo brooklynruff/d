@@ -882,11 +882,11 @@
     },
     "Welcome to Animal Crossing: Wild World [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/acww_3.xml",
-        "img": "mmx.jpg"
+        "img": "animalcrossing.jpg"
     },
     "Lego Star Wars: The Video Game [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/lswtvg.xml",
-        "img": "lswtvg.jpg"
+        "img": "legostarwars.jpeg"
     }
   },
   "categories": {
@@ -1013,7 +1013,7 @@
         "Super Smash Bros. [N64 EMULATED]",
         "Mega Man X [SNES EMULATED]",
         "Welcome to Animal Crossing: Wild World [NDS EMULATED]",
-        "Lego Star Wars: The Video Game [GBA EMULATED]",
+        "Lego Star Wars: The Video Game [GBA EMULATED]"
     ]
   }
 }

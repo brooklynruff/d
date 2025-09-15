@@ -31,7 +31,8 @@ tion.
 [+] Added Super Smash Bros [N64]
 [+] Added Pokemon Stadium [N64]
 [+] Added Street Fighter II Turbo [SNES]
-[+] Added Welcome to Animal Crossing: Wild World [GBA]
+[+] Added Welcome to Animal Crossing: Wild World [NDS]
+[+} Added Lego Star Wars: The Video Game [GBA]
 [!] Please suggest any emulated games you'd like to see next on the suggestions
 form! Suggestions are greatly appreciated :)
 

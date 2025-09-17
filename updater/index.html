@@ -17,6 +17,9 @@
 
         body {
             background-color: rgb(27, 27, 27);
+            /* banner */
+            margin: 0;
+            padding-top: 70px;
         }
 
         button, input {
@@ -101,16 +104,20 @@
         }
 
         .announcement-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
             background: #222;
             color: #fff;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 10px 16px;
-            border-radius: 0;
-            width: 100%;
+            border-bottom: 2px solid #444;
+            z-index: 9999;
+            height: 60px;
             box-sizing: border-box;
-            text-align: center;
         }
 
         .announcement-btn {

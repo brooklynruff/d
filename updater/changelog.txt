@@ -21,8 +21,9 @@ their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
 09/16/2025:
-[+] Added the survey annoucement (if you haven't already, please take the
-survey, it really does help)
+[+] Added the survey annoucement. (if you haven't already, please take the
+survey, it really does help) This is only temporary and will be removed once
+enough responses are collected.
 
 09/13/2025:
 [+] Added Ragdoll Archers (Thanks for the suggestion Kaden!)

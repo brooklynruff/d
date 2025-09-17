@@ -25,6 +25,7 @@ tion.
 [+] Added Basketbros (Thanks for the suggestion Griffin!)
 [+] Added Whack Your Ex (Thanks for the suggestion!)
 [+] Added Grand Theft Auto Advanced
+[+] Fixed 1 on 1 Basketball
 
 09/16/2025:
 [+] Added the survey annoucement. (if you haven't already, please take the

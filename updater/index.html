@@ -100,6 +100,33 @@
             text-align: center;
         }
 
+        .announcement-banner {
+            background: #222;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 16px;
+            border-radius: 0;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .announcement-btn {
+            background: #222;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .announcement-btn:hover {
+            background: #444;
+        }
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/style.css">
@@ -118,8 +145,12 @@
 
 <body>
     <div id="snow" data-count="200"></div>
+    <div class="announcement-banner">
+        <span style="flex:1;text-align:center;">Help No Name Games stay the best unblocked games website! Please, take a short survey to help No Name Games improve.</span>
+        <button class="announcement-btn" onclick="window.open('https://forms.gle/DGqQLpnJxgiZn7A88')">Take the survey here</button>
+    </div>
     <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Last update: September 13th, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
+    <h3 class="centered">Last update: September 16th, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
     <center>
         <button onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Go to bug report form</button>
         <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>

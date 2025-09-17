@@ -4,4 +4,4 @@
 [+] Added Whack Your Ex (Thanks for the suggestion!)
 [+] Added Grand Theft Auto Advanced
 [+] Fixed 1 on 1 Basketball
-[+] Test
+[+] Added an update popup to tell you when an update happens

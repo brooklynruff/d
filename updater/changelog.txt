@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/17/2025:
+[+] Added Pokémon Red, Blue, and Yellow (Thanks for the suggestion!)
+[+]
+
 09/16/2025:
 [+] Added the survey annoucement. (if you haven't already, please take the
 survey, it really does help) This is only temporary and will be removed once

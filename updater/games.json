@@ -899,6 +899,18 @@
     "Pokémon Yellow [GB EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gb/py.xml",
         "img": "pokemonyellow.jpg"
+    },
+    "Basketbros": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/basketbros/bskbros.xml",
+        "img": "basketbros.jpg"
+    },
+    "Grand Theft Auto Advanced [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/gtaa.xml",
+        "img": "gtaa.jpg"
+    },
+    "Whack Your Ex": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whackyourex.xml",
+        "img": "whackyourex.jpg"
     }
   },
   "categories": {
@@ -999,7 +1011,8 @@
         "Basketball Stars 2019",
         "Basketballs",
         "Retro Bowl",
-        "Volley Random"
+        "Volley Random",
+        "Basketbros"
     ],
     "Driving": [
         "Ace Gangster",
@@ -1028,7 +1041,8 @@
         "Lego Star Wars: The Video Game [GBA EMULATED]",
         "Pokémon Yellow [GB EMULATED]",
         "Pokémon Red [GB EMULATED]",
-        "Pokémon Blue [GB EMULATED]"
+        "Pokémon Blue [GB EMULATED]",
+        "Grand Theft Auto Advanced [GBA EMULATED]"
     ]
   }
 }

@@ -26,6 +26,7 @@ tion.
 [+] Added Whack Your Ex (Thanks for the suggestion!)
 [+] Added Grand Theft Auto Advanced
 [+] Fixed 1 on 1 Basketball
+[+] Added an update popup to tell you when an update happens
 
 09/16/2025:
 [+] Added the survey annoucement. (if you haven't already, please take the

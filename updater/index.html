@@ -134,6 +134,64 @@
         .announcement-btn:hover {
             background: #444;
         }
+
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+            overflow-y: scroll;
+        }
+
+        .popup-content {
+            background: #222;
+            color: #fff;
+            font-family: monospace;
+            padding: 20px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            font-size: 14px;
+            padding: 4px 8px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .popup-close:hover {
+            background: #555;
+        }
+
+        .update-text {
+            background: #1e1e1e;
+            color: #ccc;
+            font-size: 14px;
+            text-align: left;
+            padding: 12px;
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            word-wrap: break-word;
+        }
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/style.css">
@@ -152,6 +210,15 @@
 
 <body>
     <div id="snow" data-count="200"></div>
+    <div id="updatePopup" class="popup-overlay" style="visibility: hidden;">
+        <div class="popup-content">
+            <button class="popup-close" onclick="closePopup()">✖</button>
+            <h2>🚀 New Update detected!</h2>
+            <pre class="update-text" id="updateText"></pre>
+            <button class="announcement-btn" onclick="update()">Update (Recommended)</button>
+            <button class="announcement-btn" onclick="closePopup()">Ignore</button>
+        </div>
+    </div>
     <div class="announcement-banner">
         <span style="flex:1;text-align:center;">Help No Name Games stay the best unblocked games website! Please, take a short survey to help No Name Games improve.</span>
         <button class="announcement-btn" onclick="window.open('https://forms.gle/DGqQLpnJxgiZn7A88')">Take the survey here</button>
@@ -324,5 +391,44 @@
                 }
             }
         })
+    </script>
+
+    <script type="text/javascript">
+        let lastUpdate;
+        let updatePopup = document.getElementById("updatePopup");
+        let updateText = document.getElementById("updateText");
+
+        async function checkUpdate() {
+            let update = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/changelog_highlight.txt", { cache: 'no-store' })).text();
+
+            if (!lastUpdate) {
+                lastUpdate = update;
+                return;
+            }
+
+            if (update != lastUpdate) {
+                updateText.innerText = update;
+
+                updatePopup.style.visibility = "visible";
+                document.body.style.overflow = "hidden";
+            }
+            
+            lastUpdate = update;
+        
+            setTimeout(checkUpdate, 5 * 60000); // every 5 mins it checks
+        }
+
+        async function update() {
+            let html = await (await fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/index.html", { cache: 'no-store' })).text();
+            window.open().document.write(html);
+            window.close();
+        }
+
+        async function closePopup() {
+            updatePopup.style.visibility = "hidden";
+            document.body.style.overflow = "";
+        }
+
+        checkUpdate();
     </script>
 </body>

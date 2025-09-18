@@ -32,4 +32,4 @@ async function closePopup() {
 }
 
 checkUpdate();
-setInterval(checkUpdate, 1000)
+setInterval(checkUpdate, 5 * 60000)

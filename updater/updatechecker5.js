@@ -18,8 +18,6 @@ async function checkUpdate() {
     }
     
     lastUpdate = update;
-
-    setTimeout(checkUpdate, 1000); // every 5 mins it checks
 }
 
 async function update() {
@@ -34,3 +32,4 @@ async function closePopup() {
 }
 
 checkUpdate();
+setInterval(checkUpdate, 1000)

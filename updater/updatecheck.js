@@ -19,7 +19,7 @@ async function checkUpdate() {
     
     lastUpdate = update;
 
-    setIn(checkUpdate, 5 * 60000); // every 5 mins it checks
+    setInterval(checkUpdate, 5 * 60000); // every 5 mins it checks
 }
 
 async function update() {

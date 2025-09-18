@@ -1,7 +1,5 @@
-09/17/2025:
-[+] Added Pokémon Red, Blue, and Yellow (Thanks for the suggestion!)
-[+] Added Basketbros (Thanks for the suggestion Griffin!)
-[+] Added Whack Your Ex (Thanks for the suggestion!)
-[+] Added Grand Theft Auto Advanced
-[+] Fixed 1 on 1 Basketball
-[+] Added an update popup to tell you when an update happens
+09/18/2025:
+[+] Fixed Tomb of the Mask (Thanks for the bug report Buena)
+[+] Fixed Basketball Legends 2020. (Thanks for the bug report Buena)
+[-] Removed Basketball Stars 2019. (Might re-add later if people care too
+much)

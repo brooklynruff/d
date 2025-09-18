@@ -9,11 +9,11 @@
         "img": "retrobowl.jpg"
     },
     "Tomb of the Mask": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tombofthemask.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/tombofthemask/totm.xml",
         "img": "tombofthemask.png"
     },
     "Basketball Legends 2020": {
-        "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac4a02502694/24242.xml?part=0.1&view=1",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/basketballlegends/2020/bl3.xml",
         "img": "basketballlegends.jpg"
     },
     "Counter Strike": {
@@ -135,10 +135,6 @@
     "2 Player Chess": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2plrchess.xml",
         "img": "chess.png"
-    },
-    "Basketball Stars 2019": {
-        "url": "https://groups.google.com/group/classroomgoogl-net/attach/9ac96c1f2fa6b/xg.xml?part=0.1&view=1",
-        "img": "basketballstars.jpg"
     },
     "Basket Stars": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/basketballs.xml",

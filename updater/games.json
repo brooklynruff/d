@@ -927,6 +927,10 @@
     "Whack the Burglars": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whacktheburglars.xml",
         "img": "whacktheburglars.webp"
+    },
+    "Pluh RNG (Scratch)": {
+        "url": "NOTXML;https://scratch.mit.edu/projects/1153581773/embed",
+        "img": "pluhrng.png"
     }
   },
   "categories": {

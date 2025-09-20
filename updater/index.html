@@ -295,7 +295,7 @@
         async function openchangelog() {
             let text = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/changelog.txt", {cache: "no-store"})).text();
             let a = window.open();
-            let iframe = document.createElement('iframe')
+            let iframe = a.document.createElement('iframe')
             iframe.src = URL.createObjectURL(new Blob([text], {type:"text/plain"}));
             
             iframe.style.margin = "auto";

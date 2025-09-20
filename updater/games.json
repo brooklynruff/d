@@ -911,6 +911,10 @@
     "Whack Your Ex": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whackyourex.xml",
         "img": "whackyourex.jpg"
+    },
+    "Getaway Shootout": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/getawayshootout/getaway.xml",
+        "img": "getawayshootout.webp"
     }
   },
   "categories": {
@@ -971,7 +975,8 @@
         "Zombie Horde 2",
         "Zombie Horde 3",
         "Funny Shooter 2",
-        "Ragdoll Archers"
+        "Ragdoll Archers",
+        "Getaway Shootout"
     ],
     "Classic": [
         "Angry Birds",

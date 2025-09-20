@@ -22,6 +22,7 @@ tion.
 ==================================CHANGELOG=================================
 09/20/2025:
 [+] Added Unmonitored Google
+[+] Added Getaway Shootout (Thanks for the suggestion!)
 
 09/18/2025:
 [+] Fixed Tomb of the Mask (Thanks for the bug report Buena)

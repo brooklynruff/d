@@ -23,6 +23,8 @@ tion.
 09/20/2025:
 [+] Added Unmonitored Google
 [+] Added Getaway Shootout (Thanks for the suggestion!)
+[+] Added Levil Devil: NOT a Troll Game (Thanks for the suggestion!)
+[+] Added Call of Duty: Black Ops (Thanks for the suggestion!)
 
 09/18/2025:
 [+] Fixed Tomb of the Mask (Thanks for the bug report Buena)

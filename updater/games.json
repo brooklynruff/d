@@ -290,7 +290,7 @@
     },
     "(UNMONITORED) Google": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/google.xml",
-        "img": "edubrain.png"
+        "img": "google.png"
     },
     "2048 Multiplayer": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2048mult.xml",

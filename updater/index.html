@@ -297,8 +297,8 @@
             let a = window.open();
             
             let scr = document.createElement('script');
-            scr.innerHTML = `let iframe = document.createElement('iframe')
-            iframe.src = URL.createObjectURL(new Blob([atob("${btoa(text)}"})], {type:"text/plain"}));
+            scr.innerHTML = `let iframe = document.createElement('iframe');
+            iframe.src = URL.createObjectURL(new Blob([atob("${btoa(text)}")], {type:"text/plain"}));
             
             iframe.style.margin = "auto";
             iframe.style.height = "100%";
@@ -318,7 +318,7 @@
 
             document.body.appendChild(iframe);`
 
-            document.head.appendChild(scr);
+            a.document.head.appendChild(scr);
         }
 
         search.addEventListener('input', function(event) {

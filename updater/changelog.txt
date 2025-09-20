@@ -26,8 +26,8 @@ tion.
 [+] Added Levil Devil: NOT a Troll Game (Thanks for the suggestion!)
 [+] Added Call of Duty: Black Ops (Thanks for the suggestion!)
 [+] Added Whack the Burglars (Thanks for the suggestion!)
-[!] I take that back changelog's still broken on Microsoft Edge give me
-a minute.
+[+] Fixed Changelog not working on Microsoft Edge (Thanks for the bug
+report Julian G)
 
 09/18/2025:
 [+] Fixed Tomb of the Mask (Thanks for the bug report Buena)

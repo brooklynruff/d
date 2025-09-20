@@ -6,4 +6,5 @@
 [+] Added Whack the Burglars (Thanks for the suggestion!)
 [+] Fixed Changelog not working on Microsoft Edge (Thanks for the bug
 report Julian G)
-[+] Added Pluh RNG (Thanks for the suggestion Julian G)
+[+] Added Pluh RNG (Thanks for the suggestion Julian G) [Sorry I forgot to
+add it when I promised you I would, lol]

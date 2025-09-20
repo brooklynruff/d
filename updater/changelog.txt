@@ -25,6 +25,7 @@ tion.
 [+] Added Getaway Shootout (Thanks for the suggestion!)
 [+] Added Levil Devil: NOT a Troll Game (Thanks for the suggestion!)
 [+] Added Call of Duty: Black Ops (Thanks for the suggestion!)
+[+] Added Whack the Burglars (Thanks for the suggestion!)
 
 09/18/2025:
 [+] Fixed Tomb of the Mask (Thanks for the bug report Buena)

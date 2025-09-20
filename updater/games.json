@@ -923,6 +923,10 @@
     "Call of Duty: Black Ops [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/codbo.xml",
         "img": "codbo.jpg"
+    },
+    "Whack the Burglars": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/whacktheburglars.xml",
+        "img": "whacktheburglars.webp"
     }
   },
   "categories": {

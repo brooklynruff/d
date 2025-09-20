@@ -288,6 +288,10 @@
         "url": "NOTXML;https://edubrain.ai/",
         "img": "edubrain.png"
     },
+    "(UNMONITORED) Google": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/google.xml",
+        "img": "edubrain.png"
+    },
     "2048 Multiplayer": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/2048mult.xml",
         "img": "2048mult.jpg"

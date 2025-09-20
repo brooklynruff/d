@@ -35,7 +35,6 @@
         
 
     </div>
-    <div id="ads"></div>
     <div class="font_preload" style="opacity: 0">
         <span style="font-family: 'gameFont', 'Arial', normal;"></span>
     </div>

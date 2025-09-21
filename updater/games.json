@@ -284,12 +284,12 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream5.xml",
         "img": "badicecream.jpg"
     },
-    "(AI HOMEWORK SOLVER) Edubrain.ai": {
-        "url": "NOTXML;https://edubrain.ai/",
+    "(UNMONITORED) Google Gemini": {
+        "url": "NOTXML;https://www.google.com/search?aep-20&udm=50&igu=1",
         "img": "edubrain.png"
     },
     "(UNMONITORED) Google": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/google.xml",
+        "url": "NOTXML;https://www.google.com/?igu=1",
         "img": "google.png"
     },
     "2048 Multiplayer": {

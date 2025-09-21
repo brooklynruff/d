@@ -2868,7 +2868,7 @@ function pc(h, r, p, t) {
         if (0 === this.Ne) {
             var c = new Image;
             c.crossOrigin = "anonymous";
-            this.wr(c, "loading-logo.png");
+            this.wr(c, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/badtimesimulator/loading-logo.png");
             this.Me = {
                 mk: c
             }

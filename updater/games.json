@@ -931,6 +931,10 @@
     "Pluh RNG (Scratch)": {
         "url": "NOTXML;https://scratch.mit.edu/projects/1153581773/embed",
         "img": "pluhrng.png"
+    },
+    "Red Ball 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/redball4.xml",
+        "img": "redball4.jpg"
     }
   },
   "categories": {

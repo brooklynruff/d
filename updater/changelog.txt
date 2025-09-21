@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/21/2025:
+[+] Added Red Ball 4 (Thanks for the suggestion!)
+
 09/20/2025:
 [+] Added Unmonitored Google
 [+] Added Getaway Shootout (Thanks for the suggestion!)

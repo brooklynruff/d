@@ -30,6 +30,8 @@ tion.
 report Julian G)
 [+] Added Pluh RNG (Thanks for the suggestion Julian G) [Sorry I forgot to
 add it when I promised you I would, lol]
+[+] Fixed Bad Time Simulator (Thanks for the bug report Omega, next
+time use the bug report form though)
 
 09/18/2025:
 [+] Fixed Tomb of the Mask (Thanks for the bug report Buena)

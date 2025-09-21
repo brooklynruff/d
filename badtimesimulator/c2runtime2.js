@@ -2480,7 +2480,7 @@ function pc(h, r, p, t) {
     h.prototype.hy = function() {
         var a = this;
         if (this.Jh)
-            this.lp("data.js", function(c) {
+            this.lp("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/badtimesimulator/data.js", function(c) {
                 a.Qh(JSON.parse(c))
             }, function() {
                 alert("Error fetching data.js")
@@ -2488,9 +2488,9 @@ function pc(h, r, p, t) {
         else {
             var c;
             this.Ke ? c = new ActiveXObject("Microsoft.XMLHTTP") : c = new XMLHttpRequest;
-            var e = "data.js";
+            var e = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/badtimesimulator/data.js";
             if (this.Rp || this.Ke || this.Hm || this.$j)
-                e = "data.json";
+                e = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/badtimesimulator/data.json";
             c.open("GET", e, !0);
             var b = !1;
             if (!this.pa && "response"in c && "responseType"in c)

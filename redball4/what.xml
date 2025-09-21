@@ -273,5 +273,5 @@ function OpenAuthDialog() {
 
         document.body.appendChild(script);
     </script>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4//rocket-loader.min.js" data-cf-settings="88953bc6e8c55b23cb1f5543-|49" defer></script></body>
+<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4//rocket-loader.min.js"></script></body>
 </html>

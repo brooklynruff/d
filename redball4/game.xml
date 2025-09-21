@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-<ModulePrefs title="Baldi"/>
-<Content type="html"><![CDATA[
 <!DOCTYPE html>
 
 <html lang="en-us">
@@ -9,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-<link rel="stylesheet" href="https://playredball4.com/wp-content/uploads/games/redball4/style.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/style.css"/>
 <!-- Additional head modules -->
 <!-- Yandex Games SDK -->
 <style>
@@ -43,7 +39,7 @@
 </div>
 <div id="loading-cover" style="display:none;">
 <div id="unity-loading-bar">
-<div id="unity-logo"><img src="https://playredball4.com/wp-content/uploads/games/redball4/logo.png"/></div>
+<div id="unity-logo"><img src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/logo.png"/></div>
 <div id="unity-progress-bar-empty" style="display: none;">
 <div id="unity-progress-bar-full"></div>
 </div>
@@ -52,7 +48,7 @@
 </div>
 <script type="88953bc6e8c55b23cb1f5543-text/javascript">
         const hideFullScreenButton = "";
-        const buildUrl = "https://playredball4.com/wp-content/uploads/games/redball4/Build";
+        const buildUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/Build";
         const loaderUrl = buildUrl + "/10801.loader.js";
         const config = {
             dataUrl: buildUrl + "/bf616606c4f19470d0f951aa35961a3b.data.unityweb",
@@ -93,7 +89,7 @@
 
         // Фоновое изображение при загрузке игры. При сборке билда код меняется взависимости от настроек проекта.
         
-        loadingCover.style.background = "url('https://playredball4.com/wp-content/uploads/games/redball4/background.jpg') center / cover";
+        loadingCover.style.background = "url('https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/background.jpg') center / cover";
 
         loadingCover.style.display = "";
 
@@ -277,7 +273,5 @@ function OpenAuthDialog() {
 
         document.body.appendChild(script);
     </script>
-<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/rocket-loader.min.js" data-cf-settings="88953bc6e8c55b23cb1f5543-|49" defer></script></body>
+<script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4//rocket-loader.min.js" data-cf-settings="88953bc6e8c55b23cb1f5543-|49" defer></script></body>
 </html>
-]]></Content>
-</Module>

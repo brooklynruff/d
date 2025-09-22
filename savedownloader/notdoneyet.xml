@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Five Day at Freddys" />
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module">
+        import superjson from "https://cdn.skypack.dev/superjson";
+        window.superjson = superjson;
+    </script>
+    <script>
+        async function serializeDatabaseContents(dbName) {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(dbName);
+
+                request.onerror = (event) => {
+                    reject(`Error opening database ${dbName}`);
+                }
+
+                request.onsuccess = (event) => {
+                    const db = event.target.result;
+                    const allContents = {};
+
+                    const objectStoreNames = Array.from(db.objectStoreNames);
+                    if (objectStoreNames.length == 0) {
+                        db.close();
+                        resolve(allContents);
+                        return;
+                    }
+
+                    let completedStores = 0;
+                    objectStoreNames.forEach(storeName => {
+                        const transaction = db.transaction([storeName], "readonly");
+                        const objectStore = transaction.objectStore(storeName);
+                        const cursorReq = objectStore.openCursor();
+
+                        allContents[storeName] = {};
+
+                        cursorReq.onsuccess = (event) => {
+                            let cursor = event.target.result;
+                            if (cursor) {
+                                allContents[storeName][cursor.primaryKey] = cursor.value;
+                                cursor.continue()
+                            } else {
+                                completedStores++;
+                                if (completedStores == objectStoreNames.length) {
+                                    db.close();
+                                    resolve(allContents);
+                                }
+                            }
+                        }
+
+                        cursorReq.onerror = (event) => {
+                            console.log(`Error getting data from store ${storeName} in ${dbName}`);
+                            completedStores++;
+                            if (completedStores == objectStoreNames.length) {
+                                db.close();
+                                resolve(allContents);
+                            }
+                        }
+                    })
+                }
+            })
+        }
+
+        async function importDatabaseContents(dbName, data) {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(dbName);
+
+                request.onupgradeneeded = (event) => {
+                    const db = event.target.result;
+
+                    for (name in data) {
+                        let objectStore = db.createObjectStore(name);
+                            
+                        for (name2 in data[name]) {
+                            objectStore.createIndex(name2, "", {unique:false});
+                        }
+                    }
+                }
+
+                request.onsuccess = function(event) {
+                    const db = event.target.result;
+
+                    for (name in data) {
+                        let transaction = db.transaction(name, 'readwrite')
+                        let objectStore = transaction.objectStore(name);
+
+
+                        for (name2 in data[name]) {
+                            objectStore.add(data[name][name2], name2)
+                        }
+                    }
+
+                    db.close();
+                }
+
+                request.onerror = (event) => {
+                    reject(`Error opening database ${dbName}`);
+                }
+            })
+        }
+
+        async function download() {
+            let output = {};
+
+            // serialize cookies
+            output["cookies"] = document.cookie;
+
+            // serialize session storage
+            output["sessionStorage"] = {};
+            for (let i = 0; i < sessionStorage.length; i++) {
+                let key = sessionStorage.key(i);
+                output["sessionStorage"][key] = sessionStorage[key];
+            }
+
+            // serialize local storage
+            let databaseNames = (await indexedDB.databases()).map(db => db.name);
+            let allData = {};
+
+            for (const name of databaseNames) {
+                allData[name] = await serializeDatabaseContents(name);
+            }
+
+            output["localStorage"] = allData;
+
+            console.log(btoa("NONAMEGAMESEXPORTDATA|" + superjson.stringify(output)))
+        }
+        
+        async function importData() {
+            let input = document.getElementById("data").value;
+
+            let decoded;
+
+            try {
+                decoded = atob(input);
+            } catch {
+                return alert("Not a valid export file.");
+            }
+
+            if (!decoded.startsWith("NONAMEGAMESEXPORTDATA|")) {
+                return alert("Not a valid export file.");
+            }
+
+            decoded = decoded.substr(22);
+
+            try {
+                decoded = superjson.parse(decoded);
+            } catch {
+                return alert("Not a valid export file.");
+            }
+            console.log(decoded)
+            document.cookie = decoded.cookies;
+            
+            for (let i = 0; i < sessionStorage.length; i++) {
+                sessionStorage.removeItem(sessionStorage.key(i));
+            }
+
+            for (name in decoded.sessionStorage) {
+                sessionStorage.setItem(name, decoded.sessionStorage[name]);
+            }
+
+            for (name in decoded.localStorage) {
+                importDatabaseContents(name, decoded.localStorage[name])
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="download()">download</button>
+    <br>
+    <textarea placeholder="data" id="data"></textarea>
+    <br>
+    <button onclick="importData()">import</button>
+</body>
+</html>
+
+]]></Content>
+</Module>

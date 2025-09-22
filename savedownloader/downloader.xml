@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="bad time simulator"/>
+<ModulePrefs title="downloader"/>
 <Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html lang="en">
@@ -237,7 +237,7 @@
                 output["sessionStorage"][key] = sessionStorage[key];
             }
 
-            // serialize local storage
+            // serialize indexeddb
             let databaseNames = (await indexedDB.databases()).map(db => db.name);
             let allData = {};
 
@@ -245,7 +245,14 @@
                 allData[name] = await serializeDatabaseContents(name);
             }
 
-            output["localStorage"] = allData;
+            output["indexedDB"] = allData;
+
+            // serialize localstorage
+            output["localStorage"] = {};
+            for (let i = 0; i < localStorage.length; i++) {
+                let key = localStorage.key(i);
+                output["localStorage"][key] = localStorage[key];
+            }
 
             let file = btoa("NONAMEGAMESEXPORTDATA|" + superjson.stringify(output));
 
@@ -301,8 +308,12 @@
                 indexedDB.deleteDatabase(name);
             }
 
-            for (name in decoded.localStorage) {
+            for (name in decoded.indexedDB) {
                 importDatabaseContents(name, decoded.localStorage[name])
+            }
+
+            for (name in decoded.localStorage) {
+                localStorage.setItem(name, decoded.localStorage[name]);
             }
 
             alert("Imported!")
@@ -429,5 +440,6 @@
     </script>
 </body>
 </html>
+
 ]]></Content>
 </Module>

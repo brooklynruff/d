@@ -127,10 +127,7 @@
             background: #444;
         }
     </style>
-    <script type="module">
-        import superjson from "https://cdn.skypack.dev/superjson";
-        window.superjson = superjson;
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/msgpackr@1.11.5/dist/index.min.js"></script>
     <script>
         async function serializeDatabaseContents(dbName) {
             return new Promise((resolve, reject) => {
@@ -254,7 +251,18 @@
                 output["localStorage"][key] = localStorage[key];
             }
 
-            let file = btoa("NONAMEGAMESEXPORTDATA|" + superjson.stringify(output));
+            function arrayBufferToBase64(buffer) {
+                let binary = '';
+                const bytes = new Uint8Array(buffer);
+                const chunkSize = 0x8000;
+                for (let i = 0; i < bytes.length; i += chunkSize) {
+                    const chunk = bytes.subarray(i, i + chunkSize);
+                    binary += String.fromCharCode.apply(null, chunk);
+                }
+                return btoa(binary);
+            }
+
+            let file = arrayBufferToBase64(msgpackr.pack(output));
 
             if (method == "file") {
                 let url = URL.createObjectURL(new Blob([file]), {type:'text/plain'});
@@ -275,21 +283,20 @@
         async function importRaw(input) {
             let decoded;
 
-            try {
-                decoded = atob(input);
-            } catch {
-                return alert("Not a valid export file.");
+            function base64ToArrayBuffer(base64) {
+                const binary = atob(base64);
+                const len = binary.length;
+                const bytes = new Uint8Array(len);
+                for (let i = 0; i < len; i++) {
+                    bytes[i] = binary.charCodeAt(i);
+                }
+                return bytes.buffer;
             }
 
-            if (!decoded.startsWith("NONAMEGAMESEXPORTDATA|")) {
-                return alert("Not a valid export file.");
-            }
-
-            decoded = decoded.substr(22);
-
             try {
-                decoded = superjson.parse(decoded);
-            } catch {
+                decoded = msgpackr.unpack(base64ToArrayBuffer(input));
+            } catch (e) {
+                console.log(e)
                 return alert("Not a valid export file.");
             }
 
@@ -440,6 +447,5 @@
     </script>
 </body>
 </html>
-
 ]]></Content>
 </Module>

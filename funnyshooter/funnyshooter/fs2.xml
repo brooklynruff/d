@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Funny Shooter | The Game Collection</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -31,9 +31,9 @@
       var buildUrl = "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter/funnyshooter/Build/";
       var loaderUrl ="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/Funny6.loader.js";
       var config = {
-        dataUrl:"Funny6.data.unityweb",
-        frameworkUrl:"Funny6.framework.js.unityweb",
-        codeUrl:"Funny6.wasm.unityweb",
+        dataUrl:"https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/funnyshooter/funnyshooter/Build/Funny6.data.unityweb",
+        frameworkUrl:"https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/Build/Funny6.framework.js.unityweb",
+        codeUrl:"https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/Build/Funny6.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Suvorovs Games",
         productName: "Stick Fighting Online Stickman Battle",

@@ -31,7 +31,7 @@
         document.body.appendChild(s);
       }
 
-      addScript("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vex4/version.js", Date.now(), function () {
+      addScript("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vex4/version2.js", Date.now(), function () {
         addScript(gameName, version, function () {
           var game = new Vex4.Game();
         });

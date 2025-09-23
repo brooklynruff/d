@@ -1,15 +1,10 @@
-09/21/2025:
-[+] Added Red Ball 4 (Thanks for the suggestion!)
-
-09/20/2025:
-[+] Added Unmonitored Google
-[+] Added Getaway Shootout (Thanks for the suggestion!)
-[+] Added Levil Devil: NOT a Troll Game (Thanks for the suggestion!)
-[+] Added Call of Duty: Black Ops (Thanks for the suggestion!)
-[+] Added Whack the Burglars (Thanks for the suggestion!)
-[+] Fixed Changelog not working on Microsoft Edge (Thanks for the bug
-report Julian G)
-[+] Added Pluh RNG (Thanks for the suggestion Julian G) [Sorry I forgot to
-add it when I promised you I would, lol]
-[+] Fixed Bad Time Simulator (Thanks for the bug report Omega, next
-time use the bug report form though)
+09/23/2025:
+[!] First off I'd like to start by saying some of you don't understand what
+Unmonitored Google does. Unmonitored Google just makes what you search not
+traceable to your Google account. It does NOT unblock sites and will most
+likely not work if you open a website on it.
+[!] I also noticed a lot of you really want proxies. I *may* do this in
+the future, but for right now this isn't 100% planned.
+[!] I really appreciate all the feedback and bug reports you guys are
+submitting, it really does help. (:
+[+] Fixed Vex 4

@@ -840,8 +840,12 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/surfer.xml",
         "img": "subwaysurfers.jpg"
     },
+    "Funny Shooter": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/funnyshooter.xml",
+        "img": "funnyshooter2.webp"
+    },
     "Funny Shooter 2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter2/funnysho2_2.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter2/funnysho2_2.xml",
         "img": "funnyshooter2.webp"
     },
     "Ragdoll Archers": {
@@ -1076,7 +1080,9 @@
         "Pokémon Red [GB EMULATED]",
         "Pokémon Blue [GB EMULATED]",
         "Grand Theft Auto Advanced [GBA EMULATED]",
-        "Call of Duty: Black Ops [NDS EMULATED]"
+        "Call of Duty: Black Ops [NDS EMULATED]",
+        "Mike Tyson's Punch-Out!! [NES EMULATED]",
+        "SUPER PUNCH OUT!! [SNES EMULATED]"
     ]
   }
 }

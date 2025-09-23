@@ -7,8 +7,8 @@ likely not work if you open a website on it.
 the future, but for right now this isn't 100% planned.
 [!] I really appreciate all the feedback and bug reports you guys are
 submitting, it really does help. (:
-[+] Added Mike Tyson's Punch-Out!!
-[+] Added SUPER PUNCH OUT!!
+[+] Added Mike Tyson's Punch-Out!! (Thanks for the suggestion Fart)
+[+] Added SUPER PUNCH OUT!! (Thanks for the suggestion Fart)
 [-] Removed Vex 4 & Vex 5 due to it being broken. Might re-add it later.
 (Thanks for the bug report Gigi)
 [-] Removed Short Life 2 due to it being broken. Might re-add it later.

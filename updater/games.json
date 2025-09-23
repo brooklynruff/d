@@ -784,10 +784,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex.xml",
         "img": "vex.jpg"
     },
-    "Vex 4": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex4_2.xml",
-        "img": "vex4.jpg"
-    },
     "Vex 5": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/vex5.xml",
         "img": "vex5.jpg"
@@ -935,6 +931,14 @@
     "Red Ball 4": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/redball4/redball4.xml",
         "img": "redball4.jpg"
+    },
+    "Mike Tyson's Punch-Out!! [NES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/mptu.xml",
+        "img": "mtpu.jpg"
+    },
+    "SUPER PUNCH OUT!! [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/spu.xml",
+        "img": "spu.jpg"
     }
   },
   "categories": {
@@ -967,6 +971,10 @@
         "Tiny Fishing",
         "Tomb of the Mask",
         "Funny Shooter 2"
+    ],
+    "Newly Updated": [
+        "Mike Tyson's Punch-Out!! [NES EMULATED]",
+        "SUPER PUNCH OUT!! [SNES EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

@@ -11,6 +11,12 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/style.css">
   </head>
+  <script>
+    var saveData = () => {},
+		showFullscrenAd  = () => {},
+		showRewardedAd = (id) => {window.unityInstance != null && window.unityInstance.SendMessage('GameManager', 'BuyComplete', id)},
+		openGameUrl = () => {};
+  </script>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>

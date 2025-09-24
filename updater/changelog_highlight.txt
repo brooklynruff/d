@@ -1,19 +1,1 @@
 09/23/2025:
-[!] First off I'd like to start by saying some of you don't understand what
-Unmonitored Google does. Unmonitored Google just makes what you search not
-traceable to your Google account. It does NOT unblock sites and will most
-likely not work if you open a website on it.
-[!] I also noticed a lot of you really want proxies. I *may* do this in
-the future, but for right now this isn't 100% planned.
-[!] I really appreciate all the feedback and bug reports you guys are
-submitting, it really does help. (:
-[+] Added Mike Tyson's Punch-Out!! (Thanks for the suggestion Fart)
-[+] Added SUPER PUNCH OUT!! (Thanks for the suggestion Fart)
-[+] Added Funny Shooter (Thanks for the suggestion)
-[+] Added Call of Duty: World at War (Thanks for the suggestion)
-[+] Added Call of Duty: Modern Warfare 3: Defiance (Thanks for the 
-suggestion)
-[-] Removed Vex 4 & Vex 5 due to it being broken. Might re-add it later.
-(Thanks for the bug report Gigi)
-[-] Removed Short Life 2 due to it being broken. Might re-add it later.
-(Thanks for the bug report Johnathon)

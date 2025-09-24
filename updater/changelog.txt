@@ -20,6 +20,12 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/24/2025:
+[!] Hey everyone! I really do appreciate all the support I've been getting
+recently. It means a lot! I didn't anticipate so many new users, but it's
+completely fine with me.
+[+] Added Stickman Hook (Thanks for the suggestion Enrique)
+
 09/23/2025:
 [!] First off I'd like to start by saying some of you don't understand what
 Unmonitored Google does. Unmonitored Google just makes what you search not

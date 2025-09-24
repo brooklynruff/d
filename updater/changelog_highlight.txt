@@ -4,3 +4,6 @@ recently. It means a lot!
 [+] Added Stickman Hook (Thanks for the suggestion Enrique)
 [+] Added Monkey Mart (Thanks for the suggestion Enrique)
 [+] Fixed Mike Tyson's Punch Out!!
+[+] Fixed Papa's Burgeria
+[+] Added the other Papa's games (Bakeria, Cheeseria, Cupcakeria, Donuteria,
+Freezeria, Hot Doggeria, Pancakeria, Pastaria, Pizzeria, and Scooperia)

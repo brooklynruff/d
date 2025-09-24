@@ -943,10 +943,6 @@
     "SUPER PUNCH OUT!! [SNES EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/spu.xml",
         "img": "spu.jpg"
-    },
-    "Slice Master": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slicemaster/slice.xml",
-        "img": "slicemaster.webp"
     }
   },
   "categories": {
@@ -983,7 +979,6 @@
     "Newly Updated": [
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
         "SUPER PUNCH OUT!! [SNES EMULATED]",
-        "Slice Master",
         "Funny Shooter"
     ],
     "Horror": [

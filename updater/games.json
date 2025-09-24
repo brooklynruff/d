@@ -44,6 +44,46 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/burgeria.xml",
         "img": "papasburgeria.jpg"
     },
+    "Papa's Bakeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/bakeria.xml",
+        "img": "bakeria.jpg"
+    },
+    "Papa's Cheeseria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/cheeseria.xml",
+        "img": "bakeria.jpg"
+    },
+    "Papa's Cupcakeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/cheeseria.xml",
+        "img": "cupcakeria.jpg"
+    },
+    "Papa's Donuteria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/donuteria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Freezeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/freezeria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Hot Doggeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/hotdoggeria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Pancakeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pancakeria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Pastaria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pastaria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Pizzeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pizzeria.xml",
+        "img": "donuteria.jpg"
+    },
+    "Papa's Scooperia": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/scooperia.xml",
+        "img": "donuteria.jpg"
+    },
     "BitLife": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
         "img": "bitlife.jpg"
@@ -995,7 +1035,18 @@
     "Newly Added/Updated": [
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
         "Stickman Hook",
-        "Monkey Mart"
+        "Monkey Mart",
+        "Papa's Burgeria",
+        "Papa's Bakeria",
+        "Papa's Cheeseria",
+        "Papa's Scooperia",
+        "Papa's Pizzeria",
+        "Papa's Pastaria",
+        "Papa's Pancakeria",
+        "Papa's Hot Doggeria",
+        "Papa's Freezeria",
+        "Papa's Donuteria",
+        "Papa's Cupcakeria"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

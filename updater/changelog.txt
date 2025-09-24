@@ -22,9 +22,10 @@ tion.
 ==================================CHANGELOG=================================
 09/24/2025:
 [!] Hey everyone! I really do appreciate all the support I've been getting
-recently. It means a lot! I didn't anticipate so many new users, but it's
-completely fine with me.
+recently. It means a lot!
 [+] Added Stickman Hook (Thanks for the suggestion Enrique)
+[+] Added Monkey Mart (Thanks for the suggestion Enrique)
+[+] Fixed Mike Tyson's Punch Out!!
 
 09/23/2025:
 [!] First off I'd like to start by saying some of you don't understand what

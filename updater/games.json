@@ -937,7 +937,7 @@
         "img": "redball4.jpg"
     },
     "Mike Tyson's Punch-Out!! [NES EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/mptu.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/mtpu.xml",
         "img": "mtpu.jpg"
     },
     "SUPER PUNCH OUT!! [SNES EMULATED]": {
@@ -951,6 +951,14 @@
     "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/codmw3.xml",
         "img": "codmw3.jpg"
+    },
+    "Monkey Mart": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/monkeymart/monkey.xml",
+        "img": "monkeymart.jpg"
+    },
+    "Stickman Hook": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/stickmanhook/stickmanhook/hook.xml",
+        "img": "stickmanhook.png"
     }
   },
   "categories": {
@@ -984,12 +992,10 @@
         "Tomb of the Mask",
         "Funny Shooter 2"
     ],
-    "Newly Updated": [
+    "Newly Added/Updated": [
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
-        "SUPER PUNCH OUT!! [SNES EMULATED]",
-        "Funny Shooter",
-        "Call of Duty: World at War [NDS EMULATED]",
-        "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]"
+        "Stickman Hook",
+        "Monkey Mart"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

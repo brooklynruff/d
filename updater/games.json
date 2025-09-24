@@ -62,27 +62,27 @@
     },
     "Papa's Freezeria": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/freezeria.xml",
-        "img": "donuteria.jpg"
+        "img": "freezeria.jpg"
     },
     "Papa's Hot Doggeria": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/hotdoggeria.xml",
-        "img": "donuteria.jpg"
+        "img": "hotdoggeria.jpg"
     },
     "Papa's Pancakeria": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pancakeria.xml",
-        "img": "donuteria.jpg"
+        "img": "pancakeria.jpg"
     },
     "Papa's Pastaria": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pastaria.xml",
-        "img": "donuteria.jpg"
+        "img": "pastaria.jpg"
     },
     "Papa's Pizzeria": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/pizzeria.xml",
-        "img": "donuteria.jpg"
+        "img": "pizzeria.jpg"
     },
     "Papa's Scooperia": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/scooperia.xml",
-        "img": "donuteria.jpg"
+        "img": "scooperia.jpg"
     },
     "BitLife": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",

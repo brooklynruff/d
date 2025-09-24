@@ -943,6 +943,14 @@
     "SUPER PUNCH OUT!! [SNES EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/spu.xml",
         "img": "spu.jpg"
+    },
+    "Call of Duty: World At War [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/codwaw.xml",
+        "img": "codwaw.jpg"
+    },
+    "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/codmw3.xml",
+        "img": "codmw3.jpg"
     }
   },
   "categories": {
@@ -1083,7 +1091,8 @@
         "Grand Theft Auto Advanced [GBA EMULATED]",
         "Call of Duty: Black Ops [NDS EMULATED]",
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
-        "SUPER PUNCH OUT!! [SNES EMULATED]"
+        "SUPER PUNCH OUT!! [SNES EMULATED]",
+        "Call of Duty: World at War [NDS EMULATED]"
     ]
   }
 }

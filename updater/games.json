@@ -944,7 +944,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/spu.xml",
         "img": "spu.jpg"
     },
-    "Call of Duty: World At War [NDS EMULATED]": {
+    "Call of Duty: World at War [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/codwaw.xml",
         "img": "codwaw.jpg"
     },
@@ -987,7 +987,9 @@
     "Newly Updated": [
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
         "SUPER PUNCH OUT!! [SNES EMULATED]",
-        "Funny Shooter"
+        "Funny Shooter",
+        "Call of Duty: World at War [NDS EMULATED]",
+        "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1092,7 +1094,8 @@
         "Call of Duty: Black Ops [NDS EMULATED]",
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
         "SUPER PUNCH OUT!! [SNES EMULATED]",
-        "Call of Duty: World at War [NDS EMULATED]"
+        "Call of Duty: World at War [NDS EMULATED]",
+        "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]"
     ]
   }
 }

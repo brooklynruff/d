@@ -7,3 +7,4 @@ recently. It means a lot!
 [+] Fixed Papa's Burgeria
 [+] Added the other Papa's games (Bakeria, Cheeseria, Cupcakeria, Donuteria,
 Freezeria, Hot Doggeria, Pancakeria, Pastaria, Pizzeria, and Scooperia)
+[+] Fixed Acid Bunny (Thanks for the bug report)

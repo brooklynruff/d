@@ -256,10 +256,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/flyordie/flyordie2.xml",
         "img": "flyordie.jpg"
     },
-    "Moto X3M": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3m.xml",
-        "img": "motox3m.jpg"
-    },
     "Fall Guys": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallguys.xml",
         "img": "fallguys.jpg"
@@ -583,10 +579,6 @@
     "Mortal Kombat Karnage": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mortalkombat.xml",
         "img": "mortalkombat.jpg"
-    },
-    "Moto X3M Winter": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/motox3mwinter.xml",
-        "img": "motox3mwinter.jpg"
     },
     "My Little Pony": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/mylittlepony.xml",

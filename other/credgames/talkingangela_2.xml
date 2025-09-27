@@ -23,7 +23,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/talkingangela.swf");
+player.load("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/swffiles/talkingangela.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

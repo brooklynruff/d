@@ -20,6 +20,17 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+09/27/2025:
+[!] Hey! I'm probably going to take a small break from adding suggestions.
+It's been getting a little much, suggestion form will still be up but I'm
+probably going to slow down and work on some other features and bugs first.
+I appreciate all the suggestions though! It's just with all the new users
+and everything it's been getting a little much, I'm a solo developer after
+all.
+[+] Fixed Talking Angela (Thanks for the bug report Jonathon)
+[-] Removed Moto X3M & Moto X3M Winter due to them being broken. Will
+re-add when I decide to fix them. (Thanks for the bug report zekes37)
+
 09/24/2025:
 [!] Hey everyone! I really do appreciate all the support I've been getting
 recently. It means a lot!

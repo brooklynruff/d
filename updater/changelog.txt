@@ -28,6 +28,7 @@ but I'm back.
 [+] Added Kindergarten 3
 [+] Added Balatro
 [+] Added Karlson
+[+] Added Yandere Simulator
 [-] Removed the survey banner as it isn't needed anymore (thanks for all
 the feedback!)
 

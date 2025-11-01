@@ -1011,6 +1011,10 @@
     "Karlson": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/karlson/index.xml",
         "img": "karlson.jpg"
+    },
+    "Yandere Simulator": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/yannderesim/index.xml",
+        "img": "yanderesim.jpg"
     }
   },
   "categories": {
@@ -1054,7 +1058,8 @@
         "Kindergarten 2",
         "Kindergarten 3",
         "Balatro",
-        "Karlson"
+        "Karlson",
+        "Yandere Simulator"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

@@ -1,4 +1,4 @@
-11/1/2025:
+11/01/2025:
 [!] Hey again! Sorry for such a delay on the update, I've been a little busy
 but I'm back.
 [!] Shoutout to GN Math! Without them I wouldn't have these exclusive games!
@@ -10,5 +10,6 @@ but I'm back.
 [+] Added Karlson
 [+] Added Yandere Simulator
 [+] Added Bendy and the Ink Machine
+[+] Small UI improvements and "about us" section.
 [-] Removed the survey banner as it isn't needed anymore (thanks for all
 the feedback!)

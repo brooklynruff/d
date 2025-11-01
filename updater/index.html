@@ -192,6 +192,79 @@
             margin-bottom: 15px;
             word-wrap: break-word;
         }
+
+        .topnav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background: rgba(20, 20, 20, 0.85); /* subtle transparency */
+            backdrop-filter: blur(6px);         /* smooth glass effect */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            z-index: 10000;
+            border-bottom: 1px solid #333; /* subtle separation */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* soft depth */
+        }
+
+        .topbar-left .site-title {
+            color: #fff;
+            font-family: "Roboto Mono", monospace;
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            user-select: none;
+        }
+
+        /* Right Side (Buttons) */
+        .topbar-right {
+        display: flex;
+        gap: 10px;
+        }
+
+        .nav-btn {
+            background: rgba(40, 40, 40, 0.8);
+            color: #fff;
+            border: 1px solid #555;
+            padding: 8px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: "Roboto Mono", monospace;
+            transition: background 0.25s ease, transform 0.15s ease;
+        }
+
+        .nav-btn:hover {
+            background: rgba(70, 70, 70, 0.9);
+            transform: translateY(-2px);
+        }
+
+        .page {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+            margin-top: 70px;
+        }
+
+        .page.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .about-text {
+            text-align: center;
+            color: #ccc;
+            max-width: 700px;
+            margin: 15px auto;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
     </style>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/style.css">
@@ -209,6 +282,15 @@
 </head>
 
 <body>
+  <div class="topnav">
+    <div class="topbar-left">
+        <span class="site-title">No Name Games 🎮</span>
+    </div>
+    <div class="topbar-right">
+        <button class="nav-btn" onclick="showPage('mainPage')">Home</button>
+        <button class="nav-btn" onclick="showPage('aboutPage')">About Us</button>
+    </div>
+  </div>
     <div id="snow" data-count="200"></div>
     <div id="updatePopup" class="popup-overlay" style="visibility: hidden;">
         <div class="popup-content">
@@ -223,31 +305,33 @@
         <span style="flex:1;text-align:center;">Help No Name Games stay the best unblocked games website! Please, take a short survey to help No Name Games improve.</span>
         <button class="announcement-btn" onclick="window.open('https://forms.gle/DGqQLpnJxgiZn7A88')">Take the survey here</button>
     </div>-->
-    <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
-    <h3 class="centered">Last update: November 1st, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
-    <center>
-        <button onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Go to bug report form</button>
-        <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>
-        <a href="mailto:nonamegamescontact@proton.me">My email (nonamegamescontact@proton.me)</a>
-    </center>
-    <br/>
-    <center>
-        <label for="search">Search: </label>
-        <input type="text" id="search" name="search"></input>
-    </center>
-    </br>
-    <div class="categories" id="categories">
-        <button class="ctg">All</button>
-        <button class="ctg">Top Rated</button>
-        <button class="ctg">Newly Added/Updated</button>
-        <button class="ctg">Horror</button>
-        <button class="ctg">Shooting</button>
-        <button class="ctg">Classic</button>
-        <button class="ctg">Sports</button>
-        <button class="ctg">Driving</button>
-        <button class="ctg">Emulated</button>
+    <div id="mainPage" class="page visible">
+        <h1 class="centered">Welcome to the No Name Games External Launcher!</h1>
+        <h3 class="centered">Last update: November 1st, 2025. <a href="javascript:openchangelog()">View changelog</a></h3>
+        <center>
+            <button onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Go to bug report form</button>
+            <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>
+            <a href="mailto:nonamegamescontact@proton.me">My email (nonamegamescontact@proton.me)</a>
+        </center>
+        <br/>
+        <center>
+            <label for="search">Search: </label>
+            <input type="text" id="search" name="search"></input>
+        </center>
+        </br>
+        <div class="categories" id="categories">
+            <button class="ctg">All</button>
+            <button class="ctg">Top Rated</button>
+            <button class="ctg">Newly Added/Updated</button>
+            <button class="ctg">Horror</button>
+            <button class="ctg">Shooting</button>
+            <button class="ctg">Classic</button>
+            <button class="ctg">Sports</button>
+            <button class="ctg">Driving</button>
+            <button class="ctg">Emulated</button>
+        </div>
+        <div class="centered" id="buttons"></div>
     </div>
-    <div class="centered" id="buttons"></div>
     <script>
         let urls;
 
@@ -397,6 +481,47 @@
             }
         })
     </script>
-    
+    <div id="aboutPage" class="page hidden">
+        <h1 class="centered">About No Name Games</h1>
+        <p class="about-text">
+            No Name Games is the <b>best</b> unblocked games website since November 2024. We prioritize bypassing and quality over anything. No Name Games bypasses <b>almost all</b> blockers and viewing tools.
+        </p>
+        <p class="about-text">
+            Created and maintained by an actual competent developer who knows what they're doing, unlike a lot of other unblocked games sites that are ran by complete morons and vibe "coders".
+        </p>
+        <h1 class="centered">FAQ</h1>
+        <p class="about-text">
+            <b>Q:</b> Do you make any money from No Name Games?<br/>
+            <b>A: No.</b> I haven't made a dime from No Name Games and it's going to stay that way. I don't run any ads on the site or on games (if you do see an ad it's not coming from me, and is probably added by the game developer). I may add a donation page in the future though.<br></br>
+            <b>Q:</b> The game is too zoomed in!<br/>
+            <b>A:</b> Press the fullscreen button (or F11) <b>before</b> launching the game. If that doesn't solve the issue send a bug report including the device you're using.<br></br>
+            <b>Q:</b> Can you add [website]?<br/>
+            <b>A:</b><b> No.</b> The only two websites on No Name Games (Unmonitored Google & Edubrain.ai) are special cases and are able to be added, 99% of sites cannot be added. The only way I could add websites is if I develop a proxy, which <b>may or may not come in the future.</b><br/>
+            
+        <h1 class="centered">Contact</h1>
+        <p class="about-text">
+            Contact us at <a href="mailto:nonamegamescontact@proton.me">nonamegamescontact@proton.me</a>
+        </p>
+        <center><button class="nav-btn" onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Open Suggestion Form</button></center>
+        <br />
+        <center><button class="nav-btn" onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Open Bug Report Form</button></center>
+        <br />
+        <center><button class="nav-btn" onclick="showPage('mainPage')">← Back to Home</button></center>
+    </div>
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(p => p.classList.remove('visible'));
+            setTimeout(() => {
+                pages.forEach(p => p.style.display = 'none');
+                const active = document.getElementById(pageId);
+                active.style.display = 'block';
+                setTimeout(() => active.classList.add('visible'), 10);
+            }, 200);
+        }
+
+        document.getElementById('mainPage').style.display = 'block';
+         document.getElementById('mainPage').classList.add('visible');
+    </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/updatechecker2.js"></script> 
 </body>

@@ -20,6 +20,13 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/1/2025:
+[!] Hey again! Sorry for such a delay on the update, I've been a little busy
+but I'm back.
+[+] Added Kindergarten 1
+[+] Added Kindergarten 2
+[+] Added Kindergarten 3
+
 09/27/2025:
 [!] Hey! I'm probably going to take a small break from adding suggestions.
 It's been getting a little much, suggestion form will still be up but I'm

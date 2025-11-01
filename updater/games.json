@@ -991,6 +991,18 @@
     "Stickman Hook": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/stickmanhook/stickmanhook/hook.xml",
         "img": "stickmanhook.png"
+    },
+    "Kindergarten": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/kindergarten/kindergarten1/index.xml",
+        "img": "kindergarten.jpg"
+    },
+    "Kindergarten 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/kindergarten/kindergarten2/index2.xml",
+        "img": "kindergarten2.jpg"
+    },
+    "Kindergarten 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/kindergarten/kindergarte3/index.xml",
+        "img": "kindergarten3.jpg"
     }
   },
   "categories": {
@@ -1023,7 +1035,10 @@
         "Tiny Fishing",
         "Tomb of the Mask",
         "Funny Shooter 2",
-        "Monkey Mart"
+        "Monkey Mart",
+        "Kindergarten",
+        "Kindergarten 2",
+        "Kindergarten 3"
     ],
     "Newly Added/Updated": [
         "Talking Angela"

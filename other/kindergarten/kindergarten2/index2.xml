@@ -89,7 +89,7 @@
             var loaderUrl = buildUrl + "/Build.loader.js";
             var config = {
                 dataUrl: dataUrl,
-                frameworkUrl: buildUrl + "/Build.framework.js",
+                frameworkUrl: buildUrl + "/Build.framework2.js",
                 codeUrl: wasmUrl,
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "SmashGames",

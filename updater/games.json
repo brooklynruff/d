@@ -1015,6 +1015,10 @@
     "Yandere Simulator": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/yanderesim/index.xml",
         "img": "yanderesim.png"
+    },
+    "Bendy and the Ink Machine": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bendy/index.xml",
+        "img": "bendy.png"
     }
   },
   "categories": {

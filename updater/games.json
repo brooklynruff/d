@@ -1001,8 +1001,12 @@
         "img": "kindergarten2.jpg"
     },
     "Kindergarten 3": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/kindergarten/kindergarte3/index.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/kindergarten/kindergarten3/index.xml",
         "img": "kindergarten3.jpg"
+    },
+    "Balatro": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/balatro/game.xml",
+        "img": "balatro.jpg"        
     }
   },
   "categories": {
@@ -1038,7 +1042,8 @@
         "Monkey Mart",
         "Kindergarten",
         "Kindergarten 2",
-        "Kindergarten 3"
+        "Kindergarten 3",
+        "Balatro"
     ],
     "Newly Added/Updated": [
         "Talking Angela"

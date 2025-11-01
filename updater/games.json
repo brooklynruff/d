@@ -1006,7 +1006,11 @@
     },
     "Balatro": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/balatro/game.xml",
-        "img": "balatro.jpg"        
+        "img": "balatro.jpg"
+    },
+    "Karlson": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/karlson/index.xml",
+        "img": "karlson.jpg"
     }
   },
   "categories": {

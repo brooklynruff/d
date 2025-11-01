@@ -27,6 +27,9 @@ but I'm back.
 [+] Added Kindergarten 2
 [+] Added Kindergarten 3
 [+] Added Balatro
+[+] Added Karlson
+[-] Removed the survey banner as it isn't needed anymore (thanks for all
+the feedback!)
 
 09/27/2025:
 [!] Hey! I'm probably going to take a small break from adding suggestions.

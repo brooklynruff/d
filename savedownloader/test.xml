@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="downloader"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="" id="icon"></link>
+
+    <style type="text/css">
+        * {
+            color: white;
+            font-family: "Roboto Mono", serif;
+        }
+
+        *.centeredtext {
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(27, 27, 27);
+        }
+
+        *.centered {
+            display: grid;
+            place-items: center;
+        }
+
+        button, input {
+            background-color: rgb(27, 27, 27);
+            border-color: white;
+            border-style: solid;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        option, select {
+            background-color: rgb(27, 27, 27);
+            font-family: "Roboto Mono", serif;
+        }
+
+        html {
+            height: 100%;
+            margin: auto;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        /* Trigger Button */
+        .popup-btn {
+            background: #222;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .popup-btn:hover {
+            background: #444;
+        }
+
+        /* Overlay */
+        .popup-overlay {
+            display: flex;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Popup Box */
+        .popup-content {
+            background: #111;
+            border: 2px solid #666;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(255,255,255,0.1);
+            color: #fff;
+        }
+        .popup-content h2 {
+            margin-bottom: 10px;
+        }
+        .popup-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Action Buttons (Option 1, Option 2) */
+        .popup-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .popup-action-btn {
+            background: #222;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .popup-action-btn:hover {
+            background: #444;
+        }
+
+        /* Close Button */
+        .close-btn {
+            background: #222;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .close-btn:hover {
+            background: #444;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/msgpackr@1.11.5/dist/index.min.js"></script>
+    <script>
+        function sanitizeData(data, maxlength, maxarray) {
+            if (typeof data === "string") {
+                if (data.length <= maxlength) {
+                    return data;
+                } else {
+                    return data.slice(0, maxlength)
+                }
+            }
+
+            if (data instanceof Uint8Array) {
+                if (data.lenght > maxarray) {
+                    return `[too large]`
+                }
+            }
+
+            if (Array.isArray(data)) {
+                return data.map(item=>sanitizeData(item, maxlength, maxarray))
+            }
+
+            if (data && typeof data === "object") {
+                const newObj = {};
+                for (const key in data) {
+                    if (data.hasOwnProperty(key)) {
+                        newObj[key] = sanitizeData(data[key], maxlength, maxarray);
+                    }
+                }
+                return newObj;
+            }
+        }
+
+        async function serializeDatabaseContents(dbName) {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(dbName);
+
+                request.onerror = (event) => {
+                    reject(`Error opening database ${dbName}`);
+                }
+
+                request.onsuccess = (event) => {
+                    const db = event.target.result;
+                    const allContents = {};
+
+                    const objectStoreNames = Array.from(db.objectStoreNames);
+                    if (objectStoreNames.length == 0) {
+                        db.close();
+                        resolve(allContents);
+                        return;
+                    }
+
+                    let completedStores = 0;
+                    objectStoreNames.forEach(storeName => {
+                        const transaction = db.transaction([storeName], "readonly");
+                        const objectStore = transaction.objectStore(storeName);
+                        const cursorReq = objectStore.openCursor();
+
+                        allContents[storeName] = {};
+
+                        cursorReq.onsuccess = (event) => {
+                            let cursor = event.target.result;
+                            if (cursor) {
+                                allContents[storeName][cursor.primaryKey] = sanitizeData(cursor.value);
+                                cursor.continue()
+                            } else {
+                                completedStores++;
+                                if (completedStores == objectStoreNames.length) {
+                                    db.close();
+                                    resolve(allContents);
+                                }
+                            }
+                        }
+
+                        cursorReq.onerror = (event) => {
+                            console.log(`Error getting data from store ${storeName} in ${dbName}`);
+                            completedStores++;
+                            if (completedStores == objectStoreNames.length) {
+                                db.close();
+                                resolve(allContents);
+                            }
+                        }
+                    })
+                }
+            })
+        }
+
+        async function saveData() {
+            const result = {};
+
+            result.cookies = btoa(document.cookie);
+            result.localStorage = {...localStorage};
+            result.sessionStorage = {...sessionStorage};
+            result.indexedDB = {};
+
+            let databaseNames = (await indexedDB.databases()).map(db => db.name);
+
+            for (const name of databaseNames) {
+                result.indexedDB[name] = await serializeDatabaseContents(name);
+            }
+            console.log(btoa(JSON.stringify(result)))
+            return btoa(JSON.stringify(result))
+        }
+
+        async function importDatabaseContents(dbName, data) {
+            return new Promise((resolve, reject) => {
+                const request = indexedDB.open(dbName);
+
+                request.onupgradeneeded = (event) => {
+                    const db = event.target.result;
+
+                    for (name in data) {
+                        let objectStore = db.createObjectStore(name);
+                            
+                        for (name2 in data[name]) {
+                            objectStore.createIndex(name2, "", {unique:false});
+                        }
+                    }
+                }
+
+                request.onsuccess = function(event) {
+                    const db = event.target.result;
+
+                    for (name in data) {
+                        let transaction = db.transaction(name, 'readwrite')
+                        let objectStore = transaction.objectStore(name);
+
+
+                        for (name2 in data[name]) {
+                            objectStore.add(data[name][name2], name2)
+                        }
+                    }
+
+                    db.close();
+                }
+
+                request.onerror = (event) => {
+                    reject(`Error opening database ${dbName}`);
+                }
+            })
+        }
+
+        async function loadData(data) {
+            let decoded = JSON.parse(atob(data));
+
+            document.cookie = decoded.cookies;
+            
+            for (let i = 0; i < sessionStorage.length; i++) {
+                sessionStorage.removeItem(sessionStorage.key(i));
+            }
+
+            for (name in decoded.sessionStorage) {
+                sessionStorage.setItem(name, decoded.sessionStorage[name]);
+            }
+
+            let databaseNames = (await indexedDB.databases()).map(db => db.name);
+            for (name in databaseNames) {
+                indexedDB.deleteDatabase(name);
+            }
+
+            for (name in decoded.indexedDB) {
+                importDatabaseContents(name, decoded.localStorage[name])
+            }
+
+            for (name in decoded.localStorage) {
+                localStorage.setItem(name, decoded.localStorage[name]);
+            }
+
+            alert("Imported!")
+            togglePopup();
+        }
+
+        function togglePopup(mode) {
+            let overlay = document.getElementById('popupOverlay');
+
+            let option1 = document.getElementById("option1");
+            let option2 = document.getElementById("option2");
+
+            document.getElementById("textbox").style.display = "none";
+
+            if (mode == "export") {
+                document.getElementById("title").innerText = "How would you like to export your data?";
+                document.getElementById("pick").innerHTML = "Pick an option to continue:"
+
+                option1.innerText = "Download File";
+                option1.onclick = (()=>{download('file')});
+
+                option2.innerText = "Copy to Clipboard";
+                option2.onclick = (()=>{download('clipboard')});
+                option2.style.display = "flex";
+
+                overlay.style.display = "flex";
+            } else if (mode == "import") {
+                document.getElementById("title").innerText = "How would you like to import your data?";
+                document.getElementById("pick").innerHTML = "Pick an option to continue: <b>WARNING!</b> Any unsaved data you have <b>WILL</b> be lost when you press import."
+
+                option1.innerText = "Import File";
+                option1.onclick = (()=>{importData('file')});
+
+                option2.innerText = "Import From Text";
+                option2.onclick = (()=>{importData('text')});
+                option2.style.display = "flex";
+
+                overlay.style.display = "flex";     
+            } else {
+                overlay.style.display = (overlay.style.display == "flex") ? "none": "flex";
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/pure-snow.js"></script>
+    <script>
+        // this is for the mouse sparkles - i minified it cuz it took up too much space
+        const star=[],star_x=[],star_y=[],star_remaining_ticks=[],tiny=[],tiny_x=[],tiny_y=[],tiny_remaining_ticks=[],sparkles=250,sparkle_lifetime=30,sparkle_distance=30;let doc_height,doc_width,sparkles_enabled=null;function sparkle(t=null){sparkles_enabled=null===t?!sparkles_enabled:!!t,sparkles_enabled&&star.length<sparkles&&sparkle_init()}function sparkle_destroy(){let t;for(;tiny.length;)t=tiny.pop(),t&&document.body.removeChild(t);for(;star.length;)t=star.pop(),t&&document.body.removeChild(t)}function sparkle_init(){function t(t,e){const i=document.createElement("div");return i.style.position="absolute",i.style.height=t+"px",i.style.width=e+"px",i.style.overflow="hidden",i}for(let e=0;e<sparkles;e++){const i=t(3,3);i.style.visibility="hidden",i.style.zIndex="999",tiny[e]&&document.body.removeChild(tiny[e]),document.body.appendChild(i),tiny[e]=i,tiny_remaining_ticks[e]=null;const n=t(5,5);n.style.backgroundColor="transparent",n.style.visibility="hidden",n.style.zIndex="999";const s=t(1,5),l=t(5,1);n.appendChild(s),n.appendChild(l),s.style.top="2px",s.style.left="0px",l.style.top="0px",l.style.left="2px",star[e]&&document.body.removeChild(star[e]),document.body.appendChild(n),star[e]=n,star_remaining_ticks[e]=null}window.addEventListener("resize",(function(){for(let t=0;t<sparkles;t++)star_remaining_ticks[t]=null,star[t].style.left="0px",star[t].style.top="0px",star[t].style.visibility="hidden",tiny_remaining_ticks[t]=null,tiny[t].style.top="0px",tiny[t].style.left="0px",tiny[t].style.visibility="hidden";doc_height=document.documentElement.scrollHeight,doc_width=document.documentElement.scrollWidth})),document.onmousemove=function(t){if(sparkles_enabled&&!t.buttons){const e=Math.sqrt(Math.pow(t.movementX,2)+Math.pow(t.movementY,2)),i=t.movementX*sparkle_distance*2/e,n=t.movementY*sparkle_distance*2/e,s=e/sparkle_distance;let l=0,r=t.pageY,a=t.pageX;for(;Math.abs(l)<Math.abs(t.movementX);){create_star(a,r,s);let t=Math.random();a-=i*t,r-=n*t,l+=i*t}}}}function animate_sparkles(t=60){const e=1e3/t;let i=0;for(let t=0;t<star.length;t++)i+=update_star(t);for(let t=0;t<tiny.length;t++)i+=update_tiny(t);0!==i||sparkles_enabled||sparkle_destroy(),setTimeout("animate_sparkles("+t+")",e)}function create_star(t,e,i=1){if(t+5>=doc_width||e+5>=doc_height)return;if(Math.random()>i)return;let n=2*sparkle_lifetime+1,s=NaN;for(let t=0;t<sparkles;t++){if(!star_remaining_ticks[t]){n=null,s=t;break}star_remaining_ticks[t]<n&&(n=star_remaining_ticks[t],s=t)}return n&&star_to_tiny(s),s>=0?(star_remaining_ticks[s]=2*sparkle_lifetime,star_x[s]=t,star[s].style.left=t+"px",star_y[s]=e,star[s].style.top=e+"px",star[s].style.clip="rect(0px, 5px, 5px, 0px)",star[s].childNodes[0].style.backgroundColor=star[s].childNodes[1].style.backgroundColor=function(){let t=[];return t[0]=255,t[1]=Math.floor(256*Math.random()),t[2]=Math.floor(Math.random()*(256-t[1]/2)),t.sort((function(){return.5-Math.random()})),"rgb("+t[0]+", "+t[1]+", "+t[2]+")"}(),star[s].style.visibility="visible",s):void 0}function update_star(t){return null!==star_remaining_ticks[t]&&(star_remaining_ticks[t]-=1,0===star_remaining_ticks[t]?(star_to_tiny(t),!1):(star_remaining_ticks[t]===sparkle_lifetime&&(star[t].style.clip="rect(1px, 4px, 4px, 1px)"),star_remaining_ticks[t]>0&&(star_y[t]+=1+3*Math.random(),star_x[t]+=(t%5-2)/5,star_y[t]+5<doc_height&&star_x[t]+5<doc_width)?(star[t].style.top=star_y[t]+"px",star[t].style.left=star_x[t]+"px",!0):(star_remaining_ticks[t]=null,star[t].style.left="0px",star[t].style.top="0px",star[t].style.visibility="hidden",!1)))}function star_to_tiny(t){null!==star_remaining_ticks[t]&&(star_y[t]+3<doc_height&&star_x[t]+3<doc_width&&(tiny_remaining_ticks[t]=2*sparkle_lifetime,tiny_y[t]=star_y[t],tiny[t].style.top=star_y[t]+"px",tiny_x[t]=star_x[t],tiny[t].style.left=star_x[t]+"px",tiny[t].style.width="2px",tiny[t].style.height="2px",tiny[t].style.backgroundColor=star[t].childNodes[0].style.backgroundColor,star[t].style.visibility="hidden",tiny[t].style.visibility="visible"),star_remaining_ticks[t]=null,star[t].style.left="0px",star[t].style.top="0px",star[t].style.visibility="hidden")}function update_tiny(t){return null!==tiny_remaining_ticks[t]&&(tiny_remaining_ticks[t]-=1,tiny_remaining_ticks[t]===sparkle_lifetime&&(tiny[t].style.width="1px",tiny[t].style.height="1px"),tiny_remaining_ticks[t]>0&&(tiny_y[t]+=1+2*Math.random(),tiny_x[t]+=(t%4-2)/4,tiny_y[t]+3<doc_height&&tiny_x[t]+3<doc_width)?(tiny[t].style.top=tiny_y[t]+"px",tiny[t].style.left=tiny_x[t]+"px",!0):(tiny_remaining_ticks[t]=null,tiny[t].style.top="0px",tiny[t].style.left="0px",tiny[t].style.visibility="hidden",!1))}setTimeout(()=>{doc_height=document.documentElement.scrollHeight,doc_width=document.documentElement.scrollWidth,animate_sparkles(),null===sparkles_enabled&&sparkle(!0)}, 50);
+    </script>
+    <script>
+        setTimeout(()=>{
+            createSnow();
+            showSnow(true);
+        }, 500);
+    </script>
+</head>
+<body>
+    <div id="snow" data-count="200"></div>
+    <div id="popupOverlay" class="popup-overlay" style="display: none;">
+        <div class="popup-content">
+            <h2 id="title">How would you like to export your data?</h2>
+            <p id="pick">Pick an option to continue:</p>
+            <div class="popup-actions">
+                <button class="popup-action-btn" id="option1">Download File</button>
+                <button class="popup-action-btn" id="option2">Copy to Clipboard</button>
+                <input type="text" placeholder="Paste Here" id="textbox" style="display: none;">
+            </div>
+            <button onclick="togglePopup()" class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <h1 class="centeredtext">No Name Games - Data Saver</h1>
+    <center>
+        <button class="centeredtext" onclick="togglePopup('export')">Export Data</button>
+        <button class="centeredtext" onclick="togglePopup('import')">Import Data</button>
+    </center>
+
+    <script>
+        let textbox = document.getElementById("textbox");
+        textbox.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                importRaw(textbox.value)
+            }
+        })
+    </script>
+</body>
+</html>
+]]></Content>
+</Module>

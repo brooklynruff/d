@@ -4,12 +4,10 @@
 <Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ultrakill/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ULTRAKILL</title>
     <style>
         html,
         body {

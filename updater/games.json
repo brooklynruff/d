@@ -1020,7 +1020,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bendy/index.xml",
         "img": "bendy.jpg"
     },
-    "Ultrakill": {
+    "ULTRAKILL": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ultrakill/index.xml",
         "img": "ultrakill.jpg"
     }
@@ -1060,7 +1060,7 @@
         "Kindergarten 2",
         "Kindergarten 3",
         "Balatro",
-        "Ultrakill",
+        "ULTRAKILL",
         "Yandere Simulator"
     ],
     "Newly Added/Updated": [
@@ -1071,7 +1071,7 @@
         "Karlson",
         "Yandere Simulator",
         "Bendy and the Ink Machine",
-        "Ultrakill"
+        "ULTRAKILL"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1105,7 +1105,7 @@
         "Ragdoll Archers",
         "Getaway Shootout",
         "Karlson",
-        "Ultrakill"
+        "ULTRAKILL"
     ],
     "Classic": [
         "Angry Birds",

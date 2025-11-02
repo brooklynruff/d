@@ -2,11 +2,18 @@ let lastUpdate;
 let updatePopup = document.getElementById("updatePopup");
 let updateText = document.getElementById("updateText");
 
+let currentUpdate = document.getElementById("currentUpdate");
+let currentUpdateText = document.getElementById("currentUpdateText");
+
 async function checkUpdate() {
     let update = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/changelog_highlight.txt", { cache: 'no-store' })).text();
 
     if (!lastUpdate) {
         lastUpdate = update;
+        currentUpdateText.innerText = update;
+
+        currentUpdate.style.visibility = "visible";
+        document.body.style.scrollBehavior = ""; 
         return;
     }
 
@@ -28,6 +35,7 @@ async function update() {
 
 async function closePopup() {
     updatePopup.style.visibility = "hidden";
+    currentUpdate.style.visibility = "hidden";
     document.body.style.overflow = "";
 }
 

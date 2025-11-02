@@ -139,8 +139,10 @@
             }
 
             if (data instanceof Uint8Array) {
-                if (data.lenght > maxarray) {
+                if (data.length > maxarray) {
                     return `[too large]`
+                } else {
+                    return data
                 }
             }
 
@@ -251,31 +253,30 @@
 
                 request.onupgradeneeded = (event) => {
                     const db = event.target.result;
-
-                    for (name in data) {
-                        let objectStore = db.createObjectStore(name);
-                            
-                        for (name2 in data[name]) {
-                            objectStore.createIndex(name2, "", {unique:false});
+                    for (const name in data) {
+                        if (!db.objectStoreNames.contains(name)) {
+                            db.createObjectStore(name);
                         }
                     }
-                }
+                };
 
-                request.onsuccess = function(event) {
+                request.onsuccess = (event) => {
                     const db = event.target.result;
 
-                    for (name in data) {
-                        let transaction = db.transaction(name, 'readwrite')
-                        let objectStore = transaction.objectStore(name);
+                    for (const name in data) {
+                        if (!db.objectStoreNames.contains(name)) continue; // skip non-existing
 
+                        const transaction = db.transaction(name, 'readwrite');
+                        const objectStore = transaction.objectStore(name);
 
-                        for (name2 in data[name]) {
-                            objectStore.add(data[name][name2], name2)
+                        for (const key in data[name]) {
+                            objectStore.put(data[name][key], key);
                         }
                     }
 
                     db.close();
-                }
+                    resolve();
+                };
 
                 request.onerror = (event) => {
                     reject(`Error opening database ${dbName}`);
@@ -297,12 +298,12 @@
             }
 
             let databaseNames = (await indexedDB.databases()).map(db => db.name);
-            for (name in databaseNames) {
+            for (const name in databaseNames) {
                 indexedDB.deleteDatabase(name);
             }
 
             for (name in decoded.indexedDB) {
-                importDatabaseContents(name, decoded.localStorage[name])
+                await importDatabaseContents(name, decoded.indexedDB[name])
             }
 
             for (name in decoded.localStorage) {

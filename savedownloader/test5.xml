@@ -327,7 +327,7 @@
 
                         const reader = new FileReader();
                         reader.onload = function(e) {
-                            importRaw(e.target.result);
+                            loadData(e.target.result);
                         }
 
                         reader.readAsText(firstFile);
@@ -347,7 +347,7 @@
                 document.getElementById("option2").style.display = "none";
 
                 option1.onclick = (()=>{
-                    importRaw(textbox.value);
+                    loadData(textbox.value);
                 })
             }
         }

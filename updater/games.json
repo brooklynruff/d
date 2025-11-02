@@ -1019,6 +1019,10 @@
     "Bendy and the Ink Machine": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bendy/index.xml",
         "img": "bendy.jpg"
+    },
+    "Ultrakill": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ultrakill/index.xml",
+        "img": "ultrakill.jpg"
     }
   },
   "categories": {
@@ -1055,7 +1059,9 @@
         "Kindergarten",
         "Kindergarten 2",
         "Kindergarten 3",
-        "Balatro"
+        "Balatro",
+        "Ultrakill",
+        "Yandere Simulator"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1064,7 +1070,8 @@
         "Balatro",
         "Karlson",
         "Yandere Simulator",
-        "Bendy and the Ink Machine"
+        "Bendy and the Ink Machine",
+        "Ultrakill"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1097,7 +1104,8 @@
         "Funny Shooter 2",
         "Ragdoll Archers",
         "Getaway Shootout",
-        "Karlson"
+        "Karlson",
+        "Ultrakill"
     ],
     "Classic": [
         "Angry Birds",

@@ -213,7 +213,7 @@
             })
         }
 
-        async function saveData() {
+        async function saveData(method) {
             const result = {};
 
             result.cookies = btoa(document.cookie);
@@ -226,8 +226,23 @@
             for (const name of databaseNames) {
                 result.indexedDB[name] = await serializeDatabaseContents(name);
             }
-            console.log(btoa(JSON.stringify(result)))
-            return btoa(JSON.stringify(result))
+
+            let file = btoa(JSON.stringify(result));
+
+            if (method == "file") {
+                let url = URL.createObjectURL(new Blob([file]), {type:'text/plain'});
+                const anchor = document.createElement("a");
+                anchor.href = url;
+                anchor.download = `nngexport-${Date.now()}.nng`;
+                document.body.appendChild(anchor);
+                anchor.click();
+                document.body.removeChild(anchor);
+            } else if (method == "clipboard") {
+                await navigator.clipboard.writeText(file);
+                alert("Copied to clipboard!");
+            }
+
+            togglePopup();
         }
 
         async function importDatabaseContents(dbName, data) {
@@ -297,6 +312,7 @@
             alert("Imported!")
             togglePopup();
         }
+        
 
         async function importData(method) {
             let input;

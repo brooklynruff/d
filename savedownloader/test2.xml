@@ -298,6 +298,44 @@
             togglePopup();
         }
 
+        async function importData(method) {
+            let input;
+
+            if (method == "file") {
+                let file = document.createElement("input");
+                file.type = "file";
+                file.addEventListener("change", function(event) {
+                    let selectedFile = event.target.files;
+                    if (selectedFile.length > 0) {
+                        const firstFile = selectedFile[0];
+
+                        const reader = new FileReader();
+                        reader.onload = function(e) {
+                            importRaw(e.target.result);
+                        }
+
+                        reader.readAsText(firstFile);
+                    } else {
+                        alert("No file selected");
+                    }
+                })
+                file.click();
+            } else {
+                let textbox = document.getElementById("textbox");
+                let option1 = document.getElementById("option1");
+                textbox.style.display = "flex";
+
+                document.getElementById("title").innerText = "Import From Text"
+                document.getElementById("pick").innerHTML = "Paste the text in the \"Paste Here\" box then press the import button."
+                option1.innerHTML = "Import";
+                document.getElementById("option2").style.display = "none";
+
+                option1.onclick = (()=>{
+                    importRaw(textbox.value);
+                })
+            }
+        }
+
         function togglePopup(mode) {
             let overlay = document.getElementById('popupOverlay');
 

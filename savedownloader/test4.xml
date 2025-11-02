@@ -365,10 +365,10 @@
                 document.getElementById("pick").innerHTML = "Pick an option to continue:"
 
                 option1.innerText = "Download File";
-                option1.onclick = (()=>{download('file')});
+                option1.onclick = (()=>{saveData('file')});
 
                 option2.innerText = "Copy to Clipboard";
-                option2.onclick = (()=>{download('clipboard')});
+                option2.onclick = (()=>{saveData('clipboard')});
                 option2.style.display = "flex";
 
                 overlay.style.display = "flex";

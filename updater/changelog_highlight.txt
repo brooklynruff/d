@@ -10,6 +10,7 @@ but I'm back.
 [+] Added Karlson
 [+] Added Yandere Simulator
 [+] Added Bendy and the Ink Machine
+[+] Added Ultrakill
 [+] Small UI improvements and "about us" section.
 [-] Removed the survey banner as it isn't needed anymore (thanks for all
 the feedback!)

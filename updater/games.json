@@ -160,6 +160,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/18/bootstrapperrrr.xml",
         "img": "mc.jpg"
     },
+    "Minecraft 1.12.2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/122/bootstrapper.xml",
+        "img": "mc.jpg"
+    },
     "Baldi's Basics in Education and Learning": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Baldi/baldi.xml",
         "img": "baldi.jpg"
@@ -1042,6 +1046,7 @@
         "Minecraft 1.0.3",
         "Minecraft 1.5.2",
         "Minecraft 1.8.8",
+        "Minecraft 1.12.2",
         "Moto X3M",
         "Paper.io 2",
         "Poly Track",

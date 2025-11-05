@@ -1027,6 +1027,10 @@
     "ULTRAKILL": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/ultrakill/index.xml",
         "img": "ultrakill.jpg"
+    },
+    "Doki Doki Literature Club": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/ddlc.xml",
+        "img": "dokidoki.jpg"
     }
   },
   "categories": {
@@ -1066,7 +1070,8 @@
         "Kindergarten 3",
         "Balatro",
         "ULTRAKILL",
-        "Yandere Simulator"
+        "Yandere Simulator",
+        "Doki Doki Literature Club"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1077,7 +1082,8 @@
         "Yandere Simulator",
         "Bendy and the Ink Machine",
         "ULTRAKILL",
-        "Minecraft 1.12.2 [BEST OPTIMIZED VERSION]"
+        "Minecraft 1.12.2 [BEST OPTIMIZED VERSION]",
+        "Doki Doki Literature Club"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1087,7 +1093,8 @@
         "Five Nights at Freddy's 3",
         "Five Nights at Freddy's 4",
         "Granny",
-        "Bendy and the Ink Machine"
+        "Bendy and the Ink Machine",
+        "Doki Doki Literature Club"
     ],
     "Shooting": [
         "Counter Strike",

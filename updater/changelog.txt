@@ -25,6 +25,8 @@ tion.
 'Open Bug Report Form' opening the suggestion form. My bad.
 [+] Added Minecraft 1.12.2 [If the other Minecraft versions are laggy use
 this.]
+[+] Added Doki Doki Literature Club (Thanks for the suggestion Theo) [...
+you guys are some weird individuals.]
 
 11/01/2025:
 [!] Hey again! Sorry for such a delay on the update, I've been a little busy

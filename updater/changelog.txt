@@ -22,7 +22,9 @@ tion.
 ==================================CHANGELOG=================================
 11/05/2025:
 [+] Made Minecraft 1.8.8 use web assembly (WASM) making it faster, and not
-multiplayer-only.
+multiplayer-only. (Maybe a little faster than 1.12.2!)
+[+] Fixed the email button opening my email in the same page, causing it to
+not load.
 
 11/04/2025:
 [+] Fixed the 'Open Suggestion Form' opening the bug report form and the

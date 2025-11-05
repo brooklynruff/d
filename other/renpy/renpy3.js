@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
           location.pathname.toString().substring(0, location.pathname.toString().lastIndexOf('/')) + '/'
         )
       }
-      var PACKAGE_NAME = 'renpy.data';
+      var PACKAGE_NAME = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/renpy.data';
       var REMOTE_PACKAGE_BASE = 'renpy.data';
       if (
         typeof Module['locateFilePackage'] === 'function' &&

@@ -1,3 +1,4 @@
 11/05/2025:
 [+] Made Minecraft 1.8.8 use web assembly (WASM) making it faster, and not multiplayer-only. (Maybe a little faster than 1.12.2!)
 [+] Fixed the email button opening my email in the same page, causing it to not load.
+[+] Made the "Contact" button at the top scroll to the contact information.

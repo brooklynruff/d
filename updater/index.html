@@ -319,7 +319,7 @@
         <div class="topbar-right">
             <button class="nav-btn" onclick="showPage('mainPage')">Home</button>
             <button class="nav-btn" onclick="showPage('aboutPage');">About Us</button>
-            <button class="nav-btn" onclick="showPage('aboutPage');">Contact</button>
+            <button class="nav-btn" onclick="goToContact();">Contact</button>
         </div>
     </div>
 
@@ -498,6 +498,14 @@
             }
         }
 
+          function goToContact() {
+            showPage('aboutPage');
+            
+            setTimeout(() => {
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 400); // matches your page fade transition
+        }
+
         reload();
 
         categories.childNodes.forEach(child => {
@@ -518,12 +526,7 @@
     </script>
     <div id="aboutPage" class="page hidden">
         <h1 class="centered" id="abouttitle">About No Name Games</h1>
-        <p class="about-text">
-            No Name Games is the <b>best</b> unblocked games website since November 2024. We prioritize bypassing and quality over anything. No Name Games bypasses <b>almost all</b> blockers and viewing tools.
-        </p>
-        <p class="about-text">
-            Created and maintained by an actual competent developer who knows what they're doing, unlike a lot of other unblocked games sites that are ran by complete morons and vibe "coders".
-        </p>
+
         <h1 class="centered">FAQ</h1>
         <p class="about-text">
             <b>Q:</b> Do you make any money from No Name Games?<br/>
@@ -531,9 +534,9 @@
             <b>Q:</b> The game is too zoomed in!<br/>
             <b>A:</b> Press the fullscreen button (or F11) <b>before</b> launching the game. If that doesn't solve the issue send a bug report including the device you're using.<br></br>
             <b>Q:</b> Can you add [website]?<br/>
-            <b>A:</b><b> No.</b> The only two websites on No Name Games (Unmonitored Google & Edubrain.ai) are special cases and are able to be added, 99% of sites cannot be added. The only way I could add websites is if I develop a proxy, which <b>may or may not come in the future.</b><br/>
+            <b>A:</b><b> No.</b> The only two websites on No Name Games (Unmonitored Google & Edubrain.ai) are special cases and are able to be added, 99% of sites cannot be added. The only way I could add websites is if I develop a proxy, which <b>may or may not come in the future.</b><br></br>
             <b>Q:</b> Can you add Clash Royale/Fortnite/etc?<br/>
-            <b>A:</b><b> No.</b> Games not runnable in a browser (or require third-party emulators such as Clash Royale) are not possible.</b><br/>
+            <b>A:</b><b> No.</b> Games not runnable in a browser (or require third-party emulators such as Clash Royale) are not possible.<br></br>
             <b>Q:</b> Can you add [online game]?<br/>
             <b>A:</b><b> No.</b> Currently, online games aren't possible at this time. This may be possible <b>if</b> I develop a proxy in the future.<br/>
         <h1 class="centered" id="contact">Contact</h1>

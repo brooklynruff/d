@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/05/2025:
+[+] Made Minecraft 1.8.8 use web assembly (WASM) making it faster, and not
+multiplayer-only.
+
 11/04/2025:
 [+] Fixed the 'Open Suggestion Form' opening the bug report form and the
 'Open Bug Report Form' opening the suggestion form. My bad.

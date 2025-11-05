@@ -1,7 +1,2 @@
-11/04/2025:
-[+] Fixed the 'Open Suggestion Form' opening the bug report form and the
-'Open Bug Report Form' opening the suggestion form. My bad.
-[+] Added Minecraft 1.12.2 [If the other Minecraft versions are laggy use
-this.]
-[+] Added Doki Doki Literature Club (Thanks for the suggestion Theo) [...
-you guys are some weird individuals.]
+11/05/2025:
+[+] Made Minecraft 1.8.8 use web assembly (WASM) making it faster, and not multiplayer-only.

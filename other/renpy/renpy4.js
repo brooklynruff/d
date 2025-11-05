@@ -19,7 +19,7 @@ Module.expectedDataFileDownloads++;
         )
       }
       var PACKAGE_NAME = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/renpy.data';
-      var REMOTE_PACKAGE_BASE = 'renpy.data';
+      var REMOTE_PACKAGE_BASE = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/renpy.data';
       if (
         typeof Module['locateFilePackage'] === 'function' &&
         !Module['locateFile']

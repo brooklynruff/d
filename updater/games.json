@@ -1033,7 +1033,7 @@
         "img": "dokidoki.jpg"
     },
     "Friday Night Funkin'": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/index.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/game.xml",
         "img": "fnf.png"
     }
   },
@@ -1073,7 +1073,8 @@
         "Balatro",
         "ULTRAKILL",
         "Yandere Simulator",
-        "Doki Doki Literature Club"
+        "Doki Doki Literature Club",
+        "Friday Night Funkin'"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1086,7 +1087,8 @@
         "ULTRAKILL",
         "Minecraft 1.12.2",
         "Minecraft 1.8.8",
-        "Doki Doki Literature Club"
+        "Doki Doki Literature Club",
+        "Friday Night Funkin'"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

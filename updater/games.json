@@ -1031,6 +1031,10 @@
     "Doki Doki Literature Club": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/ddlc.xml",
         "img": "dokidoki.jpg"
+    },
+    "Friday Night Funkin'": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/index.xml",
+        "img": "fnf.png"
     }
   },
   "categories": {

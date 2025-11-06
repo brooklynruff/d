@@ -1,7 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="fnf"/>
+<Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<base href="https://google.com">
+	<base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/">
 	<meta charset="utf-8">
 	
 	<title>Friday Night Funkin'</title>
@@ -10,10 +14,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	
 	
-	<link rel="shortcut icon" type="image/png" href="http://127.0.0.1:5500/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
 	
 	
-	<script type="text/javascript" src="http://127.0.0.1:5500/Funkin.js"></script>
+	<script type="text/javascript" src="./Funkin.js"></script>
 	
 	<script>
 		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
@@ -240,3 +244,5 @@
 	
 </body>
 </html>
+]]></Content>
+</Module>

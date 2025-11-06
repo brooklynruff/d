@@ -5,3 +5,4 @@
 [+] Made the "Contact" button at the top scroll to the contact information.
 [+] Added Friday Night Funkin' (Thanks for the suggestion!)
 [+] Fixed Bad Piggies (Thanks for the bug report Theo)
+[+] Made Crossy Road a better version (Also removed ads in the process)

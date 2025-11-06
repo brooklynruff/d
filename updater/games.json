@@ -1031,6 +1031,10 @@
     "Friday Night Funkin'": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/game.xml",
         "img": "fnf.png"
+    },
+    "Cuphead": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cuphead.xml",
+        "img": "cuphead.jpg"
     }
   },
   "categories": {

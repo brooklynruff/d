@@ -476,10 +476,6 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/cookingmama.xml",
         "img": "cookingmama.jpg"
     },
-    "Crossy Road": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/crossingroads/crosser.xml",
-        "img": "crossyroad.jpg"
-    },
     "Electric Box 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/electricbox2.xml",
         "img": "electricbox.jpg"
@@ -1045,7 +1041,6 @@
         "Block Blast",
         "Cookie Clicker",
         "Death Run 3D",
-        "Crossy Road",
         "Drift Boss",
         "Getting Over It (Scratch Edition)",
         "Greedy Mimic",

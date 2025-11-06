@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/06/2025:
+[+] Added Hotline Miami 1 (Thanks for the suggestion o-333)
+
 11/05/2025:
 [!] I noticed people talking about the site freezing, if anyone experiencing
 this issue can email me a video of it happening, please send it to

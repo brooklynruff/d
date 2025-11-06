@@ -1031,6 +1031,10 @@
     "Friday Night Funkin'": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fridaynightfunkin/game.xml",
         "img": "fnf.png"
+    },
+    "Hotline Miami": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/hotlinemiami/index.xml",
+        "img": "hotlinemiami.jpg"
     }
   },
   "categories": {

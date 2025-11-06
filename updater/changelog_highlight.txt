@@ -1,7 +1,2 @@
-11/05/2025:
-[!] I noticed people talking about the site freezing, if anyone experiencing this issue can email me a video of it happening, please send it to nonamegamescontact@proton.me, it'd be greatly appreciated.
-[+] Made Minecraft 1.8.8 use web assembly (WASM) making it faster, and not multiplayer-only. (Maybe a little faster than 1.12.2!)
-[+] Fixed the email button opening my email in the same page, causing it to not load.
-[+] Made the "Contact" button at the top scroll to the contact information.
-[+] Added Friday Night Funkin' (Thanks for the suggestion!)
-[+] Fixed Bad Piggies (Thanks for the bug report Theo)
+11/06/2025:
+[+] Added Hotline Miami 1 (Thanks for the suggestion o-333)

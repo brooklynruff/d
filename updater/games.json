@@ -1035,6 +1035,14 @@
     "Hotline Miami": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/hotlinemiami/index.xml",
         "img": "hotlinemiami.jpg"
+    },
+    "Metroid Fusion [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mf.xml",
+        "img": "metroidfusion.jpg"
+    },
+    "Metroid: Zero Mission [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
+        "img": "metroidzero.jpg"
     }
   },
   "categories": {
@@ -1201,7 +1209,9 @@
         "Mike Tyson's Punch-Out!! [NES EMULATED]",
         "SUPER PUNCH OUT!! [SNES EMULATED]",
         "Call of Duty: World at War [NDS EMULATED]",
-        "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]"
+        "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]",
+        "Metroid Fusion [GBA EMULATED]",
+        "Metroid: Zero Mission [GBA EMULATED]"
     ]
   }
 }

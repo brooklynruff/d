@@ -1,5 +1,5 @@
-import { getFavicon, rAlert } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/scripts/utils.mjs";
-import { getUV, search } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/scripts/prxy.mjs";
+import { getFavicon, rAlert } from "https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/scripts/utils.mjs";
+import { getUV, search } from "https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/scripts/prxy.mjs";
 
 const { span, iframe, button, img } = van.tags;
 const {

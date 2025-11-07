@@ -5,8 +5,8 @@
  * Ideally, this will be registered under the scope in uv.config.js so it will not need to be modified.
  * However, if a user changes the location of uv.bundle.js/uv.config.js or sw.js is not relative to them, they will need to modify this script locally.
  */
-importScripts('https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/uv/uv.bundle.js');
-importScripts('https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/uv/uv.config.js');
+importScripts('https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/uv/uv.bundle.js');
+importScripts('https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/uv/uv.config.js');
 importScripts(__uv$config.sw || 'uv.sw.js');
 
 const uv = new UVServiceWorker();

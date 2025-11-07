@@ -1,8 +1,8 @@
-import { registerSW } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/prxy/register-sw.mjs";
-import * as BareMux from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/prxy/baremux/index.mjs";
-import { getFavicon, rAlert } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/scripts/utils.mjs";
+import { registerSW } from "https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/prxy/register-sw.mjs";
+import * as BareMux from "https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/prxy/baremux/index.mjs";
+import { getFavicon, rAlert } from "https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/scripts/utils.mjs";
 
-const connection = new BareMux.BareMuxConnection("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/prxy/baremux/worker.js");
+const connection = new BareMux.BareMuxConnection("https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test4/active/prxy/baremux/worker.js");
 
 export function search(input, template) {
   try {

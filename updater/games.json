@@ -1043,10 +1043,6 @@
     "Metroid: Zero Mission [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
-    },
-    "zzzTEST_4": {
-        "url": "NOTXML;https://intellectual-happy-nng-dd17539b.koyeb.app/",
-        "img": ""
     }
   },
   "categories": {

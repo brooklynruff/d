@@ -24,6 +24,7 @@ tion.
 [+] Added Hotline Miami 1 (Thanks for the suggestion o-333)
 [+] Added Metroid Fusion (Thanks for the suggestion Franklin)
 [+] Added Metroid Mission Zero (Thanks for the suggestion Franklin)
+[+] Made FNAF 1 a better version (Thanks for the bug report)
 
 11/05/2025:
 [!] I noticed people talking about the site freezing, if anyone experiencing

@@ -2,3 +2,4 @@
 [+] Added Hotline Miami 1 (Thanks for the suggestion o-333)
 [+] Added Metroid Fusion (Thanks for the suggestion Franklin)
 [+] Added Metroid Mission Zero (Thanks for the suggestion Franklin)
+[+] Made FNAF 1 a better version (Thanks for the bug report)

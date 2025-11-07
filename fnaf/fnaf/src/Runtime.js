@@ -19260,6 +19260,7 @@ window['Runtime'] = (function Runtime(__can, __path){
 		{
 			that.isLoaded = true;
 		}
+		this.image.crossOrigin = 'anonymous';
 		this.image.src = this.app.resources + "Preloader.png";
 	}
 	CPreloaderImage.prototype =
@@ -25193,6 +25194,7 @@ window['Runtime'] = (function Runtime(__can, __path){
 			{
 				that.app.dataHasLoaded(that);
 			}
+			image.crossOrigin = "anonymous";
 			image.src = name;
 		}
 	}
@@ -25810,6 +25812,7 @@ window['Runtime'] = (function Runtime(__can, __path){
 		}
 		application.imagesToLoad++;
 		application.loading = true;
+		image.img.crossOrigin = "anonymous";
 		image.img.src = application.resources + fileName;
 		return image;
 	}
@@ -25834,6 +25837,7 @@ window['Runtime'] = (function Runtime(__can, __path){
 				that.app.dataHasLoaded(that);
 			}
 			var name = this.app.resources + CServices.formatDiscName(this.handle, "png");
+			this.img.crossOrigin = 'anonymous';
 			this.img.src = name;
 		},
 		load:          function (a)

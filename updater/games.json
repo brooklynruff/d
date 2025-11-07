@@ -1044,8 +1044,8 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
     },
-    "zzzTEST_2": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test/bootstrapper_3.xml",
+    "zzzTEST_3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test/active/index.xml",
         "img": ""	
     }
   },

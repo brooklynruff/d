@@ -1,5 +1,5 @@
-import { getFavicon, rAlert } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/scripts/utils.mjs";
-import { getUV, search } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/scripts/prxy.mjs";
+import { getFavicon, rAlert } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/scripts/utils.mjs";
+import { getUV, search } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test3/active/scripts/prxy.mjs";
 
 const { span, iframe, button, img } = van.tags;
 const {

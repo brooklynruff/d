@@ -1044,9 +1044,9 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
     },
-    "zzzTEST_3": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test/active/index.xml",
-        "img": ""	
+    "zzzTEST_4": {
+        "url": "NOTXML;https://intellectual-happy-nng-dd17539b.koyeb.app/",
+        "img": ""
     }
   },
   "categories": {

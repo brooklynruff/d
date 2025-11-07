@@ -1,8 +1,8 @@
-import { registerSW } from "/active/prxy/register-sw.mjs";
-import * as BareMux from "/active/prxy/baremux/index.mjs";
-import { getFavicon, rAlert } from "./utils.mjs";
+import { registerSW } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/active/prxy/register-sw.mjs";
+import * as BareMux from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/active/prxy/baremux/index.mjs";
+import { getFavicon, rAlert } from "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/scripts/utils.mjs";
 
-const connection = new BareMux.BareMuxConnection("/active/prxy/baremux/worker.js");
+const connection = new BareMux.BareMuxConnection("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/_test2/active/active/prxy/baremux/worker.js");
 
 export function search(input, template) {
   try {

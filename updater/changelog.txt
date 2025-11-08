@@ -20,6 +20,15 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/07/2025:
+[-] Removed Edubrain.ai due to it being blocked, may come back if I develop
+a proxy.
+[!] Regarding proxies, I still do not want to add a proxy unless I can fully
+make it unblockable. The whole point of No Name Games is for everything to 
+be untouchable, but a proxy does not do that. I know I kinda contradicted
+myself with edubrain.ai, but it was unblocked for a long time, lol. Also
+again, I don't make money from No Name Games and webservers cost money.
+
 11/06/2025:
 [+] Added Hotline Miami 1 (Thanks for the suggestion o-333)
 [+] Added Metroid Fusion (Thanks for the suggestion Franklin)

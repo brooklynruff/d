@@ -20,6 +20,11 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/09/2025:
+[+] Alright it looks like I'm changing my mind. I added a proxy, but it may
+be blocked for some people (if it is don't submit a bug report).
+[!] Please, don't abuse the proxy!
+
 11/07/2025:
 [-] Removed Edubrain.ai due to it being blocked, may come back if I develop
 a proxy.

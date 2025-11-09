@@ -1,3 +1,3 @@
-11/07/2025:
-[-] Removed Edubrain.ai due to it being blocked, may come back if I develop a proxy.
-[!] Regarding proxies, I still do not want to add a proxy unless I can fully make it unblockable. The whole point of No Name Games is for everything to be untouchable, but a proxy does not do that. I know I kinda contradicted myself with edubrain.ai, but it was unblocked for a long time, lol. Also again, I don't make money from No Name Games and webservers cost money.
+11/09/2025:
+[+] Alright it looks like I'm changing my mind. I added a proxy, but it may be blocked for some people (if it is don't submit a bug report).
+[!] Please, don't abuse the proxy!

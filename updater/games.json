@@ -1040,9 +1040,9 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
     },
-    "zzzTEST_110": {
+    "(PROXY) No Name Games Experimental Proxy": {
         "url": "NOTXML;https://mellow-bubblegum-bc5450.netlify.app/active/index.html",
-        "img": ""
+        "img": "proxy.png"
     }
   },
   "categories": {

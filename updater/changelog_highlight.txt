@@ -1,3 +1,3 @@
-11/09/2025:
-[+] Alright it looks like I'm changing my mind. I added a proxy, but it may be blocked for some people (if it is don't submit a bug report).
-[!] Please, don't abuse the proxy!
+11/10/2025:
+[-] Okay looks like I'm changing my mind once again. The proxy has been removed. Sorry.
+[!] This experiment didn't work out the way I expected, so proxies might be delayed for the future again.

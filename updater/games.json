@@ -1039,10 +1039,6 @@
     "Metroid: Zero Mission [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
-    },
-    "(PROXY) No Name Games Experimental Proxy": {
-        "url": "NOTXML;https://courageous-belekoy-904d8d.netlify.app/active/index.html",
-        "img": "proxy.png"
     }
   },
   "categories": {

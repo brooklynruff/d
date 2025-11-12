@@ -1075,6 +1075,14 @@
     "Half Life": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/half.xml&html=1",
         "img": "halflife.jpg"
+    },
+    "Pokémon Black 2 [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/pb2.xml",
+        "img": "pb2.png"
+    },
+    "Pokémon White 2 [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/pw2.xml",
+        "img": "pb2.png"
     }
   },
   "categories": {

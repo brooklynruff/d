@@ -3,8 +3,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="icon" href="" id="icon"></link>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN16PD4LYK"></script>
-    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZN16PD4LYK');</script>
     <style type="text/css">
         * {
             color: white;
@@ -354,7 +352,7 @@
         <center>
             <button onclick="window.open('https://forms.gle/iFA6kCTM8AcctsrEA')">Go to bug report form</button>
             <button onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Go to suggestion/feedback form</button>
-            <a href="mailto:nonamegamescontact@proton.me" target="_blank">My email (nonamegamescontact@proton.me)</a>
+            <a href="" target="_blank" class="email" onclick="alert('Please don\'t email from a school/work email!\n\nYour emails may not send out because your school/work may be blocking emails to third-party email addresses. Your emails are also always being watched!\n\nPlease send your email from a non-monitored email address (like a personal one), if you\'d like a guaranteed response.');window.open('mailto:nonamegamescontact@proton.me', '_blank')">My email (nonamegamescontact@proton.me)</a>
         </center>
         <br/>
         <center>
@@ -380,6 +378,7 @@
 
         let search = document.getElementById("search");
         let categories = document.getElementById("categories");
+        let email = document.getElementsByClassName("email");
 
         async function inject(url, name, width) {
             let about_blank = window.open();
@@ -505,14 +504,14 @@
             }
         }
 
-          function goToContact() {
+        function goToContact() {
             showPage('aboutPage');
             
             setTimeout(() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
             }, 400);
         }
-
+        
         reload();
 
         categories.childNodes.forEach(child => {
@@ -548,7 +547,7 @@
             <b>A:</b><b> No.</b> Currently, online games aren't possible at this time. This may be possible <b>if</b> I develop a proxy in the future.<br/>
         <h1 class="centered" id="contact">Contact</h1>
         <p class="about-text">
-            Contact us at <a href="mailto:nonamegamescontact@proton.me" target="_blank">nonamegamescontact@proton.me</a>
+            Contact us at <a href="mailto:nonamegamescontact@proton.me" target="_blank">nonamegamescontact@proton.me</a> (<b>Please don't email from a school/work email!</b> Your emails may not send out because your school/work may be blocking emails to third-party email addresses. Your emails are also always being watched!)
         </p>
         <center><button class="nav-btn" onclick="window.open('https://forms.gle/FJxL8tmAiefrrFst7')">Open Suggestion Form</button></center>
         <br />

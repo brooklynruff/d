@@ -1067,6 +1067,10 @@
     "Nazi Zombies Portable": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/nzp/game.xml",
         "img": "nzp.webp"
+    },
+    "Pokémon: Emerald [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pev.xml",
+        "img": "pev.jpg"
     }
   },
   "categories": {
@@ -1131,7 +1135,8 @@
         "SpongeBob's Truth or Square [NDS EMULATED]",
         "Pokémon: FireRed [GBA EMULATED]",
         "Papa's Wingeria",
-        "Nazi Zombies Portable"
+        "Nazi Zombies Portable",
+        "Pokémon: Emerald [GBA EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1251,7 +1256,8 @@
         "Super Mario Bros. [GBA EMULATED]",
         "Super Mario Bros. 3 [NES EMULATED]",
         "SpongeBob's Truth or Square [NDS EMULATED]",
-        "Pokémon: FireRed [GBA EMULATED]"
+        "Pokémon: FireRed [GBA EMULATED]",
+        "Pokémon: Emerald [GBA EMULATED]"
     ]
   }
 }

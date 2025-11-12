@@ -5,3 +5,5 @@
 [+] Added Pokémon FireRed (Thanks for the suggestion!)
 [+] Added Papa's Wingeria (Thanks for the suggestion Kimmy J!)
 [+] Added Nazi Zombies Portable (Thanks for the suggestion) [I suppose this is what you mean by "Call of Duty Zombies Browser Edition"]
+[+] Added Pokémon Emerald (I accidentally deleted the suggestion before writing your name, sorry)
+[+] Added a warning when trying to click my email (Please read it if you've emailed me before)

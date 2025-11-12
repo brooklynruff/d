@@ -1071,6 +1071,10 @@
     "Pokémon: Emerald [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pev.xml",
         "img": "pev.jpg"
+    },
+    "Half Life": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/half.xml&html=1",
+        "img": "halflife.jpg"
     }
   },
   "categories": {
@@ -1136,7 +1140,9 @@
         "Pokémon: FireRed [GBA EMULATED]",
         "Papa's Wingeria",
         "Nazi Zombies Portable",
-        "Pokémon: Emerald [GBA EMULATED]"
+        "Pokémon: Emerald [GBA EMULATED]",
+        "Pokémon Black 2 [NDS EMULATED]",
+        "Pokémon White 2 [NDS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1257,7 +1263,9 @@
         "Super Mario Bros. 3 [NES EMULATED]",
         "SpongeBob's Truth or Square [NDS EMULATED]",
         "Pokémon: FireRed [GBA EMULATED]",
-        "Pokémon: Emerald [GBA EMULATED]"
+        "Pokémon: Emerald [GBA EMULATED]",
+        "Pokémon Black 2 [NDS EMULATED]",
+        "Pokémon White 2 [NDS EMULATED]"
     ]
   }
 }

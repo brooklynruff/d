@@ -84,6 +84,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/scooperia.xml",
         "img": "scooperia.jpg"
     },
+    "Papa's Wingeria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/wingeria.xml",
+        "img": "wingeria.png"        
+    },
     "BitLife": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
         "img": "bitlife.jpg"
@@ -1039,6 +1043,26 @@
     "Metroid: Zero Mission [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mzm.xml",
         "img": "metroidzero.jpg"
+    },
+    "Super Mario Bros. [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/smb.xml",
+        "img": "smbg.jpg"
+    },
+    "Super Mario Bros. 3 [NES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/smb3.xml",
+        "img": "smb3.jpg"
+    },
+    "SpongeBob's Truth or Square [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/stq.xml",
+        "img": "stq.jpg"
+    },
+    "Mario Paint [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/mp.xml",
+        "img": "mp.jpg"
+    },
+    "Pokémon: FireRed [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pfr.xml",
+        "img": "pfr.jpg"
     }
   },
   "categories": {
@@ -1096,7 +1120,13 @@
         "Hotline Miami",
         "Metroid Fusion [GBA EMULATED]",
         "Metroid: Zero Mission [GBA EMULATED]",
-        "Five Nights at Freddy's"
+        "Five Nights at Freddy's",
+        "Mario Paint [SNES EMULATED]",
+        "Super Mario Bros. [GBA EMULATED]",
+        "Super Mario Bros. 3 [NES EMULATED]",
+        "SpongeBob's Truth or Square [NDS EMULATED]",
+        "Pokémon: FireRed [GBA EMULATED]",
+        "Papa's Wingeria"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1210,7 +1240,12 @@
         "Call of Duty: World at War [NDS EMULATED]",
         "Call of Duty: Modern Warfare 3: Defiance [NDS EMULATED]",
         "Metroid Fusion [GBA EMULATED]",
-        "Metroid: Zero Mission [GBA EMULATED]"
+        "Metroid: Zero Mission [GBA EMULATED]",
+        "Mario Paint [SNES EMULATED]",
+        "Super Mario Bros. [GBA EMULATED]",
+        "Super Mario Bros. 3 [NES EMULATED]",
+        "SpongeBob's Truth or Square [NDS EMULATED]",
+        "Pokémon: FireRed [GBA EMULATED]"
     ]
   }
 }

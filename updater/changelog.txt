@@ -20,6 +20,13 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/11/2025:
+[+] Added Super Mario Bros. 1 & 3 (Thanks for the suggestion!)
+[+] Added Spongebob's Truth or Square (Thanks for the suggestion!)
+[+] Added Mario Paint (Thanks for the suggestion!)
+[+] Added Pokémon FireRed (Thanks for the suggestion!)
+[+] Added Papa's Wingeria (Thanks for the suggestion Kimmy J!)
+
 11/10/2025:
 [-] Okay looks like I'm changing my mind once again. The proxy has been
 removed. Sorry.

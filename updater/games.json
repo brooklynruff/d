@@ -1083,6 +1083,10 @@
     "Pokémon White 2 [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/pw2.xml",
         "img": "pw2.png"
+    },
+    "Slender: The Eight Pages": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slender/index.xml",
+        "img": "slendertheeight.jpg"
     }
   },
   "categories": {

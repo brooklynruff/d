@@ -1063,6 +1063,10 @@
     "Pokémon: FireRed [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pfr.xml",
         "img": "pfr.jpg"
+    },
+    "Nazi Zombies Portable": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/nzp/game.xml",
+        "img": "nzp.webp"
     }
   },
   "categories": {
@@ -1126,7 +1130,8 @@
         "Super Mario Bros. 3 [NES EMULATED]",
         "SpongeBob's Truth or Square [NDS EMULATED]",
         "Pokémon: FireRed [GBA EMULATED]",
-        "Papa's Wingeria"
+        "Papa's Wingeria",
+        "Nazi Zombies Portable"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1162,7 +1167,8 @@
         "Getaway Shootout",
         "Karlson",
         "ULTRAKILL",
-        "Hotline Miami"
+        "Hotline Miami",
+        "Nazi Zombies Portable"
     ],
     "Classic": [
         "Angry Birds",

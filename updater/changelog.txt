@@ -26,6 +26,8 @@ tion.
 [+] Added Mario Paint (Thanks for the suggestion!)
 [+] Added Pokémon FireRed (Thanks for the suggestion!)
 [+] Added Papa's Wingeria (Thanks for the suggestion Kimmy J!)
+[+] Added Nazi Zombies Portable (Thanks for the suggestion) [I suppose this
+is what you mean by "Call of Duty Zombies Browser Edition"]
 
 11/10/2025:
 [-] Okay looks like I'm changing my mind once again. The proxy has been

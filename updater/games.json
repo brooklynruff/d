@@ -1091,6 +1091,10 @@
     "Slender: The Eight Pages": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/slender/index.xml",
         "img": "slendertheeight.jpg"
+    },
+    "Hollow Knight": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/hollowknight/hk.xml",
+        "img": "hk.jpg"
     }
   },
   "categories": {
@@ -1132,7 +1136,8 @@
         "Friday Night Funkin'",
         "Hotline Miami",
         "Slender: The Eight Pages",
-        "Half-Life"
+        "Half-Life",
+        "Hollow Knight"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1163,7 +1168,8 @@
         "Pokémon White 2 [NDS EMULATED]",
         "Slender: The Eight Pages",
         "Half-Life",
-        "Cooking Mama [NDS EMULATED]"
+        "Cooking Mama [NDS EMULATED]",
+        "Hollow Knight"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

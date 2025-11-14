@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/13/2025:
+[+] Added Hollow Knight (Thanks for the suggestion Hudsyn ganey)
+
 11/12/2025:
 [+] Added Half-Life 1 (Thanks for the suggestion ThatOneAmerican!)
 [+] Added Pokémon Black 2 (Thanks for the suggestion BubbaNator5000!)

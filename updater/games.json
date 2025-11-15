@@ -1119,6 +1119,14 @@
     "Lego Batman: The Video Game [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/lbtv.xml",
         "img": "lbtv.jpg"
+    },
+    "The Legend of Zelda: A Link to the Past [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/lzalp.xml",
+        "img": "lzalp.jpg"
+    },
+    "The Legend of Zelda: Ocarina of Time [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/lzot.xml",
+        "img": "lzot.jpg"
     }
   },
   "categories": {
@@ -1328,7 +1336,9 @@
         "Pokémon Black 2 [NDS EMULATED]",
         "Pokémon White 2 [NDS EMULATED]",
         "Cooking Mama [NDS EMULATED]",
-        "Lego Batman: The Video Game [NDS EMULATED]"
+        "Lego Batman: The Video Game [NDS EMULATED]",
+        "The Legend of Zelda: A Link to the Past [SNES EMULATED]",
+        "The Legend of Zelda: Ocarina of Time [N64 EMULATED]"
     ]
   }
 }

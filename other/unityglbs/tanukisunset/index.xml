@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="clusterrush"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/TemplateData/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/TemplateData/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/Build/WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100%; height:100%;"></div>
+    </div>
+  </body>
+</html>
+]]></Content>
+</Module>

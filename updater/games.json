@@ -1099,6 +1099,10 @@
     "Cluster Rush": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/clusterrush/index.xml",
         "img": "clusterrush.jpg"
+    },
+    "People Playground": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/peopleplayground/index.xml",
+        "img": "peopleplayground.jpg"
     }
   },
   "categories": {
@@ -1141,7 +1145,8 @@
         "Hotline Miami",
         "Slender: The Eight Pages",
         "Half-Life",
-        "Hollow Knight"
+        "Hollow Knight",
+        "People Playground"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1174,7 +1179,8 @@
         "Half-Life",
         "Cooking Mama [NDS EMULATED]",
         "Hollow Knight",
-        "Cluster Rush"
+        "Cluster Rush",
+        "People Playground"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

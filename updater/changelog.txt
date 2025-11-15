@@ -22,6 +22,7 @@ tion.
 ==================================CHANGELOG=================================
 11/15/2025:
 [+] Added Cluster Rush (Thanks for the suggestion!)
+[+] Added People Playground (Thanks for the suggestion!)
 
 11/13/2025:
 [+] Added Hollow Knight (Thanks for the suggestion Hudsyn ganey)

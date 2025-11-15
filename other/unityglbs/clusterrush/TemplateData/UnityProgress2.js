@@ -1,5 +1,5 @@
 function UnityProgress (dom) {
-  var root_path = './TemplateData';
+  var root_path = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/clusterrush/TemplateData';
   this.progress = 0.0;
   this.message = "";
   this.dom = dom;

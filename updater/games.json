@@ -1103,6 +1103,14 @@
     "People Playground": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/peopleplayground/index.xml",
         "img": "peopleplayground.jpg"
+    },
+    "Super Mario World [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/smw.xml",
+        "img": "smw.png"
+    },
+    "Steal a Brainrot": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/stealabrainrot/index.html&html=1",
+        "img": "stealabrainrot.jpg"        
     }
   },
   "categories": {
@@ -1146,7 +1154,8 @@
         "Slender: The Eight Pages",
         "Half-Life",
         "Hollow Knight",
-        "People Playground"
+        "People Playground",
+        "Steal a Brainrot"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1180,7 +1189,8 @@
         "Cooking Mama [NDS EMULATED]",
         "Hollow Knight",
         "Cluster Rush",
-        "People Playground"
+        "People Playground",
+        "Steal a Brainrot"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

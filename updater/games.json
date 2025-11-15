@@ -1115,6 +1115,10 @@
     "Asteroids": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/asteroids.xml",
         "img": "asteroids.png"
+    },
+    "Lego Batman: The Video Game [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/lbtv.xml",
+        "img": "lbtv.jpg"
     }
   },
   "categories": {
@@ -1195,7 +1199,8 @@
         "Cluster Rush",
         "People Playground",
         "Steal a Brainrot",
-        "Asteroids"
+        "Asteroids",
+        "Lego Batman: The Video Game [NDS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1322,7 +1327,8 @@
         "Pokémon: Emerald [GBA EMULATED]",
         "Pokémon Black 2 [NDS EMULATED]",
         "Pokémon White 2 [NDS EMULATED]",
-        "Cooking Mama [NDS EMULATED]"
+        "Cooking Mama [NDS EMULATED]",
+        "Lego Batman: The Video Game [NDS EMULATED]"
     ]
   }
 }

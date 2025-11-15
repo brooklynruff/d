@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/15/2025:
+[+] Added Cluster Rush (Thanks for the suggestion!)
+
 11/13/2025:
 [+] Added Hollow Knight (Thanks for the suggestion Hudsyn ganey)
 

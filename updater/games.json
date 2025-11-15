@@ -1095,6 +1095,10 @@
     "Hollow Knight": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/hollowknight/hk.xml",
         "img": "hk.jpg"
+    },
+    "Cluster Rush": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/clusterrush/index.xml",
+        "img": "clusterrush.jpg"
     }
   },
   "categories": {
@@ -1169,7 +1173,8 @@
         "Slender: The Eight Pages",
         "Half-Life",
         "Cooking Mama [NDS EMULATED]",
-        "Hollow Knight"
+        "Hollow Knight",
+        "Cluster Rush"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1265,7 +1270,8 @@
         "Poly Track",
         "Rocket League",
         "Snow Rider 3D",
-        "Tiny Cars"
+        "Tiny Cars",
+        "Cluster Rush"
     ],
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",

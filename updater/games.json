@@ -1111,6 +1111,10 @@
     "Steal a Brainrot": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/stealabrainrot/steal.html&html=1",
         "img": "stealabrainrot.jpg"        
+    },
+    "Asteroids": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/asteroids.xml",
+        "img": "asteroids.png"
     }
   },
   "categories": {
@@ -1190,7 +1194,8 @@
         "Hollow Knight",
         "Cluster Rush",
         "People Playground",
-        "Steal a Brainrot"
+        "Steal a Brainrot",
+        "Asteroids"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

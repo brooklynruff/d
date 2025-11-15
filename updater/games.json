@@ -1127,6 +1127,10 @@
     "The Legend of Zelda: Ocarina of Time [N64 EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/lzot.xml",
         "img": "lzot.jpg"
+    },
+    "Tanuki Sunset": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/tanukisunset/game.xml",
+        "img": "tanuki.jpg"
     }
   },
   "categories": {

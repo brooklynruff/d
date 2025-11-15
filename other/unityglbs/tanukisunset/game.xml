@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="clusterrush"/>
+<ModulePrefs title="tanuki sunset"/>
 <Content type="html"><![CDATA[
-<!DOCTYPE html>
 <html lang="en-us">
   <head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes" />
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/TemplateData/style.css">
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/TemplateData/UnityProgress.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tanukisunset/Build/WebGL.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("unityContainer", "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/unityglbs/tanukisunset/Build/WebGL.json", {onProgress: UnityProgress});
+      window.onresize = (()=>{
+        document.getElementById("#canvas").style.height = window.innerHeight;
+        document.getElementById("#canvas").style.width = window.innerWidth;      
+      })
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 100%; height:100%;"></div>
+    <div class="webgl-content" id="webgl-content" style="width:100%; height:100%">
+      <div id="unityContainer" style="width:100%; height:100%"></div>
     </div>
   </body>
 </html>

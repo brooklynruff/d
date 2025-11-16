@@ -1135,6 +1135,10 @@
     "Crazy Cattle 3D": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/crazycattle/bootstrapper.xml",
         "img": "crazycattle.png"
+    },
+    "(A.I) A.I. Assistant": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ai.html&html=1",
+        "img": "sparkles.png"
     }
   },
   "categories": {

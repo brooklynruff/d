@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg1: #1b2735;
+      --bg2: #090a0f;
+      --card: #1e1e1e;
+      --muted: #ccc;
+      --accent: #6cf;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: "Roboto Mono", monospace;
+      background: radial-gradient(ellipse at top, var(--bg1) 0%, var(--bg2) 100%);
+      color: #fff
+    }
+
+    .topnav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 18px;
+      background: rgba(20, 20, 20, 0.75);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid #222;
+      z-index: 40
+    }
+
+    .site-title {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      cursor: default
+    }
+
+    .site-logo {
+      height: 36px;
+      width: 36px;
+      border-radius: 6px;
+      object-fit: cover
+    }
+
+    .nav-btn {
+      background: rgba(40, 40, 40, 0.8);
+      color: #fff;
+      border: 1px solid #333;
+      padding: 8px 12px;
+      border-radius: 10px;
+      cursor: pointer
+    }
+
+    .wrap {
+      min-height: 100vh;
+      padding-top: 110px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center
+    }
+
+    .card {
+      width: min(880px, 96%);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.06));
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.03)
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 1.15rem
+    }
+
+    p.lead {
+      margin: 0 0 18px 0;
+      color: var(--muted)
+    }
+
+    .io {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: stretch
+    }
+
+    .box {
+      background: var(--card);
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 220px;
+      display: flex;
+      flex-direction: column
+    }
+
+    textarea.input {
+      flex: 1;
+      resize: vertical;
+      min-height: 120px;
+      background: transparent;
+      border: 1px dashed rgba(255, 255, 255, 0.06);
+      padding: 12px;
+      color: #fff;
+      font-family: inherit;
+      border-radius: 6px
+    }
+
+    textarea.output {
+      flex: 1;
+      resize: none;
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      padding: 12px;
+      color: #fff;
+      font-family: inherit;
+      border-radius: 6px
+    }
+
+    textarea.output[readonly] {
+      opacity: 0.95
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 12px
+    }
+
+    .btn {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: none;
+      background: #222;
+      color: #fff;
+      cursor: pointer
+    }
+
+    .btn.primary {
+      background: linear-gradient(90deg, #3bd1ff22, #6cf);
+      color: #001
+    }
+
+    .small {
+      font-size: 0.85rem;
+      padding: 8px 10px
+    }
+
+    footer {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.85rem
+    }
+
+    @media (max-width:800px) {
+      .io {
+        grid-template-columns: 1fr
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/gh/hyperstown/pure-snow.js@master/pure-snow.js" defer></script>
+</head>
+<body>
+  <div class="topnav">
+    <div class="site-title">
+      <img class="site-logo" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/images/logo.png" alt="logo">
+      <div>No Name A.I</div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="card">
+      <h1>No Name A.I</h1>
+
+      <div class="io">
+        <div class="box">
+          <label for="userInput" style="margin-bottom:8px">Your message</label>
+          <textarea id="userInput" class="input" placeholder="Type your question here..."></textarea>
+
+          <div class="controls">
+            <button id="sendBtn" class="btn primary">Send</button>
+            <button id="clearBtn" class="btn small">Clear</button>
+            <div style="flex:1"></div>
+            <button id="copyOut" class="btn small">Copy reply</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <label for="aiOutput" style="margin-bottom:8px">AI reply</label>
+          <textarea id="aiOutput" class="output" readonly placeholder="AI responses will appear here..."></textarea>
+
+          <footer>Status: <span id="status">idle</span></footer>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const userInput = document.getElementById('userInput');
+    const aiOutput = document.getElementById('aiOutput');
+    const sendBtn = document.getElementById('sendBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const copyOut = document.getElementById('copyOut');
+    const status = document.getElementById('status');
+
+    sendBtn.addEventListener('click', async () => {
+      const text = userInput.value.trim();
+      if (!text) return;
+
+      // immediate UI feedback
+      status.innerText = 'thinking...';
+      aiOutput.value = 'Thinking...';
+      sendBtn.disabled = true;
+
+      let data = {
+        "type": "text",
+        "text": text
+      }
+
+      try {
+        let start = new Date();
+        let reply = await fetch("https://script.google.com/macros/s/AKfycbwr3wuckHnCU9Dzkvf0AVLyluvSISkIN06t8MOpCOhfBnHcJ0F-wAmtw1lFhK51QpUK/exec", {
+          body: JSON.stringify(data),
+          method: 'POST'
+        })
+        aiOutput.value = (await reply.json())["choices"][0]["message"]["content"];
+        status.innerText = `done (took ${(new Date().getTime() - start.getTime())/1000} seconds)`;
+      } catch (err) {
+        aiOutput.value = 'Error: ' + (err.message || String(err));
+        status.innerText = 'error';
+      } finally {
+        sendBtn.disabled = false;
+      }
+    });
+
+    copyOut.addEventListener('click', async () => {
+      let blob = new Blob([aiOutput.value], {type:"text/plain"});
+      navigator.clipboard.write([new ClipboardItem({"text/plain": blob})])
+    })
+
+    clearBtn.addEventListener("click", ()=>{
+      userInput.value = "";
+      aiOutput.value = "";
+      status.innerText = "idle";
+    })
+  </script>
+</body>
+</html>

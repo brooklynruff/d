@@ -1131,6 +1131,10 @@
     "Tanuki Sunset": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/tanukisunset/game.xml",
         "img": "tanuki.jpg"
+    },
+    "Crazy Cattle 3D": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/crazycattle/index.html&html=1",
+        "img": "crazycattle.png"
     }
   },
   "categories": {
@@ -1175,7 +1179,8 @@
         "Half-Life",
         "Hollow Knight",
         "People Playground",
-        "Steal a Brainrot"
+        "Steal a Brainrot",
+        "Crazy Cattle 3D"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1215,7 +1220,8 @@
         "Lego Batman: The Video Game [NDS EMULATED]",
         "The Legend of Zelda: A Link to the Past [SNES EMULATED]",
         "The Legend of Zelda: Ocarina of Time [N64 EMULATED]",
-        "Tanuki Sunset"
+        "Tanuki Sunset",
+        "Crazy Cattle 3D"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

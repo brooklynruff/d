@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/16/2025:
+[+] Added Crazy Cattle 3D
+
 11/15/2025:
 [+] Added Cluster Rush (Thanks for the suggestion!)
 [+] Added People Playground (Thanks for the suggestion!)

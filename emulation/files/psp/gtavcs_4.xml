@@ -44,7 +44,7 @@
 
         EJS_player = '#game';
         
-        EJS_core = 'nds';
+        EJS_core = 'psp';
         
         EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
         getMerged().then((data)=>{

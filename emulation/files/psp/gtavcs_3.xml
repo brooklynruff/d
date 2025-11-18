@@ -14,7 +14,7 @@
             let parts = [];
             let partUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/psp/gtavcs/"
             let fileName = "gtavcs.iso"
-            let length = 55;
+            let length = 82;
 
             for (let i = 1; i <= length; i++) {
                 parts.push(`${partUrl}${fileName}.part${i}`)

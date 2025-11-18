@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="pw2"/>
+<Content type="html"><![CDATA[
+<body style="margin:0px;">
+    <div style='width:100%;height:100%;margin:0px;'>
+        <center id='downloading' style="width:100%;height:100%; background-color: black; color:white;"><h1 id="downloadingtext">Downloading 0/0...</h1></center>
+        <div id='game'></div>
+    </div>
+
+    <script type='text/javascript'>
+        function getMerged() {
+            let downloadingtext = document.getElementById("downloadingtext");
+            let parts = [];
+            let partUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/psp/gtavcs/"
+            let fileName = "gtavcs.iso"
+            let length = 55;
+
+            for (let i = 1; i <= length; i++) {
+                parts.push(`${partUrl}${fileName}.part${i}`)
+            }
+
+            return new Promise((resolve, reject) => {
+                let dataUrl = "";
+                let buffers = [];
+
+                function getPart(index) {
+                    return new Promise((resolve2, reject) => {
+                        if (index >= parts.length) {
+                            resolve(URL.createObjectURL(new Blob(buffers)));
+                            return;
+                        }
+                        downloadingtext.innerHTML = `Downloading parts ${index + 1}/${length}...`
+                        fetch(parts[index]).then((response) => response.arrayBuffer()).then((data) => {
+                            buffers.push(data);
+                            getPart(index + 1);
+                        })
+                    })
+                }
+
+                getPart(0)
+            })
+        }
+
+        EJS_player = '#game';
+        
+        EJS_core = 'nds';
+        
+        EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
+        getMerged().then((data)=>{
+            EJS_gameUrl = data;
+            let scr = document.createElement("script");
+            document.getElementById("downloading").remove();
+            scr.src = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/loader.js";
+            document.body.appendChild(scr);
+        })
+
+        EJS_alignStartButton = "center";
+        EJS_backgroundImage = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bg.png";
+    </script>
+    
+<body>
+]]></Content>
+</Module>

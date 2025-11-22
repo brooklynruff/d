@@ -1,17 +1,7 @@
-11/16/2025:
-[+] Added an A.I. assistant
-[+] Added Crazy Cattle 3D
-
-11/15/2025:
-[+] Added Cluster Rush (Thanks for the suggestion!)
-[+] Added People Playground (Thanks for the suggestion!)
-[+] Added Super Mario World (Thanks for the suggestion!)
-[+] Added Steal a Brainrot (Thanks for the suggestion Hudsyn!)
-[+] Added Asteroids (Thanks for the suggestion Jacob!)
-[+] Added Lego Batman: The Video Game (Thanks for the suggestion!)
-[+] Added The Legend of Zelda: A Link to the Past (Thanks for the suggestion colin_is_a_weiner2610)
-[+] Added The Legend of Zelda: Ocarina of Time (Thanks for the suggestion colin_is_a_weiner2610)
-[+] Added Tanuki Sunset (Thanks for the suggestion Sophia)
-
-11/13/2025:
-[+] Added Hollow Knight (Thanks for the suggestion Hudsyn ganey)
+11/22/2025:
+[+] Fixed Legend of Zelda: Ocarina of Time (Thanks for the bug reports James, colinisaweiner, and ThatOneAmerican)
+[+] Added Minesweeper (Thanks for the suggestion!)
+[+] Added Pokémon Green (Thanks for the suggestion BIG_B!)
+[+] Added Super Metroid (Thanks for the suggestion Adon!)
+[+] Added Wheely 1-8 (Thanks for the suggestion Koda!)
+[+] Added Yo-Kai Watch (Thanks for the suggestion M.h)

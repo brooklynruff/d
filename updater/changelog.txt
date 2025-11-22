@@ -20,6 +20,15 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/22/2025:
+[+] Fixed Legend of Zelda: Ocarina of Time (Thanks for the bug reports
+James, colinisaweiner, and ThatOneAmerican)
+[+] Added Minesweeper (Thanks for the suggestion!)
+[+] Added Pokémon Green (Thanks for the suggestion BIG_B!)
+[+] Added Super Metroid (Thanks for the suggestion Adon!)
+[+] Added Wheely 1-8 (Thanks for the suggestion Koda!)
+[+] Added Yo-Kai Watch (Thanks for the suggestion M.h)
+
 11/16/2025:
 [+] Added an A.I. assistant
 [+] Added Crazy Cattle 3D

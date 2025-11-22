@@ -1125,7 +1125,7 @@
         "img": "lzalp.jpg"
     },
     "The Legend of Zelda: Ocarina of Time [N64 EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/lzot.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/lzot_2.xml",
         "img": "lzot.jpg"
     },
     "Tanuki Sunset": {
@@ -1139,6 +1139,54 @@
     "(A.I) A.I. Assistant": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ai.html&html=1",
         "img": "sparkles.png"
+    },
+    "Minesweeper": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/minesweeper/index.xml",
+        "img": "minesweeper.png"
+    },
+    "Pokémon Green [GB EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gb/pg.xml",
+        "img": "pg.webp"
+    },
+    "Super Metroid [SNES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/sm.xml",
+        "img": "sm.jpg"
+    },
+    "Wheely 1": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely.xml",
+        "img": "wheely.webp"
+    },
+    "Wheely 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely2.xml",
+        "img": "wheely2.jpg"
+    },
+    "Wheely 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely3.xml",
+        "img": "wheely3.jpg"
+    },
+    "Wheely 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely4.xml",
+        "img": "wheely4.jpg"
+    },
+    "Wheely 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely5.xml",
+        "img": "wheely5.jpg"
+    },
+    "Wheely 6": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely6.xml",
+        "img": "wheely6.jpg"
+    },
+    "Wheely 7": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely7.xml",
+        "img": "wheely7.jpg"
+    },
+    "Wheely 8": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/wheely8.xml",
+        "img": "wheely8.jpg"
+    },
+    "Yo-Kai Watch [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/ykw.xml",
+        "img": "ykw.jpg"
     }
   },
   "categories": {
@@ -1225,7 +1273,19 @@
         "The Legend of Zelda: A Link to the Past [SNES EMULATED]",
         "The Legend of Zelda: Ocarina of Time [N64 EMULATED]",
         "Tanuki Sunset",
-        "Crazy Cattle 3D"
+        "Crazy Cattle 3D",
+        "Minesweeper",
+        "Pokémon Green [GB EMULATED]",
+        "Super Metroid [SNES EMULATED]",
+        "Wheely 1",
+        "Wheely 2",
+        "Wheely 3",
+        "Wheely 4",
+        "Wheely 5",
+        "Wheely 6",
+        "Wheely 7",
+        "Wheely 8",
+        "Yo-Kai Watch [NDS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1290,7 +1350,8 @@
         "Retro Bowl",
         "Slope",
         "Tetris",
-        "Uno"
+        "Uno",
+        "Minesweeper"
     ],
     "Sports": [
         "1 on 1 Basketball",
@@ -1323,7 +1384,15 @@
         "Snow Rider 3D",
         "Tiny Cars",
         "Cluster Rush",
-        "Tanuki Sunset"
+        "Tanuki Sunset",
+        "Wheely 1",
+        "Wheely 2",
+        "Wheely 3",
+        "Wheely 4",
+        "Wheely 5",
+        "Wheely 6",
+        "Wheely 7",
+        "Wheely 8"
     ],
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",
@@ -1356,7 +1425,10 @@
         "Cooking Mama [NDS EMULATED]",
         "Lego Batman: The Video Game [NDS EMULATED]",
         "The Legend of Zelda: A Link to the Past [SNES EMULATED]",
-        "The Legend of Zelda: Ocarina of Time [N64 EMULATED]"
+        "The Legend of Zelda: Ocarina of Time [N64 EMULATED]",
+        "Pokémon Green [GB EMULATED]",
+        "Super Metroid [SNES EMULATED]",
+        "Yo-Kai Watch [NDS EMULATED]"
     ]
   }
 }

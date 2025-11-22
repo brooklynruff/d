@@ -12,7 +12,7 @@
         function getMerged() {
             let downloadingtext = document.getElementById("downloadingtext");
             let parts = [];
-            let partUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/nds/pb2/"
+            let partUrl = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/nds/ykw/"
             let fileName = "ykw.nds"
             let length = 52;
 

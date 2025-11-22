@@ -662,7 +662,7 @@
     },
     "Run 'n' Gun": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/runngun.xml",
-        "img": "runngun.jpg"
+        "img": "runngun_2.jpg"
     },
     "Sara's Cooking Class": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/sarascookingclass.xml",
@@ -1185,7 +1185,7 @@
         "img": "wheely8.jpg"
     },
     "Yo-Kai Watch [NDS EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/ykw.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/ykw_2.xml",
         "img": "ykw.jpg"
     }
   },
@@ -1366,7 +1366,8 @@
         "Basketballs",
         "Retro Bowl",
         "Volley Random",
-        "Basketbros"
+        "Basketbros",
+        "Run 'n' Gun"
     ],
     "Driving": [
         "Ace Gangster",

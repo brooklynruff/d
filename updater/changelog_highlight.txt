@@ -6,3 +6,4 @@
 [+] Added Wheely 1-8 (Thanks for the suggestion Koda!)
 [+] Added Yo-Kai Watch (Thanks for the suggestion M.h)
 [+] Fixed Run 'n' Gun having a gun image. I assumed this was a gun game and not a football game, sorry, lol. It's now under the 'Sports' category
+[+] Added Jacksmith (Thanks for the suggestion Mason Perez and "Sorry Martello & Kicole Nartchner")

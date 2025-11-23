@@ -1187,6 +1187,10 @@
     "Yo-Kai Watch [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/ykw_2.xml",
         "img": "ykw.jpg"
+    },
+    "Pizza Tower": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/pizzatower/betterrunner.html&html=1",
+        "img": "pizzatower.jpg"
     }
   },
   "categories": {
@@ -1195,8 +1199,7 @@
         "Basket Random",
         "BitLife",
         "Block Blast",
-        "Cookie Clicker",
-        "Death Run 3D",
+        "Pizza Tower",
         "Drift Boss",
         "Getting Over It (Scratch Edition)",
         "Greedy Mimic",
@@ -1285,7 +1288,8 @@
         "Wheely 6",
         "Wheely 7",
         "Wheely 8",
-        "Yo-Kai Watch [NDS EMULATED]"
+        "Yo-Kai Watch [NDS EMULATED]",
+        "Pizza Tower"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

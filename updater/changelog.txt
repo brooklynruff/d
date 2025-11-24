@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/24/2025:
+[+] Fixed the "Click Anywhere to Launch" not launching. Woops.
+
 11/23/2025:
 [+] Added Pizza Tower (Thanks for the suggestion BubbaNator5000 and Tanter!)
 

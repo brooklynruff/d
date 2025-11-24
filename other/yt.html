@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg1: #1b2735;
+            --bg2: #090a0f;
+            --card: #1e1e1e;
+            --muted: #ccc;
+            --accent: #6cf
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: "Roboto Mono", monospace;
+            background: radial-gradient(ellipse at top, var(--bg1) 0%, var(--bg2) 100%);
+            color: #fff
+        }
+
+        .topnav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 18px;
+            background: rgba(20, 20, 20, 0.75);
+            backdrop-filter: blur(6px);
+            border-bottom: 1px solid #222;
+            z-index: 40
+        }
+
+        .site-title {
+            display: flex;
+            gap: 10px;
+            align-items: center
+        }
+
+        .site-logo {
+            height: 36px;
+            width: 36px;
+            border-radius: 6px;
+            object-fit: cover
+        }
+
+        .nav-btn {
+            background: rgba(40, 40, 40, 0.8);
+            color: #fff;
+            border: 1px solid #333;
+            padding: 8px 12px;
+            border-radius: 10px;
+            cursor: pointer
+        }
+
+        .wrap {
+            min-height: 100vh;
+            padding-top: 110px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center
+        }
+
+        .card {
+            width: min(980px, 96%);
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.06));
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.03)
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 1.15rem
+        }
+
+        p.lead {
+            margin: 0 0 18px 0;
+            color: var(--muted)
+        }
+
+        .controls {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: transparent;
+            color: #fff
+        }
+
+        .btn {
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: none;
+            background: #222;
+            color: #fff;
+            cursor: pointer
+        }
+
+        .btn.primary {
+            background: linear-gradient(90deg, #3bd1ff22, #6cf);
+            color: #001
+        }
+
+        .player-wrap {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+
+        footer {
+            margin-top: 12px;
+            color: var(--muted);
+            font-size: 0.85rem
+        }
+
+        @media (max-width:700px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch
+            }
+
+            .btn {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <div class="site-title">
+            <img class="site-logo" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/updater/images/logo.png" alt="logo">
+            <div>Video Player — Minimal</div>
+        </div>
+    </div>
+
+    <main class="wrap">
+        <section class="card">
+            <h1>YouTube player</h1>
+            <h1>Unfortunately, these servers can be blocked, and if they are don't submit a bug report.</h1>
+            <p class="lead">Paste a YouTube URL (or just the video ID) and press Load.</p>
+            <div class="controls">
+                <input id="videoUrl" type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ or video id" />
+                <button id="loadBtn" class="btn primary">Load</button>
+                <button id="clearBtn" class="btn">Clear</button>
+            </div>
+
+            Server Select: <select id="serverSelect" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:rgba(0, 0, 0, 0.6);color:#fff">
+                <option value="0">Server 1</option>
+                <option value="1">Server 2</option>
+                <option value="2">Server 3</option>
+                <option value="3">Server 4</option>
+                <option value="4">Server 5</option>
+                <option value="5">Base YouTube (This is probably blocked)</option>
+            </select>
+
+            <div id="playerContainer" class="player-wrap">
+                <div id="placeholder" style="padding:18px;color:#bbb;text-align:center">Player will appear here after loading a valid YouTube URL.</div>
+            </div>
+
+            <footer id="status" style="margin-top:10px;color:var(--muted)">Status: idle</footer>
+        </section>
+    </main>
+
+    <script>
+        let videoUrl = document.getElementById('videoUrl');
+        let loadBtn = document.getElementById('loadBtn');
+        let clearBtn = document.getElementById('clearBtn');
+        let playerContainer = document.getElementById('playerContainer');
+        let status = document.getElementById('status');
+        let serverSelect = document.getElementById("serverSelect")
+    
+        let servers = ["https://invidious.f5.si/", "https://yewtu.be/", "https://invidious.nerdvpn.de/", "https://inv.perditum.com/", "https://inv.nadeko.net/", "https://youtube.com/"]
+
+        function extractYouTubeID(urlOrId) {
+          let v = urlOrId.trim();
+          if (!v) return null;
+          if (/^[a-zA-Z0-9_-]{11}$/.test(v)) return v;
+          try {
+            let u = new URL(v);
+            if (u.searchParams.has('v')) return u.searchParams.get('v');
+            if (u.hostname.includes('youtu.be')) return u.pathname.split('/').filter(Boolean)[0];
+            let parts = u.pathname.split('/').filter(Boolean);
+            let idx = parts.indexOf('embed');
+            if (idx >= 0 && parts.length > idx+1) return parts[idx+1];
+            return parts.pop() || null;
+          } catch (e) {
+            return null;
+          }
+        }
+
+        function loadVideo(id) {
+          if (!id) {
+            status.innerText = 'Status: invalid or empty URL';
+            return;
+          }
+
+          let iframe = document.createElement('iframe');
+          let selectedserver = servers[parseInt(serverSelect.value)];
+
+          iframe.src = `${selectedserver}embed/${encodeURIComponent(id)}`;
+          iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+          iframe.allowFullscreen = true;
+          playerContainer.innerHTML = '';
+          playerContainer.appendChild(iframe);
+          status.innerText = `Status: playing ${id}`;
+        }
+    
+        loadBtn.addEventListener('click', () => {
+          let id = extractYouTubeID(videoUrl.value);
+          if (!id) {
+            status.innerText = 'Status: could not extract a video ID';
+            return;
+          }
+          loadVideo(id);
+        });
+    
+        clearBtn.addEventListener('click', () => {
+          videoUrl.value = '';
+          playerContainer.innerHTML = '<div id="placeholder" style="padding:18px;color:#bbb;text-align:center">Player will appear here after loading a valid YouTube URL.</div>';
+          status.innerText = 'Status: idle';
+        });
+    
+        videoUrl.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); loadBtn.click(); } });
+    </script>
+</body>
+
+</html>

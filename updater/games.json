@@ -1191,10 +1191,6 @@
     "Pizza Tower": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/pizzatower/betterrunner.html&html=1",
         "img": "pizzatower.jpg"
-    },
-    "(UNMONITORED) YouTube": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/yt.html&html=1",
-        "img": "youtube.png"
     }
   },
   "categories": {

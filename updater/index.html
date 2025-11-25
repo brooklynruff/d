@@ -439,6 +439,12 @@
         async function inject(url, name, width) {
             let about_blank = window.open();
 
+            if (name == "(FORUM) No Name Games Forum") {
+                about_blank.alert("This site may be blocked, if it is please go to it on your personal device!\n\nThe link is: https://noname.great-site.net/")
+                about_blank.location.href = "https://noname.great-site.net/";
+                return;
+            }
+
             let iframe = document.createElement('iframe')
             if (!url.startsWith("NOTXML;")) {
                 iframe.src = `https://script.google.com/macros/s/AKfycbzNwHX17TKMONtBHJ5-NrRIDYOXQBe582gPcP-y3aT2WwOFparGSiBPNTLDl0EU8n53Ew/exec?url=${url}`;

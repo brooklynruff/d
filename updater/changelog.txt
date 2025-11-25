@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+11/25/2025:
+[+] The No Name Games forum is here!! Sadly, this is maybe blocked on your
+device, but if you'd like to participate in the community, please register!!
+
 11/24/2025:
 [+] Fixed the "Click Anywhere to Launch" not launching. Woops.
 

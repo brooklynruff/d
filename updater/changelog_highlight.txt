@@ -1,15 +1,4 @@
-11/24/2025:
-[+] Fixed the "Click Anywhere to Launch" not launching. Woops.
-
-11/23/2025:
-[+] Added Pizza Tower (Thanks for the suggestion BubbaNator5000 and Tanter!)
-
-11/22/2025:
-[+] Fixed Legend of Zelda: Ocarina of Time (Thanks for the bug reports James, colinisaweiner, and ThatOneAmerican)
-[+] Added Minesweeper (Thanks for the suggestion!)
-[+] Added Pokémon Green (Thanks for the suggestion BIG_B!)
-[+] Added Super Metroid (Thanks for the suggestion Adon!)
-[+] Added Wheely 1-8 (Thanks for the suggestion Koda!)
-[+] Added Yo-Kai Watch (Thanks for the suggestion M.h)
-[+] Fixed Run 'n' Gun having a gun image. I assumed this was a gun game and not a football game, sorry, lol. It's now under the 'Sports' category
-[+] Added Jacksmith (Thanks for the suggestion Mason Perez and "Sorry Martello & Kicole Nartchner")
+12/4/2025:
+[!] Only a small update because I'm a little busy. I'll update more later.
+[+] ACTUALLY added Jacksmith, I forgot to fully add it even though I said I did, lol.
+[+] Added Fallout

@@ -1191,6 +1191,14 @@
     "Pizza Tower": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/pizzatower/betterrunner.html&html=1",
         "img": "pizzatower.jpg"
+    },
+    "Jacksmith": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jacksmith.xml",
+        "img": "jacksmith.jpg"
+    },
+    "Fallout": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallout.xml",
+        "img": "fallout.jpg"
     }
   },
   "categories": {

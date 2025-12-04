@@ -20,6 +20,12 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/4/2025:
+[!] Only a small update because I'm a little busy. I'll update more later.
+[+] ACTUALLY added Jacksmith, I forgot to fully add it even though I said
+I did, lol. (Thanks for the bug report bevinwevin)
+[+] Added Fallout (Thanks for the suggestions o-333 & ThatOneAmerican)
+
 11/24/2025:
 [+] Fixed the "Click Anywhere to Launch" not launching. Woops.
 

@@ -1199,10 +1199,6 @@
     "Fallout": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallout.xml",
         "img": "fallout.jpg"
-    },
-    "zzztest": {
-        "url": "https://raw.githubusercontent.com/T3M1N4L/exploit-dump/main/nppe.html&html=1",
-        "img": ""
     }
   },
   "categories": {

@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/5/2025:
+[+] Fixed Fallout (Thanks for the bug report colinisdum, jaz,
+ThatOneAmerican, Bleak, colin, bob & o-333)
+
 12/4/2025:
 [!] I missed it by a while but No Name Games is now officially 1 year old!
 On November 23rd, 2024 No Name Games was created and I'm very happy with how

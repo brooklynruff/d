@@ -1197,7 +1197,7 @@
         "img": "jacksmith.jpg"
     },
     "Fallout": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallout.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallout.html&html=1",
         "img": "fallout.jpg"
     }
   },

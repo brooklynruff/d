@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="cov"/>
+<Content type="html"><![CDATA[
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,3 +30,5 @@
 		<div id="play" class="play" onclick=""><img src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cov/media/graphics/splash/mobile/cover-start.jpg" /></div>		 
 </body>
 </html>
+]]></Content>
+</Module>

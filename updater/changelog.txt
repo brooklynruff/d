@@ -23,6 +23,7 @@ tion.
 12/5/2025:
 [+] Fixed Fallout (Thanks for the bug report colinisdum, jaz,
 ThatOneAmerican, Bleak, colin, bob & o-333)
+[+] Added Clash of Vikings (Thanks for the suggestion tanter)
 
 12/4/2025:
 [!] I missed it by a while but No Name Games is now officially 1 year old!

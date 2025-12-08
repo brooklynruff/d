@@ -1203,6 +1203,10 @@
     "Clash of Vikings": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cov/game.xml",
         "img": "clashofvikings.png"
+    },
+    "Undertale": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/taleunderr/index.html&html=1",
+        "img": "undertale.png"
     }
   },
   "categories": {
@@ -1228,7 +1232,7 @@
         "Subway Surfers",
         "Time Shooter 2",
         "Time Shooter 3: SWAT",
-        "Tiny Cars",
+        "Undertale",
         "Tiny Fishing",
         "Tomb of the Mask",
         "Funny Shooter 2",
@@ -1304,7 +1308,8 @@
         "Pizza Tower",
         "Clash of Vikings",
         "Jacksmith",
-        "Fallout"
+        "Fallout",
+        "Undertale"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

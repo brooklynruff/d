@@ -12,7 +12,8 @@ async function checkUpdate() {
         lastUpdate = update;
         currentUpdateText.innerText = update;
 
-        currentUpdate.style.visibility = "visible";
+        currentUpdate.style.visibility
+         = "visible";
         document.body.style.scrollBehavior = ""; 
         return;
     }

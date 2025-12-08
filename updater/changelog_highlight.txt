@@ -1,3 +1,6 @@
+12/7/2025:
+[+] Made the suggestion form and the feedback form seperate forms.
+
 12/5/2025:
 [+] Fixed Fallout (Thanks for the bug report colinisdum, jaz, ThatOneAmerican, Bleak, colin, bob & o-333)
 [+] Added Clash of Vikings (Thanks for the suggestion tanter)

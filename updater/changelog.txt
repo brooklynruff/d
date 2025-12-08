@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/7/2025:
+[+] Made the suggestion form and the feedback form seperate forms.
+
 12/5/2025:
 [+] Fixed Fallout (Thanks for the bug report colinisdum, jaz,
 ThatOneAmerican, Bleak, colin, bob & o-333)

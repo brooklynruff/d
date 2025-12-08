@@ -29,7 +29,9 @@ async function checkUpdate() {
 
 async function update() {
     let html = await (await fetch("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/updater/index.html", { cache: 'no-store' })).text();
-    window.open().document.write(html);
+    let win = window.open()
+    win.document.write(html);
+    win.document.close();
     window.close();
 }
 

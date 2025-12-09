@@ -1263,6 +1263,10 @@
     "Madalin Stunt Cars 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/madalinstuntcars2/index.xml",
         "img": "msc2.jpg"
+    },
+    "Tung Tung Tung Sahur Night Escape": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tripletescape/index.xml",
+        "img": "triplet.png"
     }
   },
   "categories": {

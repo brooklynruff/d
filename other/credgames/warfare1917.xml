@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Adam and Eve" />
+<Content type="html"><![CDATA[
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+"autoplay": "off",
+"polyfills": true,
+"letterbox": "on",
+"backgroundColor": null,
+"scale": "showAll",
+"allowFullscreen": true,
+"forceScale": true,
+"forceAlign": true,
+"splashScreen": true,
+"wmode": "Window",
+"unmuteOverlay": "hidden",
+"quality": "high" };
+window.addEventListener("load", (event) => {
+const ruffle = window.RufflePlayer.newest();
+const player = ruffle.createPlayer();
+const container = document.getElementById("container");
+container.appendChild(player);
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/warfare-1917.swf");
+player.style.width = "100%";
+player.style.height = "100%";
+});
+</script>
+<div id="container">
+</div>
+]]></Content>
+</Module>

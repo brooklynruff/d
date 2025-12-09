@@ -53,7 +53,7 @@
         "img": "cheeseria.jpg"
     },
     "Papa's Cupcakeria": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/cheeseria.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/cupcakeria.xml",
         "img": "cupcakeria.jpg"
     },
     "Papa's Donuteria": {
@@ -1236,7 +1236,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/factoryballs.xml",
         "img": "factoryballs.png"
     },
-    "Pokémon Crystal Version [GBC EMULATED]": {
+    "Pokémon: Crystal Version [GBC EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pcv.xml",
         "img": "pcv.jpg"
     },
@@ -1255,6 +1255,14 @@
     "Warfare 1944": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/warfare1944.xml",
         "img": "warfare1944.jpg"
+    },
+    "Warfare 1917": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/warfare1917.xml",
+        "img": "warfare1917.png"
+    },
+    "Madalin Stunt Cars 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/madalinstuntcars2/index.xml",
+        "img": "msc2.jpg"
     }
   },
   "categories": {
@@ -1368,7 +1376,9 @@
         "Dr. Mario [NES EMULATED]",
         "Mario Kart DS [NDS EMULATED]",
         "Warfare 1944",
-        "Phoenix Wright: Ace Attorney [NDS EMULATED]"
+        "Phoenix Wright: Ace Attorney [NDS EMULATED]",
+        "Warfare 1917",
+        "Madalin Stunt Cars 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1410,7 +1420,9 @@
         "ULTRAKILL",
         "Hotline Miami",
         "Nazi Zombies Portable",
-        "Half-Life"
+        "Half-Life",
+        "Warfare 1917",
+        "Warfare 1944"
     ],
     "Classic": [
         "Angry Birds",
@@ -1480,7 +1492,8 @@
         "Wheely 5",
         "Wheely 6",
         "Wheely 7",
-        "Wheely 8"
+        "Wheely 8",
+        "Madalin Stunt Cars 2"
     ],
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",
@@ -1519,7 +1532,9 @@
         "Yo-Kai Watch [NDS EMULATED]",
         "Dr. Mario [NES EMULATED]",
         "Mario Kart DS [NDS EMULATED]",
-        "Phoenix Wright: Ace Attorney [NDS EMULATED]"
+        "Phoenix Wright: Ace Attorney [NDS EMULATED]",
+        "Pokémon: Crystal Version [GBC EMULATED]",
+        "Super Mario World [SNES EMULATED]"
     ]
   }
 }

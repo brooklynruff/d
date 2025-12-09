@@ -1248,7 +1248,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/mkds.xml",
         "img": "mkds.jpeg"
     },
-    "Phoenix Wright: Ace Attorney": {
+    "Phoenix Wright: Ace Attorney [NDS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/pwaa.xml",
         "img": "pwaa.jpeg"
     },
@@ -1367,7 +1367,8 @@
         "Pokémon Crystal [GBC EMULATED]",
         "Dr. Mario [NES EMULATED]",
         "Mario Kart DS [NDS EMULATED]",
-        "Warfare 1944"
+        "Warfare 1944",
+        "Phoenix Wright: Ace Attorney [NDS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1517,7 +1518,8 @@
         "Super Metroid [SNES EMULATED]",
         "Yo-Kai Watch [NDS EMULATED]",
         "Dr. Mario [NES EMULATED]",
-        "Mario Kart DS [NDS EMULATED]"
+        "Mario Kart DS [NDS EMULATED]",
+        "Phoenix Wright: Ace Attorney [NDS EMULATED]"
     ]
   }
 }

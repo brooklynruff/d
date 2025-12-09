@@ -25,7 +25,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/stormops.swf");
+player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/storm-ops.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

@@ -88,6 +88,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/wingeria.xml",
         "img": "wingeria.png"        
     },
+    "Papa's Sushiria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/sushiria.xml",
+        "img": "sushiria.png"  
+    },
     "BitLife": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
         "img": "bitlife.jpg"
@@ -436,6 +440,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense4expansion.xml",
         "img": "btd4e.jpg"
     },
+    "Bloons Tower Defense 5": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bloonstowerdefense5.xml",
+        "img": "btd5.jpg"
+    },
     "Bob the Builder": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/bobthebuilder.xml",
         "img": "bobthebuilder.png"
@@ -495,6 +503,10 @@
     "Fireboy and Watergirl": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fireboyandwatergirl.xml",
         "img": "fireboyandwatergirl.jpg"
+    },
+    "Fireboy and Watergirl: The Forest Temple": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fireboyandwatergirlforest.xml",
+        "img": "fireboyandwatergirlforest.jpg"
     },
     "Floodrunner": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/floodrunner.xml",
@@ -739,6 +751,18 @@
     "Spiders": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/spiders.xml",
         "img": "spiders.jpg"
+    },
+    "Storm Ops": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops.xml",
+        "img": "stormops.webp"
+    },
+    "Storm Ops 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops2.xml",
+        "img": "stormops2.jpg"
+    },
+    "Storm Ops 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops3.xml",
+        "img": "stormops3.webp"
     },
     "Storm Ops 4": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/stormops4.xml",
@@ -1207,6 +1231,30 @@
     "Undertale": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/taleunderr/index.html&html=1",
         "img": "undertale.png"
+    },
+    "Factory Balls": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/factoryballs.xml",
+        "img": "factoryballs.png"
+    },
+    "Pokémon Crystal Version [GBC EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pcv.xml",
+        "img": "pcv.jpg"
+    },
+    "Dr. Mario [NES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/dm.xml",
+        "img": "dm.jpeg"
+    },
+    "Mario Kart DS [NDS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/mkds.xml",
+        "img": "mkds.jpeg"
+    },
+    "Phoenix Wright: Ace Attorney": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nds/pwaa.xml",
+        "img": "pwaa.jpeg"
+    },
+    "Warfare 1944": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/warfare1944.xml",
+        "img": "warfare1944.jpg"
     }
   },
   "categories": {
@@ -1276,6 +1324,7 @@
         "SpongeBob's Truth or Square [NDS EMULATED]",
         "Pokémon: FireRed [GBA EMULATED]",
         "Papa's Wingeria",
+        "Papa's Sushiria",
         "Nazi Zombies Portable",
         "Pokémon: Emerald [GBA EMULATED]",
         "Pokémon Black 2 [NDS EMULATED]",
@@ -1309,7 +1358,16 @@
         "Clash of Vikings",
         "Jacksmith",
         "Fallout",
-        "Undertale"
+        "Undertale",
+        "Storm Ops",
+        "Storm Ops 2",
+        "Storm Ops 3",
+        "Factory Balls",
+        "Fireboy and Watergirl: The Forest Temple",
+        "Pokémon Crystal [GBC EMULATED]",
+        "Dr. Mario [NES EMULATED]",
+        "Mario Kart DS [NDS EMULATED]",
+        "Warfare 1944"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1332,6 +1390,9 @@
         "SAS: Zombie Assault",
         "SAS: Zombie Assault 2",
         "Sniper V2",
+        "Storm Ops",
+        "Storm Ops 2",
+        "Storm Ops 3",
         "Storm Ops 4",
         "Strike Force Heroes",
         "Time Shooter 2",
@@ -1375,7 +1436,8 @@
         "Slope",
         "Tetris",
         "Uno",
-        "Minesweeper"
+        "Minesweeper",
+        "Fireboy and Watergirl: The Forest Temple"
     ],
     "Sports": [
         "1 on 1 Basketball",
@@ -1453,7 +1515,9 @@
         "The Legend of Zelda: Ocarina of Time [N64 EMULATED]",
         "Pokémon Green [GB EMULATED]",
         "Super Metroid [SNES EMULATED]",
-        "Yo-Kai Watch [NDS EMULATED]"
+        "Yo-Kai Watch [NDS EMULATED]",
+        "Dr. Mario [NES EMULATED]",
+        "Mario Kart DS [NDS EMULATED]"
     ]
   }
 }

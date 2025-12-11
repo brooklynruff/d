@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/10/2025:
+[+] Added 1v1.lol (Added this on my own, but thanks to Tortacracker67 for 
+the suggestion)
+
 12/9/2025:
 [+] Fixed Papa's Cupcakeria opening Papa's Cheeseria (Thanks for the bug 
 report ilovenonamegamesitisveryfunandihaveagreatimeplayingitwheneverigetbor-

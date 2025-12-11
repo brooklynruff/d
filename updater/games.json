@@ -1268,7 +1268,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/unityglbs/tripletescape/index.xml",
         "img": "triplet.png"
     },
-    "1v1.lol"
+    "1v1.lol [OFFLINE]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1v1/1v1.xml",
+        "img": "1v1lol.png"
+    }
   },
   "categories": {
     "Top Rated": [
@@ -1279,7 +1282,7 @@
         "Pizza Tower",
         "Drift Boss",
         "Getting Over It (Scratch Edition)",
-        "Greedy Mimic",
+        "1v1.lol [OFFLINE]",
         "Helix Jump 2",
         "Idle Dice",
         "Minecraft 1.8.8",
@@ -1384,7 +1387,8 @@
         "Phoenix Wright: Ace Attorney [NDS EMULATED]",
         "Warfare 1917",
         "Madalin Stunt Cars 2",
-        "Tung Tung Sahur Night Escape"
+        "Tung Tung Sahur Night Escape",
+        "1v1.lol [OFFLINE]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1429,7 +1433,8 @@
         "Nazi Zombies Portable",
         "Half-Life",
         "Warfare 1917",
-        "Warfare 1944"
+        "Warfare 1944",
+        "1v1.lol [OFFLINE]"
     ],
     "Classic": [
         "Angry Birds",

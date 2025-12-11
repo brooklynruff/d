@@ -1279,6 +1279,10 @@
     "Mortal Kombat: Deadly Alliance [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mkda.xml",
         "img": "mkda.jpg"
+    },
+    "(No Name Games Discord Server) https://discord.gg/EsGryf3exm": {
+        "url": "",
+        "img": "discord.png"
     }
   },
   "categories": {

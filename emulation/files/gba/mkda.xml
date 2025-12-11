@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="dm64"/>
+<Content type="html"><![CDATA[
+<body style="margin:0px;">
+    <div style='width:100%;height:100%;margin:0px;'>
+        <div id='game'></div>
+    </div>
+
+    <script type='text/javascript'>
+        EJS_player = '#game';
+        
+        EJS_core = 'gba';
+        
+        EJS_gameUrl = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/roms/gba/mkda.gba';
+        
+        EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/';
+
+        EJS_alignStartButton = "center";
+        EJS_backgroundImage = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/bg.png"
+    </script>
+    <script src='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/data/loader.js'></script>
+<body>
+]]></Content>
+</Module>

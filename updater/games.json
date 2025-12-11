@@ -1271,6 +1271,14 @@
     "1v1.lol [OFFLINE]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/1v1/1v1.xml",
         "img": "1v1lol.png"
+    },
+    "Metroid II: Return of Samus [GB EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gb/m2rs.xml",
+        "img": "m2rs.jpg"
+    },
+    "Mortal Kombat: Deadly Alliance [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/mkda.xml",
+        "img": "mkda.jpg"
     }
   },
   "categories": {
@@ -1388,7 +1396,9 @@
         "Warfare 1917",
         "Madalin Stunt Cars 2",
         "Tung Tung Sahur Night Escape",
-        "1v1.lol [OFFLINE]"
+        "1v1.lol [OFFLINE]",
+        "Metroid II: Return of Samus [GB EMULATED]",
+        "Mortal Kombat: Deadly Alliance [GBA EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1546,7 +1556,9 @@
         "Mario Kart DS [NDS EMULATED]",
         "Phoenix Wright: Ace Attorney [NDS EMULATED]",
         "Pokémon: Crystal Version [GBC EMULATED]",
-        "Super Mario World [SNES EMULATED]"
+        "Super Mario World [SNES EMULATED]",
+        "Metroid II: Return of Samus [GB EMULATED]",
+        "Mortal Kombat: Deadly Alliance [GBA EMULATED]"
     ]
   }
 }

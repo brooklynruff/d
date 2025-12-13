@@ -1295,10 +1295,6 @@
     "Zombotron 3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombotron3.xml",
         "img": "zombotron3.webp"
-    },
-    "The Deadseat": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/deadseat/index.xml",
-        "img": "thedeadseat.jpg"
     }
   },
   "categories": {

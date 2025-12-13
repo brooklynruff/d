@@ -1283,6 +1283,18 @@
     "(No Name Games Discord Server) https://discord.gg/EsGryf3exm": {
         "url": "",
         "img": "discord.png"
+    },
+    "Zombotron": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombotron.xml",
+        "img": "zombotron.webp"
+    },
+    "Zombotron 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombotron2.xml",
+        "img": "zombotron2.webp"
+    },
+    "Zombotron 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombotron3.xml",
+        "img": "zombotron3.webp"
     }
   },
   "categories": {

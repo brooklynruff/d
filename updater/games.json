@@ -92,6 +92,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/sushiria.xml",
         "img": "sushiria.jpg"  
     },
+    "Papa's Taco Mia": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/papas/tacomia.xml",
+        "img": "tacomia.webp"
+    },
     "BitLife": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/BitLife/blf.xml",
         "img": "bitlife.jpg"
@@ -1307,6 +1311,14 @@
     "Flappy Bird": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/flappybird/index.xml",
         "img": "flappybird.webp"
+    },
+    "Binding of Issac: Wrath of the Lamb": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tboiwotl.xml",
+        "img": "tboiwotl.jpg"
+    },
+    "A Koopa's Revenge 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/akoopasrevenge2.xml",
+        "img": "akr2.png"
     }
   },
   "categories": {
@@ -1429,7 +1441,9 @@
         "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
         "The Deadseat",
         "Geometry Dash Lite",
-        "Flappy Bird"
+        "Flappy Bird",
+        "Papa's Taco Mia",
+        "Binding of Issac: Wrath of the Lamb"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

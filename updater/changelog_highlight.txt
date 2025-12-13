@@ -2,6 +2,9 @@
 [+] Added The Deadseat (Thanks for the suggestion Muffet<3)
 [+] Added Geometry Dash Lite
 [+] Added Flappy Bird (Thanks for the suggestion 127)
+[+] Added Papa's Taco Mia (Thanks for the suggestion melody)
+[+] Added Binding of Issac: Wrath of the Lamb (Thanks for the suggestion Tyce, Nanderlous and Q)
+[+] Added A Koopa's Revenge 2 (Thanks for the suggestion Tyce)
 
 12/12/2025:
 [+] Added Zombotron 1-3 (Thanks for the suggestion "Timmy and Malik")

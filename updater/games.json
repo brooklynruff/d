@@ -1303,6 +1303,10 @@
     "Geometry Dash Lite": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/geometrydash/game.xml",
         "img": "geometrydash.png"
+    },
+    "Flappy Bird": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/flappybird/index.xml",
+        "img": "flappybird.webp"
     }
   },
   "categories": {
@@ -1424,7 +1428,8 @@
         "Metroid II: Return of Samus [GB EMULATED]",
         "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
         "The Deadseat",
-        "Geometry Dash Lite"
+        "Geometry Dash Lite",
+        "Flappy Bird"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1500,7 +1505,8 @@
         "Uno",
         "Minesweeper",
         "Fireboy and Watergirl: The Forest Temple",
-        "Geometry Dash Lite"
+        "Geometry Dash Lite",
+        "Flappy Bird"
     ],
     "Sports": [
         "1 on 1 Basketball",

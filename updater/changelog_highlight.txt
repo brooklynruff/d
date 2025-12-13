@@ -1,6 +1,7 @@
 12/13/2025:
 [+] Added The Deadseat (Thanks for the suggestion Muffet<3)
 [+] Added Geometry Dash Lite
+[+] Added Flappy Bird (Thanks for the suggestion 127)
 
 12/12/2025:
 [+] Added Zombotron 1-3 (Thanks for the suggestion "Timmy and Malik")

@@ -170,7 +170,7 @@
 
         <script src="UnityLoader.js"></script>
         <script>
-            var gameInstance = UnityLoader.instantiate("gameContainer", "Build/GeometryDashLite.json", {
+            var gameInstance = UnityLoader.instantiate("gameContainer", "Build/GeometryDashLite2.json", {
                 onProgress: UnityProgress
             });
 

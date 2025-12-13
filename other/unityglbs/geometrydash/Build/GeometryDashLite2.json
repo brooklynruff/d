@@ -3,7 +3,7 @@
 "companyName": "DefaultCompany",
 "productName": "GeometryDashLife",
 "productVersion": "0.1",
-"dataUrl": "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/unityglbs/geometrydash/GeometryDashLite.data.unityweb",
+"dataUrl": "https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/unityglbs/geometrydash/Build/GeometryDashLite.data.unityweb",
 "wasmCodeUrl": "GeometryDashLite.wasm.code.unityweb",
 "wasmFrameworkUrl": "GeometryDashLite.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],

@@ -1299,6 +1299,10 @@
     "The Deadseat": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/other/deadseat/game.xml",
         "img": "thedeadseat.jpg"
+    },
+    "Geometry Dash Lite": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/geometrydash/game.xml",
+        "img": "geometrydash.png"
     }
   },
   "categories": {
@@ -1313,7 +1317,7 @@
         "1v1.lol [OFFLINE]",
         "Helix Jump 2",
         "Idle Dice",
-        "Minecraft 1.8.8",
+        "Geometry Dash Lite",
         "Minecraft 1.12.2",
         "Moto X3M",
         "Paper.io 2",
@@ -1419,7 +1423,8 @@
         "1v1.lol [OFFLINE]",
         "Metroid II: Return of Samus [GB EMULATED]",
         "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
-        "The Deadseat"
+        "The Deadseat",
+        "Geometry Dash Lite"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1494,7 +1499,8 @@
         "Tetris",
         "Uno",
         "Minesweeper",
-        "Fireboy and Watergirl: The Forest Temple"
+        "Fireboy and Watergirl: The Forest Temple",
+        "Geometry Dash Lite"
     ],
     "Sports": [
         "1 on 1 Basketball",

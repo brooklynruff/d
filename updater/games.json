@@ -1295,6 +1295,10 @@
     "Zombotron 3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/zombotron3.xml",
         "img": "zombotron3.webp"
+    },
+    "The Deadseat": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/deadseat/index.xml",
+        "img": "thedeadseat.jpg"
     }
   },
   "categories": {
@@ -1414,7 +1418,8 @@
         "Tung Tung Sahur Night Escape",
         "1v1.lol [OFFLINE]",
         "Metroid II: Return of Samus [GB EMULATED]",
-        "Mortal Kombat: Deadly Alliance [GBA EMULATED]"
+        "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
+        "The Deadseat"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1427,7 +1432,8 @@
         "Bendy and the Ink Machine",
         "Doki Doki Literature Club",
         "Slender: The Eight Pages",
-        "Tung Tung Sahur Night Escape"
+        "Tung Tung Sahur Night Escape",
+        "The Deadseat"
     ],
     "Shooting": [
         "Counter Strike",

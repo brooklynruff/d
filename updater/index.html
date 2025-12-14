@@ -365,7 +365,7 @@
         </div>
         <div class="topbar-right">
             <button class="nav-btn" onclick="showPage('mainPage')">Home</button>
-            <button class="nav-btn" onclick="showPage('aboutPage');">About Us</button>
+            <button class="nav-btn" onclick="showPage('aboutPage');setTimeout(()=>{window.scrollTo({top:0,behavior:'smooth',block:'start'})}, 400)">About Us</button>
             <button class="nav-btn" onclick="goToContact();">Contact</button>
         </div>
     </div>
@@ -575,6 +575,8 @@
                 
                 buttons.appendChild(btn);
             }
+
+            window.dispatchEvent(new Event('resize'));
         }
 
         function goToContact() {
@@ -689,13 +691,18 @@
     </div>
     <script>
         function showPage(pageId) {
+            if (document.getElementById(pageId).classList.contains("visible")) return;
+            
             const pages = document.querySelectorAll('.page');
             pages.forEach(p => p.classList.remove('visible'));
             setTimeout(() => {
                 pages.forEach(p => p.style.display = 'none');
                 const active = document.getElementById(pageId);
                 active.style.display = 'block';
-                setTimeout(() => active.classList.add('visible'), 10);
+                setTimeout(() => {
+                    active.classList.add('visible')
+                    window.dispatchEvent(new Event('resize'));
+                }, 10);
             }, 200);
         }
         

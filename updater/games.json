@@ -172,6 +172,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafw/index.xml",
         "img": "fnafworld.jpg"
     },
+    "Freddy Fazbear's Pizzeria Simulator": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/ps/game.xml",
+        "img": "pizzeriasimulator.jpg"
+    },
     "Minecraft 1.0.3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
         "img": "mc.jpg"
@@ -1538,7 +1542,9 @@
         "Subway Surfers: Winter Holiday",
         "Subway Surfers: Zurich",
         "Five Night's at Freddy's: Sister Location",
-        "Five Night's at Freddy's: Ultimate Custom Night"
+        "Five Night's at Freddy's: Ultimate Custom Night",
+        "Freddy Fazbear's Pizzeria Simulator",
+        "Five Nights at Freddy's World"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

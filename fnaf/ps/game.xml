@@ -139,9 +139,6 @@
             <hr id="bar">
             <h2 id="stage">STARTING UP...</h2>
         </div>
-        <a href="https://discord.gg/xuu8TnSY4b">
-            <div class="launcher-text"><img src="resources/launcher-text.png" style="width: 45vw;"></div>
-        </a>
     </div>
     <div class="glitch"></div>
     <img src="resources/vignette.png" class="vignette">
@@ -321,7 +318,7 @@
             return parts;
         }
         Promise.all([
-            mergeFiles(getParts("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/fnaf/fnafw/src/resources.zip", 1, parts))
+            mergeFiles(getParts("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/fnaf/ps/src/resources.zip", 1, parts))
         ]).then(([resources]) => {
             window.fetch = async function (url, ...args) {
                 if (url.endsWith("resources.zip")) {

@@ -1399,6 +1399,10 @@
     "Wolfenstein 3D [DOS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/wolf3d_2.xml",
         "img": "wolfenstein.webp"
+    },
+    "Temple Run 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/index.xml",
+        "img": "templerun2.webp"
     }
   },
   "categories": {
@@ -1425,7 +1429,7 @@
         "Time Shooter 2",
         "Time Shooter 3: SWAT",
         "Undertale",
-        "Tiny Fishing",
+        "Temple Run 2",
         "Tomb of the Mask",
         "Funny Shooter 2",
         "Monkey Mart",
@@ -1544,7 +1548,8 @@
         "Five Nights at Freddy's: Sister Location",
         "Five Nights at Freddy's: Ultimate Custom Night",
         "Freddy Fazbear's Pizzeria Simulator",
-        "Five Nights at Freddy's World"
+        "Five Nights at Freddy's World",
+        "Temple Run 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

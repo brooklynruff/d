@@ -900,13 +900,65 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/DriveMad2/final.xml",
         "img": "drivemad.jpg"
     },
+    "Subway Surfers: Barcelona": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/barcelona.xml",
+        "img": "sw_bc.webp"
+    },
+    "Subway Surfers: Beijing": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/beijing.xml",
+        "img": "sw_bj.webp"
+    },
+    "Subway Surfers: Buenos Aires": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/buenosaires.xml",
+        "img": "sw_ba.webp"
+    },
+    "Subway Surfers: Havana": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/havana.xml",
+        "img": "sw_hv.webp"
+    },
+    "Subway Surfers: Houston": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/houston.xml",
+        "img": "sw_hs.png"
+    },
+    "Subway Surfers: Iceland": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/iceland.xml",
+        "img": "sw_ie.webp"
+    },
+    "Subway Surfers: London": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/iceland.xml",
+        "img": "sw_ld.webp"
+    },
+    "Subway Surfers: Mexico": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/mexico.xml",
+        "img": "sw_mx.webp"
+    },
+    "Subway Surfers: Miami": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/miami.xml",
+        "img": "sw_mi.png"
+    },
+    "Subway Surfers: Monaco": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/monaco.xml",
+        "img": "sw_mn.webp"
+    },
+    "Subway Surfers: New Orleans": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/neworleans.xml",
+        "img": "sw_no.webp"
+    },
     "Subway Surfers: San Francisco": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/sanfrancisco.xml",
         "img": "sw_sf.webp"
     },
+    "Subway Surfers: Saint Petersburg": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/stpetersburg.xml",
+        "img": "sw_sp.webp"
+    },
     "Subway Surfers: Winter Holiday": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/sanfrancisco.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/winterholiday.xml",
         "img": "sw_wh.webp"
+    },
+    "Subway Surfers: Zurich": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/zurich.xml",
+        "img": "sw_zu.webp"
     },
     "Funny Shooter": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/funnyshooterr.xml",

@@ -22,11 +22,10 @@ tion.
 ==================================CHANGELOG=================================
 12/14/2025:
 [!] Added seperate Subway Surfers games.
-[+] Added Subway Surfers: Barcelona
-[+] Added Subway Surfers: Beijing
-[+] Added Subway Surfers: Buenos Aires
-[+] Added Subway Surfers: Havana
-[+] Added Subway Surfers: Winter Holiday
+[+] Added Subway Surfers: Barcelona, Beijing, Buenos Aires, Havana, Houston,
+Iceland, London, Mexico, Miami, Monaco, New Orleans, San Francisco (this was
+the one already on No Name Games), Saint Petersburg, Winter Holiday, and
+Zurich
 
 12/13/2025:
 [+] Added The Deadseat (Thanks for the suggestion Muffet<3)

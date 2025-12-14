@@ -175,7 +175,6 @@
         const map = new Map();
 
         function updateProgress(text, percent) {
-            document.title = percent + '% ' + gametitle
             document.getElementById('percentage').innerHTML = percent + '%';
             document.getElementById('bar').style.width = percent + '%';
             document.getElementById('stage').innerHTML = text;
@@ -268,7 +267,6 @@
             };
             document.getElementById('MMFCanvas').style.display = 'block';
             document.getElementById('selection').style.display = 'none';
-            document.title = gametitle;
             document.head.appendChild(script);
         }
 

@@ -139,9 +139,6 @@
             <hr id="bar">
             <h2 id="stage">STARTING UP...</h2>
         </div>
-        <a href="https://discord.gg/xuu8TnSY4b">
-            <div class="launcher-text"><img src="resources/launcher-text.png" style="width: 45vw;"></div>
-        </a>
     </div>
     <div class="glitch"></div>
     <img src="resources/vignette.png" class="vignette">
@@ -178,7 +175,6 @@
         const map = new Map();
 
         function updateProgress(text, percent) {
-            document.title = percent + '% ' + gametitle
             document.getElementById('percentage').innerHTML = percent + '%';
             document.getElementById('bar').style.width = percent + '%';
             document.getElementById('stage').innerHTML = text;
@@ -271,7 +267,6 @@
             };
             document.getElementById('MMFCanvas').style.display = 'block';
             document.getElementById('selection').style.display = 'none';
-            document.title = gametitle;
             document.head.appendChild(script);
         }
 

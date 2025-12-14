@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="glad"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/gladihoppers/">
+	<script>
+	window.config = {
+		loader: 'unity',
+		debug: false,
+		maxRatio: 16 / 9,
+		minRatio: 9 / 16,
+
+		title: 'Gladihoppers',
+		numScreenshots:  5 ,
+
+		unityVersion: '2019.3.13f1',
+		unityWebglBuildUrl: 'Build\/Gladihoppers.json',
+
+		fileSize:  23 ,
+		cachedDecompressedFileSizes: {
+			'Gladihoppers.data.unityweb':  17409938 ,
+			'Gladihoppers.wasm.code.unityweb':  6410659 ,
+			'Gladihoppers.wasm.framework.unityweb':  91463 ,
+		},
+	};
+	</script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/gladihoppers/PokiSDKCracked.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/gladihoppers/master-loader3.js"></script>
+</body>
+</html>
+]]></Content>
+</Module>

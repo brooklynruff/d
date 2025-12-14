@@ -1407,6 +1407,10 @@
     "Cookie Clicker": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cookieclicker/index.xml",
         "img": "cookieclicker.webp"
+    },
+    "Gladihoppers": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/gladihoppers/index.xml",
+        "img": "gladihoppers.jpg"
     }
   },
   "categories": {
@@ -1554,7 +1558,8 @@
         "Freddy Fazbear's Pizzeria Simulator",
         "Five Nights at Freddy's World",
         "Temple Run 2",
-        "Cookie Clicker"
+        "Cookie Clicker",
+        "Gladihoppers"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

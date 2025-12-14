@@ -164,6 +164,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafsl/game.xml",
         "img": "sisterlocation.jpg"
     },
+    "Five Night's at Freddy's: Ultimate Custom Night": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafucn/index.xml",
+        "img": "ucn.webp"
+    },
     "Minecraft 1.0.3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
         "img": "mc.jpg"
@@ -1528,7 +1532,9 @@
         "Subway Surfers: San Francisco",
         "Subway Surfers: Saint Petersburg",
         "Subway Surfers: Winter Holiday",
-        "Subway Surfers: Zurich"
+        "Subway Surfers: Zurich",
+        "Five Night's at Freddy's: Sister Location",
+        "Five Night's at Freddy's: Ultimate Custom Night"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1542,7 +1548,9 @@
         "Doki Doki Literature Club",
         "Slender: The Eight Pages",
         "Tung Tung Sahur Night Escape",
-        "The Deadseat"
+        "The Deadseat",
+        "Five Night's at Freddy's: Sister Location",
+        "Five Night's at Freddy's: Ultimate Custom Night"
     ],
     "Shooting": [
         "Counter Strike",

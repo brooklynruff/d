@@ -917,7 +917,7 @@
         "img": "sw_hv.webp"
     },
     "Subway Surfers: Houston": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/houston.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/houston.xml?v=2",
         "img": "sw_hs.png"
     },
     "Subway Surfers: Iceland": {

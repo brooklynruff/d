@@ -19,7 +19,7 @@
 		numScreenshots:  5 ,
 
 		unityVersion: '2019.3.13f1',
-		unityWebglBuildUrl: 'Build\/Gladihoppers.json',
+		unityWebglBuildUrl: 'https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/gladihoppers/Build/Gladihoppers.json',
 
 		fileSize:  23 ,
 		cachedDecompressedFileSizes: {

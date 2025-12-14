@@ -29,6 +29,9 @@ tion.
 Tyce, Nanderlous and Q)
 [+] Added A Koopa's Revenge 2 (Thanks for the suggestion Tyce)
 [+] Fixed the A.I assistant "failed to fetch" (Thanks for the bug report)
+[+] Added DOOM (The original) (Thanks for the suggestion ZeWurdo)
+[+] Added the [DOS EMULATED] tag to DOS emulated games aswell as putting
+them in the emulated section, because they are technically emulated.
 
 12/12/2025:
 [+] Added Zombotron 1-3 (Thanks for the suggestion "Timmy and Malik")

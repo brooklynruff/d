@@ -928,7 +928,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/mk64.xml",
         "img": "mk64.jpg"
     },
-    "Doom 64 [N64 EMULATED]": {
+    "DOOM 64 [N64 EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/dm64.xml",
         "img": "dm64.jpg"
     },
@@ -1224,7 +1224,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/jacksmith.xml",
         "img": "jacksmith.jpg"
     },
-    "Fallout": {
+    "Fallout [DOS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/fallout.html&html=1",
         "img": "fallout.jpg"
     },
@@ -1319,6 +1319,10 @@
     "A Koopa's Revenge 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/akoopasrevenge2.xml",
         "img": "akr2.png"
+    },
+    "DOOM [DOS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/doom.xml",
+        "img": "Doom.webp"
     }
   },
   "categories": {
@@ -1421,7 +1425,7 @@
         "Pizza Tower",
         "Clash of Vikings",
         "Jacksmith",
-        "Fallout",
+        "Fallout [DOS EMULATED]",
         "Undertale",
         "Storm Ops",
         "Storm Ops 2",
@@ -1443,7 +1447,8 @@
         "Geometry Dash Lite",
         "Flappy Bird",
         "Papa's Taco Mia",
-        "Binding of Issac: Wrath of the Lamb"
+        "Binding of Issac: Wrath of the Lamb",
+        "DOOM [DOS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1568,7 +1573,7 @@
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",
         "Mario Kart 64 [N64 EMULATED]",
-        "Doom 64 [N64 EMULATED]",
+        "DOOM 64 [N64 EMULATED]",
         "Street Fighter II Turbo [SNES EMULATED]",
         "Super Smash Bros. [N64 EMULATED]",
         "Mega Man X [SNES EMULATED]",
@@ -1606,7 +1611,9 @@
         "Pokémon: Crystal Version [GBC EMULATED]",
         "Super Mario World [SNES EMULATED]",
         "Metroid II: Return of Samus [GB EMULATED]",
-        "Mortal Kombat: Deadly Alliance [GBA EMULATED]"
+        "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
+        "DOOM [DOS EMULATED]",
+        "Fallout [DOS EMULATED]"
     ]
   }
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="subway"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/">
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, 
+		minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no'>
+
+	<link rel='icon' type='image/ico' href='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/favicon.ico'>
+	<link rel='stylesheet' type="text/css" href='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/global.css'>
+	<!-- <link rel='stylesheet' type="text/css" href='./bundle.css'> -->
+	<style>
+		html,
+		body {
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			min-height: 100%;
+			max-height: 100%;
+			position: absolute;
+			top:0;
+			left: 0;
+			margin: 0;
+			padding: 0;
+			-webkit-text-size-adjust: none;
+			touch-action: pan-x pan-y;
+		}
+		/* @media only screen and (orientation:landscape) {
+			body {
+				transform: rotate(90deg);
+			}
+		} */
+	</style>
+ 	<script defer src='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/PokiSDKCracked.js'></script>
+	<script defer src='https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/bundle.js'></script>
+</head>
+
+<body>
+</body>
+
+</html>
+]]></Content>
+</Module>

@@ -1323,6 +1323,10 @@
     "DOOM [DOS EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/doom_3.xml",
         "img": "Doom.webp"
+    },
+    "Wolfenstein 3D [DOS EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/wolf3d.xml",
+        "img": "wolfenstein.webp"
     }
   },
   "categories": {
@@ -1448,7 +1452,8 @@
         "Flappy Bird",
         "Papa's Taco Mia",
         "Binding of Issac: Wrath of the Lamb",
-        "DOOM [DOS EMULATED]"
+        "DOOM [DOS EMULATED]",
+        "Wolfenstein 3D [DOS EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1613,7 +1618,8 @@
         "Metroid II: Return of Samus [GB EMULATED]",
         "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
         "DOOM [DOS EMULATED]",
-        "Fallout [DOS EMULATED]"
+        "Fallout [DOS EMULATED]",
+        "Wolfenstein 3D [DOS EMULATED]"
     ]
   }
 }

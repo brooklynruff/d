@@ -34,6 +34,8 @@ suggestion Mm)
 [+] Added Temple Run 2
 [+] Re-added Cookie Clicker
 [+] Added Gladihoppers (Thanks for the suggestion da_goat_dave)
+[+] Added Minesweeper Plus (Thanks for the suggestion Prismictable and 
+Nanderman)
 
 12/13/2025:
 [+] Added The Deadseat (Thanks for the suggestion Muffet<3)

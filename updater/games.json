@@ -1403,6 +1403,10 @@
     "Temple Run 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/temprun/index.xml",
         "img": "templerun2.webp"
+    },
+    "Cookie Clicker": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cookieclicker/index.xml",
+        "img": "cookieclicker.webp"
     }
   },
   "categories": {
@@ -1549,7 +1553,8 @@
         "Five Nights at Freddy's: Ultimate Custom Night",
         "Freddy Fazbear's Pizzeria Simulator",
         "Five Nights at Freddy's World",
-        "Temple Run 2"
+        "Temple Run 2",
+        "Cookie Clicker"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

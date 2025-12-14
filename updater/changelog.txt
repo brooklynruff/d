@@ -28,6 +28,7 @@ tion.
 [+] Added Binding of Issac: Wrath of the Lamb (Thanks for the suggestion
 Tyce, Nanderlous and Q)
 [+] Added A Koopa's Revenge 2 (Thanks for the suggestion Tyce)
+[+] Fixed the A.I assistant "failed to fetch" (Thanks for the bug report)
 
 12/12/2025:
 [+] Added Zombotron 1-3 (Thanks for the suggestion "Timmy and Malik")

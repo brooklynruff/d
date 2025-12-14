@@ -1325,7 +1325,7 @@
         "img": "Doom.webp"
     },
     "Wolfenstein 3D [DOS EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/wolf3d.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/wolf3d_2.xml",
         "img": "wolfenstein.webp"
     }
   },

@@ -168,6 +168,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafucn/index.xml",
         "img": "ucn.webp"
     },
+    "Five Nights at Freddy's World": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafw/index.xml",
+        "img": "fnafworld.jpg"
+    },
     "Minecraft 1.0.3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
         "img": "mc.jpg"

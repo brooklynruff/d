@@ -1321,7 +1321,7 @@
         "img": "akr2.png"
     },
     "DOOM [DOS EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/doom.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation-dos/files/doom_2.xml",
         "img": "Doom.webp"
     }
   },

@@ -900,9 +900,13 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@refs/heads/main/DriveMad2/final.xml",
         "img": "drivemad.jpg"
     },
-    "Subway Surfers": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/surfer.xml",
-        "img": "subwaysurfers.jpg"
+    "Subway Surfers: San Francisco": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/sanfrancisco.xml",
+        "img": "sw_sf.webp"
+    },
+    "Subway Surfers: Winter Holiday": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/files/sanfrancisco.xml",
+        "img": "sw_wh.webp"
     },
     "Funny Shooter": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/funnyshooter/funnyshooter/funnyshooterr.xml",

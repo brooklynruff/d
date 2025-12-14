@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="sub"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Subway Surfers</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/4399/beij4399.js"></script>
+    <script>
+        window.config = {
+            loader: 'unity',
+            debug: false,
+            maxRatio: 16 / 9,
+            minRatio: 9 / 16,
+
+            title: 'Subway Surfers',
+            numScreenshots: 4,
+
+            unityVersion: '2019.4.18f1',
+            unityWebglBuildUrl: 'https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/suberwayersurfing/Builds/beijing/Beijing_2.json',
+
+            fileSize:  36 ,
+		    cachedDecompressedFileSizes: {
+                'Beijing_2.asm.code.unityweb':  9059136 ,
+                'Beijing_2.asm.framework.unityweb':  89457 ,
+                'Beijing_2.asm.memory.unityweb':  1007260 ,
+                'Beijing_2.data.unityweb':  19343219 ,
+                'Beijing_2.wasm.code.unityweb':  7338464 ,
+                'Beijing_2.wasm.framework.unityweb':  93787 ,
+		    },
+        };
+    </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/PokiSDKCracked.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/suberwayersurfing/master-loader3.js"></script>
+</body>
+
+</html>
+]]></Content>
+</Module>

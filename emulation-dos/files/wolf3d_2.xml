@@ -73,8 +73,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
     <script type="text/javascript">
-        //
-        const file = "softwares/WOLF3D.zip";
+        const file = "softwares/WOLF3D_2.zip";
 
         function startEmulator(zipUrl) {
             var dosbox = new Emulator(document.querySelector("#canvas"),

@@ -160,6 +160,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnaf4/index.xml",
         "img": "fnaf4.jpg"
     },
+    "Five Nights at Freddy's: Sister Location": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafsl/game.xml",
+        "img": "sisterlocation.jpg"
+    },
     "Minecraft 1.0.3": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Minecraft/103/bootstrapperrrr.xml",
         "img": "mc.jpg"

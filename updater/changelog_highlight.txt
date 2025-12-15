@@ -2,3 +2,5 @@
 [+] Fixed The Binding of Isaac: Wrath of the Lamb (and fixed the typo in the name) (Thanks for the bug reports colin lowkey chill, aaahhhhhh123, your mom, Zsredd & tomas quintero)
 [+] Added Happy Wheels (Thanks for the suggestion adrian the explainer)
 [+] Added The Legend of Zelda: Majora's Mask (Thanks for the suggestion)
+[+] Added Pokémon: Ruby Version (Thanks for the suggestion KLG)
+[+] Added Pokémon: Sapphire Version (Thanks for the suggestion KLG)

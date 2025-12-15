@@ -1419,6 +1419,22 @@
     "Moto X3M": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/moto/1/index.xml",
         "img": "motox3m.jpg"
+    },
+    "Happy Wheels": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/wheelsthatarejolly/index.xml",
+        "img": "happywheels.jpg"
+    },
+    "The Legend of Zelda: Majora's Mask [N64 EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/n64/lzmm.xml",
+        "img": "lzmm.jpg"
+    },
+    "Pokémon: Ruby Version [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/prv.xml",
+        "img": "prv.jpg"
+    },
+    "Pokémon: Sapphire Version [GBA EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/psv.xml",
+        "img": "psv.jpg"
     }
   },
   "categories": {
@@ -1568,7 +1584,11 @@
         "Temple Run 2",
         "Cookie Clicker",
         "Gladihoppers",
-        "Minesweeper Plus"
+        "Minesweeper Plus",
+        "Happy Wheels",
+        "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
+        "Pokémon: Ruby Version [GBA EMULATED]",
+        "Pokémon: Sapphire Version [GBA EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1648,7 +1668,9 @@
         "Minesweeper",
         "Fireboy and Watergirl: The Forest Temple",
         "Geometry Dash Lite",
-        "Flappy Bird"
+        "Flappy Bird",
+        "Happy Wheels",
+        "Temple Run 2"
     ],
     "Sports": [
         "1 on 1 Basketball",
@@ -1737,7 +1759,10 @@
         "Mortal Kombat: Deadly Alliance [GBA EMULATED]",
         "DOOM [DOS EMULATED]",
         "Fallout [DOS EMULATED]",
-        "Wolfenstein 3D [DOS EMULATED]"
+        "Wolfenstein 3D [DOS EMULATED]",
+        "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
+        "Pokémon: Ruby Version [GBA EMULATED]",
+        "Pokémon: Sapphire Version [GBA EMULATED]"
     ]
   }
 }

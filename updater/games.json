@@ -1415,6 +1415,10 @@
     "Minesweeper Plus": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/godot/minesweeperplus/game.xml",
         "img": "minesweeperplus.jpg"
+    },
+    "Moto X3M": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/moto/1/index.xml",
+        "img": "motox3m.jpg"
     }
   },
   "categories": {

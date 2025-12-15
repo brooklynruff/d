@@ -1384,8 +1384,8 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/flappybird/index.xml",
         "img": "flappybird.webp"
     },
-    "Binding of Issac: Wrath of the Lamb": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tboiwotl.xml",
+    "The Binding of Isaac: Wrath of the Lamb": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/tboiwotl_2.xml",
         "img": "tboiwotl.jpg"
     },
     "A Koopa's Revenge 2": {
@@ -1543,7 +1543,7 @@
         "Geometry Dash Lite",
         "Flappy Bird",
         "Papa's Taco Mia",
-        "Binding of Issac: Wrath of the Lamb",
+        "The Binding of Isaac: Wrath of the Lamb",
         "DOOM [DOS EMULATED]",
         "Wolfenstein 3D [DOS EMULATED]",
         "Subway Surfers: Barcelona",

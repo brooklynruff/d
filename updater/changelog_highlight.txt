@@ -1,27 +1,2 @@
-12/14/2025:
-[!] Added seperate Subway Surfers games.
-[+] Added Subway Surfers: Barcelona, Beijing, Buenos Aires, Havana, Houston, Iceland, London, Mexico, Miami, Monaco, New Orleans, San Francisco (this was the one already on No Name Games), Saint Petersburg, Winter Holiday, and Zurich
-[+] Added Five Nights at Freddy's: Sister Location
-[+] Added Five Nights at Freddy's: Ultimate Custom Night (Thanks for the suggestion Mm)
-[+] Added FNAF World (Labeled Five Nights at Freddy's World)
-[+] Added Freddy Fazbear's Pizzeria Simulator
-[+] Added Temple Run 2
-[+] Re-added Cookie Clicker
-[+] Added Gladihoppers (Thanks for the suggestion da_goat_dave)
-[+] Added Minesweeper Plus (Thanks for the suggestion Prismictable and Nanderman)
-[+] Re-Added Moto X3M
-
-12/13/2025:
-[+] Added The Deadseat (Thanks for the suggestion Muffet<3)
-[+] Added Geometry Dash Lite
-[+] Added Flappy Bird (Thanks for the suggestion 127)
-[+] Added Papa's Taco Mia (Thanks for the suggestion melody)
-[+] Added Binding of Issac: Wrath of the Lamb (Thanks for the suggestion Tyce, Nanderlous and Q)
-[+] Added A Koopa's Revenge 2 (Thanks for the suggestion Tyce)
-[+] Fixed the A.I assistant "failed to fetch" (Thanks for the bug report)
-[+] Added DOOM (The original) (Thanks for the suggestion ZeWurdo)
-[+] Added the [DOS EMULATED] tag to DOS emulated games aswell as putting them in the emulated section, because they are technically emulated.
-[+] Added Wolfenstein 3D
-
-12/12/2025:
-[+] Added Zombotron 1-3 (Thanks for the suggestion "Timmy and Malik")
+12/15/2025:
+[+] Fixed The Binding of Isaac: Wrath of the Lamb (and fixed the typo in the name) (Thanks for the bug reports colin lowkey chill, aaahhhhhh123, your mom, Zsredd & tomas quintero)

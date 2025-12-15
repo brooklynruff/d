@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-<ModulePrefs title="Ace Gangster" />
+<ModulePrefs title="tboiwotl" />
 <Content type="html"><![CDATA[
-
-<title>Ace Gangster</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MENBM6GSNY"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-MENBM6GSNY")</script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
 window.RufflePlayer = window.RufflePlayer || {};
@@ -26,7 +23,7 @@ const ruffle = window.RufflePlayer.newest();
 const player = ruffle.createPlayer();
 const container = document.getElementById("container");
 container.appendChild(player);
-player.load("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/swffiles/tboiwotl.swf");
+player.load("https://raw.githubusercontent.com/brooklynruff/d/refs/heads/main/other/swffiles/tboiwotl.swf");
 player.style.width = "100%";
 player.style.height = "100%";
 });

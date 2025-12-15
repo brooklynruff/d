@@ -20,6 +20,11 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/15/2025:
+[+] Fixed The Binding of Isaac: Wrath of the Lamb (and fixed the typo in the
+name) (Thanks for the bug reports colin lowkey chill, aaahhhhhh123, your 
+mom, Zsredd & tomas quintero)
+
 12/14/2025:
 [!] Added seperate Subway Surfers games.
 [+] Added Subway Surfers: Barcelona, Beijing, Buenos Aires, Havana, Houston,

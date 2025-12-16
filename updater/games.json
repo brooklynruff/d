@@ -1164,7 +1164,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/snes/mp.xml",
         "img": "mp.jpg"
     },
-    "Pokémon: FireRed [GBA EMULATED]": {
+    "Pokémon: FireRed Version [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pfr.xml",
         "img": "pfr.jpg"
     },
@@ -1172,7 +1172,7 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/nzp/game.xml",
         "img": "nzp.webp"
     },
-    "Pokémon: Emerald [GBA EMULATED]": {
+    "Pokémon: Emerald Version [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pev.xml",
         "img": "pev.jpg"
     },
@@ -1435,6 +1435,14 @@
     "Pokémon: Sapphire Version [GBA EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/psv.xml",
         "img": "psv.jpg"
+    },
+    "Tecmo Super Bowl [NES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/tsb.xml",
+        "img": "tecmo.jpeg"
+    },
+    "OvO": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ovo/1/index.xml",
+        "img": "ovo.jpg"
     }
   },
   "categories": {
@@ -1502,11 +1510,11 @@
         "Super Mario Bros. [GBA EMULATED]",
         "Super Mario Bros. 3 [NES EMULATED]",
         "SpongeBob's Truth or Square [NDS EMULATED]",
-        "Pokémon: FireRed [GBA EMULATED]",
+        "Pokémon: FireRed Version [GBA EMULATED]",
         "Papa's Wingeria",
         "Papa's Sushiria",
         "Nazi Zombies Portable",
-        "Pokémon: Emerald [GBA EMULATED]",
+        "Pokémon: Emerald Version [GBA EMULATED]",
         "Pokémon Black 2 [NDS EMULATED]",
         "Pokémon White 2 [NDS EMULATED]",
         "Slender: The Eight Pages",
@@ -1588,7 +1596,8 @@
         "Happy Wheels",
         "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
         "Pokémon: Ruby Version [GBA EMULATED]",
-        "Pokémon: Sapphire Version [GBA EMULATED]"
+        "Pokémon: Sapphire Version [GBA EMULATED]",
+        "OvO"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1670,7 +1679,8 @@
         "Geometry Dash Lite",
         "Flappy Bird",
         "Happy Wheels",
-        "Temple Run 2"
+        "Temple Run 2",
+        "OvO"
     ],
     "Sports": [
         "1 on 1 Basketball",
@@ -1739,8 +1749,8 @@
         "Super Mario Bros. [GBA EMULATED]",
         "Super Mario Bros. 3 [NES EMULATED]",
         "SpongeBob's Truth or Square [NDS EMULATED]",
-        "Pokémon: FireRed [GBA EMULATED]",
-        "Pokémon: Emerald [GBA EMULATED]",
+        "Pokémon: FireRed Version [GBA EMULATED]",
+        "Pokémon: Emerald Version [GBA EMULATED]",
         "Pokémon Black 2 [NDS EMULATED]",
         "Pokémon White 2 [NDS EMULATED]",
         "Cooking Mama [NDS EMULATED]",
@@ -1762,7 +1772,8 @@
         "Wolfenstein 3D [DOS EMULATED]",
         "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
         "Pokémon: Ruby Version [GBA EMULATED]",
-        "Pokémon: Sapphire Version [GBA EMULATED]"
+        "Pokémon: Sapphire Version [GBA EMULATED]",
+        "Tecmo Super Bowl [NES EMULATED]"
     ]
   }
 }

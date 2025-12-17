@@ -1,3 +1,4 @@
 12/16/2025:
 [+] Added a "Random Game" feature.
 [+] Added Fruit Ninja
+[+] Added Gunspin (Thanks for the suggestion BIG_B & Lucas M.)

@@ -23,16 +23,25 @@ async function getValidProxy() {
         "https://script.google.com/macros/s/AKfycbws-htWRaCHbSWh4SxjMDTqHJhtN1H5pI3umWb5VnbFoJfDsZh9hKVgI3Bc1mpdv45h/exec"
     ]
 
-    for (let i = 0; i < proxies.length; i++) {
-        let text = await (await fetch(proxies[i], {
-            "mode": "cors",
-            "method": "POST"
-        })).text();
+    try {
+        for (let i = 0; i < proxies.length; i++) {
+            let text = await (await fetch(proxies[i], {
+                "mode": "cors",
+                "method": "POST",
+                "headers": {
+                    'Content-Type': 'text/plain;charset=utf-8'
+                }
+            })).text();
 
-        if (text == "ok") {
-            return proxies[i] + "?url=";
+            if (text == "ok") {
+                return proxies[i] + "?url=";
+            }
         }
-    }
+    } catch (e) {}
+
+    alert("Woops!\n\nSorry, but unfortunately levels will not work.\nThe servers appear to be down. :(\n\n~NNG")
+
+    return;
 }
 
 async function loadGame() {

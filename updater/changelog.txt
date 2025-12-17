@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/16/2025:
+[+] Added a "Random Game" feature.
+[+] Added Fruit Ninja
+
 12/15/2025:
 [+] Fixed The Binding of Isaac: Wrath of the Lamb (and fixed the typo in the
 name) (Thanks for the bug reports colin lowkey chill, aaahhhhhh123, your 

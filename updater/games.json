@@ -1447,6 +1447,10 @@
     "(RANDOM) Open a Random Game": {
         "url": "",
         "img": "dice.png"
+    },
+    "Fruit Ninja": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ninjaswithfruits/index.xml",
+        "img": "fruitninja.jpg"
     }
   },
   "categories": {
@@ -1601,7 +1605,8 @@
         "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
         "Pokémon: Ruby Version [GBA EMULATED]",
         "Pokémon: Sapphire Version [GBA EMULATED]",
-        "OvO"
+        "OvO",
+        "Fruit Ninja"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1684,7 +1689,8 @@
         "Flappy Bird",
         "Happy Wheels",
         "Temple Run 2",
-        "OvO"
+        "OvO",
+        "Fruit Ninja"
     ],
     "Sports": [
         "1 on 1 Basketball",

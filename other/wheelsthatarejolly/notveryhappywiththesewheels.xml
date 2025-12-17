@@ -8,7 +8,7 @@
         <base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/wheelsthatarejolly/">        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/gh/danguer/blog-examples@master/js/base64-binary.js">
+        <script src="https://cdn.jsdelivr.net/gh/danguer/blog-examples@master/js/base64-binary.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/wheelsthatarejolly/style.css">
         <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/wheelsthatarejolly/main3.js" type="module"></script>
     </head>

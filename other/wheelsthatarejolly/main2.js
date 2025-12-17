@@ -24,10 +24,13 @@ async function getValidProxy() {
     ]
 
     for (let i = 0; i < proxies.length; i++) {
-        let text = await (await fetch(proxies[i])).text();
+        let text = await (await fetch(proxies[i], {
+            "mode": "cors",
+            "method": "POST"
+        })).text();
 
         if (text == "ok") {
-            return proxies;
+            return proxies[i] + "?url=";
         }
     }
 }
@@ -38,7 +41,7 @@ async function loadGame() {
 
     window.HW_SETTINGS = {
         siteURL: './',
-        corsProxy: getValidProxy(),
+        corsProxy: await getValidProxy(),
         pathPrefix: '',
         titleLabel: getTitleLabel(),
         titleLabelX: 645,
@@ -54,7 +57,7 @@ async function loadGame() {
 
 
     await addScript(`./pixi.js`);
-    await addScript(`./dependencies.js`);
+    await addScript(`./dependencies2.js`);
     await addScript(`./happywheels.js`);
 }
 

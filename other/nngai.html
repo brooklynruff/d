@@ -238,7 +238,10 @@
         let start = new Date();
         let reply = await fetch("https://script.google.com/macros/s/AKfycbwr3wuckHnCU9Dzkvf0AVLyluvSISkIN06t8MOpCOhfBnHcJ0F-wAmtw1lFhK51QpUK/exec", {
           body: JSON.stringify(data),
-          method: 'POST'
+          method: 'POST',
+          headers: {
+			'Content-Type': 'text/plain;charset=utf-8'
+		  }
         })
         aiOutput.value = (await reply.json())["choices"][0]["message"]["content"];
         status.innerText = `done (took ${(new Date().getTime() - start.getTime())/1000} seconds)`;

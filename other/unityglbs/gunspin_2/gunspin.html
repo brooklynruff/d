@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module>
-<ModulePrefs title="gunspin"/>
-<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 
 <html lang="en-us">
@@ -13,7 +10,13 @@
 <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/TemplateData/UnityProgress.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/Build/UnityLoader.js"></script>
 <script>
-      //var unityInstance = UnityLoader.instantiate("unityContainer", "Build/GunSpin WebGL FinalVersion.json", {onProgress: UnityProgress});
+	 let old = URL.createObjectURL;	
+	  URL.createObjectURL = function(blob) { // this hooks html5s annoying fucking sdk
+			if (blob.size == 445339) {
+				return "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/4399.js"
+			}
+			return old(blob);
+		} 
 	  window.gameInstance = UnityLoader.instantiate("unityContainer", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/Build/GunSpin WebGL FinalVersion.json");
     </script>
 <style>
@@ -52,5 +55,3 @@
 </div>
 </body>
 </html>
-]]></Content>
-</Module>

@@ -23,7 +23,7 @@ tion.
 12/16/2025:
 [+] Added a "Random Game" feature.
 [+] Added Fruit Ninja
-[+] Added Gunspin (Thanks for the suggestion BIG_B & Lucas M.)
+[+] Added GunSpin (Thanks for the suggestion BIG_B & Lucas M.)
 
 12/15/2025:
 [+] Fixed The Binding of Isaac: Wrath of the Lamb (and fixed the typo in the

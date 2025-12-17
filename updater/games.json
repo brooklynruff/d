@@ -1443,6 +1443,10 @@
     "OvO": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ovo/1/index.xml",
         "img": "ovo.jpg"
+    },
+    "(RANDOM) Open a Random Game": {
+        "url": "",
+        "img": "dice.png"
     }
   },
   "categories": {

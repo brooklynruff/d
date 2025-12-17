@@ -440,7 +440,7 @@
         let categories = document.getElementById("categories");
         let email = document.getElementsByClassName("email");
 
-        async function inject(url, name, width) {
+        async function inject(url, name) {
             let about_blank = window.open();
 
             if (name == "(FORUM) No Name Games Forum") {
@@ -451,6 +451,19 @@
                 about_blank.alert("This site may be blocked, if it is please go to it on your personal device!\n\nThe link is: https://discord.gg/EsGryf3exm/")
                 about_blank.location.href = "https://discord.gg/EsGryf3exm/";
                 return;
+            } else if (name == "(RANDOM) Open a Random Game") {
+                function rand() {
+                    let keys = Object.keys(urls.games);
+                    let random = keys[Math.floor(Math.random() * keys.length)];
+                    if (random.startsWith('(')) {
+                        return rand();
+                    }
+                    return random;
+                }
+
+                let randGame = rand();
+                url = randGame.url;
+                name = randGame;
             }
 
             let iframe = document.createElement('iframe')
@@ -461,7 +474,7 @@
             }
             iframe.style.margin = "auto";
             iframe.style.height = "100%";
-            iframe.style.width = width && width || "100%";
+            iframe.style.width = "100%";
             iframe.style.overflowX = "hidden";
             iframe.style.overflowY = "auto";
             iframe.marginHeight = "0";

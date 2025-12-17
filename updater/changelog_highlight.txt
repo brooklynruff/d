@@ -1,4 +1,2 @@
-12/16/2025:
-[+] Added a "Random Game" feature.
-[+] Added Fruit Ninja
-[+] Added GunSpin (Thanks for the suggestion BIG_B & Lucas M.)
+12/17/2025:
+[+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy for this) (Thanks for the bug report mango 67, colin, daddy, Oedipus33, Joshua Daniel Ronald Wheeler and TimTheFlyWhiteGuy)

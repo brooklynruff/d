@@ -12,8 +12,8 @@
 <script>
 	 let old = URL.createObjectURL;	
 	  URL.createObjectURL = function(blob) { // this hooks html5s annoying fucking sdk
-			if (blob.size == 445339) {
-				return "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/4399.js"
+			if (blob.size == 445339) { // this is the UnityModule blob they load
+				return "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/4399.js" // this is the same module with the sdk stripped
 			}
 			return old(blob);
 		} 

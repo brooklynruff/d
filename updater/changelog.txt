@@ -24,6 +24,8 @@ tion.
 [+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy
 for this) (Thanks for the bug report mango 67, colin, daddy, Oedipus33, 
 Joshua Daniel Ronald Wheeler and TimTheFlyWhiteGuy)
+[+] Should have finally fully fixed the failed to fetch in the A.I. (Thanks
+for the bug report KLG, Vin and Khabylame_MECH)
 
 12/16/2025:
 [+] Added a "Random Game" feature.

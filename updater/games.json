@@ -1449,7 +1449,7 @@
         "img": "dice.png"
     },
     "Fruit Ninja": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ninjaswithfruits/game.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ninjaswithfruits/ninja.xml",
         "img": "fruitninja.jpg"
     }
   },

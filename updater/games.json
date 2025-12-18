@@ -1455,6 +1455,22 @@
     "GunSpin": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/gunspin_2/gunspin.html&html=1",
         "img": "gunspin.webp"
+    },
+    "Deltarune: Chapter 1": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/l@ghdlshkjfs/ruinsofthedeltas/1/dr.html&html=1",
+        "img": "dc1.jpg"
+    },
+    "Deltarune: Chapter 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/l@ghdlshkjfs/ruinsofthedeltas/2/index.html&html=1",
+        "img": "delru.jpg"
+    },
+    "Deltarune: Chapter 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/l@ghdlshkjfs/ruinsofthedeltas/3/index.html&html=1",
+        "img": "delru.jpg"
+    },
+    "Deltarune: Chapter 4": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/l@ghdlshkjfs/ruinsofthedeltas/4/index.html&html=1",
+        "img": "delru.jpg"
     }
   },
   "categories": {
@@ -1499,7 +1515,8 @@
         "Hollow Knight",
         "People Playground",
         "Steal a Brainrot",
-        "Crazy Cattle 3D"
+        "Crazy Cattle 3D",
+        "Deltarune: Chapter 1"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1611,7 +1628,11 @@
         "Pokémon: Sapphire Version [GBA EMULATED]",
         "OvO",
         "Fruit Ninja",
-        "GunSpin"
+        "GunSpin",
+        "Deltarune: Chapter 1",
+        "Deltarune: Chapter 2",
+        "Deltarune: Chapter 3",
+        "Deltarune: Chapter 4"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

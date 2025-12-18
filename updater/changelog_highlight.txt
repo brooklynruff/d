@@ -1,3 +1,4 @@
 12/17/2025:
 [+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy for this) (Thanks for the bug report mango 67, colin, daddy, Oedipus33, Joshua Daniel Ronald Wheeler and TimTheFlyWhiteGuy)
 [+] Should have finally fully fixed the failed to fetch in the A.I. (Thanks for the bug report KLG, Vin and Khabylame_MECH)
+[+] Added Deltarune Chapters 1-4 (Thanks for the suggestions o-333, Floor_Popcorn and Ilovegames(notjustthissite))

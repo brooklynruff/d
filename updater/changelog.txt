@@ -23,7 +23,7 @@ tion.
 12/18/2025:
 [+] Added Google Doodle Baseball & Google Snake (Thanks for the suggestion 
 "ok" but in a essdee way)
-[+] Made Five Nights at Freddy's 2 & 3 the HD versions.
+[+] Made Five Nights at Freddy's 2, 3 and 4 the HD versions.
 
 12/17/2025:
 [+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy

@@ -20,6 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+12/18/2025:
+[+] Added Google Doodle Baseball & Google Snake (Thanks for the suggestion 
+"ok" but in a essdee way)
+
 12/17/2025:
 [+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy
 for this) (Thanks for the bug reports mango 67, colin, daddy, Oedipus33, 

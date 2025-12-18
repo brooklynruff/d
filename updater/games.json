@@ -1471,6 +1471,14 @@
     "Deltarune: Chapter 4": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/l@ghdlshkjfs/ruinsofthedeltas/4_/index.html&html=1",
         "img": "delru.jpg"
+    },
+    "Google Snake": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/doodle/snake/index.html&html=1",
+        "img": "googlesnake.jpg"
+    },
+    "Google Baseball": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/doodle/baseball/index.html&html=1",
+        "img": "googlebaseball.png"
     }
   },
   "categories": {
@@ -1632,7 +1640,9 @@
         "Deltarune: Chapter 1",
         "Deltarune: Chapter 2",
         "Deltarune: Chapter 3",
-        "Deltarune: Chapter 4"
+        "Deltarune: Chapter 4",
+        "Google Snake",
+        "Google Baseball"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

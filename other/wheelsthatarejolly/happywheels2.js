@@ -1651,7 +1651,7 @@ n(this, function () {
                                 // Show prompt dialog prefilled with current corsProxy
                                 var newProxy = window.prompt(
                                 "Enter CORS proxy URL:",
-                                window.HW_SETTINGS.corsProxy || ""
+                                ""
                                 );
 
                                 // If user didn't cancel and input is not empty, update the setting

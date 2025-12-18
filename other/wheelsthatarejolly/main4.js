@@ -67,7 +67,7 @@ async function loadGame() {
 
     await addScript(`./pixi.js`);
     await addScript(`./dependencies2.js`);
-    await addScript(`./happywheels.js`);
+    await addScript(`./happywheels2.js`);
 }
 
 loadGame();

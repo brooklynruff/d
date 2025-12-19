@@ -1,3 +1,4 @@
 12/18/2025:
 [+] Added Google Baseball & Google Snake (Thanks for the suggestion "ok" but in a essdee way)
 [+] Made Five Nights at Freddy's 2, 3 and 4 the HD versions.
+[+] Should've fixed the Discord server opening the Discord homepage (Thanks for the bug report PLAY PLUH RNG)

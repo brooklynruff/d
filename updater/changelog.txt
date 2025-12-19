@@ -24,6 +24,8 @@ tion.
 [+] Added Google Doodle Baseball & Google Snake (Thanks for the suggestion 
 "ok" but in a essdee way)
 [+] Made Five Nights at Freddy's 2, 3 and 4 the HD versions.
+[+] Should've fixed the Discord server opening the Discord homepage (Thanks
+for the bug report PLAY PLUH RNG)
 
 12/17/2025:
 [+] Fixed Happy Wheels levels not loading. (Had to make a whole semi-proxy

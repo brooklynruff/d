@@ -20,6 +20,12 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+01/06/2026:
+[!] Happy New Year! Sorry for being so late on the update, I took a break
+like everyone else. But I'm back!
+[+] Added Candy Crush (Thanks for the suggestion kimmy j)
+[+]
+
 12/18/2025:
 [+] Added Google Doodle Baseball & Google Snake (Thanks for the suggestion 
 "ok" but in a essdee way)

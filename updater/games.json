@@ -1479,6 +1479,14 @@
     "Google Baseball": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/doodle/baseball/index.html&html=1",
         "img": "googlebaseball.png"
+    },
+    "Candy Crush": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/candycrush.xml",
+        "img": "candycrush.jpg"
+    },
+    "Madness: Project Nexus (Classic)": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/madnessprojectnexus.xml",
+        "img": "mpnc.jpg"
     }
   },
   "categories": {
@@ -1642,7 +1650,9 @@
         "Deltarune: Chapter 3",
         "Deltarune: Chapter 4",
         "Google Snake",
-        "Google Baseball"
+        "Google Baseball",
+        "Candy Crush",
+        "Madness: Project Nexus (Classic)"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

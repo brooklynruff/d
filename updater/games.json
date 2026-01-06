@@ -1501,11 +1501,11 @@
         "img": "ic.jpeg"
     },
     "Pokémon: Gold Version [GBC EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gbc/pgv.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/pgv.xml",
         "img": "pgv.jpeg"
     },
     "Pokémon: Silver Version [GBC EMULATED]": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gbc/psiv.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/psiv.xml",
         "img": "psv.jpeg"
     }
   },

@@ -1491,6 +1491,22 @@
     "Class of '09": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/co9/index.html&html=1",
         "img": "co9.png"
+    },
+    "Haunt the House": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/hauntthehouse.xml",
+        "img": "hauntthehouse.jpg"
+    },
+    "Ice Climber [NES EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/nes/ic.xml",
+        "img": "ic.jpeg"
+    },
+    "Pokémon: Gold Version [GBC EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gbc/pgv.xml",
+        "img": "pgv.jpeg"
+    },
+    "Pokémon: Silver Version [GBC EMULATED]": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gbc/psiv.xml",
+        "img": "psv.jpeg"
     }
   },
   "categories": {
@@ -1657,7 +1673,10 @@
         "Google Baseball",
         "Candy Crush",
         "Madness: Project Nexus (Classic)",
-        "Class of '09"
+        "Class of '09",
+        "Happy Wheels",
+        "Pokémon: Silver Version [GBC EMULATED]",
+        "Pokémon: Gold Version [GBC EMULATED]"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1836,7 +1855,10 @@
         "The Legend of Zelda: Majora's Mask [N64 EMULATED]",
         "Pokémon: Ruby Version [GBA EMULATED]",
         "Pokémon: Sapphire Version [GBA EMULATED]",
-        "Tecmo Super Bowl [NES EMULATED]"
+        "Tecmo Super Bowl [NES EMULATED]",
+        "Ice Climber [NES EMULATED]",
+        "Pokémon: Silver Version [GBC EMULATED]",
+        "Pokémon: Gold Version [GBC EMULATED]"
     ]
   }
 }

@@ -1487,6 +1487,10 @@
     "Madness: Project Nexus (Classic)": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/madnessprojectnexus.xml",
         "img": "mpnc.jpg"
+    },
+    "Class of '09": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/co9/index.html&html=1",
+        "img": "co9.png"
     }
   },
   "categories": {
@@ -1652,7 +1656,8 @@
         "Google Snake",
         "Google Baseball",
         "Candy Crush",
-        "Madness: Project Nexus (Classic)"
+        "Madness: Project Nexus (Classic)",
+        "Class of '09"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

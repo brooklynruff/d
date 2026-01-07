@@ -4530,7 +4530,7 @@ var ENVIRONMENT_IS_WORKER = typeof importScripts == 'function';
 var ENVIRONMENT_IS_NODE = typeof process == 'object' &&
 typeof process.versions == 'object' &&
 typeof process.versions.node == 'string';
-var scriptDirectory = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/';
+var scriptDirectory = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/renpy/ddlc/';
 function locateFile(path) {
   if (Module['locateFile']) {
     return Module['locateFile'](path, scriptDirectory)

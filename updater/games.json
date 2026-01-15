@@ -1507,6 +1507,10 @@
     "Pokémon: Silver Version [GBC EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/psiv.xml",
         "img": "psv.jpeg"
+    },
+    "zzztest91239": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/wifi.html&html=1",
+        "img": ""
     }
   },
   "categories": {

@@ -20,6 +20,16 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+01/16/2026:
+[+] Re-added Crossy Road (Thanks for the suggestion!)
+
+01/07/2026:
+[!] It appears No Name Games was blocked for some people! But don't worry
+that's why I'm here.
+[!] Go to a new tab, type in tiny.cc/nngexternal3
+[!] Once you go there press Ctrl + S to save the file to your downloads
+[!] Once you've done that open the file that you saved and we're back! :D
+
 01/06/2026:
 [!] Happy New Year! Sorry for being so late on the update, I took a break
 like everyone else. But I'm back!

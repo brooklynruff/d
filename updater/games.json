@@ -1507,6 +1507,10 @@
     "Pokémon: Silver Version [GBC EMULATED]": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/emulation/files/gba/psiv.xml",
         "img": "psv.jpeg"
+    },
+    "Crossy Road": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/roadsthatneedcrossing/index.xml",
+        "img": "crossyroad.jpg"
     }
   },
   "categories": {
@@ -1676,7 +1680,8 @@
         "Class of '09",
         "Happy Wheels",
         "Pokémon: Silver Version [GBC EMULATED]",
-        "Pokémon: Gold Version [GBC EMULATED]"
+        "Pokémon: Gold Version [GBC EMULATED]",
+        "Crossy Road"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1761,7 +1766,8 @@
         "Happy Wheels",
         "Temple Run 2",
         "OvO",
-        "Fruit Ninja"
+        "Fruit Ninja",
+        "Crossy Road"
     ],
     "Sports": [
         "1 on 1 Basketball",

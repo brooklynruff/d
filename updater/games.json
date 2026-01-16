@@ -1511,6 +1511,10 @@
     "Crossy Road": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/roadsthatneedcrossing/index.xml",
         "img": "crossyroad.jpg"
+    },
+    "Dead Plate": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/deadplate/index.xml",
+        "img": "deadplate.png"
     }
   },
   "categories": {

@@ -24,6 +24,7 @@ tion.
 [+] Re-added Crossy Road (Thanks for the suggestion!)
 [+] Added Dead Plate (Thanks for the suggestion!)
 [+] Added Dead Plate (Thanks for the suggestion!)
+[+] Fixed Level Devil being misspelt
 
 01/07/2026:
 [!] It appears No Name Games was blocked for some people! But don't worry

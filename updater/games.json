@@ -1515,6 +1515,14 @@
     "Dead Plate": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/deadplate/index.xml",
         "img": "deadplate.png"
+    },
+    "Funny Battle Simulator": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/fbs/1/index.xml",
+        "img": "fbs.jpg"
+    },
+    "Funny Battle Simulator 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/fbs/2/index.xml",
+        "img": "fbs2.jpg"
     }
   },
   "categories": {
@@ -1685,7 +1693,9 @@
         "Happy Wheels",
         "Pokémon: Silver Version [GBC EMULATED]",
         "Pokémon: Gold Version [GBC EMULATED]",
-        "Crossy Road"
+        "Crossy Road",
+        "Funny Battle Simulator",
+        "Funny Battle Simulator 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

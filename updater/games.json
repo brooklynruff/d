@@ -1523,6 +1523,10 @@
     "Funny Battle Simulator 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/fbs/2/index.xml",
         "img": "fbs2.jpg"
+    },
+    "Warnament": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/warnament/index.xml",
+        "img": "warnament.webp"
     }
   },
   "categories": {
@@ -1695,7 +1699,8 @@
         "Pokémon: Gold Version [GBC EMULATED]",
         "Crossy Road",
         "Funny Battle Simulator",
-        "Funny Battle Simulator 2"
+        "Funny Battle Simulator 2",
+        "Warnament"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

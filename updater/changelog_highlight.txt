@@ -1,2 +1,4 @@
 01/23/26:
 [+] Added Omori (Thanks for the suggestions Bunda, Rory, Fartazer, Batcrazy)
+[+] Added Swords & Souls (Thanks for the suggestion)
+[+] Fixed Pacman (Thanks for the bug report bryson and mr dingleberry)

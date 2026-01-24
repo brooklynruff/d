@@ -1531,6 +1531,10 @@
     "Omori": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/omori/index.html&html=1",
         "img": "omori.jpg"
+    },
+    "Swords & Souls": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/swordsandsouls.xml",
+        "img": "swordsandsouls.jpg"
     }
   },
   "categories": {
@@ -1706,7 +1710,8 @@
         "Funny Battle Simulator",
         "Funny Battle Simulator 2",
         "Warnament",
-        "Omori"
+        "Omori",
+        "Swords & Souls"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

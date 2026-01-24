@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+01/23/26:
+[+] Added Omori (Thanks for the suggestions Bunda, Rory, Fartazer, Batcrazy)
+
 01/22/26:
 [!] Sorry for being slow on the updates I've been pretty busy.
 [+] Added Warnament (Thanks for the suggestion!)

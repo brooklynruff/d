@@ -1527,6 +1527,10 @@
     "Warnament": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/warnament/index.xml",
         "img": "warnament.webp"
+    },
+    "Omori": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/omori/index.html&html=1",
+        "img": "omori.jpg"
     }
   },
   "categories": {
@@ -1572,7 +1576,8 @@
         "People Playground",
         "Steal a Brainrot",
         "Crazy Cattle 3D",
-        "Deltarune: Chapter 1"
+        "Deltarune: Chapter 1",
+        "Omori"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1700,7 +1705,8 @@
         "Crossy Road",
         "Funny Battle Simulator",
         "Funny Battle Simulator 2",
-        "Warnament"
+        "Warnament",
+        "Omori"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1713,11 +1719,12 @@
         "Bendy and the Ink Machine",
         "Doki Doki Literature Club",
         "Slender: The Eight Pages",
-        "Tung Tung Sahur Night Escape",
+        "Tung Tung Tung Sahur Night Escape",
         "The Deadseat",
         "Five Nights at Freddy's: Sister Location",
         "Five Nights at Freddy's: Ultimate Custom Night",
-        "Freddy Fazbear's Pizzeria Simulator"
+        "Freddy Fazbear's Pizzeria Simulator",
+        "Omori"
     ],
     "Shooting": [
         "Counter Strike",

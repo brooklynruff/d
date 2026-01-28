@@ -1535,6 +1535,10 @@
     "Swords & Souls": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/swordsandsouls.xml",
         "img": "swordsandsouls.jpg"
+    },
+    "Jetpack Joyride": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/jride/index.xml",
+        "img": "jetpack.jpg"
     }
   },
   "categories": {

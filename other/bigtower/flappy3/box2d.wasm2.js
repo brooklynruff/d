@@ -631,7 +631,7 @@ self.Box2DWasmModule = function(Box2D) {
         function l() {
             return a.wasmBinary || "function" !== typeof fetch ? new Promise(function(a) {
                 a(g())
-            }) : fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/" + G).then(function(a) {
+            }) : fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/" + G).then(function(a) {
                 if (!a.ok) throw "failed to load wasm binary file at '" + G + "'";
                 return a.arrayBuffer()
             })

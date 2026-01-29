@@ -1562,7 +1562,7 @@ window.C3_IsSupported && (window.c3_runtimeInterface = new self.RuntimeInterface
     engineScripts: ["/scripts/c3runtime3.js"],
     projectScripts: [],
     mainProjectScript: "",
-    scriptFolder: "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/scripts/",
+    scriptFolder: "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/scripts/scripts/",
     workerDependencyScripts: [],
     exportType: "html5"
 }));

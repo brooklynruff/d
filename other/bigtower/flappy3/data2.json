@@ -28016,7 +28016,7 @@
             ["menu-master_final", [
                 ["audio/webm; codecs=opus", ".webm", 200246]
             ], true]
-        ], "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/media/", false, 405, 720, 3, false, "trilinear", true, "1.1.5", false, false, 0, 0, 2479, false, true, 1, true, false, [
+        ], "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/media/", false, 405, 720, 3, false, "trilinear", true, "1.1.5", false, false, 0, 0, 2479, false, true, 1, true, false, [
             [78, 32],
             [84, 82, 115],
             [88, 89],
@@ -28036,7 +28036,7 @@
             ["Lazer84", "Lazer84.ttf", 36776],
             ["jackeyfont", "jackeyfont.ttf", 1122632],
             ["bad-mofo.regular", "bad-mofo.regular.ttf", 19688]
-        ], true, "ldz28jk2uv2f", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/fonts/", [
+        ], true, "ldz28jk2uv2f", "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/fonts/", [
             ["Security6", 6, 0.1, "default", "relative", [], 1, 1, 1]
         ], "high-performance", [], "standard", "vsync", "com.eointeractive.bigflappytower.itch", "loading-logo.png", false, 0
     ] }

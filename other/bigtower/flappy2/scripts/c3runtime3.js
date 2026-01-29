@@ -39098,7 +39098,8 @@ self.C3.Behaviors.Rotate.Cnds = { IsEnabled() { return this._isEnabled } }; {
                 this._runtime.AddLoadPromise(this._LoadBox2DWasm())
             }
             async _LoadBox2DWasm() {
-                const m = "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/box2d.wasm";
+                const m = await this._runtime.GetAssetManager().GetProjectFileUrl("box2d.wasm");
+                console.log(m)
                 await new Promise(u => {
                     self.Box2DWasmModule({ wasmBinaryFile: m }).then(v => {
                         f = v;

@@ -1,5 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="one" />
+<Content type="html"><![CDATA[
 <!DOCTYPE html>
-<html manifest="offline.appcache">
+<html>
 <head>
     <base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/bigtower/">
     	<style type="text/css">
@@ -121,3 +125,5 @@
         });
         </script></body> 
 </html> 
+]]></Content>
+</Module>

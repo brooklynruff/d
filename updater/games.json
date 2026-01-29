@@ -1543,6 +1543,10 @@
     "Big Flappy Tower vs Tiny Square": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/game8.xml",
         "img": "bftvts.jpg"
+    },
+    "Big Tower Tiny Square": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/bigtower/index.xml",
+        "img": "bigtower.jpg"
     }
   },
   "categories": {

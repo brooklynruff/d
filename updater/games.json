@@ -1539,6 +1539,10 @@
     "Jetpack Joyride": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/jride/index.xml",
         "img": "jetpack.jpg"
+    },
+    "Big Flappy Tower vs Tiny Square": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/game8.xml",
+        "img": "bftvts.jpg"
     }
   },
   "categories": {
@@ -1715,7 +1719,9 @@
         "Funny Battle Simulator 2",
         "Warnament",
         "Omori",
-        "Swords & Souls"
+        "Swords & Souls",
+        "Jetpack Joyride",
+        "Big Flappy Tower vs Tiny Square"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1802,7 +1808,8 @@
         "Temple Run 2",
         "OvO",
         "Fruit Ninja",
-        "Crossy Road"
+        "Crossy Road",
+        "Jetpack Joyride"
     ],
     "Sports": [
         "1 on 1 Basketball",

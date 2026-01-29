@@ -216,7 +216,7 @@ window.DOMElementHandler = class extends self.DOMHandler {
         }) : new Promise((k, l) => {
             d.onload = k;
             d.onerror = l;
-            d.src = "ttps://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/" + g;
+            d.src = g;
             document.head.appendChild(d)
         })
     }
@@ -1559,10 +1559,10 @@ self.JobSchedulerDOM = class {
 window.C3_IsSupported && (window.c3_runtimeInterface = new self.RuntimeInterface({
     useWorker: !1,
     workerMainUrl: "workermain.js",
-    engineScripts: ["scripts/c3runtime.js"],
+    engineScripts: ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/c3runtime.js"],
     projectScripts: [],
     mainProjectScript: "",
-    scriptFolder: "scripts/",
+    scriptFolder: "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/scripts/",
     workerDependencyScripts: [],
     exportType: "html5"
 }));

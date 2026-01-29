@@ -6,7 +6,6 @@
 <html>
 
 <head>
-    <base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="generator" content="Construct 3">
@@ -17,7 +16,7 @@
 
 <body>
     <div id="fb-root"></div>
-    <script src="box2d.wasm.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/box2d.wasm.js"></script>
     <noscript>
             <div id="notSupportedWrap">
                 <h2 id="notSupportedTitle">This content requires JavaScript</h2>
@@ -26,7 +25,7 @@
         </noscript>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/supportcheck.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/offlineclient.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/main2.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/main3.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/register-sw.js" type="module"></script>
 </body>
 

@@ -26016,7 +26016,7 @@ self.C3.PropertyTrackState.TextTypeAdapter = class {
         }
         async Init(d) {
             this.IsDebug() ? await b.Init(this) : self.C3Debugger && self.C3Debugger.InitPreview(this);
-            var [f] = await Promise.all([this._assetManager.FetchJson("data2.json"), this._MaybeLoadOpusDecoder(), this._jobScheduler.Init()]);
+            var [f] = await Promise.all([this._assetManager.FetchJson("data3.json"), this._MaybeLoadOpusDecoder(), this._jobScheduler.Init()]);
             this._LoadDataJson(f);
             await this._InitialiseCanvas(d);
             this.IsPreview() || console.info("Made with Construct 3, the game and app creator :: https://www.construct.net");

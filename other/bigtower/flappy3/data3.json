@@ -22333,7 +22333,7 @@
                                             [
                                                 [107, 196, null, 879379093922133, 1, null, [
                                                     [1, [242]],
-                                                    [12, "introtext.json"]
+                                                    [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/introtext.json"]
                                                 ]]
                                             ]
                                         ]
@@ -22587,7 +22587,7 @@
                                         ]],
                                         [107, 196, null, 966728623269704, 1, null, [
                                             [1, [259]],
-                                            [12, "smallsquarediag.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/smallsquarediag.json"]
                                         ]]
                                     ]
                                 ],
@@ -22602,7 +22602,7 @@
                                         ]],
                                         [107, 196, null, 636318908004104, 1, null, [
                                             [1, [260]],
-                                            [12, "smallsquaredown.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/smallsquaredown.json"]
                                         ]]
                                     ]
                                 ],
@@ -22617,7 +22617,7 @@
                                         ]],
                                         [107, 196, null, 169093153235860, 1, null, [
                                             [1, [261]],
-                                            [12, "bigsquarediagrandom.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/bigsquarediagrandom.json"]
                                         ]]
                                     ]
                                 ],
@@ -22632,7 +22632,7 @@
                                         ]],
                                         [107, 196, null, 652410910431109, 1, null, [
                                             [1, [262]],
-                                            [12, "bigsquaretop.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/bigsquaretop.json"]
                                         ]]
                                     ]
                                 ],
@@ -22647,7 +22647,7 @@
                                         ]],
                                         [107, 196, null, 576844619705639, 1, null, [
                                             [1, [263]],
-                                            [12, "bigsquaretopfall.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/bigsquaretopfall.json"]
                                         ]]
                                     ]
                                 ],
@@ -22662,7 +22662,7 @@
                                         ]],
                                         [107, 196, null, 690612750064115, 1, null, [
                                             [1, [264]],
-                                            [12, "diagend.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/diagend.json"]
                                         ]]
                                     ]
                                 ],
@@ -22677,7 +22677,7 @@
                                         ]],
                                         [107, 196, null, 433864536883679, 1, null, [
                                             [1, [265]],
-                                            [12, "optionstext.json"]
+                                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/optionstext.json"]
                                         ]]
                                     ]
                                 ],
@@ -27459,7 +27459,7 @@
                     [
                         [107, 196, null, 467229838854644, 1, null, [
                             [1, [445]],
-                            [12, "creditslanguage.json"]
+                            [12, "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy3/creditslanguage.json"]
                         ]],
                         [145, 118, "Tween", 864801149698742, 1, null, [
                             [1, [336]],

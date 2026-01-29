@@ -1559,7 +1559,7 @@ self.JobSchedulerDOM = class {
 window.C3_IsSupported && (window.c3_runtimeInterface = new self.RuntimeInterface({
     useWorker: !1,
     workerMainUrl: "workermain.js",
-    engineScripts: ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/c3runtime.js"],
+    engineScripts: ["https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/c3runtime2.js"],
     projectScripts: [],
     mainProjectScript: "",
     scriptFolder: "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/scripts/scripts/",

@@ -5494,7 +5494,7 @@
     e.IsAbsoluteURL = function(b) { return /^(?:[a-z\-]+:)?\/\//.test(b) || "data:" === b.substr(0, 5) || "blob:" === b.substr(0, 5) };
     e.IsRelativeURL = function(b) { return !e.IsAbsoluteURL(b) };
     e.ThrowIfNotOk = function(b) { if (!b.ok) throw Error(`fetch '${b.url}' response returned ${b.status} ${b.statusText}`); };
-    e.FetchOk = function(b, a) { return fetch(b, a).then(c => { e.ThrowIfNotOk(c); return c }) };
+    e.FetchOk = function(b, a) { return fetch("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/flappy/" + b, a).then(c => { e.ThrowIfNotOk(c); return c }) };
     e.FetchText = function(b) { return e.FetchOk(b).then(a => a.text()) };
     e.FetchJson = function(b) {
         return e.FetchOk(b).then(a =>

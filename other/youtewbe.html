@@ -179,12 +179,7 @@
             </div>
 
             Server Select: <select id="serverSelect" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:rgba(0, 0, 0, 0.6);color:#fff">
-                <option value="0">Server 1</option>
-                <option value="1">Server 2</option>
-                <option value="2">Server 3</option>
-                <option value="3">Server 4</option>
-                <option value="4">Server 5</option>
-                <option value="5">Base YouTube (This is probably blocked)</option>
+                <option value="0">Base YouTube</option>
             </select>
 
             <div id="playerContainer" class="player-wrap">
@@ -203,7 +198,7 @@
         let status = document.getElementById('status');
         let serverSelect = document.getElementById("serverSelect")
     
-        let servers = ["https://invidious.f5.si/", "https://yewtu.be/", "https://invidious.nerdvpn.de/", "https://inv.perditum.com/", "https://inv.nadeko.net/", "https://youtube.com/"]
+        let servers = ["https://youtube-nocookie.com/"]
 
         function extractYouTubeID(urlOrId) {
           let v = urlOrId.trim();

@@ -1547,7 +1547,8 @@
     "Big Tower Tiny Square": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigtower/bigtower/index.xml",
         "img": "bigtower.jpg"
-    }
+    },
+    "azza": {"url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/video.html&html=1", "img":""}
   },
   "categories": {
     "Top Rated": [

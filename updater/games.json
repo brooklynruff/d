@@ -1551,6 +1551,10 @@
     "(UNMONITORED) YouTube": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/tubeyou.html&html=1",
         "img": "youtube.jpg"
+    },
+    "Terraria": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/terreria/index.xml",
+        "img": "terraria.jpg"
     }
   },
   "categories": {

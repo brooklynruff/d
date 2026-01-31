@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+01/30/2026:
+[+] Added Terraria (Thanks for the suggestion!)
+
 01/29/2026:
 [+] Added Unmonitored YouTube (Still a work in progress)
 

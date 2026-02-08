@@ -413,7 +413,7 @@ body:before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url(/bg.jpg) center / cover no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/bg.jpg) center / cover no-repeat;
     filter: blur(2px) brightness(.5);
     transform: scale(1.05);
     z-index: -1

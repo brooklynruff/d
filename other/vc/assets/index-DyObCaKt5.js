@@ -5721,9 +5721,9 @@ const Kr = "game_simple_config"
         async initEngine() {
             if (!this.engineReady)
                 try {
-                    await hs("/assets/js/GamepadEmulator.js"),
-                    await hs("/assets/js/idbfs.js"),
-                    await hs("/assets/js/game.js"),
+                    await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/GamepadEmulator.js"),
+                    await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/idbfs.js"),
+                    await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/game2.js"),
                     this.engineReady = !0,
                     window.VCSKY && window.VCSKY.setConfig && window.VCSKY.setConfig({
                         language: "en",

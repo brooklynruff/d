@@ -271,7 +271,7 @@ async function loadGame(data) {
     window.Module = Module;
     const script = document.createElement('script');
     script.async = true;
-    script.src = '/assets/js/index.js';
+    script.src = 'https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/index.js';
     document.body.appendChild(script);
 
     document.body.classList.add('gameIsStarted');

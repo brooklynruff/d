@@ -1,0 +1,11 @@
+<body>
+    <script>
+        (async()=>{
+            try {
+                alert(await (await fetch("https://whateverorigin.org/get?url=https://example.com", {Headers:{"Access-Control-Allow-Origin": "*"}})).text())
+            } catch {
+                alert("broke")
+            }
+        })()
+    </script>
+</body>

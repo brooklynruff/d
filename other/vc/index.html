@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="/cover.jpg">
+    <meta property="twitter:image" content="/cover.jpg">
+    <title>Vice City: Web Edition</title>
+    <script>
+    window.aiptag = window.aiptag || {cmd: []};
+    aiptag.cmd.display = aiptag.cmd.display || [];
+    aiptag.cmd.player = aiptag.cmd.player || [];
+    
+    window.pendingAdAction = null;
+
+    aiptag.cmp = {
+        button: true,
+        buttonText: "Privacy settings",
+        buttonPosition: "bottom-left"
+    }
+    
+    aiptag.cmd.player.push(function() {
+        aiptag.adplayer = new aipPlayer({
+            AD_WIDTH: 960,
+            AD_HEIGHT: 540,
+            AD_DISPLAY: 'center',
+            LOADING_TEXT: 'loading advertisement',
+            PREROLL_ELEM: function(){ return document.getElementById('videoad') },
+            AIP_COMPLETE: function (state)  {
+                if(window.pendingAdAction) {
+                    window.pendingAdAction();
+                    window.pendingAdAction = null;
+                }
+            }
+        });
+    });
+
+    window.show_videoad = function(adUnit, onComplete) {
+        console.log("Hi")
+        window.pendingAdAction = onComplete;
+
+        if (typeof aiptag.adplayer !== 'undefined') {
+            aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(adUnit); });
+        } else {
+            console.log("Ads blocked or not loaded, running action immediately.");
+            if(window.pendingAdAction) {
+                window.pendingAdAction();
+                window.pendingAdAction = null;
+            }
+        }
+    }
+    </script>
+
+    <script type="module" crossorigin src="/assets/index-DyObCaKt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CTD5WLiZ.css">
+  </head>
+  <body data-is-touch="0" data-state-car="0" data-state-car-gun="0" data-state-gun="0" data-state-bike="0"
+    data-state-menu="1" data-state-cutscene="0" data-state-mobring="0" data-state-job="0"
+    data-state-disable-controls="0" data-state-panzer="0" data-state-car-with-weapon="0" data-state-hunter="0"
+    data-state-scope-mode="0" data-state-scope-gun="0">
+    
+    <div id="app"></div>
+</body>
+</html>

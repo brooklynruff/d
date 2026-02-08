@@ -4,7 +4,7 @@ var dataSize;
 
 const params = new URLSearchParams(window.location.search);
 
-window.replaceFetch = (str) => str.replace("https://cdn.dos.zone/vcsky/", "https://raw.githubusercontent.com/brooklynruff/asdadas/refs/heads/main/vcsky/");
+window.replaceFetch = (str) => str.replace("https://cdn.dos.zone/vcsky/", "https://cdn.jsdelivr.net/gh/brooklynruff/asdadas@main/");
 
 window.VCSKY = window.VCSKY || {};
 
@@ -33,7 +33,7 @@ window.VCSKY.setConfig = function (cfg = {}) {
     });
 };
 
-const BASE_PATH = "https://raw.githubusercontent.com/brooklynruff/asdadas/refs/heads/main/";
+const BASE_PATH = "https://cdn.jsdelivr.net/gh/brooklynruff/asdadas@main/";
 
 let autoFullScreen = params.get('fullscreen') !== "0";
 let cheatsEnabled = false;

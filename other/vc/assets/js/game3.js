@@ -33,7 +33,7 @@ window.VCSKY.setConfig = function (cfg = {}) {
     });
 };
 
-const BASE_PATH = "/vcsky/";
+const BASE_PATH = "https://raw.githubusercontent.com/brooklynruff/asdadas/refs/heads/main/";
 
 let autoFullScreen = params.get('fullscreen') !== "0";
 let cheatsEnabled = false;

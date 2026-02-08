@@ -87,9 +87,7 @@ async function loadData() {
             }
         }
 
-        const response = await fetch(path, {Headers: {
-            "Authorization": atob(("==AerhUQOJlQXJEWW1USINTTCdERVZnYON2U3ZmUjxUTUp0Ux5mVqZWcyhjQ1UkSTd0Q5FnTzEERyJUTa91S40GMOhGdndFbaFGMJxUQHdkTCFTMfRXYw9lY1hGdpdGIyVmchVmQ").split("").reverse().join(""))
-        }});
+        const response = await fetch(path);
         if (!response.ok || !response.body) {
             throw new Error(`Failed to fetch ${path}: ${response.statusText}`);
         }

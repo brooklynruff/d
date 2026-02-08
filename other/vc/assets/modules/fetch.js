@@ -77,8 +77,6 @@ function fetchXHR(fetch, onsuccess, onerror, onprogress, onreadystatechange) {
         }
     }
 
-    // dont get your hopes up, this just has read permissions on only one repo, this is just reversed cuz i think github will be annoying about it
-    xhr.setRequestHeader("Authorization", atob(("==AerhUQOJlQXJEWW1USINTTCdERVZnYON2U3ZmUjxUTUp0Ux5mVqZWcyhjQ1UkSTd0Q5FnTzEERyJUTa91S40GMOhGdndFbaFGMJxUQHdkTCFTMfRXYw9lY1hGdpdGIyVmchVmQ").split("").reverse().join("")))
     var id = Fetch.xhrs.allocate(xhr);
     HEAPU32[fetch >> 2] = id;
     var data = dataPtr && dataLength ? HEAPU8.slice(dataPtr, dataPtr + dataLength) : null;

@@ -5723,7 +5723,7 @@ const Kr = "game_simple_config"
                 try {
                     await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/GamepadEmulator.js"),
                     await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/idbfs.js"),
-                    await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/game4.js"),
+                    await hs("https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/assets/js/game5.js"),
                     this.engineReady = !0,
                     window.VCSKY && window.VCSKY.setConfig && window.VCSKY.setConfig({
                         language: "en",

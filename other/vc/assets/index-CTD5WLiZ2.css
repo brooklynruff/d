@@ -377,13 +377,13 @@ video {
 
 @font-face {
     font-family: Pricedown;
-    src: url(/pricedown.otf);
+    src: url(https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/pricedown.otf);
     font-display: swap
 }
 
 @font-face {
     font-family: Zalando;
-    src: url(/zalando.ttf)
+    src: url(https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/zalando.ttf)
 }
 
 :root {

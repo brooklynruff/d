@@ -1,0 +1,7 @@
+<body>
+    <script>
+        (async()=>{
+            alert(await (await fetch("https://api.cors.lol/?url=https://example.com", {Headers:{"Access-Control-Allow-Origin": "*"}})).text())
+        })()
+    </script>
+</body>

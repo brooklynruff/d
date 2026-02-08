@@ -6270,7 +6270,7 @@ const ju = {
   , Xu = ou({
     history: Va("/"),
     routes: [{
-        path: "/index.html",
+        path: "/exec",
         name: "home",
         component: Iu
     }]

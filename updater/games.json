@@ -1552,9 +1552,9 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/tubeyou.html&html=1",
         "img": "youtube.jpg"
     },
-    "zxzzzduji4": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/testcors3.html&html=1",
-        "img":""
+    "Grand Theft Auto: Vice City": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/vc/game2.html",
+        "img": "vicecity.webp"
     }
   },
   "categories": {
@@ -1601,7 +1601,8 @@
         "Steal a Brainrot",
         "Crazy Cattle 3D",
         "Deltarune: Chapter 1",
-        "Omori"
+        "Omori",
+        "Grand Theft Auto: Vice City"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1734,7 +1735,8 @@
         "Swords & Souls",
         "Jetpack Joyride",
         "Big Flappy Tower vs Tiny Square",
-        "Big Tower Tiny Square"
+        "Big Tower Tiny Square",
+        "Grand Theft Auto: Vice City"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1786,7 +1788,8 @@
         "Warfare 1917",
         "Warfare 1944",
         "1v1.lol [OFFLINE]",
-        "GunSpin"
+        "GunSpin",
+        "Grand Theft Auto: Vice City"
     ],
     "Classic": [
         "Angry Birds",
@@ -1822,7 +1825,8 @@
         "OvO",
         "Fruit Ninja",
         "Crossy Road",
-        "Jetpack Joyride"
+        "Jetpack Joyride",
+        "Grand Theft Auto: Vice City"
     ],
     "Sports": [
         "1 on 1 Basketball",
@@ -1866,7 +1870,8 @@
         "Wheely 6",
         "Wheely 7",
         "Wheely 8",
-        "Madalin Stunt Cars 2"
+        "Madalin Stunt Cars 2",
+        "Grand Theft Auto: Vice City"
     ],
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",

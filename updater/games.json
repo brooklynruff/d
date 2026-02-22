@@ -1567,6 +1567,10 @@
     "Clover Pit": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cloverpit/game2.html&html=1",
         "img": "cloverpit.jpg"
+    },
+    "Escape Road": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/escaperoad/index.html&html=1",
+        "img": "escaperoad.jpg"
     }
   },
   "categories": {
@@ -1753,7 +1757,8 @@
         "Grand Theft Auto: Vice City",
         "Five Nights at Epstein's",
         "One Shot: Legacy",
-        "Clover Pit"
+        "Clover Pit",
+        "Escape Road"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1890,7 +1895,8 @@
         "Wheely 7",
         "Wheely 8",
         "Madalin Stunt Cars 2",
-        "Grand Theft Auto: Vice City"
+        "Grand Theft Auto: Vice City",
+        "Escape Road"
     ],
     "Emulated": [
         "Super Mario 64 [N64 EMULATED]",

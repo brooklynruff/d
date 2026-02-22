@@ -1591,6 +1591,10 @@
     "Raft Wars 2": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/raftwars2.xml",
         "img": "raftwars2.jpg"
+    },
+    "Cuphead": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/cuphead/index.html&html=1",
+        "img": "cuphead.jpg"
     }
   },
   "categories": {
@@ -1641,7 +1645,8 @@
         "Grand Theft Auto: Vice City",
         "Five Nights at Epstein's",
         "One Shot: Legacy",
-        "Iron Lung"
+        "Iron Lung",
+        "Cuphead"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1784,7 +1789,8 @@
         "Iron Lung",
         "Baseball Bros",
         "Raft Wars",
-        "Raft Wars 2"
+        "Raft Wars 2",
+        "Cuphead"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

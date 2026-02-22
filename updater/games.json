@@ -1575,6 +1575,10 @@
     "Recoil": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/recoil/game.html&html=1",
         "img": "recoil.png"
+    },
+    "Iron Lung": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ironlung/index.html&html=1",
+        "img": "ironlung.jpg"
     }
   },
   "categories": {

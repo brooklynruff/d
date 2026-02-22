@@ -1579,6 +1579,10 @@
     "Iron Lung": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/ironlung/index.html&html=1",
         "img": "ironlung.jpg"
+    },
+    "Baseball Bros": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/baseballbros/index.html&html=1",
+        "img": "baseballbros.jpg"
     }
   },
   "categories": {

@@ -1583,6 +1583,14 @@
     "Baseball Bros": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/baseballbros/index.html&html=1",
         "img": "baseballbros.jpg"
+    },
+    "Raft Wars": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/raftwars.xml",
+        "img": "raftwars.jpg"
+    },
+    "Raft Wars 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/credgames/raftwars2.xml",
+        "img": "raftwars2.jpg"
     }
   },
   "categories": {
@@ -1774,7 +1782,9 @@
         "Escape Road",
         "Recoil",
         "Iron Lung",
-        "Baseball Bros"
+        "Baseball Bros",
+        "Raft Wars",
+        "Raft Wars 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1831,7 +1841,9 @@
         "1v1.lol [OFFLINE]",
         "GunSpin",
         "Grand Theft Auto: Vice City",
-        "Recoil"
+        "Recoil",
+        "Raft Wars",
+        "Raft Wars 2"
     ],
     "Classic": [
         "Angry Birds",
@@ -1868,7 +1880,9 @@
         "Fruit Ninja",
         "Crossy Road",
         "Jetpack Joyride",
-        "Grand Theft Auto: Vice City"
+        "Grand Theft Auto: Vice City",
+        "Raft Wars",
+        "Raft Wars 2"
     ],
     "Sports": [
         "1 on 1 Basketball",

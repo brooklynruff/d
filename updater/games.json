@@ -1563,6 +1563,10 @@
     "One Shot: Legacy": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/oneshot/index.html&html=1",
         "img": "oneshot.jpg"
+    },
+    "Clover Pit": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/cloverpit/index.html&html=1",
+        "img": "cloverpit.jpg"
     }
   },
   "categories": {
@@ -1611,7 +1615,8 @@
         "Deltarune: Chapter 1",
         "Omori",
         "Grand Theft Auto: Vice City",
-        "Five Nights at Epstein's"
+        "Five Nights at Epstein's",
+        "One Shot: Legacy"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1746,7 +1751,9 @@
         "Big Flappy Tower vs Tiny Square",
         "Big Tower Tiny Square",
         "Grand Theft Auto: Vice City",
-        "Five Nights at Epstein's"
+        "Five Nights at Epstein's",
+        "One Shot: Legacy",
+        "Clover Pit"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1765,7 +1772,8 @@
         "Five Nights at Freddy's: Sister Location",
         "Five Nights at Freddy's: Ultimate Custom Night",
         "Freddy Fazbear's Pizzeria Simulator",
-        "Omori"
+        "Omori",
+        "Clover Pit"
     ],
     "Shooting": [
         "Counter Strike",

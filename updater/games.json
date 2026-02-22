@@ -1559,6 +1559,10 @@
     "Five Nights at Epstein's": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnae/bigstein2.html&html=1",
         "img": "fnae.jpg"
+    },
+    "One Shot: Legacy": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/oneshot/index.html&html=1",
+        "img": "oneshot.jpg"
     }
   },
   "categories": {

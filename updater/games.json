@@ -1555,6 +1555,10 @@
     "Grand Theft Auto: Vice City": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/vc/game2.html&html=1",
         "img": "vicecity.webp"
+    },
+    "Five Nights at Epstein's": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnae/index.xml",
+        "img": "fnae.jpg"
     }
   },
   "categories": {
@@ -1602,7 +1606,8 @@
         "Crazy Cattle 3D",
         "Deltarune: Chapter 1",
         "Omori",
-        "Grand Theft Auto: Vice City"
+        "Grand Theft Auto: Vice City",
+        "Five Nights at Epstein's"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1736,7 +1741,8 @@
         "Jetpack Joyride",
         "Big Flappy Tower vs Tiny Square",
         "Big Tower Tiny Square",
-        "Grand Theft Auto: Vice City"
+        "Grand Theft Auto: Vice City",
+        "Five Nights at Epstein's"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1745,6 +1751,7 @@
         "Five Nights at Freddy's 2",
         "Five Nights at Freddy's 3",
         "Five Nights at Freddy's 4",
+        "Five Nights at Epstein's",
         "Granny",
         "Bendy and the Ink Machine",
         "Doki Doki Literature Club",

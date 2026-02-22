@@ -1571,6 +1571,10 @@
     "Escape Road": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/escaperoad/index.html&html=1",
         "img": "escaperoad.jpg"
+    },
+    "Recoil": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/recoil/game.html&html=1",
+        "img": "recoil.png"
     }
   },
   "categories": {
@@ -1758,7 +1762,8 @@
         "Five Nights at Epstein's",
         "One Shot: Legacy",
         "Clover Pit",
-        "Escape Road"
+        "Escape Road",
+        "Recoil"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1813,7 +1818,8 @@
         "Warfare 1944",
         "1v1.lol [OFFLINE]",
         "GunSpin",
-        "Grand Theft Auto: Vice City"
+        "Grand Theft Auto: Vice City",
+        "Recoil"
     ],
     "Classic": [
         "Angry Birds",

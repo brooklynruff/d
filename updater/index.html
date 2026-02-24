@@ -373,7 +373,7 @@
         </div>
     </div>
 
-    <div id="snow"></div>
+    <div id="snow" max-count></div>
     <div id="updatePopup" class="popup-overlay" style="visibility: hidden;">
         <div class="popup-content">
             <button class="popup-close" onclick="closePopup()"><b>X</b></button>
@@ -594,7 +594,7 @@
                 buttons.appendChild(btn);
             }
 
-            new Promise(()=>{window.dispatchEvent(new Event('resize'))});
+            //window.dispatchEvent(new Event('resize'));
         }
 
         function goToContact() {

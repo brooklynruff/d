@@ -22,6 +22,7 @@ tion.
 ==================================CHANGELOG=================================
 02/23/26:
 [+] Added Retro Bowl College
+[+] *May?* have fixed search lagging on shittier GPUs.
 
 02/21/26:
 [+] Added Five Nights at Epstein's (Thanks for the suggestion 

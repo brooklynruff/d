@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+02/23/26:
+[+] Added Retro Bowl College
+
 02/21/26:
 [+] Added Five Nights at Epstein's (Thanks for the suggestion 
 Bubbanator5000, Havi boy, Lukey Pookie, and dih)

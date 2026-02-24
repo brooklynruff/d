@@ -1,8 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="rbc"/>
+<Content type="html"><![CDATA[
 <html lang="en">
 
 
 <head>
-<base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@latest/retrobowlclg/">
+<base href="https://cdn.jsdelivr.net/gh/brooklynruff/d@latest/retrobowlcolleg/">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -137,3 +141,5 @@
     window.onload = GameMaker_Init;
   </script>
 </html>
+]]></Content>
+</Module>

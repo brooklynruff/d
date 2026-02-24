@@ -594,7 +594,7 @@
                 buttons.appendChild(btn);
             }
 
-            window.dispatchEvent(new Event('resize'));
+            new Promise(()=>{window.dispatchEvent(new Event('resize'))});
         }
 
         function goToContact() {

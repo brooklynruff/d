@@ -20,6 +20,9 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
+02/24/26:
+[+] Should've removed ads from Baseball Bros.
+
 02/23/26:
 [+] Added Retro Bowl College
 [+] *May?* have fixed search lagging on shittier GPUs.

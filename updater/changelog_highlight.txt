@@ -1,3 +1,2 @@
-02/23/26:
-[+] Added Retro Bowl College
-[+] *May?* have fixed search lagging on shittier GPUs.
+02/24/26:
+[+] Should've removed ads from Baseball Bros.

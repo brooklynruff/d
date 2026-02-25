@@ -227,22 +227,6 @@
 	    }
 	  </style>
 
-	  <!-- Google tag (gtag.js) -->
-	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D67EBFNGR6"></script>
-
-	  <script>
-	    window.dataLayer = window.dataLayer || [];
-
-	    function gtag() {
-	      dataLayer.push(arguments);
-	    }
-	    gtag('js', new Date());
-
-	    if (location.hostname != "localhost") gtag('config', 'G-D67EBFNGR6', {
-	      cookie_flags: 'secure;samesite=none'
-	    });
-	  </script>
-
 	  <script>
 	    //Interstitial ad available event
 	    document.addEventListener("aip_interstitialadavailable", function(e) {
@@ -267,7 +251,6 @@
 	      buttonPosition: "bottom-left"
 	    }
 	  </script>
-	  <script async src="tag.min.js"></script>
 
 	  <script>
 	    function SetupMSNotification() {
@@ -692,233 +675,40 @@
 
 
 	    function ShowAd1(doRefresh) {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_160x600');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-
-	      l = window.document.getElementById('baseballbros-io_160x600');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-
-
-	      if (typeof gCrazySDK !== 'undefined') {
-	        var d = new Date();
-	        var ms = d.getTime();
-	        if (ms - lastRefresh > 10000) {
-	          gCrazySDK.requestResponsiveBanner(["baseballbros-io_160x600"]);
-	          lastRefresh = ms;
-	        }
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_160x600');
-	        refreshTag('baseballbros-io_160x600_2');
-	        SendEvent('event', 'aip_banner_requested');
-	      } else
-	        SendEvent('event', 'banner_adblocked');
-
+			return;
 	    }
 
 	    var lastRefresh6 = 0;
 	    var doTagOnce = true;
 
 	    function ShowAd6() {
-	      var d = new Date();
-	      var ms = d.getTime();
-	      if (ms - lastRefresh6 < 10000) {
-	        return;
-	      }
-	      lastRefresh6 = ms;
-
-
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_300x250');
-	      if (l == null) {
-	        return;
-	      }
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-
-	      if (typeof gCrazySDK !== 'undefined') {} else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_300x250');
-	        SendEvent('event', 'aip_banner_requested');
-	        if (typeof aiptag !== 'undefined' && aiptag.settings == "") {
-	          if (doTagOnce) SendEvent('event', 'aip_prosper');
-	          SendEvent('event', 'request_prosper');
-	        } else if (typeof aiptag !== 'undefined' && aiptag.settings.iProsperTest !== "undefined") {
-	          if (doTagOnce) SendEvent('event', 'aip_legacy');
-	          SendEvent('event', 'request_legacy');
-	        }
-	        doTagOnce = false;
-	      } else
-	        SendEvent('event', 'banner_adblocked');
+			return;
 	    }
 
 	    var lastRefresh2 = 0;
 
 	    function ShowAd2() {
-
-	      var d = new Date();
-	      var ms = d.getTime();
-	      if (ms - lastRefresh2 < 10000) {
-	        return;
-	      }
-	      lastRefresh2 = ms;
-
-
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_300x250_2');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-
-	      if (typeof gCrazySDK !== 'undefined') {
-	        var d = new Date();
-	        var ms = d.getTime();
-	        if (ms - lastRefresh2 > 10000) {
-	          //hndled by the first banner request
-	          //gCrazySDK.requestBanner([{containerId: 'baseballbros-io_300x250_2',size: '300x250',}]);
-	          gCrazySDK.requestResponsiveBanner(["baseballbros-io_300x250", "baseballbros-io_300x250_2"]);
-
-	          lastRefresh2 = ms;
-	        }
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_300x250_2');
-	        SendEvent('event', 'aip_banner_requested');
-	        if (typeof aiptag !== 'undefined' && aiptag.settings == "") {
-	          if (doTagOnce) SendEvent('event', 'aip_prosper');
-	          SendEvent('event', 'request_prosper');
-	        } else if (typeof aiptag !== 'undefined' && aiptag.settings.iProsperTest !== "undefined") {
-	          if (doTagOnce) SendEvent('event', 'aip_legacy');
-	          SendEvent('event', 'request_legacy');
-	        }
-	      } else
-	        SendEvent('event', 'banner_adblocked');
+			return;
 	    }
 
 	    function ShowAd3() {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_728x90');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-	      if (typeof gCrazySDK !== 'undefined') {
-	        gCrazySDK.requestResponsiveBanner(["baseballbros-io_728x90"]);
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_728x90');
-	        SendEvent('event', 'aip_banner_requested');
-	      } else
-	        SendEvent('event', 'banner_adblocked');
-
+			return
 	    }
 
 	    function ShowAd4() {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      if (window.innerWidth < 1200) return;
-	      var l = window.document.getElementById('baseballbros-io_336x280');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-	      if (typeof gCrazySDK !== 'undefined') {
-	        gCrazySDK.requestResponsiveBanner(["baseballbros-io_336x280"]);
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_336x280');
-	        SendEvent('event', 'aip_banner_requested');
-	        if (typeof aiptag !== 'undefined' && aiptag.settings == "") {
-	          if (doTagOnce) SendEvent('event', 'aip_prosper');
-	          SendEvent('event', 'request_prosper');
-	        } else if (typeof aiptag !== 'undefined' && aiptag.settings.iProsperTest !== "undefined") {
-	          if (doTagOnce) SendEvent('event', 'aip_legacy');
-	          SendEvent('event', 'request_legacy');
-	        }
-	      } else
-	        SendEvent('event', 'banner_adblocked');
-
+			return;
 	    }
 
 	    function ShowAd7() {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      if (window.innerWidth < 1200) return;
-	      var l = window.document.getElementById('baseballbros-io_336x280_2');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-	      if (typeof gCrazySDK !== 'undefined') {
-	        gCrazySDK.requestResponsiveBanner(["baseballbros-io_336x280_2"]);
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_336x280_2');
-	        SendEvent('event', 'aip_banner_requested');
-	        if (typeof aiptag !== 'undefined' && aiptag.settings == "") {
-	          if (doTagOnce) SendEvent('event', 'aip_prosper');
-	          SendEvent('event', 'request_prosper');
-	        } else if (typeof aiptag !== 'undefined' && aiptag.settings.iProsperTest !== "undefined") {
-	          if (doTagOnce) SendEvent('event', 'aip_legacy');
-	          SendEvent('event', 'request_legacy');
-	        }
-	      } else
-	        SendEvent('event', 'banner_adblocked');
-
+			return;
 	    }
 
 	    function ShowAd8() {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_728x90_m');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-	      if (typeof gCrazySDK !== 'undefined') {
-	        gCrazySDK.requestResponsiveBanner(["baseballbros-io_728x90"]);
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_728x90_m');
-	        SendEvent('event', 'aip_banner_requested');
-	      } else
-	        SendEvent('event', 'banner_adblocked');
-
+			return;
 	    }
 
 	    function ShowAd9() {
-	      if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
-	        return;
-	      }
-	      var l = window.document.getElementById('baseballbros-io_970x250');
-	      if (l == null) return;
-	      l.style.display = '';
-	      l.style.visibility = 'visible';
-	      if (typeof gCrazySDK !== 'undefined') {
-	        gCrazySDK.requestResponsiveBanner(["baseballbros-io_970x250"]);
-	      } else if (typeof aipDisplayTag !== 'undefined') {
-	        refreshTag('baseballbros-io_970x250');
-	        SendEvent('event', 'aip_banner_requested');
-	        if (typeof aiptag !== 'undefined' && aiptag.settings == "") {
-	          if (doTagOnce) SendEvent('event', 'aip_prosper');
-	          SendEvent('event', 'request_prosper');
-	        } else if (typeof aiptag !== 'undefined' && aiptag.settings.iProsperTest !== "undefined") {
-	          if (doTagOnce) SendEvent('event', 'aip_legacy');
-	          SendEvent('event', 'request_legacy');
-	        }
-
-
-	        doTagOnce = false;
-	      } else {
-	        l.style.backgroundImage = "url(assets/turnoff2.jpg)";
-	        SendEvent('event', 'banner_adblocked_message_shown');
-	      }
-
+			return;
 	    }
 
 
@@ -946,18 +736,8 @@
 
 	    function ShowAdBreak() {
 	      //check if the adslib is loaded correctly or blocked by adblockers etc.
-	      if (typeof gCrazySDK !== 'undefined') {
-	        Main.DoneInterstitialAd(false);
+	    	Main.DoneInterstitialAd(false);
 	        return;
-	      }
-
-	      if (typeof adplayer === 'undefined') {
-	        Main.DoneInterstitialAd(true);
-	        return;
-	      }
-	      aiptag.cmd.player.push(function() {
-	        adplayer.startAdBreak();
-	      });
 	    }
 
 
@@ -1011,21 +791,20 @@
 	    			}
 	    		}, 32000);*/
 
-	    var sid = '02k06etmp6fnad6qk2e82s1dfi'
 
 	    function updateStatus(fromEvent = false) {
-	      const req = new XMLHttpRequest();
+	      //const req = new XMLHttpRequest();
 	      var aStr = "recordsession.php?s=" + sid;
 	      if (fromEvent == true) aStr = aStr + "&e=1"
-	      req.open("GET", aStr);
-	      req.send();
+	      //req.open("GET", aStr);
+	      //req.send();
 	    }
 
 	    function SendEvent(theEvent, theAction, theParms = '') {
 	      if (theParms == '') {
-	        gtag(theEvent, theAction);
+	        //gtag(theEvent, theAction);
 	      } else {
-	        gtag(theEvent, theAction, theParms);
+	        //gtag(theEvent, theAction, theParms);
 	      }
 	      updateStatus(true);
 	      //console.log("Sending event: " + theEvent + "/" + theAction + "/" + theParms);

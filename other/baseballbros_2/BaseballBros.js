@@ -3974,30 +3974,7 @@
           null == Main.divLastRefreshed && (Main.divLastRefreshed = new haxe_ds_StringMap);
           var o = openfl_Lib.getTimer();
           if (s.style.display = "block", s.style.visibility = "visible", a) {
-            switch (e) {
-              case "baseballbros-io_160x600":
-                return window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('baseballbros-io_160x600'); });\r\n\t\t\t\t\t}<\/script>", window.document.getElementById(e + "_2").innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('baseballbros-io_160x600_2'); });\r\n\t\t\t\t\t}<\/script>", void ShowAd1();
-              case "baseballbros-io_300x250":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd6();
-                break;
-              case "baseballbros-io_300x250_2":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd2();
-                break;
-              case "baseballbros-io_336x280":
-                window.document.getElementById(e), ShowAd4();
-                break;
-              case "baseballbros-io_336x280_2":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd7();
-                break;
-              case "baseballbros-io_728x90":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd3();
-                break;
-              case "baseballbros-io_728x90_m":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd8();
-                break;
-              case "baseballbros-io_970x250":
-                window.document.getElementById(e).innerHTML = "<script>\t\t\t\tif(typeof gCrazySDK == 'undefined') {\r\n\t\t\t\t\t\taiptag.cmd.display.push(function() { aipDisplayTag.display('" + e + "'); });\r\n\t\t\t\t\t}<\/script>", ShowAd9()
-            }
+            
             Main.divLastRefreshed.h[e] = o
           }
           var _ = Main.GetInnerWidth(),

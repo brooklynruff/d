@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <base href="https://rawcdn.githack.com/brooklynruff/d/main/other/unityglbs/badparenting/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Bad Parenting 1</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style2.css">
   </head>
-  <body>
+  <body style="overflow: hidden;">
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
-      </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Bad Parenting 1</div>
       </div>
     </div>
     <script>
@@ -64,13 +57,21 @@
           progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
                   unityInstance.SetFullscreen(1);
-                };
+                  setTimeout(()=>{
+                    canvas.height = window.innerHeight;
+                    canvas.width = window.innerWidth;
+                  }, 3000)
               }).catch((message) => {
                 alert(message);
               });
             };
+
+          
+      window.onresize = (()=>{
+        canvas.height = window.innerHeight;
+        canvas.width = window.innerWidth;
+      })
 
       document.body.appendChild(script);
 

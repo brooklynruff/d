@@ -345,8 +345,12 @@
         "img": "run.jpg"
     },
     "Granny": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/Granny/granny3.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny1/index.html&html=1",
         "img": "granny.jpg"
+    },
+    "Granny 2": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny2/index.html&html=1",
+        "img": "granny2.jpg"
     },
     "Bad Ice Cream": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream5.xml",

@@ -1615,6 +1615,10 @@
     "That's Not My Neighbor": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/thtsnotmyneighbor/game.html&html=1",
         "img": "tnmn.png"
+    },
+    "Bad Parenting": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/badparenting/index.html&html=1",
+        "img": "badparenting.jpg"
     }
   },
   "categories": {
@@ -1668,7 +1672,8 @@
         "Iron Lung",
         "Cuphead",
         "Retro Bowl College",
-        "That's Not My Neighbor"
+        "That's Not My Neighbor",
+        "Bad Parenting"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1817,7 +1822,8 @@
         "untitled zombie game [BETA] (Scratch)",
         "Granny 2",
         "Granny 3",
-        "That's Not My Neighbor"
+        "That's Not My Neighbor",
+        "Bad Parenting"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1841,7 +1847,8 @@
         "Omori",
         "Clover Pit",
         "Iron Lung",
-        "That's Not My Neighbor"
+        "That's Not My Neighbor",
+        "Bad Parenting"
     ],
     "Shooting": [
         "Counter Strike",

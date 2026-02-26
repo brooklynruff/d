@@ -1599,6 +1599,10 @@
     "Retro Bowl College": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/asjdfsajd@main/game.xml",
         "img": "retrobowlcollege.jpg"
+    },
+    "untitled zombie game [BETA] (Scratch)": {
+        "url": "NOTXML;https://scratch.mit.edu/projects/1145819829/embed",
+        "img": "uzg.webp"
     }
   },
   "categories": {

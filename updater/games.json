@@ -345,7 +345,7 @@
         "img": "run.jpg"
     },
     "Granny": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny1/index.html&html=1",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny1/game.html&html=1",
         "img": "granny.jpg"
     },
     "Granny 2": {
@@ -1804,7 +1804,9 @@
         "Raft Wars",
         "Raft Wars 2",
         "Cuphead",
-        "Retro Bowl College"
+        "Retro Bowl College",
+        "untitled zombie game [BETA] (Scratch)",
+        "Granny 2"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1815,6 +1817,7 @@
         "Five Nights at Freddy's 4",
         "Five Nights at Epstein's",
         "Granny",
+        "Granny 2",
         "Bendy and the Ink Machine",
         "Doki Doki Literature Club",
         "Slender: The Eight Pages",

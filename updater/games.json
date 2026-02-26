@@ -352,6 +352,10 @@
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny2/game.html&html=1",
         "img": "granny2.jpg"
     },
+    "Granny 3": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/GrannyUpdated/Granny3/granny.xml",
+        "img": "granny3.jpg"
+    },
     "Bad Ice Cream": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/badicecream/badicecream5.xml",
         "img": "badicecream.jpg"

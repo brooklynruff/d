@@ -1611,6 +1611,10 @@
     "untitled zombie game [BETA] (Scratch)": {
         "url": "NOTXML;https://scratch.mit.edu/projects/1145819829/embed",
         "img": "uzg.webp"
+    },
+    "That's Not My Neighbor": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/thtsnotmyneighbor/index.html&html=1",
+        "img": "tnmn.png"
     }
   },
   "categories": {
@@ -1663,7 +1667,8 @@
         "One Shot: Legacy",
         "Iron Lung",
         "Cuphead",
-        "Retro Bowl College"
+        "Retro Bowl College",
+        "That's Not My Neighbor"
     ],
     "Newly Added/Updated": [
         "Kindergarten",
@@ -1810,7 +1815,9 @@
         "Cuphead",
         "Retro Bowl College",
         "untitled zombie game [BETA] (Scratch)",
-        "Granny 2"
+        "Granny 2",
+        "Granny 3",
+        "That's Not My Neighbor"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1822,6 +1829,7 @@
         "Five Nights at Epstein's",
         "Granny",
         "Granny 2",
+        "Granny 3",
         "Bendy and the Ink Machine",
         "Doki Doki Literature Club",
         "Slender: The Eight Pages",
@@ -1832,7 +1840,8 @@
         "Freddy Fazbear's Pizzeria Simulator",
         "Omori",
         "Clover Pit",
-        "Iron Lung"
+        "Iron Lung",
+        "That's Not My Neighbor"
     ],
     "Shooting": [
         "Counter Strike",

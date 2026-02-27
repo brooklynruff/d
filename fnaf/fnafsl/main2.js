@@ -90,7 +90,7 @@ async function wedone() {
   await intercept();
 
   const script = document.createElement('script');
-  script.src = 'Runtime.js';
+  script.src = 'Runtime2.js';
   script.onload = () => {
     new Runtime("MMFCanvas", runtimecanvas);
   };

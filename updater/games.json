@@ -1627,6 +1627,10 @@
     "Buckshot Roulette": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/buckshot/index.html&html=1",
         "img": "buckshot.jpg"
+    },
+    "We Become What We Behold": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/wbwwb/index.html&html=1",
+        "img": "wbwwb.png"
     }
   },
   "categories": {
@@ -1833,7 +1837,8 @@
         "That's Not My Neighbor",
         "Bad Parenting",
         "Football Bros",
-        "Buckshot Roulette"
+        "Buckshot Roulette",
+        "We Become What We Behold"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

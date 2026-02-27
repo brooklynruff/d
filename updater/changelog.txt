@@ -23,6 +23,7 @@ tion.
 02/26/26:
 [+] Added Football Bros
 [+] Added Buckshot Roulette
+[+] Added We Become What We Behold
 
 02/25/26:
 [!] Sorry for ignoring a lot of suggestions. I'm trying to catch up after 

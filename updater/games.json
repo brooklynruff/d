@@ -1619,6 +1619,10 @@
     "Bad Parenting": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/unityglbs/badparenting/game3.html&html=1",
         "img": "badparenting.jpg"
+    },
+    "Football Bros": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/footballbros/index.html&html=1",
+        "img": "footballbros.webp"
     }
   },
   "categories": {
@@ -1823,7 +1827,8 @@
         "Granny 2",
         "Granny 3",
         "That's Not My Neighbor",
-        "Bad Parenting"
+        "Bad Parenting",
+        "Football Bros"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1945,7 +1950,8 @@
         "Run 'n' Gun",
         "Google Baseball",
         "Baseball Bros",
-        "Retro Bowl College"
+        "Retro Bowl College",
+        "Football Bros"
     ],
     "Driving": [
         "Ace Gangster",

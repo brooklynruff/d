@@ -1635,6 +1635,10 @@
     "Melon Playground": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/melonpg/index.html&html=1",
         "img": "melonpg.jpg"
+    },
+    "Space Waves": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/spacewaves/index.html&html=1",
+        "img": "spacewaves.jpg"
     }
   },
   "categories": {
@@ -1842,7 +1846,8 @@
         "Bad Parenting",
         "Football Bros",
         "Buckshot Roulette",
-        "We Become What We Behold"
+        "We Become What We Behold",
+        "Space Waves"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

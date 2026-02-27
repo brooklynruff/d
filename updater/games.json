@@ -161,7 +161,7 @@
         "img": "fnaf4.jpg"
     },
     "Five Nights at Freddy's: Sister Location": {
-        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafsl/game.xml",
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/fnaf/fnafsl/index.html&html=1",
         "img": "sisterlocation.jpg"
     },
     "Five Nights at Freddy's: Ultimate Custom Night": {
@@ -1851,7 +1851,8 @@
         "Football Bros",
         "Buckshot Roulette",
         "We Become What We Behold",
-        "Space Waves"
+        "Space Waves",
+        "Run 3"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

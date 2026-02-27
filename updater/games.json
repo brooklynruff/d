@@ -1623,6 +1623,10 @@
     "Football Bros": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/footballbros/index.html&html=1",
         "img": "footballbros.webp"
+    },
+    "Buckshot Roulette": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/buckshot/index.html&html=1",
+        "img": "buckshot.jpg"
     }
   },
   "categories": {
@@ -1828,7 +1832,8 @@
         "Granny 3",
         "That's Not My Neighbor",
         "Bad Parenting",
-        "Football Bros"
+        "Football Bros",
+        "Buckshot Roulette"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",
@@ -1853,7 +1858,8 @@
         "Clover Pit",
         "Iron Lung",
         "That's Not My Neighbor",
-        "Bad Parenting"
+        "Bad Parenting",
+        "Buckshot Roulette"
     ],
     "Shooting": [
         "Counter Strike",

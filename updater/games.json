@@ -1631,6 +1631,10 @@
     "We Become What We Behold": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/wbwwb/index.html&html=1",
         "img": "wbwwb.png"
+    },
+    "Melon Playground": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/melonpg/index.html&html=1",
+        "img": "melonpg.jpg"
     }
   },
   "categories": {

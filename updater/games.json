@@ -1643,6 +1643,10 @@
     "Space Waves": {
         "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/spacewaves/index.html&html=1",
         "img": "spacewaves.jpg"
+    },
+    "Epstein Clicker": {
+        "url": "https://cdn.jsdelivr.net/gh/brooklynruff/d@main/other/bigeclicker/index.html&html=1",
+        "img": "bigeclicker.png"
     }
   },
   "categories": {
@@ -1852,7 +1856,8 @@
         "Buckshot Roulette",
         "We Become What We Behold",
         "Space Waves",
-        "Run 3"
+        "Run 3",
+        "Epstein Clicker"
     ],
     "Horror": [
         "Baldi's Basics in Education and Learning",

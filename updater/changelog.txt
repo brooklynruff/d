@@ -20,7 +20,10 @@ people who don't  have a clue  what they're doing and use ChatGPT to  "code"
 their infrastructure. No Name Games has and will stay on top of the competi-
 tion.
 ==================================CHANGELOG=================================
-02/26/26:
+03/03/2026:
+[+] Added Epstein Clicker
+
+02/26/2026:
 [+] Added Football Bros
 [+] Added Buckshot Roulette
 [+] Added We Become What We Behold
@@ -28,7 +31,7 @@ tion.
 [+] Added Space Waves
 [+] Added Run 3
 
-02/25/26:
+02/25/2026
 [!] Sorry for ignoring a lot of suggestions. I'm trying to catch up after 
 taking a long break. Once I'm done catching up, I'll start adding 
 suggestions as usual.
@@ -36,14 +39,14 @@ suggestions as usual.
 [+] Added untitled zombie game [BETA]
 [+] Added That's Not My Neighbor
 
-02/24/26:
+02/24/2026
 [+] Should've removed ads from Baseball Bros.
 
-02/23/26:
+02/23/2026
 [+] Added Retro Bowl College
 [+] *May?* have fixed search lagging on shittier GPUs.
 
-02/21/26:
+02/21/2026
 [+] Added Five Nights at Epstein's (Thanks for the suggestion 
 Bubbanator5000, Havi boy, Lukey Pookie, and dih)
 [+] Added One Shot: Legacy
